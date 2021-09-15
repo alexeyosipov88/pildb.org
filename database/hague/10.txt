@@ -1,5 +1,5 @@
-? 10: Convention of 5 October 1961 concerning the powers of authorities and the law applicable in respect of the protection of infants
-Entry into force: 4-II-1969 ?
+10 ! Convention of 5 October 1961 concerning the powers of authorities and the law applicable in respect of the protection of infants ! 
+5-X-1961 ! 4-II-1969 ?
 
 Austria	28-XI-1966	12-III-1975	R ?				
 France	29-XI-1961	11-IX-1972	R ?	
@@ -13,4 +13,4 @@ Poland		26-V-1993	A*	?
 Portugal	29-IX-1967	6-XII-1968	R ?	
 Spain	27-V-1986	22-V-1987	R	?
 Switzerland	18-XI-1964	9-XII-1966	R ?	
-Turkey		25-VIII-1983	A*	24-X-1983 ?		
+Turkey		25-VIII-1983	A*	 ?		

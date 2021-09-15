@@ -1,0 +1,109 @@
+33 ! Convention of 29 May 1993 on Protection of Children and Co-operation in Respect of Intercountry Adoption ! 29-V-1993
+! 1-V-1995 ?
+
+Albania	12-IX-2000	12-IX-2000	R	?	
+Andorra		3-I-1997	A	?
+Armenia		1-III-2007	A	?
+Australia	25-VIII-1998	25-VIII-1998	R	?
+Austria	18-XII-1998	19-V-1999	R	?
+Azerbaijan		22-VI-2004	A	?
+Belarus	10-XII-1997	17-VII-2003	R	?
+Belgium	27-I-1999	26-V-2005	R	?
+Belize		20-XII-2005	A		?
+Benin	28-VI-2018	28-VI-2018	R	?	
+Bolivia	10-XI-2000	12-III-2002	R	?
+Brazil	29-V-1993	10-III-1999	R	?
+Bulgaria	27-II-2001	15-V-2002	R ?	
+Burkina Faso	19-IV-1994	11-I-1996	R ?	
+Burundi		15-X-1998	A		?
+Cabo Verde		4-IX-2009	A	?	
+Cambodia		6-IV-2007	A**	?	
+Canada	12-IV-1994	19-XII-1996	R	?
+Chile	13-VII-1999	13-VII-1999	R	?	
+China, People's Republic of	30-XI-2000	16-IX-2005	R ?	
+Colombia	1-IX-1993	13-VII-1998	R	 ?
+Congo		11-XII-2019	A		?
+Costa Rica	29-V-1993	30-X-1995	R ?		
+Côte d'Ivoire		11-VI-2015	A	?	
+Croatia		5-XII-2013	A	?
+Cuba		20-II-2007	A	?	
+Cyprus	17-XI-1994	20-II-1995	R ?	
+Czech Republic	1-XII-1999	11-II-2000	R ?	
+Denmark	2-VII-1997	2-VII-1997	R	?
+Dominican Republic		22-XI-2006	A ?	
+Ecuador	3-V-1994	7-IX-1995	R	?
+El Salvador	21-XI-1996	17-XI-1998	R	?
+Estonia		22-II-2002	A	?
+Eswatini		5-III-2013	A	 ?	
+Fiji		29-IV-2012	A		?
+Finland	19-IV-1994	27-III-1997	R	?	
+France	5-IV-1995	30-VI-1998	R	?
+Georgia		9-IV-1999	A		?
+Germany	7-XI-1997	22-XI-2001	R	?
+Ghana		16-IX-2016	A**	?
+Greece	2-IX-2009	2-IX-2009	R ?	
+Guatemala		26-XI-2002	A** ?		
+Guinea		21-X-2003	A**	?
+Guyana		5-II-2019	A	?	
+Haiti	2-III-2011	16-XII-2013	R ?		
+Honduras	6-III-2019	6-III-2019	R ?		
+Hungary	25-V-2004	6-IV-2005	R	D ?
+Iceland		17-I-2000	A		 ?		
+India	9-I-2003	6-VI-2003	R	?
+Ireland	19-VI-1996	28-VII-2010	R	?	
+Israel	2-XI-1993	3-II-1999	R	?	
+Italy	11-XII-1995	18-I-2000	R ?
+Kazakhstan		9-VII-2010	A ?	
+Kenya		12-II-2007	A	?			
+Korea, Republic of	24-V-2013	?					
+Kyrgyzstan		25-VII-2016	A ?	
+Latvia	29-V-2002	9-VIII-2002	R ?	
+Lesotho		24-VIII-2012	A**	 ?
+Liechtenstein		26-I-2009	A ?	
+Lithuania		29-IV-1998	A ?		
+Luxembourg	6-VI-1995	5-VII-2002 	R ?	
+Madagascar	12-V-2004	12-V-2004	R ?
+Mali		2-V-2006	A		 ?
+Malta		13-X-2004	A	 ?
+Mauritius		28-IX-1998	A ?		
+Mexico	29-V-1993	14-IX-1994	R ?	
+Monaco		29-VI-1999	A	 ?
+Mongolia		25-IV-2000	A ?	
+Montenegro		9-III-2012	A ?	
+Namibia		21-IX-2015	A	?
+Nepal	28-IV-2009			?			
+Netherlands	5-XII-1993	26-VI-1998	R ?	
+New Zealand		18-IX-1998	A	?
+Niger		24-V-2021	A	 ?
+Norway	20-V-1996	25-IX-1997	R ?	
+Panama	15-VI-1999	29-IX-1999	R ?	
+Paraguay		13-V-1998	A ?	
+Peru	16-XI-1994	14-IX-1995	R ?	
+Philippines	17-VII-1995	2-VII-1996	R ?	
+Portugal	26-VIII-1999	19-III-2004	R ?	
+Republic of Moldova		10-IV-1998	A ?		
+Republic of North Macedonia		23-XII-2008	A ?	
+Romania	29-V-1993	28-XII-1994	R		?
+Russian Federation	7-IX-2000			?			
+Rwanda		28-III-2012	A**	?
+Saint Kitts and Nevis		26-X-2020 	A ?	
+San Marino		6-X-2004	A	?
+Senegal		24-VIII-2011	A	?
+Serbia		18-XII-2013	A	?	
+Seychelles		26-VI-2008	A ?		
+Slovakia	1-VI-1999	6-VI-2001	R ?		
+Slovenia	24-I-2002	24-I-2002	R ?	
+South Africa		21-VIII-2003	A	 ?
+Spain	27-III-1995	11-VII-1995	R	 ?
+Sri Lanka	24-V-1994	23-I-1995	R	 ?
+Sweden	10-X-1996	28-V-1997	R	 ?
+Switzerland	16-I-1995	24-IX-2002	R ?
+Thailand	29-IV-2004	29-IV-2004	R ?		
+Togo		12-X-2009	A	?
+Turkey	5-XII-2001	27-V-2004	R ?	
+United Kingdom of Great Britain and Northern Ireland	12-I-1994	27-II-2003	R	?
+United States of America	31-III-1994	12-XII-2007	R	?
+Uruguay	1-IX-1993	3-XII-2003	R	?
+Venezuela	10-I-1997	10-I-1997	R ?	
+Viet Nam	7-XII-2010	1-XI-2011	R ?	
+Zambia		11-VI-2015	A	?

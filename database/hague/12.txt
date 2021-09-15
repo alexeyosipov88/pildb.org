@@ -1,0 +1,123 @@
+12 ! Convention of 5 October 1961 Abolishing the Requirement of Legalisation for Foreign Public Documents ! 5-X-1961 !
+! 24-I-1965 ?
+
+
+Albania		3-IX-2003	A	?
+Andorra		15-IV-1996	A	?	
+Antigua and Barbuda		1-V-1985	Su	?	
+Argentina		8-V-1987	A	?
+Armenia		19-XI-1993	A	?	
+Australia		11-VII-1994	A	?
+Austria	5-X-1961	14-XI-1967	R	?
+Azerbaijan		13-V-2004	A**	?	
+Bahamas		30-IV-1976	Su		?
+Bahrain		10-IV-2013	A	?
+Barbados		11-VIII-1995	Su	?
+Belarus		16-VI-1992	Su		?
+Belgium	10-III-1970	11-XII-1975	R	?	
+Belize		17-VII-1992	A		?
+Bolivia		6-IX-2017	A		?
+Bosnia and Herzegovina		23-VIII-1993	Su	?
+Botswana		16-IX-1968	Su		?
+Brazil		2-XII-2015	A	?
+Brunei Darussalam		23-II-1987	A		?
+Bulgaria		1-VIII-2000	A	?
+Burundi		10-VI-2014	A**		?
+Cabo Verde		7-V-2009	A	?	
+Chile		16-XII-2015	A		?
+Colombia		27-IV-2000	A	?
+Cook Islands		13-VII-2004	A	?
+Costa Rica		6-IV-2011	A	?	
+Croatia		23-IV-1993	Su		?
+Cyprus		26-VII-1972	A		?
+Czech Republic		23-VI-1998	A	?
+Denmark	20-X-2006	30-X-2006	R	?
+Dominica		22-X-2002	Su	?	
+Dominican Republic		12-XII-2008	A** ?		
+Ecuador		2-VII-2004	A	?
+El Salvador		14-IX-1995	A ?	
+Estonia		11-XII-2000	A	?
+Eswatini		3-VII-1978	Su ?		
+Fiji		29-III-1971	Su		?
+Finland	13-III-1962	27-VI-1985	R	?
+France	9-X-1961	25-XI-1964	R	?
+Georgia		21-VIII-2006	A	?
+Germany	5-X-1961	15-XII-1965	R ?	
+Greece	5-X-1961	19-III-1985	R ?	
+Grenada		17-VII-2001	A	?	
+Guatemala		19-I-2017	A ?	
+Guyana		30-VII-2018	A	?
+Honduras		20-I-2004	A ?		
+Hungary		18-IV-1972	A	?
+Iceland	7-IX-2004	28-IX-2004	R ?		
+India		26-X-2004	A**	?
+Ireland	29-X-1996	8-I-1999	R ?	
+Israel		11-XI-1977	A	?	
+Italy	15-XII-1961	13-XII-1977	R ?	
+Jamaica		2-XI-2020	A	?	
+Japan	12-III-1970	28-V-1970	R ?		
+Kazakhstan		5-IV-2000	A ?	
+Korea, Republic of		25-X-2006 	A ?		
+Kosovo		6-XI-2015	A**	?
+Kyrgyzstan		15-XI-2010	A ?	
+Latvia		11-V-1995	A	?
+Lesotho		24-IV-1972	Su	?	
+Liberia		24-V-1995	A**	?	
+Liechtenstein	18-IV-1962	19-VII-1972	R ?		
+Lithuania		5-XI-1996	A	?
+Luxembourg	5-X-1961	4-IV-1979	R	 ?	
+Malawi		24-II-1967	A		?
+Malta		12-VI-1967	A		?
+Marshall Islands		18-XI-1991	A	?	
+Mauritius		20-XII-1968	Su	?
+Mexico		1-XII-1994	A		?
+Monaco		24-IV-2002	A		?
+Mongolia		2-IV-2009	A**	?	
+Montenegro		30-I-2007	Su	?	
+Morocco		27-XI-2015	A**	?
+Namibia		25-IV-2000	A	?
+Netherlands	30-XI-1962	9-VIII-1965	R ?	
+New Zealand		7-II-2001	A	?
+Nicaragua		7-IX-2012	A	 ?
+Niue		10-VI-1998	A		?
+Norway	30-V-1983	30-V-1983	R	?	
+Oman		12-V-2011	A	?
+Palau		17-X-2019	A	?	
+Panama		30-X-1990	A	?	
+Paraguay		10-XII-2013	A** ?	
+Peru		13-I-2010	A**		?
+Philippines		12-IX-2018	A**	?
+Poland		19-XI-2004	A	?
+Portugal	20-VIII-1965	6-XII-1968	R ?	
+Republic of Moldova		19-VI-2006	A** ?		
+Republic of North Macedonia		20-IX-1993	Su ?		
+Romania		7-VI-2000	A	?
+Russian Federation		4-IX-1991	Su ?	
+Saint Kitts and Nevis		26-II-1994	A ?	
+Saint Lucia		5-XII-2001	A	?
+Saint Vincent and the Grenadines		2-V-2002	Su	 ?	
+Samoa		18-I-1999	A		?
+San Marino		26-V-1994	A	?	
+Sao Tome and Principe		19-XII-2007	A	 ?	
+Serbia		26-IV-2001	Su	?
+Seychelles		9-VI-1978	A ?	
+Singapore		18-I-2021	A ?	
+Slovakia		6-VI-2001	A ?		
+Slovenia		8-VI-1992	Su ?		
+South Africa		3-VIII-1994	A ?	
+Spain	21-X-1976	27-VII-1978	R ?	
+Suriname		29-X-1976	Su ?	
+Sweden	2-III-1999	2-III-1999	R ?	
+Switzerland	5-X-1961	10-I-1973	R ?	
+Tajikistan		20-II-2015	A**	?	
+Tonga		28-X-1971	Su	?
+Trinidad and Tobago		28-X-1999	A ?		
+Tunisia		10-VII-2017	A**	?
+Turkey	8-V-1962	31-VII-1985	R ?	
+Ukraine		2-IV-2003	A	?
+United Kingdom of Great Britain and Northern Ireland	19-X-1961	21-VIII-1964	R	?
+United States of America		24-XII-1980	A	?
+Uruguay		9-II-2012	A				?
+Uzbekistan		25-VII-2011	A**		?
+Vanuatu		1-VIII-2008	Su		?
+Venezuela		1-VII-1998	A	?
