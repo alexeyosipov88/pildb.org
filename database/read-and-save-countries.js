@@ -11,7 +11,7 @@ fs.readFile('./list-of-countries.txt', 'utf8' , (err, data) => {
   let arrayFromonlyAlpCharText = onlyAlpCharText.split(',');
   let arrayOfCountries = arrayFromonlyAlpCharText.filter(elem => elem !== '');
   let arrayOfCountriesJSON = arrayOfCountries.map((elem, index) => {
-    return {id: index, name: elem}
+    return {id: index + 1, name: elem}
   })
   arrayOfCountriesJSON = JSON.stringify(arrayOfCountriesJSON);
   console.log(arrayOfCountriesJSON);
