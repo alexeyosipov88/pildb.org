@@ -2,7 +2,6 @@ const fs = require('fs');
 const { type } = require('os');
 let i = 10;
 
-
 let arrayOfPromises = [];
 
 for (let i = 2; i < 41; i++) {
@@ -44,7 +43,6 @@ for (let i = 2; i < 41; i++) {
       if (err) {
         console.log(err, 'this is error');
         return
-        // return;
       }
       let cleanBlocks = data.replace(/[\r\n]/g, '').replace(/\t/g, ' ');
       let arrayOfBlocks = cleanBlocks.split('?');
@@ -123,7 +121,7 @@ for (let i = 2; i < 41; i++) {
 }
 
 Promise.all(arrayOfPromises).then(values => {
-  console.log(values);
+  console.log(values, 'completed');
   arrayOfConventionsJSON = JSON.stringify(values);
   fs.writeFile('all-hague-json.txt', arrayOfConventionsJSON, function (err) {
     if (err) return console.log(err);

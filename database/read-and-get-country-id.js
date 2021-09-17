@@ -11,21 +11,18 @@ let conventions = fs.readFileSync("./all-hague-json.txt", {
 
 countries = JSON.parse(countries);
 conventions = JSON.parse(conventions);
-let civProCountries = conventions[10].participants;
-console.log(civProCountries);
+let civProCountries = conventions[1].participants;
 let numberOfCountries = civProCountries.length;
 let numberOfMatches = 0;
 civProCountries.forEach(elem => {
   let firstLetOfCountry = '';
   countryName = elem.country;
-  console.log(countryName);
   countryName = countryName.replace(/republic/i, '');
   countryName = countryName.replace(/united/i, '');
   countryName = countryName.replace(/of/i, '');
   countryName = countryName.replace(/north/i, 'n');
   countryName = countryName.replace(/south/i, 's');
   countryName = countryName.replace(/\s/g, '');
-  console.log(countryName);
   for(let i = 0; i < 6; i++) {
     if(countryName[i]) {
       firstLetOfCountry += countryName[i];
@@ -60,7 +57,6 @@ civProCountries.forEach(elem => {
   if(/korea/i.test(countryName)) {
     countryRegex = /korea/i;
   }
-  console.log(countryRegex);
 
   for(let i = 0; i < countries.length; i++) {
     let tmpCountryName = countries[i].name;

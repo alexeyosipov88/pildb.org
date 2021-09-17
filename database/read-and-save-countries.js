@@ -11,6 +11,7 @@ fs.readFile('./list-of-countries.txt', 'utf8' , (err, data) => {
   let arrayFromonlyAlpCharText = onlyAlpCharText.split(',');
   let arrayOfCountries = arrayFromonlyAlpCharText.filter(elem => elem !== '');
   let arrayOfCountriesJSON = arrayOfCountries.map((elem, index) => {
+    elem = elem.trim();
     return {id: index + 1, name: elem}
   })
   arrayOfCountriesJSON = JSON.stringify(arrayOfCountriesJSON);
@@ -18,5 +19,4 @@ fs.readFile('./list-of-countries.txt', 'utf8' , (err, data) => {
   fs.writeFile('all-countries-json.txt', arrayOfCountriesJSON, function (err) {
     if (err) return console.log(err);
   });
-
 })

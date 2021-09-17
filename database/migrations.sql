@@ -13,9 +13,11 @@ CREATE TABLE countries (
 CREATE TABLE treaties (
   id SERIAL PRIMARY KEY NOT NULL,
   name VARCHAR(255) NOT NULL,
+  city VARCHAR(255) NOT NULL,
   concluded DATE NOT NULL,
   entry_into_force DATE,
-  full_text TEXT NOT NULL
+  status false,
+  full_text TEXT 
 );
 
 CREATE TABLE participation (
