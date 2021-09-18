@@ -18,6 +18,7 @@ console.log(conventions)
   objConv.status = elem.name_of_convention.status;
   objConv.concluded = elem.name_of_convention.signed;
   objConv.entered_into_force = elem.name_of_convention.entered_into_force;
+  objConv.participants = elem.participants;
   return objConv;
 })
 conventions = JSON.stringify(conventions);

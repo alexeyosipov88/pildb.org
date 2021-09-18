@@ -63,6 +63,7 @@ for (let i = 2; i < 41; i++) {
             }
           }
           element = element.join('').split('|');
+          element = element.filter(elem => elem != '');
           let country = element[0].trim();
           let signedDate;
           let boundDate;
@@ -73,7 +74,7 @@ for (let i = 2; i < 41; i++) {
             type = element[element.length-1];
             signedDate = element[1];
             boundDate = element[2];
-           } else if (element.length === 3) {
+           }  else if (element.length === 3) {
             boundDate = element[1];
             type = element[element.length-1];
           } else if (element.length < 3) {
@@ -101,12 +102,12 @@ for (let i = 2; i < 41; i++) {
             result.signed = changeDate(convention[2].trim());
             result.entered_into_force = changeDate(convention[3].trim());
             result.status = true;
-            return result  
+            return result;  
           }
           result.id = Number(convention[0].trim());
           result.signed = changeDate(convention[2].trim());
           result.entered_into_force = undefined;
-          return result
+          return result;
         } 
         
         nameOfConvention = nameOfConventionObject(nameOfConvention);
@@ -121,10 +122,11 @@ for (let i = 2; i < 41; i++) {
 }
 
 Promise.all(arrayOfPromises).then(values => {
-  console.log(values, 'completed');
+  console.log(values[values.length-2], 'completed')
   arrayOfConventionsJSON = JSON.stringify(values);
   fs.writeFile('all-hague-json.txt', arrayOfConventionsJSON, function (err) {
     if (err) return console.log(err);
   });
 })
+
 

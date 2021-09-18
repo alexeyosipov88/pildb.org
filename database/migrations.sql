@@ -16,7 +16,7 @@ CREATE TABLE treaties (
   city VARCHAR(255) NOT NULL,
   concluded DATE NOT NULL,
   entry_into_force DATE,
-  status false,
+  status BOOLEAN,
   full_text TEXT 
 );
 
@@ -25,7 +25,8 @@ CREATE TABLE participation (
   country_id INTEGER REFERENCES countries(id) ON DELETE CASCADE,
   treaty_id INTEGER REFERENCES treaties(id) ON DELETE CASCADE,
   signed DATE,
-  bound DATE
+  bound DATE,
+  status BOOLEAN
 );
 
 

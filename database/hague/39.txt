@@ -5,7 +5,7 @@
 
 Austria				1-VIII-2013  Ap*		?		
 Belgium				1-VIII-2013	 Ap*	?		
-Brazil	17-VII-2017	17-VII-2017	R	Ap*		?		
+Brazil	17-VII-2017	17-VII-2017	R		?		
 Bulgaria				1-VIII-2013	Ap*	?		
 Croatia				1-VIII-2013	Ap*		?	
 Cyprus				1-VIII-2013	Ap*		?	
