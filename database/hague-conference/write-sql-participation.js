@@ -9,10 +9,13 @@ participation = participation.flat();
 console.log(participation);
 participation.forEach((elem, index, array) => { 
   let id = index + 1;
-  let signed = elem.signed ? `"${elem.signed}"` : null;
-  let bound = elem.bound ? `"${elem.bound}"` : null;
-  let record = `(${id}, ${elem.country_id}, ${elem.treaty_id}, ${signed}, ${bound}, ${elem.status})\n`;
-  fileContents += index !== array.length - 1 ? record : record + ';'
+  let signed = elem.signed ? `'${elem.signed}'` : null;
+  let bound = elem.bound ? `'${elem.bound}'` : null;
+  let record = `(${id}, ${elem.country_id}, ${elem.treaty_id}, ${signed}, ${bound}, ${elem.status}),\n`;
+  if (index === array.length - 1) {
+    record = `(${id}, ${elem.country_id}, ${elem.treaty_id}, ${signed}, ${bound}, ${elem.status});`;
+  }
+  fileContents += record;
  });
 
 console.log(fileContents)
