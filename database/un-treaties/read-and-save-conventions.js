@@ -66,26 +66,14 @@ for (let i = 1; i < 26; i++) {
           return "|" + str + "|";
         });
       let arrayOfBlocks = cleanBlocks.split("?");
-
       arrayOfBlocks = arrayOfBlocks.filter((element) => /\w/.test(element));
-      // console.log(arrayOfBlocks)
       let nameOfConvention = arrayOfBlocks.shift();
       arrayOfBlocks = arrayOfBlocks.map((element) => {
         element = element.trim();
-        // for(let i = 0; i < element.length; i++) {
-        //   if(/\d/.test(element[i])) {
-        //     element[i-1] = `|`;
-        //     for(let j = i; j < element.length; j++) {
-        //       if(/\s/.test(element[j])) {
-        //         element[j] = `|`;
-        //       }
-        //     }
-        //     break;
-        //   }
-        // }
-
         element = element.split("|");
-        element = element.filter((elem) => elem != "");
+        element = element.filter((elem) => elem !== "");
+        element = element.filter((elem) => /[^\s+]/.test(elem));
+        element[0] = element[0].replace(/\d\W/g, '');
         let country = element[0].trim();
         let signedDate;
         let boundDate;
@@ -95,14 +83,17 @@ for (let i = 1; i < 26; i++) {
           type = element[element.length-1];
           signedDate = element[1];
           boundDate = element[2];
-         }  else if (element.length === 3 && /\d/g.test(element[2])) {
+         }  else if (element.length === 3 && !/\d/g.test(element[2])) {
           boundDate = element[1];
-          type = element[element.length-1];
+          type = element[element.length-1].trim();
+        }   else if (element.length === 3) {
+          signedDate = element[1];
+          boundDate = element[2];
+          type = 'R'
         } else if (element.length < 3) {
           signedDate = element[1];
         }
 
-        return element;
 
 
         let hagueObj = {
@@ -113,26 +104,25 @@ for (let i = 1; i < 26; i++) {
         }
         return hagueObj;
       });
-      // const nameOfConventionObject = (convention) => {
-      //   let result = {};
-      //   convention = convention.split('!');
-      //   result.id = Number(convention[0].trim());
-      //   result.city = "Hague";
-      //   result.name = convention[1].trim();
-      //   result.status = false;
-      //   if(convention.length > 3) {
-      //     result.signed = changeDate(convention[2].trim());
-      //     result.entered_into_force = changeDate(convention[3].trim());
-      //     result.status = true;
-      //     return result;
-      //   }
-      //   result.id = Number(convention[0].trim());
-      //   result.signed = changeDate(convention[2].trim());
-      //   result.entered_into_force = undefined;
-      //   return result;
-      // }
+      const nameOfConventionObject = (convention) => {
+        let result = {};
+        convention = convention.replace(/\|/g, '');
+        convention = convention.split('!');
+        result.city = convention[1].trim();
+        result.name = convention[0].trim();
+        result.status = false;
+        if(convention.length > 3) {
+          result.signed = convention[2].trim();
+          result.entered_into_force = convention[3].trim();
+          result.status = true;
+          return result;
+        }
+        result.signed = convention[2].trim();
+        result.entered_into_force = undefined;
+        return result;
+      }
 
-      // nameOfConvention = nameOfConventionObject(nameOfConvention);
+      nameOfConvention = nameOfConventionObject(nameOfConvention);
       result = {
         name_of_convention: nameOfConvention,
         participants: arrayOfBlocks,
@@ -144,9 +134,10 @@ for (let i = 1; i < 26; i++) {
 }
 
 Promise.all(arrayOfPromises).then((values) => {
-  console.log(values[4]);
   arrayOfConventionsJSON = JSON.stringify(values);
-  // fs.writeFile('all-hague-json.txt', arrayOfConventionsJSON, function (err) {
-  //   if (err) return console.log(err);
-  // });
+  console.log(values);
+  fs.writeFile('un-treaties.txt', arrayOfConventionsJSON, function (err) {
+    if (err) return console.log(err);
+    console.log('COMPLETED!')
+  });
 });

@@ -24,7 +24,7 @@ Albania
  	23 Nov 1992 d
 ?Cyprus
  	19 Apr 2004 a
-?Czech Republic 4
+?Czech Republic 4 3
  	 2 Jun 1993 d
 ?Denmark
  	 1 Jul 1981 a

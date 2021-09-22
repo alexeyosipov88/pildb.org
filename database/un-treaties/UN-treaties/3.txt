@@ -1,5 +1,5 @@
-United Nations Convention on Contracts for the International Sale of Goods
-Vienna, 11 April 1980 ! 1 January 1988 
+United Nations Convention on Contracts for the International Sale of Goods !
+Vienna ! 11 April 1980 ! 1 January 1988 
 
 ?Albania
  	13 May 2009 a
@@ -35,7 +35,7 @@ Vienna, 11 April 1980 ! 1 January 1988
 ?Canada
  	23 Apr 1991 a
 ?Chile
-?11 Apr 1980
+11 Apr 1980
  7 Feb 1990
 ?China
 30 Sep 1981
