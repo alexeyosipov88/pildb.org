@@ -1,0 +1,102 @@
+Convention on International Interests in Mobile Equipment
+
+! Cape Town
+
+! 16.11.2001
+
+! 01.03.2006
+
+?Afghanistan			25.07.2006	AS
+?Albania			30.10.2007	AS
+?Angola		30.04.2006	AS
+?Argentina			10.04.2018	AS
+?Australia		26.05.2015	AS
+?Bahrain			27.11.2012	AS
+?Bangladesh			15.12.2008	AS
+?Belarus		28.06.2011	AS
+?Bhutan			04.07.2014	AS
+?Brazil			30.11.2011	AS
+?Burkina Faso			12.12.2014	AS
+?Burundi	16.11.2001	
+?Cameroon		19.04.2011	AS
+?Canada	31.03.2004		21.12.2012	RT
+?Cabo Verde		26.09.2007	AS
+?Chile	16.11.2001	
+?China	16.11.2001		03.02.2009	RT
+?Colombia			19.02.2007	AS
+?Congo	16.11.2001		25.01.2013	AC
+?Costa Rica			26.08.2011	AS
+?Côte d’Ivoire			09.02.2015	AS
+?Cuba	16.11.2001		28.01.2009	RT
+?Democratic Republic of the Congo			06.05.2016	AS
+?Denmark			26.10.2015	AS
+?Egypt			10.12.2014	AS
+?Eswatini		17.11.2016	AS
+?Ethiopia	16.11.2001		21.11.2003	RT
+?Fiji			05.09.2011	AS
+?France	16.11.2001	
+?Gabon			16.04.2010	AS
+?Germany	17.09.2002		D
+?Ghana	16.11.2001		20.12.2018	RT
+?Iceland			23.06.2020	AS
+?India			31.03.2008	AS
+?Indonesia			16.03.2007 AS
+?Ireland			29.07.2005	AS
+?Italy	06.12.2001	
+?Jamaica	16.11.2001	
+?Jordan	16.11.2001		31.08.2010	RT
+?Kazakhstan			21.01.2009	AS
+?Kenya	16.11.2001		13.10.2006	RT
+?Kuwait			31.10.2013	AS
+?Kyrgyzstan			13.05.2021	AS
+?Latvia			08.02.2011	AS
+?Lesotho	16.11.2001	
+?Luxembourg			27.06.2008	AS
+?Madagascar			10.04.2013	AS
+?Malawi			16.01.2014	AS
+?Malaysia			02.11.2005	AS
+?Malta		01.10.2010	AS
+?Mexico		31.07.2007	AS
+?Mongolia			19.10.2006	AS
+?Mozambique		30.01.2012	AS
+?Myanmar		03.12.2012 AS
+?Namibia		23.07.2018	AS
+?Netherlands		17.05.2010	AS
+?New Zealand			20.07.2010	AS
+?Nigeria	16.11.2001		16.12.2003	RT
+?Norway			20.12.2010	AS
+?Oman			21.03.2005	AS
+?Pakistan		22.01.2004	AS
+?Panama	11.09.2002		28.07.2003	RT
+?Paraguay			19.12.2018	AS
+?Qatar			08.01.2020	AS
+?Republic of Moldova		26.06.2015	AS
+?Romania		30.03.2018	AS
+?Russian Federation		25.05.2011	AS
+?Rwanda		28.01.2010	AS
+?San Marino			09.09.2014	AS
+?Saudi Arabia	12.03.2003		27.06.2008	RT
+?Senegal	02.04.2002		09.01.2006	RT
+?Seychelles			13.09.2010	AS
+?Sierra Leone			26.07.2016	AS
+?Singapore		28.01.2009	AS
+?South Africa	16.11.2001		18.01.2007	RT
+?Spain		28.06.2013	AS
+?Sudan	16.11.2001
+?Sweden			30.12.2015	AS
+?Switzerland	16.11.2001	
+?Syrian Arab. Rep.			07.08.2007	AS
+?Tajikistan			31.05.2011	AS
+?Togo			27.01.2010	AS
+?Tonga	16.11.2001	
+?Turkey	16.11.2001		23.08.2011	RT
+?Ukraine	09.03.2004		31.07.2012	RT
+?United Arab Emirates			29.04.2008	AS
+?United Kingdom of Great Britain and Northern Ireland 16.11.2001		27.07.2015	RT
+?United Republic of Tanzania	16.11.2001		30.01.2009	RT
+?United States of America	09.05.2003		28.10.2004	RT
+?Uzbekistan			31.01.2018	AS
+?Viet Nam			17.09.2014	AS
+?Zambia		07.09.2020	AS
+?Zimbabwe			13.05.2008	AS
+

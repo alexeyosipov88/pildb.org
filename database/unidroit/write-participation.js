@@ -3,7 +3,7 @@ let countries = fs.readFileSync("./all-countries-json.txt", {
   encoding: "utf8",
   flag: "r",
 });
-let conventions = fs.readFileSync("./un-treaties-json.txt", {
+let conventions = fs.readFileSync("./unidroit-treaties-json.txt", {
   encoding: "utf8",
   flag: "r",
 });

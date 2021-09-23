@@ -1,0 +1,15 @@
+INSERT INTO treaties (id, name, city, concluded, entry_into_force, status)
+VALUES (1, 'Convention on Agency in the International Sale of Goods', 'Geneva', '1983-02-17', null, false),
+(2, 'Unidroit Convention on Substantive Rules for Intermediated Securities', 'Geneva', '2009-10-09', null, false),
+(3, 'Convention relating to a Uniform Law on the International Sale of Goods', 'Hague', '1964-07-01', '1972-08-18', true),
+(4, 'Convention relating to a Uniform Law on the Formation of Contracts for the International Sale of Goods', 'The Hague', '1964-07-01', '1972-08-18', true),
+(5, 'International Convention on Travel Contracts (CCV)', 'Brussels', '1970-04-23', '1976-02-21', true),
+(6, 'Convention providing a Uniform Law onthe Form of an International Will', 'Washington', '1973-10-26', '1978-02-09', true),
+(7, 'Unidroit Convention on International Financial Leasing', 'Ottawa', '1988-05-28', '1995-05-01', true),
+(8, 'Unidroit Convention on International Factoring', 'Ottawa', '1988-05-28', '1995-05-01', true),
+(9, 'Unidroit Convention on Stolen or Illegally Exported Cultural Objects', 'Rome', '1995-06-24', '1998-07-01', true),
+(10, 'Convention on International Interests in Mobile Equipment', 'Cape Town', '2001-11-16', '2006-03-01', true),
+(11, 'Protocol to the Convention on International Interests in Mobile Equipment on Matters Specific to Aircraft Equipment', 'Cape Town', '2001-11-16', '2006-03-01', true),
+(12, 'Protocol to the Convention on International Interests in Mobile Equipment on Matters specific to Railway Rolling Stock', 'Luxembourg', '2007-02-23', null, false),
+(13, 'Convention on International Interests in Mobile Equipment and Protocol thereto on Matters specific to Space Assets', 'Berlin', '2012-03-09', null, false),
+(14, 'Protocol to the Convention on International Interests in Mobile Equipment on Matters Specific to Mining, Agricultural and Construction Equipment', 'Pretoria', '2019-11-22', null, false);
