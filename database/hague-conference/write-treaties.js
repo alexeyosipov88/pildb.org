@@ -3,7 +3,7 @@ let countries = fs.readFileSync("./all-countries-json.txt", {
   encoding: "utf8",
   flag: "r",
 });
-let conventions = fs.readFileSync("./all-hague-json.txt", {
+let conventions = fs.readFileSync("./raw-hague-treaties.txt", {
   encoding: "utf8",
   flag: "r",
 });
@@ -22,7 +22,7 @@ console.log(conventions)
   return objConv;
 })
 conventions = JSON.stringify(conventions);
-  fs.writeFile('all-conventions-json.txt', conventions, function (err) {
+  fs.writeFile('treaties-json.txt', conventions, function (err) {
     if (err) {
       console.log(err);
       return;

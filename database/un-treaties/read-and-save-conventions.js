@@ -136,7 +136,7 @@ for (let i = 1; i < 26; i++) {
 Promise.all(arrayOfPromises).then((values) => {
   arrayOfConventionsJSON = JSON.stringify(values);
   console.log(values);
-  fs.writeFile('un-treaties.txt', arrayOfConventionsJSON, function (err) {
+  fs.writeFile('raw-un-treaties.txt', arrayOfConventionsJSON, function (err) {
     if (err) return console.log(err);
     console.log('COMPLETED!')
   });

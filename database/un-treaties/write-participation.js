@@ -160,6 +160,6 @@ for (let convention of conventions) {
 
 
 resultArray = JSON.stringify(resultArray);
-fs.writeFile('all-participation-json.txt', resultArray, function (err) {
+fs.writeFile('un-participation-json.txt', resultArray, function (err) {
   if (err) return console.log(err);
 });

@@ -3,7 +3,7 @@ let countries = fs.readFileSync("./all-countries-json.txt", {
   encoding: "utf8",
   flag: "r",
 });
-let conventions = fs.readFileSync("./all-conventions-json.txt", {
+let conventions = fs.readFileSync("./treaties-json.txt", {
   encoding: "utf8",
   flag: "r",
 });
@@ -78,7 +78,6 @@ for (let convention of conventions) {
       }
 
       if (countryRegex.test(tmpCountryName)) {
-        // participantObject.country_id = el
         participantId++
         let signed = elem.signed ? elem.signed : null;
         let bound = elem.bound ? elem.bound : null;
@@ -92,15 +91,17 @@ for (let convention of conventions) {
         numberOfMatches++;
         console.log(numberOfMatches, numberOfCountries);
         console.log(countries[i], "---------", elem);
+        console.log(countryRegex)
         conventionArray.push(participantObject);
       }
     }
+    console.log(elem.country, 'CHECK THIS COUNTRY',resultArray.length)
   });
   resultArray.push(conventionArray);false
 }
 
-console.log(resultArray)
+// console.log(resultArray)
 resultArray = JSON.stringify(resultArray);
-fs.writeFile('all-participation-json.txt', resultArray, function (err) {
+fs.writeFile('un-participation-json.txt', resultArray, function (err) {
   if (err) return console.log(err);
 });

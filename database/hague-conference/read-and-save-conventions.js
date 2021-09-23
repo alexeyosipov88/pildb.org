@@ -124,7 +124,7 @@ for (let i = 2; i < 41; i++) {
 Promise.all(arrayOfPromises).then(values => {
   console.log(values[values.length-2], 'completed')
   arrayOfConventionsJSON = JSON.stringify(values);
-  fs.writeFile('all-hague-json.txt', arrayOfConventionsJSON, function (err) {
+  fs.writeFile('raw-hague-treaties.txt', arrayOfConventionsJSON, function (err) {
     if (err) return console.log(err);
   });
 })
