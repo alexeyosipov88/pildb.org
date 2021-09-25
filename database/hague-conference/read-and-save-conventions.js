@@ -48,6 +48,8 @@ for (let i = 2; i < 41; i++) {
       let arrayOfBlocks = cleanBlocks.split('?');
       arrayOfBlocks = arrayOfBlocks.filter(element => /\w/.test(element));
       let nameOfConvention = arrayOfBlocks.shift();
+      let topicOfConvention = Number(arrayOfBlocks.pop());
+      console.log(topicOfConvention, nameOfConvention);
       arrayOfBlocks = arrayOfBlocks.map(element => 
         {
           element = element.trim().split('');
@@ -65,10 +67,10 @@ for (let i = 2; i < 41; i++) {
           element = element.join('').split('|');
           element = element.filter(elem => elem != '');
           let country = element[0].trim();
+          let topic = topicOfConvention;
           let signedDate;
           let boundDate;
           let type;
-          
 
           if(element.length > 3) {
             type = element[element.length-1];
@@ -97,6 +99,7 @@ for (let i = 2; i < 41; i++) {
           result.id = Number(convention[0].trim());
           result.city = "Hague";
           result.name = convention[1].trim();
+          result.topic  = topicOfConvention;
           result.status = false;
           if(convention.length > 3) {
             result.signed = changeDate(convention[2].trim());

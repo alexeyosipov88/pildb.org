@@ -103,4 +103,5 @@ Albania
 ?Ukraine
  1 May 2000 A
 ?United Kingdom of Great Britain and Northern Ireland
-13 Feb 1976 A
+13 Feb 1976 A ?
+7

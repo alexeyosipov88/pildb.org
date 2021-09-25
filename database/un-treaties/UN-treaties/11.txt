@@ -163,4 +163,6 @@ New York! 20 June 1956 ! 25 May 1957 ?
 ?United Kingdom of Great Britain and Northern Ireland 12
  	13 Mar 1975 a
 ?Uruguay
- 	18 Sep 1995 a
+ 	18 Sep 1995 a ?
+
+	 10

@@ -68,6 +68,7 @@ for (let i = 1; i < 26; i++) {
       let arrayOfBlocks = cleanBlocks.split("?");
       arrayOfBlocks = arrayOfBlocks.filter((element) => /\w/.test(element));
       let nameOfConvention = arrayOfBlocks.shift();
+      let topicOfConvention = Number(arrayOfBlocks.pop());
       arrayOfBlocks = arrayOfBlocks.map((element) => {
         element = element.trim();
         element = element.split("|");
@@ -111,6 +112,7 @@ for (let i = 1; i < 26; i++) {
         result.city = convention[1].trim();
         result.name = convention[0].trim();
         result.status = false;
+        result.topic = topicOfConvention;
         if(convention.length > 3) {
           result.signed = convention[2].trim();
           result.entered_into_force = convention[3].trim();

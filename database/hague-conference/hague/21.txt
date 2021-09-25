@@ -8,4 +8,6 @@ Netherlands	2-X-1973			?
 Portugal	10-X-1973	22-IV-1976	R	?
 Slovakia		1-I-1993	Su	?			
 Turkey	29-IX-1976						?
-United Kingdom of Great Britain and Northern Ireland	2-X-1973 ?					
+United Kingdom of Great Britain and Northern Ireland	2-X-1973 ?	
+
+11

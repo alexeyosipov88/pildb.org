@@ -27,3 +27,5 @@ Switzerland	23-VII-1975	18-V-1976	R	?
 Turkey	2-X-1973	23-VIII-1983	R	?
 Ukraine		3-IV-2007	A		?
 United Kingdom of Great Britain and Northern Ireland	30-XI-1973	21-XII-1979	R	?
+
+12

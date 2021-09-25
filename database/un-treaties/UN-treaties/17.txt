@@ -126,4 +126,5 @@ Afghanistan
 ?United Kingdom of Great Britain and Northern Ireland
  	21 Jul 1967 a
 ?Uzbekistan
- 	28 Sep 1995 a
+ 	28 Sep 1995 a ?
+	 7

@@ -21,3 +21,5 @@ Slovakia		15-III-1993	Su	?
 Sweden	13-IX-1974	25-VI-1975	R	?		
 Switzerland	23-VII-1975	18-V-1976	R	?
 United Kingdom of Great Britain and Northern Ireland	1-VI-1970	21-V-1974	R	?
+
+10

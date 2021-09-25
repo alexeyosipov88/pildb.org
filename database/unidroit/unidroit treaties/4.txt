@@ -21,4 +21,5 @@ Belgium	06.10.1965		12.12.1968	RT
 ?Luxembourg	07.12.1965		06.02.1979	RT
 ?Netherlands	12.08.1964		17.02.1972 RT
 ?San Marino	24.08.1964		24.05.1968	RT
-?United Kingdom	21.08.1964		31.08.1967	RT
+?United Kingdom	21.08.1964		31.08.1967	RT ?
+5

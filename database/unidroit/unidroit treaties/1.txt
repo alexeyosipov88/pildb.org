@@ -13,4 +13,5 @@ Convention on Agency in the International Sale of Goods
 ?Morocco	17.02.1983	
 ?Netherlands			02.02.1994	AS
 ?South Africa		27.01.1986	AS
-?Switzerland	17.02.1983		
+?Switzerland	17.02.1983		?
+5

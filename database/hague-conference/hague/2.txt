@@ -48,4 +48,6 @@ Sweden	28-VI-1954	21-XII-1957	R	?
 Switzerland	2-VII-1954	6-V-1957	R ?			
 Turkey		23-X-1972	A	?
 Ukraine		10-VI-1999	Su	?
-Uzbekistan		5-III-1996	A ?			
+Uzbekistan		5-III-1996	A ?		
+
+13

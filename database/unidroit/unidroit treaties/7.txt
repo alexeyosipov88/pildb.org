@@ -26,5 +26,6 @@ Unidroit Convention on International Financial Leasing
 ?Tanzania	28.05.1988	
 ?Ukraine			05.12.2006	AS
 ?United States of America	28.12.1990	
-?Uzbekistan			06.07.2000	AS
+?Uzbekistan			06.07.2000	AS ?
+4
 

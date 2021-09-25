@@ -10,4 +10,5 @@ Protocol to the Convention on International Interests in Mobile Equipment on Mat
 ?Gambia	22.11.2019	
 ?Nigeria	22.11.2019	
 ?Paraguay	22.11.2019
-?United States of America	01.10.2020	
+?United States of America	01.10.2020	?
+4

@@ -140,4 +140,6 @@ Hamburg ! 31 March 1978 ?
 31 Mar 1978
  
 ?Zambia
- 	 7 Oct 1991 a
+ 	 7 Oct 1991 a ?
+
+		7
