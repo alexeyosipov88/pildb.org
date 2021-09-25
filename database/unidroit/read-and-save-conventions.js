@@ -29,12 +29,12 @@ for (let i = 1; i < 15; i++) {
         return;
       }
       let cleanBlocks = data
-        .replace(/[\n\r\t]/g, "")
-        .replace(/\d+.\d\d.\d\d\d\d/g, (str) => {
-          str = changeDate(str);
-
-          return "|" + str + "|";
-        });
+      .replace(/\d+.\d\d.\d\d\d\d/g, (str) => {
+        str = changeDate(str);
+        
+        return "|" + str + "|";
+      })
+      .replace(/[\n\r\t]/g, "");
       
       let arrayOfBlocks = cleanBlocks.split("?");
       arrayOfBlocks = arrayOfBlocks.filter((element) => /\w/.test(element));
@@ -45,7 +45,8 @@ for (let i = 1; i < 15; i++) {
         element = element.split("|");
         element = element.filter((elem) => elem !== "");
         element = element.filter((elem) => /[^\s+]/.test(elem));
-        element[0] = element[0].replace(/\d\W/g, '');
+        element[0] = element[0].replace(/\W/g, '');
+        element[0] = element[0].replace(/\d/g, '');
         let country = element[0].trim();
         let signedDate;
         let boundDate;

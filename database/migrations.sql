@@ -30,15 +30,15 @@ CREATE TABLE participation (
 );
 
 
--- CREATE TABLE topics (
---   id SERIAL PRIMARY KEY NOT NULL,
---   name VARCHAR(255) NOT NULL
--- );
+CREATE TABLE topics (
+  id SERIAL PRIMARY KEY NOT NULL,
+  name VARCHAR(255) NOT NULL
+);
 
 
--- CREATE TABLE treaties_by_topics (
---   id SERIAL PRIMARY KEY NOT NULL,
---   topic_id INTEGER REFERENCES topics(id) ON DELETE CASCADE,
---   treaty_id INTEGER REFERENCES treaties(id) ON DELETE CASCADE
--- )
+CREATE TABLE treaties_by_topics (
+  id SERIAL PRIMARY KEY NOT NULL,
+  topic_id INTEGER REFERENCES topics(id) ON DELETE CASCADE,
+  treaty_id INTEGER REFERENCES treaties(id) ON DELETE CASCADE
+)
 

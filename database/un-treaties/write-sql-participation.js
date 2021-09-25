@@ -1,6 +1,6 @@
 const fs = require("fs");
-let fileContents = 'INSERT INTO participation (id, country_id , treaty_id, signed, bound, status)\nVALUES ';
-let participation = fs.readFileSync("./all-participation-json.txt", {
+let fileContents = 'INSERT INTO participation (country_id , treaty_id, signed, bound, status)\nVALUES ';
+let participation = fs.readFileSync("./un-participation-json.txt", {
   encoding: "utf8",
   flag: "r",
 });
@@ -8,12 +8,11 @@ participation = JSON.parse(participation);
 participation = participation.flat();
 console.log(participation);
 participation.forEach((elem, index, array) => { 
-  let id = index + 1;
   let signed = elem.signed ? `'${elem.signed}'` : null;
   let bound = elem.bound ? `'${elem.bound}'` : null;
-  let record = `(${id}, ${elem.country_id}, ${elem.treaty_id}, ${signed}, ${bound}, ${elem.status}),\n`;
+  let record = `(${elem.country_id}, ${elem.treaty_id}, ${signed}, ${bound}, ${elem.status}),\n`;
   if (index === array.length - 1) {
-    record = `(${id}, ${elem.country_id}, ${elem.treaty_id}, ${signed}, ${bound}, ${elem.status});`;
+    record = `(${elem.country_id}, ${elem.treaty_id}, ${signed}, ${bound}, ${elem.status});`;
   }
   fileContents += record;
  });

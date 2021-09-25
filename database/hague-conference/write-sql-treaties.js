@@ -1,7 +1,7 @@
 const fs = require("fs");
 let fileContents =
   "INSERT INTO treaties (id, name, city, concluded, entry_into_force, status)\nVALUES ";
-let conventions = fs.readFileSync("./all-conventions-json.txt", {
+let conventions = fs.readFileSync("./treaties-json.txt", {
   encoding: "utf8",
   flag: "r",
 });

@@ -59,12 +59,12 @@ for (let i = 1; i < 26; i++) {
       }
 
       let cleanBlocks = data
-        .replace(/[\n\r\t]/g, "")
         .replace(/\d+\s\w+\s\d\d\d\d/g, (str) => {
           str = changeDate(str);
 
           return "|" + str + "|";
-        });
+        })
+        .replace(/[\n\r\t]/g, "");
       let arrayOfBlocks = cleanBlocks.split("?");
       arrayOfBlocks = arrayOfBlocks.filter((element) => /\w/.test(element));
       let nameOfConvention = arrayOfBlocks.shift();
@@ -74,46 +74,45 @@ for (let i = 1; i < 26; i++) {
         element = element.split("|");
         element = element.filter((elem) => elem !== "");
         element = element.filter((elem) => /[^\s+]/.test(elem));
-        element[0] = element[0].replace(/\d\W/g, '');
+        element[0] = element[0].replace(/\W/g, "");
+        element[0] = element[0].replace(/\d/g, "");
         let country = element[0].trim();
         let signedDate;
         let boundDate;
         let type;
 
-        if(element.length > 3) {
-          type = element[element.length-1];
+        if (element.length > 3) {
+          type = element[element.length - 1];
           signedDate = element[1];
           boundDate = element[2];
-         }  else if (element.length === 3 && !/\d/g.test(element[2])) {
+        } else if (element.length === 3 && !/\d/g.test(element[2])) {
           boundDate = element[1];
-          type = element[element.length-1].trim();
-        }   else if (element.length === 3) {
+          type = element[element.length - 1].trim();
+        } else if (element.length === 3) {
           signedDate = element[1];
           boundDate = element[2];
-          type = 'R'
+          type = "R";
         } else if (element.length < 3) {
           signedDate = element[1];
         }
-
-
 
         let hagueObj = {
           country: country,
           signed: signedDate,
           bound: boundDate,
-          type: type
-        }
+          type: type,
+        };
         return hagueObj;
       });
       const nameOfConventionObject = (convention) => {
         let result = {};
-        convention = convention.replace(/\|/g, '');
-        convention = convention.split('!');
+        convention = convention.replace(/\|/g, "");
+        convention = convention.split("!");
         result.city = convention[1].trim();
         result.name = convention[0].trim();
         result.status = false;
         result.topic = topicOfConvention;
-        if(convention.length > 3) {
+        if (convention.length > 3) {
           result.signed = convention[2].trim();
           result.entered_into_force = convention[3].trim();
           result.status = true;
@@ -122,7 +121,7 @@ for (let i = 1; i < 26; i++) {
         result.signed = convention[2].trim();
         result.entered_into_force = undefined;
         return result;
-      }
+      };
 
       nameOfConvention = nameOfConventionObject(nameOfConvention);
       result = {
@@ -138,8 +137,8 @@ for (let i = 1; i < 26; i++) {
 Promise.all(arrayOfPromises).then((values) => {
   arrayOfConventionsJSON = JSON.stringify(values);
   console.log(values);
-  fs.writeFile('raw-un-treaties.txt', arrayOfConventionsJSON, function (err) {
+  fs.writeFile("raw-un-treaties.txt", arrayOfConventionsJSON, function (err) {
     if (err) return console.log(err);
-    console.log('COMPLETED!')
+    console.log("COMPLETED!");
   });
 });
