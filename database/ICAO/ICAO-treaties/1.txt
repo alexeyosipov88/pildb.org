@@ -1,0 +1,154 @@
+Convention for the Unification of Certain Rules Relating to International Carriage by Air ! Warsaw ! 12/10/29 ! 13/02/33
+?Afghanistan  20/2/69 R
+?Algeria  2/6/64 R
+?Angola  10/3/98 R
+?Argentina  21/3/52 R
+?Armenia  25/11/98 R
+?Australia   12/10/29 1/8/35
+?Austria  12/10/29 28/9/61
+?Azerbaijan  24/1/00 R
+?Bahamas   23/5/75 R
+?Bahrain  12/3/98 R
+?Bangladesh   1/3/79 R
+?Barbados  29/1/70 R
+?Belarus  26/9/59 R
+?Belgium  12/10/29 13/7/36
+?Benin  27/1/62 R
+?Bolivia  29/12/98 R
+?Bosnia and Herzegovina   3/3/95 R
+?Botswana  21/3/77 R
+?Brazil  12/10/29 2/5/31
+?Brunei Darussalam  28/2/84 R
+?Bulgaria  25/6/49 R
+?Burkina Faso  9/12/61 R
+?Cambodia  12/12/96 R
+?Cameroon  2/9/61 R
+?Canada  10/6/47 R
+?Cabo Verde  7/2/02 R
+?Chile  2/3/79 R
+?China  20/7/58 R
+?Colombia  15/8/66 R
+?Comoros  11/6/91 R
+?Congo  19/1/62 R
+?Costa Rica  10/5/84 R
+?Côte d’Ivoire  22/2/62 R
+?Croatia  14/7/93 R
+?Cuba   21/7/64 R
+?Cyprus  8/5/63 R
+?Czech Republic  29/11/94 R
+?severnaya 1/3/61 R
+?Democratic Republic of the Congo  1/12/62 R
+?Denmark  12/10/29 3/7/37
+?Dominican Republic  25/2/72 R
+?Ecuador  1/12/69 R
+?Egypt  6/9/55 R
+?Equatorial Guinea  20/12/88 R
+?Estonia  16/3/98 R
+?Ethiopia  14/8/50 R
+?Fiji  15/3/72 R
+?Finland  3/7/37 R
+?France  12/10/29 15/11/32
+?Gabon  15/2/69 R
+?Germany  12/10/29 30/9/33
+?Ghana  11/8/97 R
+?Greece  12/10/29 11/1/38
+?Guatemala  3/2/97 R
+?Guinea  11/9/61 R
+?Honduras  27/6/94 R
+?Hungary  29/5/36 R
+?Iceland  21/8/48 R
+?India  9/2/70 R
+?Indonesia  21/2/52 R
+?Iran (Islamic Republic of)  8/7/75 R
+?Iraq  28/6/72 R
+?Ireland  20/9/35 R
+?Israel  8/10/49 R
+?Italy  12/10/29 14/2/33
+?Japan  12/10/29 20/5/53
+?Jordan  8/12/69 R
+?Kenya  7/10/64 R
+?Kuwait  11/8/75 R
+?Kyrgyzstan  9/2/00 R
+?Lao People’s Democratic Republic  9/5/56 R
+?Latvia  12/10/29 15/11/32
+?Lebanon  20/4/62 R
+?Lesotho  12/5/75 R
+?Liberia  2/5/42 R
+?Libya  16/5/69 R
+?Liechtenstein  9/5/34 R
+?Luxembourg  12/10/29 7/10/49
+?Madagascar  27/8/62 R
+?Malawi  27/10/77 R
+?Malaysia  16/12/70 R
+?Maldives  13/10/95 R
+?Mali  26/1/61 R
+?Malta  19/2/86 R
+?Mauritania  6/8/62 R
+?Mauritius  17/10/89 R
+?Mexico  14/2/33 R
+?Mongolia  30/4/62 R
+?Montenegro  1/4/08 R
+?Morocco   5/1/58 R
+?Myanmar  2/1/52 R
+?Nauru  16/11/70 R
+?Nepal  12/2/66 R
+?Netherlands  12/10/29 1/7/33
+?New Zealand  6/4/37 R
+?Niger  8/3/62 R
+?Nigeria  15/10/63 R
+?North Macedonia  1/9/94 R
+?Norway   12/10/29 3/7/37
+?Oman  6/8/76 R
+?Pakistan  30/12/69 R
+?Panama  12/11/96 R
+?Papua New Guinea  12/12/75 R
+?Paraguay  28/8/69 R
+?Peru  5/7/88 R
+?Philippines  9/11/50 R
+?Poland  12/10/29 15/11/32
+?Portugal  20/3/47 R
+?Qatar  22/12/86 R
+?Republic of Moldova  20/3/97 R
+?Romania  12/10/29 8/7/31
+?Russian Federation   12/10/29 20/8/34
+?Rwanda  16/12/64 R
+?Saint Vincent and the Grenadines  3/12/01 R
+?Samoa  20/1/64 R
+?Saudi Arabia  27/1/69 R
+?Senegal  19/6/64 R
+?Serbia  18/7/01 R
+?Seychelles  24/6/80 R
+?Sierra Leone  2/4/68 R
+?Singapore  4/9/71 R
+?Slovakia  24/3/95 R
+?Slovenia  7/8/98 R
+?Solomon Islands  9/9/81 R
+?South Africa  12/10/29 22/12/54
+?Spain  12/10/29 31/3/30
+?Sri Lanka  2/5/51 R
+?Sudan  11/2/75 R
+?Suriname  30/6/03 R
+?Sweden  3/7/37 R
+?Switzerland  12/10/29 9/5/34
+?Syrian Arab Republic  3/6/64 R
+?Togo  2/7/80 R
+?Tonga  21/2/77 R
+?Trinidad and Tobago  10/5/83 R
+?Tunisia  15/11/63 R
+?Turkey  25/3/78 R
+?Turkmenistan  21/12/94 R
+?Uganda  24/7/63 R
+?Ukraine  14/8/59 R
+?United Arab Emirates  4/4/86 R
+?United Kingdom  12/10/29 14/2/33
+?United Republic of Tanzania  7/4/65 R
+?United States  31/7/34 R
+?Uruguay  4/7/79 R
+?Uzbekistan  27/2/97 R
+?Vanuatu  26/10/81 R
+?Venezuela  15/6/55 R
+?Viet Nam  11/10/82 R
+?Yemen  6/5/82 R
+?Zambia  25/3/70 R
+?Zimbabwe  27/10/80 R
+?7
