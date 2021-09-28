@@ -67,7 +67,6 @@ for (let i = 2; i < 41; i++) {
           element = element.join('').split('|');
           element = element.filter(elem => elem != '');
           let country = element[0].trim();
-          let topic = topicOfConvention;
           let signedDate;
           let boundDate;
           let type;
@@ -99,7 +98,7 @@ for (let i = 2; i < 41; i++) {
           result.id = Number(convention[0].trim());
           result.city = "Hague";
           result.name = convention[1].trim();
-          result.topic  = topicOfConvention;
+          result.topic_id  = topicOfConvention;
           result.status = false;
           if(convention.length > 3) {
             result.signed = changeDate(convention[2].trim());
@@ -125,7 +124,7 @@ for (let i = 2; i < 41; i++) {
 }
 
 Promise.all(arrayOfPromises).then(values => {
-  console.log(values[values.length-2], 'completed')
+  console.log(values[0], 'completed')
   arrayOfConventionsJSON = JSON.stringify(values);
   fs.writeFile('raw-hague-treaties.txt', arrayOfConventionsJSON, function (err) {
     if (err) return console.log(err);
