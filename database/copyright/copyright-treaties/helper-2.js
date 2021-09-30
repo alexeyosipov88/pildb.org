@@ -1,5 +1,5 @@
 const fs = require("fs");
-let data = fs.readFileSync("./raw-1.txt", {
+let data = fs.readFileSync("./raw-2.txt", {
   encoding: "utf8",
   flag: "r",
 });
@@ -13,5 +13,5 @@ data = data.replace(/\t+/g, '\t');
 data = data.split('\n');
 data = data.filter(elem => elem !== '');
 data = data.join('\n?');
-console.log(data)
-fs.writeFileSync("1.txt", data);
+console.log(data);
+fs.writeFileSync("2.txt", data);
