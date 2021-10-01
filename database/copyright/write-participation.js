@@ -3,7 +3,7 @@ let countries = fs.readFileSync("./all-countries-json.txt", {
   encoding: "utf8",
   flag: "r",
 });
-let conventions = fs.readFileSync("./treaties-json.txt", {
+let conventions = fs.readFileSync("./copyright-treaties-json.txt", {
   encoding: "utf8",
   flag: "r",
 });
@@ -21,6 +21,8 @@ for (let convention of conventions) {
     let firstLetOfCountry = "";
     countryName = elem.country;
     countryName = countryName.replace(/republic/i, "");
+    countryName = countryName.replace(/democratic/i, "");
+    countryName = countryName.replace(/\W/ig, "");
     countryName = countryName.replace(/united/i, "");
     countryName = countryName.replace(/of/i, "");
     countryName = countryName.replace(/north/i, "n");
@@ -33,14 +35,43 @@ for (let convention of conventions) {
     }
 
     countryRegex = new RegExp(`${firstLetOfCountry}`, "i");
-    if (/niger/i.test(countryName)) {
+    if (/^niger$/i.test(countryName)) {
       countryRegex = /^niger$/i;
+    }
+    if (/^oman$/i.test(countryName)) {
+      countryRegex = /^oman$/i;
+    }
+    if (/nigeria/i.test(countryName)) {
+      countryRegex = /nigeria/i;
     }
     if (/dominican/i.test(countryName)) {
       countryRegex = /dominican/i;
     }
-    if (/guinea/i.test(countryName)) {
+    if (/^dominica$/i.test(countryName)) {
+      countryRegex = /^dominica$/i;
+    }
+     if (/^dominica$/i.test(countryName)) {
+      countryRegex = /^dominica$/i;
+    }
+    if (/^sudan$/i.test(countryName)) {
+      countryRegex = /^sudan$/i;
+    }
+    
+    if (/^guinea$/i.test(countryName)) {
       countryRegex = /^guinea$/i;
+    }
+    if (/bissau/i.test(countryName)) {
+      countryRegex = /bissau/i;
+    }
+    // if (/^congo$/i.test(countryName)) {
+    //   countryRegex = /^congo$/i;
+    // }
+    
+    if (/^congo/i.test(countryName)) {
+      countryRegex = /brazzaville/i;
+    }
+    if (/iran/i.test(countryName)) {
+      countryRegex = /iran/i;
     }
     if (/mauritius/i.test(countryName)) {
       countryRegex = /mauritius/i;
@@ -48,30 +79,58 @@ for (let convention of conventions) {
     if (/mauritania/i.test(countryName)) {
       countryRegex = /mauritania/i;
     }
+    if (/ivoire/i.test(countryName)) {
+      countryRegex = /ivoire/i;
+    }
     if (/china/i.test(countryName)) {
       countryRegex = /china/i;
     }
     if (/mali/i.test(countryName)) {
       countryRegex = /^mali$/i;
     }
-    if (/congo/i.test(countryName)) {
-      countryRegex = /Congo-Brazzaville/i;
+    
+    if (/vincent/i.test(countryName)) {
+      countryRegex = /vincent/i;
+    }
+    if (/kitts/i.test(countryName)) {
+      countryRegex = /kitts/i;
+    }
+    if (/lucia/i.test(countryName)) {
+      countryRegex = /lucia/i;
+    }
+    if (/palestine/i.test(countryName)) {
+      countryRegex = /palestine/i;
+    }
+    if (/syria/i.test(countryName)) {
+      countryRegex = /syria/i;
+    }
+    if (/lao/i.test(countryName)) {
+      countryRegex = /lao/i;
+    }
+    if (/lao/i.test(countryName)) {
+      countryRegex = /lao/i;
+    }
+    
+    if (/sever/i.test(countryName)) {
+      countryRegex = /nkorea/i;
     }
     if (/korea/i.test(countryName)) {
-      countryRegex = /korea/i;
+      countryRegex = /skorea/i;
     }
 
     for (let i = 0; i < countries.length; i++) {
       let tmpCountryName = countries[i].name;
       tmpCountryName = tmpCountryName.replace(/republic/i, "");
+      tmpCountryName = tmpCountryName.replace(/democratic/i, "");
+      tmpCountryName = tmpCountryName.replace(/\W/i, "");
       tmpCountryName = tmpCountryName.replace(/united/i, "");
       tmpCountryName = tmpCountryName.replace(/of/i, "");
       tmpCountryName = tmpCountryName.replace(/north/i, "n");
       tmpCountryName = tmpCountryName.replace(/south/i, "s");
       tmpCountryName = tmpCountryName.replace(/\s/g, "");
-      if (/nkorea/i.test(tmpCountryName)) {
-        continue;
-      }
+      // if (/nkorea/i.test(tmpCountryName)) {
+      //   continue;
+      // }
 
       if (/grenadines/i.test(tmpCountryName) && countryName.length < 8) {
         continue;
@@ -94,14 +153,15 @@ for (let convention of conventions) {
         console.log(countryRegex)
         conventionArray.push(participantObject);
       }
+     
     }
     console.log(elem.country, 'CHECK THIS COUNTRY',resultArray.length)
   });
-  resultArray.push(conventionArray);false
+  resultArray.push(conventionArray);
 }
 
-// console.log(resultArray)
+
 resultArray = JSON.stringify(resultArray);
-fs.writeFile('hague-participation-json.txt', resultArray, function (err) {
+fs.writeFile('copyright-participation-json.txt', resultArray, function (err) {
   if (err) return console.log(err);
 });
