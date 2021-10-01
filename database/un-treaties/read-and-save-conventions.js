@@ -4,7 +4,7 @@ let i = 10;
 
 let arrayOfPromises = [];
 
-for (let i = 1; i < 26; i++) {
+for (let i = 1; i < 27; i++) {
   let promise = new Promise((resolve, reject) => {
     fs.readFile(`./UN-treaties/${i}.txt`, "utf8", (err, data) => {
       const changeDate = (original) => {
@@ -136,7 +136,7 @@ for (let i = 1; i < 26; i++) {
 
 Promise.all(arrayOfPromises).then((values) => {
   arrayOfConventionsJSON = JSON.stringify(values);
-  console.log(values);
+  console.log(values[8]);
   fs.writeFile("raw-un-treaties.txt", arrayOfConventionsJSON, function (err) {
     if (err) return console.log(err);
     console.log("COMPLETED!");

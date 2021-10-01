@@ -2,6 +2,7 @@ DROP TABLE IF EXISTS countries CASCADE;
 DROP TABLE IF EXISTS treaties CASCADE;
 DROP TABLE IF EXISTS participation CASCADE;
 DROP TABLE IF EXISTS topics CASCADE;
+DROP TABLE IF EXISTS status CASCADE;
 DROP TABLE IF EXISTS treaties_by_topics CASCADE;
 
 
@@ -26,15 +27,19 @@ CREATE TABLE participation (
   treaty_id INTEGER REFERENCES treaties(id) ON DELETE CASCADE,
   signed DATE,
   bound DATE,
-  status BOOLEAN
 );
 
+CREATE TABLE status (
+  id SERIAL PRIMARY KEY NOT NULL,
+  country_id INTEGER REFERENCES countries(id) ON DELETE CASCADE,
+  treaty_id INTEGER REFERENCES treaties(id) ON DELETE CASCADE,
+  status BOOLEAN
+)
 
 CREATE TABLE topics (
   id SERIAL PRIMARY KEY NOT NULL,
   name VARCHAR(255) NOT NULL
 );
-
 
 CREATE TABLE treaties_by_topics (
   id SERIAL PRIMARY KEY NOT NULL,
