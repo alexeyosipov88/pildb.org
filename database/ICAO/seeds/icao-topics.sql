@@ -1,6 +1,5 @@
 INSERT INTO treaties_by_topics (topic_id, treaty_id)
-VALUES (7, 79),
-(7, 80),
+VALUES (7, 80),
 (7, 81),
 (7, 82),
 (7, 83),
@@ -12,4 +11,5 @@ VALUES (7, 79),
 (7, 89),
 (7, 90),
 (7, 91),
-(7, 92);
+(7, 92),
+(7, 93);

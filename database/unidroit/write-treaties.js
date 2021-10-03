@@ -12,11 +12,11 @@ conventions = JSON.parse(conventions);
 console.log(conventions)
  conventions  = conventions.map((elem, index) => {
   let objConv = {};
-  objConv.id = index + 65;
+  objConv.id = index + 66;
   objConv.name = elem.name_of_convention.name;
   objConv.city = elem.name_of_convention.city;
   objConv.status = elem.name_of_convention.status;
-  objConv.topic = elem.name_of_convention.topic;
+  objConv.topic_id = elem.name_of_convention.topic_id;
   objConv.concluded = elem.name_of_convention.signed;
   objConv.entered_into_force = elem.name_of_convention.entered_into_force;
   objConv.participants = elem.participants;

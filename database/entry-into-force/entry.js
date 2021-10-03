@@ -68,4 +68,13 @@ allParticipation = allParticipation.map(elem => {
     status: status
    }
 })
+
 console.log(allParticipation);
+allParticipation = JSON.stringify(allParticipation);
+
+fs.writeFile('status-json.txt', allParticipation, function (err) {
+  if (err) {
+    console.log(err);
+    return;
+  }
+});

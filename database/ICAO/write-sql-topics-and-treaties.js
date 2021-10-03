@@ -7,9 +7,9 @@ let treaties = fs.readFileSync("./ICAO-treaties-json.txt", {
 treaties = JSON.parse(treaties);
 console.log(treaties);
 treaties.forEach((elem, index, array) => { 
-  let record = `(${elem.topic}, ${elem.id}),\n`;
+  let record = `(${elem.topic_id}, ${elem.id}),\n`;
   if (index === array.length - 1) {
-    record = `(${elem.topic}, ${elem.id});`;
+    record = `(${elem.topic_id}, ${elem.id});`;
   }
   fileContents += record;
  });

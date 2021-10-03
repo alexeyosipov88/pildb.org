@@ -132,7 +132,7 @@ for (let i = 1; i < 15; i++) {
         result.city = convention[1].trim();
         result.name = convention[0].trim();
         result.status = false;
-        result.topic = topicOfConvention;
+        result.topic_id = topicOfConvention;
         if (convention.length > 3) {
           result.signed = convention[2].trim();
           result.entered_into_force = convention[3].trim();

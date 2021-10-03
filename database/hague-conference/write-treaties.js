@@ -17,7 +17,7 @@ console.log(conventions)
   objConv.city = elem.name_of_convention.city;
   objConv.status = elem.name_of_convention.status;
   objConv.concluded = elem.name_of_convention.signed;
-  objConv.topic = elem.name_of_convention.topic;
+  objConv.topic_id = elem.name_of_convention.topic_id;
   objConv.entered_into_force = elem.name_of_convention.entered_into_force;
   objConv.participants = elem.participants;
   return objConv;
