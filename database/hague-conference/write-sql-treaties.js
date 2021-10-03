@@ -1,6 +1,6 @@
 const fs = require("fs");
 let fileContents =
-  "INSERT INTO treaties (id, name, city, concluded, entry_into_force, status)\nVALUES ";
+  "INSERT INTO treaties (id, name, city, concluded, entered_into_force, status)\nVALUES ";
 let conventions = fs.readFileSync("./treaties-json.txt", {
   encoding: "utf8",
   flag: "r",
@@ -22,7 +22,7 @@ conventions.forEach((elem, index, array) => {
   fileContents += record;
 });
 
-fs.writeFile("./seeds/all-treaties.sql", fileContents, function (err) {
+fs.writeFile("./seeds/hague-treaties.sql", fileContents, function (err) {
   if (err) {
     console.log(err);
     return;

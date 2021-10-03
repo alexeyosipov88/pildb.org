@@ -1,5 +1,5 @@
 const fs = require("fs");
-let fileContents = 'INSERT INTO participation (country_id , treaty_id, signed, bound, status)\nVALUES ';
+let fileContents = 'INSERT INTO participation (country_id , treaty_id, signed, bound)\nVALUES ';
 let participation = fs.readFileSync("./un-participation-json.txt", {
   encoding: "utf8",
   flag: "r",
@@ -11,15 +11,15 @@ participation.forEach((elem, index, array) => {
   let id = index + 1;
   let signed = elem.signed ? `'${elem.signed}'` : null;
   let bound = elem.bound ? `'${elem.bound}'` : null;
-  let record = `(${elem.country_id}, ${elem.treaty_id}, ${signed}, ${bound}, ${elem.status}),\n`;
+  let record = `(${elem.country_id}, ${elem.treaty_id}, ${signed}, ${bound}),\n`;
   if (index === array.length - 1) {
-    record = `(${elem.country_id}, ${elem.treaty_id}, ${signed}, ${bound}, ${elem.status});`;
+    record = `(${elem.country_id}, ${elem.treaty_id}, ${signed}, ${bound});`;
   }
   fileContents += record;
  });
 
 console.log(fileContents)
-fs.writeFile('./seeds/all-participation.sql', fileContents, function (err) {
+fs.writeFile('./seeds/hague-participation.sql', fileContents, function (err) {
   if (err) {
     console.log(err);
     return;

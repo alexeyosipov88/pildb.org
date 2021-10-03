@@ -1,4 +1,4 @@
-INSERT INTO treaties (id, name, city, concluded, entry_into_force, status)
+INSERT INTO treaties (id, name, city, concluded, entered_into_force, status)
 VALUES (1, 'Convention of 1 March 1954 on civil procedure', 'Hague', '1954-03-01', '1957-04-12', true),
 (2, 'Convention of 15 June 1955 on the law applicable to international sales of goods', 'Hague', '1955-06-15', '1964-09-01', true),
 (3, 'Convention of 15 April 1958 on the law governing transfer of title in international sales of goods', 'Hague', '1958-04-15', null, false),

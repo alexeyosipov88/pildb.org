@@ -19,4 +19,5 @@ Argentina	–		25.11.1976	AS
 ?Philippines	23.04.1970	
 ?Portugal	23.04.1970
 ?San Marino	23.04.1970		16.04.2009	RT
-?Togo	25.03.1971		24.11.1975	RT ?
+?Togo	25.03.1971		24.11.1975	RT
+? 4

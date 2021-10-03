@@ -1,4 +1,4 @@
-INSERT INTO treaties (id, name, city, concluded, entry_into_force, status)
+INSERT INTO treaties (id, name, city, concluded, entered_into_force, status)
 VALUES (40, 'Convention on the Limitation Period in the International Sale of Goods', 'New York', '1974-06-14', '1988-08-01', true),
 (41, 'Protocol amending the Convention on the Limitation Period in the International Sale of Goods', 'Vienna', '1980-04-11', '1988-08-01', true),
 (42, 'United Nations Convention on Contracts for the International Sale of Goods', 'Vienna', '1980-04-11', '1988-01-01', true),
@@ -11,16 +11,17 @@ VALUES (40, 'Convention on the Limitation Period in the International Sale of Go
 (49, 'United Nations Convention on International Settlement Agreements Resulting from Mediation', 'New York', '2018-12-20', '2020-09-12', true),
 (50, 'Convention on the Recovery Abroad of Maintenance', 'New York', '1956-06-20', '1957-05-25', true),
 (51, 'Convention on the contract for the international carriage of passengers and luggage by inland waterway (CVN)', 'Geneva', '1976-02-06', null, false),
-(52, 'United Nations Convention on the Carriage of Goods by Sea 1978', 'Hamburg', '1978-03-31', null, false),
+(52, 'United Nations Convention on the Carriage of Goods by Sea 1978', 'Hamburg', '1978-03-31', '1992-11-01', true),
 (53, 'International Convention on Maritime Liens and Mortgages 1993', 'Geneva', '1993-05-06', '2004-09-05', true),
 (54, 'European Agreement concerning the International Carriage of Dangerous Goods by Inland Waterways (ADN)', 'Geneva', '2000-05-26', '2008-02-29', true),
 (55, 'United Nations Convention on Contracts for the International Carriage of Goods Wholly or Partly by Sea', 'New York', '2008-12-11', null, false),
 (56, 'Convention on the Contract for the International Carriage of Goods by Road (CMR)', 'Geneva', '1956-05-19', '1961-07-02', true),
 (57, 'Protocol to the Convention on the Contract for the International Carriage of Goods by Road (CMR)', 'Geneva', '1978-07-05', '1980-12-28', true),
-(58, 'Additional Protocol to the Convention on the Contract for the International Carriage of Goods by Road (CMR) concerning the Electronic Consignment Note', 'Geneva', '2008-02-20', null, false),
+(58, 'Additional Protocol to the Convention on the Contract for the International Carriage of Goods by Road (CMR) concerning the Electronic Consignment Note', 'Geneva', '2008-02-20', '2011-06-05', true),
 (59, 'Agreement concerning the International Carriage of Dangerous Goods by Road (ADR)', 'Geneva', '1957-09-30', '1968-01-29', true),
 (60, 'Protocol amending article 14 (3) of the European Agreement of 1957-09-30 concerning the International Carriage of Dangerous Goods by Road (ADR)', 'New York', '1975-08-21', '1985-04-19', true),
-(61, '14. b Protocol amending article 1 (a), article 14 (1) and article 14 (3) (b) of the European Agreement of 1957-09-30 concerning the International Carriage of Dangerous Goods by Road (ADR)', 'Geneva', '1993-10-28', null, false),
-(62, '26. Convention on the contract for the international carriage of passengers and luggage by road (CVR)', 'Geneva', '1973-03-01', '1994-04-12', true),
-(63, '26. a Protocol to the Convention on the contract for the international carriage of passengers and luggage by road (CVR)', 'Geneva', '1978-07-05', null, false),
-(64, '30. Convention on Civil Liability for Damage caused during Carriage of Dangerous Goods by Road, Rail and Inland Navigation Vessels (CRTD)', 'Geneva', '1989-10-10', null, false);
+(61, 'Protocol amending article 1 (a), article 14 (1) and article 14 (3) (b) of the European Agreement of 1957-09-30 concerning the International Carriage of Dangerous Goods by Road (ADR)', 'Geneva', '1993-10-28', null, false),
+(62, 'Convention on the contract for the international carriage of passengers and luggage by road (CVR)', 'Geneva', '1973-03-01', '1994-04-12', true),
+(63, 'Protocol to the Convention on the contract for the international carriage of passengers and luggage by road (CVR)', 'Geneva', '1978-07-05', null, false),
+(64, 'Convention on Civil Liability for Damage caused during Carriage of Dangerous Goods by Road, Rail and Inland Navigation Vessels (CRTD)', 'Geneva', '1989-10-10', null, false),
+(65, 'United Nations Convention on International Multimodal Transport of Goods', 'Geneva', '1980-05-24', null, false);

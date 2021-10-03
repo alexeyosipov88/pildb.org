@@ -1,4 +1,4 @@
-INSERT INTO treaties (id, name, city, concluded, entry_into_force, status)
+INSERT INTO treaties (id, name, city, concluded, entered_into_force, status)
 VALUES (65, 'Convention on Agency in the International Sale of Goods', 'Geneva', '1983-02-17', null, false),
 (66, 'Unidroit Convention on Substantive Rules for Intermediated Securities', 'Geneva', '2009-10-09', null, false),
 (67, 'Convention relating to a Uniform Law on the International Sale of Goods', 'Hague', '1964-07-01', '1972-08-18', true),

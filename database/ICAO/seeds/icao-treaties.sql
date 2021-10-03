@@ -1,4 +1,4 @@
-INSERT INTO treaties (id, name, city, concluded, entry_into_force, status)
+INSERT INTO treaties (id, name, city, concluded, entered_into_force, status)
 VALUES (79, 'Convention for the Unification of Certain Rules Relating to International Carriage by Air', 'Warsaw', '1929-10-12', '1933-02-13', true),
 (80, 'Protocol to Amend the Convention for the Unification of Certain Rules Relating to International Carriage by Air', 'Hague', '1955-09-28', '1963-08-01', true),
 (81, 'Protocol Relating to an Amendment to the Convention on International Civil Aviation', 'Montreal', '1947-05-27', '1961-03-20', true),

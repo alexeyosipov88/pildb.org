@@ -15,7 +15,7 @@ treaties.forEach((elem, index, array) => {
  });
 
 console.log(fileContents)
-fs.writeFile('./seeds/topics.sql', fileContents, function (err) {
+fs.writeFile('./seeds/unidroit-topics-treaties.sql', fileContents, function (err) {
   if (err) {
     console.log(err);
     return;

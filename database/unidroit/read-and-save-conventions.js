@@ -109,7 +109,7 @@ for (let i = 1; i < 15; i++) {
 
 Promise.all(arrayOfPromises).then((values) => {
   arrayOfConventionsJSON = JSON.stringify(values);
-  console.log(values[10]);
+  console.log(values);
   fs.writeFile('raw-unidroit-treaties.txt', arrayOfConventionsJSON, function (err) {
     if (err) return console.log(err);
     console.log('COMPLETED!')

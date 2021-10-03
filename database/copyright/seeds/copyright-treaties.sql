@@ -1,4 +1,4 @@
-INSERT INTO treaties (id, name, city, concluded, entry_into_force, status)
+INSERT INTO treaties (id, name, city, concluded, entered_into_force, status)
 VALUES (93, 'The Berne Convention for the Protection of Literary and Artistic Works', 'Berne', 'September 9 1886', 'December 5 1887', true),
 (94, 'Paris Additional Act (1896) relating to the Berne Convention for the Protection of Literary and Artistic Works', 'Paris', '1896-05-04', '1897-12-09', true),
 (95, 'Berlin Act (1908) relating to the Berne Convention for the Protection of Literary and Artistic Works', 'Berlin', '1908-11-13', '1910-09-09', true),
@@ -12,7 +12,7 @@ VALUES (93, 'The Berne Convention for the Protection of Literary and Artistic Wo
 (103, 'Brussels Act (1900) relating to Paris Convention for the Protection of Industrial Property', 'Brussels', '1900-12-14', null, true),
 (104, 'Washington Act (1911) realing to Paris Convention for the Protection of Industrial Property', 'Washington', '1911-06-02', '1913-05-01', true),
 (105, 'The Hague Act (1925) realing to Paris Convention for the Protection of Industrial Property', '1925-11-06', '1928-06-01', null, false),
-(106, 'London Act (1934) realing to Paris Convention for the Protection of Industrial Property', '1934-06-02', '1938-08-01', null, false),
+(106, 'London Act (1934) realing to Paris Convention for the Protection of Industrial Property', 'London', '1934-06-02', '1938-08-01', true),
 (107, 'Lisbon Act (1958) realing to Paris Convention for the Protection of Industrial Property', 'Lisbon', '1958-10-31', '1962-01-04', true),
 (108, 'Stockholm Act (1967) Paris Convention for the Protection of Industrial Property', 'Stockholm', '1967-07-14', '1970-04-26', true),
 (109, 'Patent Law Treaty', 'Geneva', '2000-06-01', '2005-04-28', true),

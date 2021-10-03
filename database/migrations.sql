@@ -16,9 +16,8 @@ CREATE TABLE treaties (
   name VARCHAR(255) NOT NULL,
   city VARCHAR(255) NOT NULL,
   concluded DATE NOT NULL,
-  entry_into_force DATE,
+  entered_into_force DATE,
   status BOOLEAN,
-  full_text TEXT 
 );
 
 CREATE TABLE participation (
