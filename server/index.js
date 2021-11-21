@@ -15,7 +15,7 @@ app.get("/countries/:id", async (req, res) => {
   try {
     const treatiesByCountry = await pool.query(`SELECT * FROM countries INNER JOIN participation ON countries.id = participation.country_id INNER JOIN treaties ON participation.treaty_id = treaties.id WHERE countries.id = ${req.params.id}`);
     
-    res.json(treatiesByCountry.rows )
+    res.json(treatiesByCountry.rows)
   } catch (err) {
     console.error(err.message)
   }
@@ -39,10 +39,37 @@ app.get("/topics/:id", async (req, res) => {
   }
 })
 
+app.get("/treaties/", async (req, res) => {
+  try {
+    const treatiesAll = await pool.query(`SELECT * FROM treaties`);
+    res.json(treatiesAll.rows)
+  } catch (err) {
+    console.error(err.message)
+  }
+})
+
 app.get("/topics", async (req, res) => {
   try {
     const topicsAll = await pool.query("SELECT * FROM topics");
     res.json(topicsAll.rows)
+  } catch (err) {
+    console.error(err.message)
+  }
+})
+
+app.get("/participation/:id", async (req, res) => {
+  try {
+    const participationByTreaty = await pool.query(`SELECT * FROM participation INNER JOIN treaties ON participation.treaty_id = treaties.id INNER JOIN countries ON participation.country_id = countries.id WHERE treaties.id = ${req.params.id}`);
+    res.json(participationByTreaty.rows)
+  } catch (err) {
+    console.error(err.message)
+  }
+})
+
+app.get("/participation", async (req, res) => {
+  try {
+    const participationAll = await pool.query("SELECT * FROM participation");
+    res.json(participationAll.rows)
   } catch (err) {
     console.error(err.message)
   }
