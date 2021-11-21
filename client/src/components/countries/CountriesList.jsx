@@ -2,6 +2,8 @@ import { useState } from "react";
 import { useEffect } from "react";
 import axios from "axios";
 import CountriesListItem from "./CountriesListItem";
+import { Outlet } from "react-router";
+
 
 const CountriesList = (props) => {
   const [countries, setCountries] = useState([]);
@@ -16,7 +18,11 @@ const CountriesList = (props) => {
     })
   }, [])
   const listOfCountries = countries.map(elem => {
-    return <CountriesListItem key={elem.id} name={elem.name}/>
+    return (
+    <div key={elem.id}> 
+      <CountriesListItem name={elem.name} id={elem.id}/>
+    </div>
+      )
   })
 
   return (
