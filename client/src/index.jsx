@@ -7,6 +7,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import CountriesList from "./components/countries/CountriesList";
 import TreatiesForCountry from "./components/countries/TreatiesForCountry";
 import ParticipationList from "./components/participation/ParticipationList";
+import AllTreaties from "./components/Treaties/AllTreaties";
+
 
 
 ReactDOM.render(
@@ -16,7 +18,8 @@ ReactDOM.render(
         <Route path="/" element={<App />}>
           <Route path="/countries/:countryId" element={<TreatiesForCountry />}/> 
           <Route path="/treaties/:treatyId" element={<ParticipationList/>}/> 
-          <Route path="/countries" element={<CountriesList />}>
+          <Route path="/countries" element={<CountriesList />}/>
+          <Route path="/treaties" element={<AllTreaties />}>
           </Route>
         </Route>
       </Routes>

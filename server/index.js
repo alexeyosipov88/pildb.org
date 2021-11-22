@@ -5,7 +5,6 @@ const morgan = require('morgan');
 
 const pool = require("./db")
 // middleware
-
 app.use(cors());
 app.use(express.json()); // req.bodu
 app.use(morgan('tiny'));

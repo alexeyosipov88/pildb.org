@@ -18,11 +18,24 @@ const ParticipationList = (props) => {
     });
   }, []);
   const treaty_name = participation[0] && participation[0].treaty_name;
-  console.log(participation)
+  const city = participation[0] && participation[0].city;
+  const concluded = participation[0] && participation[0].concluded;
+  const treatyEnteredIntoForce = participation[0] && participation[0].treaty_entry_into_force;
+  const treatyStatus = participation[0] && participation[0].treaty_status;
+  
+  console.log(treatyStatus, "this is treaty status")
+
+
+  console.log(participation);
   const listOfParticipation = participation.map((elem) => {
     return (
       <div key={elem.id}>
-        <ParticipationListItem id={elem.id} />
+        <ParticipationListItem
+          id={elem.id}
+          country_name={elem.country_name}
+          signed={elem.signed}
+          concluded={elem.concluded}
+        />  
       </div>
     );
   });
@@ -30,9 +43,15 @@ const ParticipationList = (props) => {
   return (
     <div>
       <header>
-        <h2>{treaty_name}</h2>
+          <h2>{treaty_name}</h2>
+          <div>{city}</div>
+          <div>{concluded}</div>
+          <div>{city}</div>
+          <div>{treatyEnteredIntoForce ? `Entered into force ${treatyEnteredIntoForce}` : `Not yet into force`}</div>
       </header>
+      <div>
       {listOfParticipation}
+      </div>
     </div>
   );
 };

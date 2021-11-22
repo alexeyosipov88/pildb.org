@@ -13,6 +13,8 @@ function App() {
         }}
       >
         <Link to="countries">Countries</Link>
+        <Link to="treaties">Treaties</Link>
+
       </nav>
       <Outlet />
 

@@ -1,13 +1,16 @@
 const ParticipationListItem = (props) => {
+  const dateSigned = new Date(props.signed).toLocaleDateString("en-GB");
+  const dateConcluded = new Date(props.concluded).toLocaleDateString("en-GB");
+
   return (
     <article>
       <header>
-        {/* <p>{props.name}</p> */}
+        <p>{props.country_name}</p>
       </header>
       <footer>
         <div>
-          {/* <div>{props.city}</div> */}
-          {/* <div>{date}</div> */}
+          <div>Date signed: {dateSigned}</div>
+          <div>Date entered into force: {dateConcluded}</div>
         </div>
       </footer>
     </article>
