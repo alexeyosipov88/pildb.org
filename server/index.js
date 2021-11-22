@@ -13,7 +13,7 @@ app.use(morgan('tiny'));
 
 app.get("/countries/:id", async (req, res) => {
   try {
-    const treatiesByCountry = await pool.query(`SELECT countries.name AS country_name, treaties.* FROM countries INNER JOIN participation ON countries.id = participation.country_id INNER JOIN treaties ON participation.treaty_id = treaties.id WHERE countries.id = ${req.params.id}`);
+    const treatiesByCountry = await pool.query(`SELECT countries.name AS country_name, treaties .* FROM countries INNER JOIN participation ON countries.id = participation.country_id INNER JOIN treaties ON participation.treaty_id = treaties.id WHERE countries.id = ${req.params.id}`);
     
     res.json(treatiesByCountry.rows)
   } catch (err) {
@@ -59,12 +59,18 @@ app.get("/topics", async (req, res) => {
 
 app.get("/participation/:id", async (req, res) => {
   try {
-    const participationByTreaty = await pool.query(`SELECT * FROM participation INNER JOIN treaties ON participation.treaty_id = treaties.id INNER JOIN countries ON participation.country_id = countries.id WHERE treaties.id = ${req.params.id}`);
+    const participationByTreaty = await pool.query(`SELECT treaties.name AS treaty_name, treaties.city AS city, treaties.concluded AS concluded, treaties.entered_into_force AS treaty_entry_into_force, treaties.status AS treaty_status, countries.name AS country_name, participation.* FROM participation INNER JOIN treaties ON participation.treaty_id = treaties.id INNER JOIN countries ON participation.country_id = countries.id WHERE treaties.id = ${req.params.id}`);
     res.json(participationByTreaty.rows)
   } catch (err) {
     console.error(err.message)
   }
 })
+// ame VARCHAR(255) NOT NULL,
+//     city VARCHAR(255) NOT NULL,
+//     concluded DATE NOT NULL,
+//     entered_into_force DATE,
+//     status BOOLEAN
+
 
 app.get("/participation", async (req, res) => {
   try {
