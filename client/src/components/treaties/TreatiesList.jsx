@@ -5,7 +5,7 @@ import TreatiesListItem from "./TreatiesListItem";
 
 const TreatiesList = (props) => {
   const listOfTreaties = props.treaties.map(elem => {
-    return <TreatiesListItem key={elem.id} id={elem.id} name={elem.name} city={elem.city} concluded={elem.concluded}/>
+    return <TreatiesListItem key={elem.treaty_id} id={elem.id} name={elem.name} city={elem.city} concluded={elem.concluded}/>
   })
   return (
     <div>

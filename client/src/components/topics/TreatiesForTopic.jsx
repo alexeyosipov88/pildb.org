@@ -2,28 +2,27 @@ import { useState } from "react";
 import { useEffect } from "react";
 import axios from "axios";
 import { useParams } from "react-router-dom";
-
 import TreatiesList from "../treaties/TreatiesList";
 
-const TreatiesForCountry = (props) => {
+const TreatiesForTopic = (props) => {
   const [treaties, setTreaties] = useState([]);
-  const countryId = useParams().countryId;
+  const topicId = useParams().topicId;
   useEffect(() => {
-    const getTreatiesByCountry = async () => {
-      return await axios.get(`http://localhost:4000/countries/${countryId}`);
+    const getTreatiesByTopic = async () => {
+      return await axios.get(`http://localhost:4000/topics/${topicId}`);
     }
-    getTreatiesByCountry().
+    getTreatiesByTopic().
       then((treaties) => {
         setTreaties(treaties.data);
     })
   }, [])
-  const country_name = treaties[0] && treaties[0].country_name
+  const topic_name = treaties[0] && treaties[0].topic_name
   console.log(treaties)
   return (
     <div>
       <header>
         <h1>
-          {country_name}
+          {topic_name}
         </h1>
       </header>
       <TreatiesList treaties={treaties}/>
@@ -31,4 +30,4 @@ const TreatiesForCountry = (props) => {
   )
 }
 
-export default TreatiesForCountry;
+export default TreatiesForTopic;

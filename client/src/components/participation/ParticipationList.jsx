@@ -4,7 +4,6 @@ import axios from "axios";
 import { useParams } from "react-router";
 import ParticipationListItem from "./ParticipationListItem";
 
-// import CountriesListItem from "./CountriesListItem";
 
 const ParticipationList = (props) => {
   const [participation, setParticipation] = useState([]);
@@ -20,13 +19,9 @@ const ParticipationList = (props) => {
   const treaty_name = participation[0] && participation[0].treaty_name;
   const city = participation[0] && participation[0].city;
   const concluded = participation[0] && participation[0].concluded;
+  const dateConcluded = concluded ? new Date(concluded).toLocaleDateString("en-GB") : null;
   const treatyEnteredIntoForce = participation[0] && participation[0].treaty_entry_into_force;
-  const treatyStatus = participation[0] && participation[0].treaty_status;
-  
-  console.log(treatyStatus, "this is treaty status")
-
-
-  console.log(participation);
+  const dateTreatyEnteredIntoForce = treatyEnteredIntoForce ? new Date(treatyEnteredIntoForce).toLocaleDateString("en-GB") : null;
   const listOfParticipation = participation.map((elem) => {
     return (
       <div key={elem.id}>
@@ -34,7 +29,7 @@ const ParticipationList = (props) => {
           id={elem.id}
           country_name={elem.country_name}
           signed={elem.signed}
-          concluded={elem.concluded}
+          bound={elem.bound}
         />  
       </div>
     );
@@ -44,10 +39,9 @@ const ParticipationList = (props) => {
     <div>
       <header>
           <h2>{treaty_name}</h2>
-          <div>{city}</div>
-          <div>{concluded}</div>
-          <div>{city}</div>
-          <div>{treatyEnteredIntoForce ? `Entered into force ${treatyEnteredIntoForce}` : `Not yet into force`}</div>
+          <div>City of signature: {city}</div>
+          <div>Signed: {dateConcluded}</div>
+          <div>{dateTreatyEnteredIntoForce ? `Entered into force ${dateTreatyEnteredIntoForce}` : `Not yet into force`}</div>
       </header>
       <div>
       {listOfParticipation}

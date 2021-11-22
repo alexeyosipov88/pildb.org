@@ -12,12 +12,17 @@ function App() {
           paddingBottom: "1rem",
         }}
       >
-        <Link to="countries">Countries</Link>
-        <Link to="treaties">Treaties</Link>
-
+        <div>
+          <Link to="countries">Countries</Link>
+        </div>
+        <div>
+          <Link to="treaties">Treaties</Link>
+        </div>
+        <div>
+        <Link to="topics">Topics</Link>
+        </div>
       </nav>
       <Outlet />
-
     </div>
   );
 }
