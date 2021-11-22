@@ -10,7 +10,7 @@ import ParticipationList from "./components/participation/ParticipationList";
 import AllTreaties from "./components/treaties/AllTreaties";
 import TopicsList from "./components/topics/TopicsList";
 import TreatiesForTopic from "./components/topics/TreatiesForTopic";
-
+import Organizations from "./components/organizations/Organizations";
 
 
 ReactDOM.render(
@@ -24,6 +24,8 @@ ReactDOM.render(
           <Route path="/topics/:topicId" element={<TreatiesForTopic />}/> 
           <Route path="/topics" element={<TopicsList />}/>
           <Route path="/treaties" element={<AllTreaties />}/>
+          <Route path="/organizations" element={<Organizations/>}/>
+
         </Route>
       </Routes>
     </BrowserRouter>

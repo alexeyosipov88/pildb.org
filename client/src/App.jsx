@@ -21,6 +21,9 @@ function App() {
         <div>
         <Link to="topics">Topics</Link>
         </div>
+        <div>
+        <Link to="organizations">Organizations</Link>
+        </div>
       </nav>
       <Outlet />
     </div>

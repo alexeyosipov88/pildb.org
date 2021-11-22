@@ -31,7 +31,7 @@ app.get("/countries", async (req, res) => {
 
 app.get("/topics/:id", async (req, res) => {
   try {
-    const treatiesByTopic = await pool.query(`SELECT * FROM treaties INNER JOIN treaties_by_topics ON treaties.id = treaties_by_topics.treaty_id INNER JOIN topics ON treaties_by_topics.topic_id = topics.id WHERE topics.id = ${req.params.id}`);
+    const treatiesByTopic = await pool.query(`SELECT topics.name AS topic_name, treaties.* FROM treaties INNER JOIN treaties_by_topics ON treaties.id = treaties_by_topics.treaty_id INNER JOIN topics ON treaties_by_topics.topic_id = topics.id WHERE topics.id = ${req.params.id}`);
     res.json(treatiesByTopic.rows)
   } catch (err) {
     console.error(err.message)
