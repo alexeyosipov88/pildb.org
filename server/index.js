@@ -13,7 +13,7 @@ app.use(morgan('tiny'));
 
 app.get("/countries/:id", async (req, res) => {
   try {
-    const treatiesByCountry = await pool.query(`SELECT * FROM countries INNER JOIN participation ON countries.id = participation.country_id INNER JOIN treaties ON participation.treaty_id = treaties.id WHERE countries.id = ${req.params.id}`);
+    const treatiesByCountry = await pool.query(`SELECT countries.name AS country_name, treaties.* FROM countries INNER JOIN participation ON countries.id = participation.country_id INNER JOIN treaties ON participation.treaty_id = treaties.id WHERE countries.id = ${req.params.id}`);
     
     res.json(treatiesByCountry.rows)
   } catch (err) {

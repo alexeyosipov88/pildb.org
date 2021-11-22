@@ -2,7 +2,6 @@ import { useState } from "react";
 import { useEffect } from "react";
 import axios from "axios";
 import CountriesListItem from "./CountriesListItem";
-import { Outlet } from "react-router";
 
 
 const CountriesList = (props) => {

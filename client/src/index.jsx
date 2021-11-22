@@ -6,14 +6,18 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import CountriesList from "./components/countries/CountriesList";
 import TreatiesForCountry from "./components/countries/TreatiesForCountry";
+import ParticipationList from "./components/participation/ParticipationList";
+
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />}>
-          <Route path="countries" element={<CountriesList />}>
-            <Route path=":countryId" element={<TreatiesForCountry />}/> 
+          <Route path="/countries/:countryId" element={<TreatiesForCountry />}/> 
+          <Route path="/treaties/:treatyId" element={<ParticipationList/>}/> 
+          <Route path="/countries" element={<CountriesList />}>
+            {/* <Route path=":countryId" element={<TreatiesForCountry />}/>  */}
           </Route>
         </Route>
       </Routes>
