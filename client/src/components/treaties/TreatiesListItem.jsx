@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 
-
 const TreatiesListItem = (props) => {
   const timeStamp = props.concluded;
   const date = new Date(timeStamp).toLocaleDateString("en-GB");

@@ -11,6 +11,7 @@ import AllTreaties from "./components/treaties/AllTreaties";
 import TopicsList from "./components/topics/TopicsList";
 import TreatiesForTopic from "./components/topics/TreatiesForTopic";
 import Organizations from "./components/organizations/Organizations";
+import TreatiesForOrganization from "./components/organizations/TreatiesForOrganization";
 
 
 ReactDOM.render(
@@ -24,8 +25,8 @@ ReactDOM.render(
           <Route path="/topics/:topicId" element={<TreatiesForTopic />}/> 
           <Route path="/topics" element={<TopicsList />}/>
           <Route path="/treaties" element={<AllTreaties />}/>
+          <Route path="/organizations/:organizationName" element={<TreatiesForOrganization/>}/>
           <Route path="/organizations" element={<Organizations/>}/>
-
         </Route>
       </Routes>
     </BrowserRouter>

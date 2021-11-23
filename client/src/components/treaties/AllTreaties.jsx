@@ -9,6 +9,7 @@ const AllTreaties = () => {
       setAllTreaties(treaties.data);
     });
   }, []);
+  console.log(allTreaties);
   const listOfAllTreaties = allTreaties.map((elem) => {
     return (
       <TreatiesListItem
