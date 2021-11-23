@@ -8,10 +8,7 @@ const CountriesList = (props) => {
   const [countries, setCountries] = useState([]);
 
   useEffect(() => {
-    const getAllCountries = async () => {
-      return await axios.get("http://localhost:4000/countries");
-    }
-    getAllCountries().
+      axios.get("http://localhost:4000/countries").
       then((countries) => {
         setCountries(countries.data);
     })

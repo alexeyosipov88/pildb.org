@@ -2,17 +2,13 @@ import { useState } from "react";
 import { useEffect } from "react";
 import axios from "axios";
 import { useParams } from "react-router-dom";
-
 import TreatiesList from "../treaties/TreatiesList";
 
 const TreatiesForCountry = (props) => {
   const [treaties, setTreaties] = useState([]);
   const countryId = useParams().countryId;
   useEffect(() => {
-    const getTreatiesByCountry = async () => {
-      return await axios.get(`http://localhost:4000/countries/${countryId}`);
-    }
-    getTreatiesByCountry().
+  axios.get(`http://localhost:4000/countries/${countryId}`).
       then((treaties) => {
         setTreaties(treaties.data);
     })
