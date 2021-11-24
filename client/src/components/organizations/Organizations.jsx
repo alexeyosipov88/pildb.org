@@ -3,21 +3,21 @@ const Organizations = (props) => {
   return (
     <div>
       <p>
-        <Link to={`/organizations/hague`}>Hague Conference</Link>
+        <Link className="link" to={`/organizations/hague`}>Hague Conference</Link>
       </p>
       <p>
-        <Link to={`/organizations/un`}>United Nations</Link>
+        <Link className="link" to={`/organizations/un`}>United Nations</Link>
       </p>
       <p>
-        <Link to={`/organizations/unidroit`}>Unidroit</Link>
+        <Link className="link" to={`/organizations/unidroit`}>Unidroit</Link>
       </p>
       <p>
-        <Link to={`/organizations/icao`}>
+        <Link className="link" to={`/organizations/icao`}>
           International Civil Aviation Organization
         </Link>
       </p>
       <p>
-        <Link to={`/organizations/wipo`}>
+        <Link className="link" to={`/organizations/wipo`}>
           World Intellectual Property Organization
         </Link>
       </p>

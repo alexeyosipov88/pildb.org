@@ -1,12 +1,14 @@
 .header {
-
+  nav {
+    padding: 24px;
+  }
 
   &__logo {
     img {
-
     }
   }
-  &__menu { // mobile menu
+  &__menu {
+    // mobile menu
     > span {
       display: block;
       width: 26px;
@@ -16,5 +18,15 @@
         margin-bottom: 3px;
       }
     }
+  }
+  &__links {
+    .link {
+      font-size: $font-sm;
+      color: $grayishBlue;
+    }
+  }
+  &__cta {
+    font-size: $font-sm;
+    color: $white;
   }
 }

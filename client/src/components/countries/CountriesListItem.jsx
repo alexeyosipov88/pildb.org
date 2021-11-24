@@ -4,7 +4,7 @@ const CountriesListItem = (props) => {
   return (
     <article>
       <p>
-        <Link to={`/countries/${props.id}`}>
+        <Link className="link" to={`/countries/${props.id}`}>
         {props.name} 
         </Link>
       </p>

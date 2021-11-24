@@ -12,9 +12,8 @@ const TreatiesListItem = (props) => {
         <div>
           <div>{props.city}</div>
           <div>{date}</div>
-          <Link to={`/treaties/${props.id}`}>
-          <div>Check status</div>
-          </Link>
+          <Link className="link button headr__cta" to={`/treaties/${props.id}`}>
+          <button type='button'>Check status</button> </Link>
         </div>
       </footer>
     </article>

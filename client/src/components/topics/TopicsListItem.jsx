@@ -4,7 +4,7 @@ const TopicsListItem = (props) => {
   return (
     <article>
       <p>
-        <Link to={`/topics/${props.id}`}>
+        <Link className="link" to={`/topics/${props.id}`}>
         {props.name} 
         </Link>
       </p>
