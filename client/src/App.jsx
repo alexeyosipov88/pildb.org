@@ -15,7 +15,7 @@ function App() {
           </a>
           <div className="header__links hide-for-mobile flex flex-jc-sb flex-ai-c">
             <Link className="link" to="#">About</Link>
-            <Link className="link" to="#">Contact</Link>
+            <Link className="link" to="#">Contact</Link>  
             <Link className="link" to="countries">Countries</Link>
             <Link className="link" to="treaties">Treaties</Link>
             <Link className="link" to="topics">Topics</Link>

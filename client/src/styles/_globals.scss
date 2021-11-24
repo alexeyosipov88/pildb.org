@@ -1,31 +1,33 @@
 @import "mixins";
 
-
 html {
   font-size: 100%;
   box-sizing: border-box;
-
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
-// img {
-//   max-width: 100%;
-// }
+
 body {
   margin: 0;
   margin: 0;
-  font-family: 'Public Sans', sans-serif; 
+  font-family: "Public Sans", sans-serif;
   color: $grayishBlue;
   line-height: 1.3;
   font-weight: 300;
   font-size: $font-med;
 }
 
-.link, .link:visited, a:hover {
+.link,
+.link:visited {
   text-decoration: none;
-  // color: $grayishBlue;
+  color: $grayishBlue;
+  &:hover {
+    color: $darkBlue;
+  }
 }
 
 .flex {
@@ -41,8 +43,9 @@ body {
   }
 }
 
-button, .button {
-  padding: 1rem 1.875rem;
+button,
+.button {
+  // padding: 1rem 1.875rem;
   background: linear-gradient(to right, $limeGreen, $brightCyan);
   border-radius: 50px;
   cursor: pointer;
@@ -53,14 +56,14 @@ button, .button {
 
 .hide-for-mobile {
   //hide for tablet and movile devices
-  @include breakpoint-down(medium) {
+  @include breakpoint-down(small) {
     display: none;
   }
 }
 
 .hide-for-desktop {
-  @include breakpoint-up(large) {
-    display: none
+  @include breakpoint-up(medium) {
+    display: none;
   }
   //hide for desktop viewport widht
 }
