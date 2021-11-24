@@ -2,6 +2,29 @@
   nav {
     padding: 1.0625rem 1.5rem;
   }
+  &.open {
+    .header__menu {
+      > span:first-child {
+        transform: rotate(45deg);
+      }
+      > span:nth-child(2) {
+        opacity: 0;
+      }
+      > span:last-child {
+        transform: rotate(-45deg);
+      }
+    }
+  }
+
+  .overlay {
+    position: fixed;
+    top: 3.75rem;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    // background-color: $darkBlue;
+    background-image: linear-gradient($darkBlue, transparent);
+  }
 
   &__logo {
     img {
@@ -16,10 +39,24 @@
       width: 26px;
       height: 2px;
       background-color: $darkBlue;
+      transition: all 300ms ease-in-out;
+      transform-origin: 3px 1px;
       &:not(:last-child) {
-        margin-bottom: 3px;
+        margin-bottom: 5px;
       }
     }
+    // &.open {
+    //    > span:first-child {
+    //     transform: rotate(45deg);
+
+    //    }
+    //    > span:nth-child(2) {
+    //     opacity: 0;
+    //   }
+    //    > span:last-child {
+    //     transform: rotate(-45deg);
+    //    }
+    // }
   }
   &__links {
     .link {
@@ -35,7 +72,7 @@
         height: 1.5px;
         left: 0;
         right: 0;
-        bottom:  -10px;
+        bottom: -10px;
         background: $grayishBlue;
         opacity: 0;
       }
@@ -45,7 +82,7 @@
       }
 
       &:hover {
-        color: $darkBlue; 
+        color: $darkBlue;
         &::after {
           opacity: 0.4;
         }
@@ -57,3 +94,13 @@
     color: $white;
   }
 }
+
+// .overlay {
+//   position: fixed;
+//   top: 3.75rem;
+//   right: 0px;
+//   bottom: 0px;
+//   left: 0px;
+//   // background-color: $darkBlue;
+//   background-image: linear-gradient($darkBlue, transparent);
+// }

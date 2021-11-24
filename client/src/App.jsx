@@ -1,14 +1,25 @@
 import logo from "./images/logo.jpg";
 import "./styles/App.scss";
+import { useState } from "react";
 
 // import "./App.css";
 import CountriesList from "./components/countries/CountriesList";
 import { Outlet, Link } from "react-router-dom";
 import TreatiesForCountry from "./components/countries/TreatiesForCountry";
 function App() {
+  const [navClass, setNavClass] = useState(true);
+  let navMenuClass = navClass ? 'header' : 'header open';
+  const clickOnHamburger = () => {
+    if(navClass) {
+      setNavClass(false);
+    } else {
+      setNavClass(true)
+    }
+    console.log("clicked on nav menu bar")
+  }
   return (
     <div>
-      <header className="header">
+      <header className={navMenuClass}>
         <nav className="flex flex-jc-sb flex-ai-c">
           <a href="/" className="header__logo">
             <img style={{ width: "50px" }} src={logo} alt="logo" />
@@ -21,8 +32,7 @@ function App() {
             <Link className="link" to="topics">Topics</Link>
             <Link className="link" to="organizations">Organizations</Link>
           </div>
-          <a href="#" className="header__menu hide-for-desktop">
-            <span></span>
+          <a href="#" className="header__menu" onClick={() => clickOnHamburger()}>
             <span></span>
             <span></span>
             <span></span>
