@@ -1,3 +1,8 @@
+.has-fade {
+  visibility: hidden;
+
+}
+
 
 @keyframes fade-in {
   from {
@@ -9,12 +14,13 @@
     opacity: 0;
   }
   to {
+    visibility: visible;
     opacity: 1;
   }
 }
 
 .fade-in {
-  animation: fade-in 1000ms ease-in-out forwards;
+  animation: fade-in 500ms ease-in-out forwards;
 }
 
 @keyframes fade-out {
@@ -34,5 +40,5 @@
 }
 
 .fade-out {
-  animation: fade-out 1000ms ease-in-out forwards;
+  animation: fade-out 500ms ease-in-out forwards;
 }
