@@ -6,28 +6,30 @@ import MobileMenu from "./MobileMenu";
 const Navbar = () => {
   const [navClass, setNavClass] = useState(true);
   const [ovelay, setOverlay] = useState("");
-  const [overlayMenuClass, setOverlayMenuClass] = useState('header__menu container has-fade');
+  const [overlayMenuClass, setOverlayMenuClass] = useState(
+    "header__menu container has-fade"
+  );
   let navMenuClass = navClass ? "header" : "header open";
 
   const clickOnHamburger = () => {
     if (navClass) {
       setNavClass(false);
       setOverlay("overlay fade-in");
-      setOverlayMenuClass('header__menu container fade-in');
+      setOverlayMenuClass("header__menu container fade-in");
     } else {
       setNavClass(true);
       setOverlay("overlay fade-out");
-      setOverlayMenuClass('header__menu container fade-out');
+      setOverlayMenuClass("header__menu container fade-out");
     }
     console.log("clicked on nav menu bar");
   };
   return (
     <header className={navMenuClass}>
+      <div className={ovelay}></div>
       <nav className="container flex flex-jc-sb flex-ai-c">
         <a href="/" className="header__logo">
           <img style={{ width: "50px" }} src={logo} alt="logo" />
         </a>
-        <div className={ovelay}></div>
         <div className="header__links hide-for-mobile flex flex-jc-sb flex-ai-c">
           <Link className="link" to="#">
             About
@@ -58,7 +60,10 @@ const Navbar = () => {
           <span></span>
         </a>
       </nav>
-      <MobileMenu clickOnHamburger={clickOnHamburger} overlayMenuClass={overlayMenuClass}/>
+      <MobileMenu
+        clickOnHamburger={clickOnHamburger}
+        overlayMenuClass={overlayMenuClass}
+      />
     </header>
   );
 };
