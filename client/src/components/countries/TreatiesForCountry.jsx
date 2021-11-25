@@ -3,6 +3,8 @@ import { useEffect } from "react";
 import axios from "axios";
 import { useParams } from "react-router-dom";
 import TreatiesList from "../treaties/TreatiesList";
+import { Link } from "react-router-dom";
+
 
 const TreatiesForCountry = (props) => {
   const [treaties, setTreaties] = useState([]);

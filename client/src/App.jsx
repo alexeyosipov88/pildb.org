@@ -9,6 +9,7 @@ import TreatiesForCountry from "./components/countries/TreatiesForCountry";
 function App() {
   const [navClass, setNavClass] = useState(true);
   let navMenuClass = navClass ? 'header' : 'header open';
+  let navOverlayMenu = navClass ? 'overlay fade-out' : 'overlay fade-in'
   const clickOnHamburger = () => {
     if(navClass) {
       setNavClass(false);
@@ -17,6 +18,7 @@ function App() {
     }
     console.log("clicked on nav menu bar")
   }
+
   return (
     <div>
       <header className={navMenuClass}>
@@ -32,7 +34,8 @@ function App() {
             <Link className="link" to="topics">Topics</Link>
             <Link className="link" to="organizations">Organizations</Link>
           </div>
-          <a href="#" className="header__menu" onClick={() => clickOnHamburger()}>
+          <div className={navOverlayMenu}></div>
+          <a href="#" className="header__menu hide-for-desktop" onClick={() => clickOnHamburger()}>
             <span></span>
             <span></span>
             <span></span>

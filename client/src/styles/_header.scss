@@ -3,6 +3,10 @@
     padding: 1.0625rem 1.5rem;
   }
   &.open {
+    // .overlay {
+    //   display: block;
+    //   animation: fade-in 500ms ease-in-out forwards;
+    // }
     .header__menu {
       > span:first-child {
         transform: rotate(45deg);
@@ -17,13 +21,19 @@
   }
 
   .overlay {
+    opacity: 0;
     position: fixed;
     top: 3.75rem;
     right: 0px;
     bottom: 0px;
     left: 0px;
-    // background-color: $darkBlue;
     background-image: linear-gradient($darkBlue, transparent);
+    // &.fade-in {
+    //   // display: block;
+    // }
+    // &.fade-out {
+    //   // display: none;
+    // }
   }
 
   &__logo {
@@ -94,13 +104,3 @@
     color: $white;
   }
 }
-
-// .overlay {
-//   position: fixed;
-//   top: 3.75rem;
-//   right: 0px;
-//   bottom: 0px;
-//   left: 0px;
-//   // background-color: $darkBlue;
-//   background-image: linear-gradient($darkBlue, transparent);
-// }
