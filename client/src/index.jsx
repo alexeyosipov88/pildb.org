@@ -13,6 +13,8 @@ import TopicsList from "./components/topics/TopicsList";
 import TreatiesForTopic from "./components/topics/TreatiesForTopic";
 import Organizations from "./components/organizations/Organizations";
 import TreatiesForOrganization from "./components/organizations/TreatiesForOrganization";
+import Home from "./components/home/Home";
+
 
 
 ReactDOM.render(
@@ -20,6 +22,7 @@ ReactDOM.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />}>
+          <Route path="/" element={<Home/>}/>
           <Route path="/countries/:countryId" element={<TreatiesForCountry />}/> 
           <Route path="/treaties/:treatyId" element={<ParticipationList/>}/> 
           <Route path="/countries" element={<CountriesList />}/>

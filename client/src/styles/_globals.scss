@@ -35,6 +35,11 @@ body {
   padding-right: 1.5rem;
 }
 
+article {
+  display: flex;
+  flex-direction: column;
+
+}
 .more-info-icon {
   width: 1.7rem;
   height: 1.7rem;
@@ -58,6 +63,10 @@ body {
   }
   &-ai-c {
     align-items: center;
+  }
+  
+  &-fw-w {
+    flex-wrap: wrap;
   }
 }
 
