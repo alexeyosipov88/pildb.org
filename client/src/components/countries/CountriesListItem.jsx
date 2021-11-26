@@ -1,15 +1,26 @@
 import { Link } from "react-router-dom";
-import { Outlet } from "react-router";
+import moreInfoIcon from "../../images/more-info-icon.png";
+
 const CountriesListItem = (props) => {
   return (
-    <article>
-      <p>
+    <tr>
+      <td>{props.id}</td>
+      <td>
         <Link className="link" to={`/countries/${props.id}`}>
-        {props.name} 
+          <p>{props.name}</p>
         </Link>
-      </p>
-      <Outlet/>
-    </article>
+      </td>
+      <td>
+        {props.amount} treaties
+        <Link className="link" to={`/countries/${props.id}`}>
+          <img
+            className="more-info-icon"
+            src={moreInfoIcon}
+            alt="more-info-icon"
+          />
+        </Link>
+      </td>
+    </tr>
   );
 };
 export default CountriesListItem;

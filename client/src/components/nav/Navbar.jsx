@@ -26,11 +26,12 @@ const Navbar = () => {
   return (
     <header className={navMenuClass}>
       <div className={ovelay}></div>
-      <nav className="container flex flex-jc-sb flex-ai-c">
-        <a href="/" className="header__logo">
+      <a href="/" className="header__logo">
           <img style={{ width: "50px" }} src={logo} alt="logo" />
-        </a>
-        <div className="header__links hide-for-mobile flex flex-jc-sb flex-ai-c">
+        </a>  
+      <nav className="container flex flex-jc-sa flex-ai-c">
+        
+        <div className="header__links hide-for-mobile flex flex-jc-sa flex-ai-c">
           <Link className="link" to="#">
             About
           </Link>

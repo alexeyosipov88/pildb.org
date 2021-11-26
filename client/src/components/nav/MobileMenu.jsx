@@ -5,7 +5,7 @@ const MobileMenu = (props) => {
   
 
   return (
-    <div class={props.overlayMenuClass} onClick={props.clickOnHamburger}>
+    <div className={props.overlayMenuClass} onClick={props.clickOnHamburger}>
        <Link className="link" to="#">
             About
           </Link>

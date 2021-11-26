@@ -64,11 +64,14 @@ app.get("/participation/:id", async (req, res) => {
     console.error(err.message)
   }
 })
-// ame VARCHAR(255) NOT NULL,
-//     city VARCHAR(255) NOT NULL,
-//     concluded DATE NOT NULL,
-//     entered_into_force DATE,
-//     status BOOLEAN
+app.get("/count-treaties", async (req, res) => {
+  try {
+    const countTreatiesForCountry = await pool.query(`select countries.id, count(treaties) from countries inner join participation ON countries.id = participation.country_id inner join treaties ON treaties.id = participation.treaty_id group by countries.id`);
+    res.json(countTreatiesForCountry.rows)
+  } catch (err) {
+    console.error(err.message)
+  }
+})
 
 
 app.get("/participation", async (req, res) => {

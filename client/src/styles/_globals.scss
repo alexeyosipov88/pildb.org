@@ -35,11 +35,23 @@ body {
   padding-right: 1.5rem;
 }
 
+.more-info-icon {
+  width: 1.7rem;
+  height: 1.7rem;
+  cursor: pointer;
+  margin-left: 20px;
+  &:hover {
+    transform: scale(1.2);
+  }
+}
 
 .flex {
   display: flex;
   &-jc-sb {
     justify-content: space-between;
+  }
+  &-jc-sa {
+    justify-content: space-around;
   }
   &-jc-c {
     justify-content: center;
