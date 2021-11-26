@@ -2,10 +2,11 @@ import { useState } from "react";
 import { useEffect } from "react";
 import axios from "axios";
 import HomeTopicsListItem from "./HomeTopicsListItem";
-
+import topicsIconsObject from "../../images/topics-icons/topics-icons-object.js";
 
 
 const HomeTopicsList = (props) => {
+  console.log(topicsIconsObject)
   const [topics, setTopics] = useState([]);
 
   useEffect(() => {
