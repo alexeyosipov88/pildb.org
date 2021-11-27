@@ -9,7 +9,6 @@ app.use(cors());
 app.use(express.json()); // req.bodu
 app.use(morgan('tiny'));
 
-
 app.get("/countries/:id", async (req, res) => {
   try {
     const treatiesByCountry = await pool.query(`SELECT countries.name AS country_name, treaties .* FROM countries INNER JOIN participation ON countries.id = participation.country_id INNER JOIN treaties ON participation.treaty_id = treaties.id WHERE countries.id = ${req.params.id}`);
@@ -82,8 +81,6 @@ app.get("/participation", async (req, res) => {
     console.error(err.message)
   }
 })
-
-
 
  app.listen(4000, () => {
    console.log("Server has started on port 4000")

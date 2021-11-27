@@ -1,13 +1,25 @@
-
 .home {
+  width: 900px;
   .topics {
-    width: 800px  ;
+    width: 800px;
+    flex: 0 0 40%;
+    gap: 5px;
     .box-topic {
-      color: red;
-      border: 15px solid rgb(115, 117, 115);
-      padding: 50px;
-      margin: 20px;
-
+      // border: 5px solid rgb( 115, 117, 115);
+      flex: 0 1 33%;
+      margin-bottom: 50px;
+      margin-right: 0;
+      // margin-left: 10px;
+      // padding-left: 100px;
+      // background: blanchedalmond;
+      // height: 100px;
+      .topic-image {
+        width: 50px;
+      }
     }
+  }
+  .organizations {
+    margin-left: 40px;
+    width: 450px;
   }
 }
