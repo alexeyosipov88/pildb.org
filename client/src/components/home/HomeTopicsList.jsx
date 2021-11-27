@@ -2,11 +2,12 @@ import { useState } from "react";
 import { useEffect } from "react";
 import axios from "axios";
 import HomeTopicsListItem from "./HomeTopicsListItem";
-import topicsIconsObject from "../../images/topics-icons/topics-icons-object.js";
+import topicsIconsObject from '../../images/topics-icons/topics-icons-object.js';
 
 
 const HomeTopicsList = (props) => {
   console.log(topicsIconsObject)
+  // console.log(topicsIconsObject)
   const [topics, setTopics] = useState([]);
 
   useEffect(() => {
@@ -16,8 +17,10 @@ const HomeTopicsList = (props) => {
   }, []);
 
   const listOfTopics = topics.map((elem) => {
+    const iconImage = topicsIconsObject[elem.id];
+
     return (
-        <HomeTopicsListItem key={elem.id} name={elem.name} id={elem.id} />
+        <HomeTopicsListItem key={elem.id} img={iconImage} name={elem.name} id={elem.id} />
     );
   });
 
