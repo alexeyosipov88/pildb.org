@@ -5,21 +5,38 @@
     flex: 0 0 40%;
     gap: 5px;
     .box-topic {
-      // border: 5px solid rgb( 115, 117, 115);
       flex: 0 1 33%;
       margin-bottom: 50px;
       margin-right: 0;
-      // margin-left: 10px;
-      // padding-left: 100px;
-      // background: blanchedalmond;
-      // height: 100px;
       .topic-image {
         width: 50px;
       }
     }
   }
+
   .organizations {
-    margin-left: 40px;
-    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 100px;
+    width: 400px;
+    div {
+      display: flex;
+      flex-direction: row;
+    
+      margin-bottom: 80px;
+    }
+    .big-logos {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      img {
+        width: 60%;
+      }
+    }
+    img {
+      width: 80%;
+    }
+    
   }
 }
