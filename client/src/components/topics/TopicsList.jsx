@@ -12,6 +12,8 @@ const TopicsList = (props) => {
     });
   }, []);
   const listOfTopics = topics.map((elem) => {
+ 
+    
     return (
       <div key={elem.id}>
         <TopicsListItem name={elem.name} id={elem.id} />

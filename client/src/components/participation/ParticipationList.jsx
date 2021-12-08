@@ -8,7 +8,8 @@ const ParticipationList = (props) => {
   const [participation, setParticipation] = useState([]);
   const treatyId = useParams().treatyId;
   useEffect(() => {
-    axios.get(`http://localhost:4000/participation/${treatyId}`)
+    axios
+      .get(`http://localhost:4000/participation/${treatyId}`)
       .then((participation) => {
         setParticipation(participation.data);
       });
@@ -27,18 +28,15 @@ const ParticipationList = (props) => {
   console.log(participation);
   const listOfParticipation = participation.map((elem) => {
     return (
-      <div key={elem.id}>
-        <ParticipationListItem
-          id={elem.id}
-          country_name={elem.country_name}
-          signed={elem.signed}
-          bound={elem.bound}
-          country_id={elem.country_id}
-        />
-      </div>
+      <ParticipationListItem
+        id={elem.id}
+        country_name={elem.country_name}
+        signed={elem.signed}
+        bound={elem.bound}
+        country_id={elem.country_id}
+      />
     );
   });
-
   return (
     <div>
       <header>
@@ -51,8 +49,32 @@ const ParticipationList = (props) => {
             : `Not yet into force`}
         </div>
       </header>
-      <div>{listOfParticipation}</div>
+      <table>
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>Name of the country</th>
+            <th>Date of signature</th>
+            <th>Date of ratification (acceptance)</th>
+          </tr>
+        </thead>
+        <tbody>{listOfParticipation}</tbody>
+      </table>
     </div>
+
+    // <div>
+    //   <header>
+    //     <h2>{treaty_name}</h2>
+    //     <div>City of signature: {city}</div>
+    //     <div>Signed: {dateConcluded}</div>
+    //     <div>
+    //       {dateTreatyEnteredIntoForce
+    //         ? `Entered into force ${dateTreatyEnteredIntoForce}`
+    //         : `Not yet into force`}
+    //     </div>
+    //   </header>
+    //   <div>{listOfParticipation}</div>
+    // </div>
   );
 };
 export default ParticipationList;

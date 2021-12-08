@@ -35,7 +35,6 @@ const AllTreaties = () => {
       <tbody>{listOfAllTreaties}</tbody>
     </table>
   );
-  // <div>{listOfAllTreaties}</div>;
 };
 
 export default AllTreaties;
