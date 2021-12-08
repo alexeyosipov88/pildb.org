@@ -78,7 +78,6 @@ const TreatiesForOrganization = () => {
       <div>{listOfTreatiesForOrganization}</div>
     </div>
   )
-
   
 };
 

@@ -22,7 +22,20 @@ const AllTreaties = () => {
     );
   });
 
-  return <div>{listOfAllTreaties}</div>;
+  return (
+    <table>
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>Name of the treaty</th>
+          <th>City:</th>
+          <th>Date signed:</th>
+        </tr>
+      </thead>
+      <tbody>{listOfAllTreaties}</tbody>
+    </table>
+  );
+  // <div>{listOfAllTreaties}</div>;
 };
 
 export default AllTreaties;

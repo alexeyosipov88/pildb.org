@@ -4,19 +4,37 @@ const TreatiesListItem = (props) => {
   const timeStamp = props.concluded;
   const date = new Date(timeStamp).toLocaleDateString("en-GB");
   return (
-    <article>
-      <header>
-        <p>{props.name}</p>
-      </header>
-      <footer>
+    <tr>
+      <td>{props.id}</td>
+      <td>
+        <Link className="link" to={`/treaties/${props.id}`}>
+          <p>{props.name}</p>
+        </Link>
+      </td>
+      <td>{props.city}</td>
+      <td>{date}</td>
+      <td>
         <div>
-          <div>{props.city}</div>
-          <div>{date}</div>
           <Link className="link button" to={`/treaties/${props.id}`}>
-          <button type='button'>Check status</button> </Link>
+            <button type="button">Check status</button>
+          </Link>
         </div>
-      </footer>
-    </article>
+      </td>
+    </tr>
+
+    // <article>
+    //   <header>
+    //     <p>{props.name}</p>
+    //   </header>
+    //   <footer>
+    //     <div>
+    //       <div>{props.city}</div>
+    //       <div>{date}</div>
+    //       <Link className="link button" to={`/treaties/${props.id}`}>
+    //       <button type='button'>Check status</button> </Link>
+    //     </div>
+    //   </footer>
+    // </article>
   );
 };
 export default TreatiesListItem;
