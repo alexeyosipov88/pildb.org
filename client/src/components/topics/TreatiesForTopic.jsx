@@ -12,7 +12,25 @@ const TreatiesForTopic = (props) => {
       setTreaties(treaties.data);
     });
   }, []);
-  const topic_name = treaties[0] && treaties[0].topic_name;
+  // let topic_name = treaties[0] && treaties[0].topic_name;
+  // const firstLetter = topic_name.charAt(0);
+  // const upperCaseFirstLetter = firstLetter.toUpperCase();
+  // topic_name = topic_name.replace(firstLetter, upperCaseFirstLetter);
+
+  let topic_name = treaties[0] && treaties[0].topic_name;
+  if(treaties[0]) {
+    topic_name = treaties[0].topic_name;
+    topic_name = topic_name.split(" ");
+    topic_name = topic_name.map((elem) => {
+      if(elem.length > 2 && elem !== "and" && elem !== "the") {
+        const firstLetter = elem.charAt(0);
+        const upperCaseFirstLetter = firstLetter.toUpperCase();
+        elem = elem.replace(firstLetter, upperCaseFirstLetter); 
+      }
+      return elem;
+    }).join(" ");
+
+  }
   console.log(treaties);
   return (
     <div>

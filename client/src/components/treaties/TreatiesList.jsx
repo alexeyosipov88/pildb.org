@@ -5,7 +5,7 @@ const TreatiesList = (props) => {
   const listOfTreaties = props.treaties.map((elem) => {
     return (
       <TreatiesListItem
-        key={elem.treaty_id}
+        key={elem.id}
         id={elem.id}
         name={elem.name}
         city={elem.city}

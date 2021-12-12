@@ -7,6 +7,7 @@ import wipoLogo from "../../images/logos/wipo-logo.png";
 import { Link } from "react-router-dom";
 
 const Home = () => {
+  
   return (
     <div className="home flex">
       <HomeTopicsList />
