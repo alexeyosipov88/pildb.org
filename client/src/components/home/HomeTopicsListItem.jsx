@@ -2,9 +2,16 @@ import { Link } from "react-router-dom";
 import { Outlet } from "react-router";
 const TopicsListItem = (props) => {
   let name = props.name;
-  const firstLetter = name.charAt(0);
-  const upperCaseFirstLetter = firstLetter.toUpperCase();
-  name = name.replace(firstLetter, upperCaseFirstLetter);
+  name = name.split(" ");
+  name = name.map((elem) => {
+    if(elem.length > 2 && elem !== "and" && elem !== "the") {
+      const firstLetter = elem.charAt(0);
+      const upperCaseFirstLetter = firstLetter.toUpperCase();
+      elem = elem.replace(firstLetter, upperCaseFirstLetter); 
+    }
+    return elem;
+  }).join(" ");
+  
   return (
     <div className="box-topic">
       <div> 

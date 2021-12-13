@@ -11,10 +11,6 @@ const TopicsListItem = (props) => {
     }
     return elem;
   }).join(" ");
-  console.log(name);
-  // const firstLetter = name.charAt(0);
-  // const upperCaseFirstLetter = firstLetter.toUpperCase();
-  // name = name.replace(firstLetter, upperCaseFirstLetter);
 
   return (
     <tr>

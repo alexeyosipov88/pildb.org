@@ -15,7 +15,7 @@ const CountriesListItem = (props) => {
         {props.amount}{props.amount > 1 ? " treaties" : " treaty"}
           <img
             className="more-info-icon"
-            src={moreInfoIcon}
+            src={moreInfoIcon}  
             alt="more-info-icon"
           />
       </td>

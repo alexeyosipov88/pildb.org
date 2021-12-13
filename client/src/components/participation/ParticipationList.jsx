@@ -26,10 +26,12 @@ const ParticipationList = (props) => {
     ? new Date(treatyEnteredIntoForce).toLocaleDateString("en-GB")
     : null;
   console.log(participation);
+  let id = 1;
   const listOfParticipation = participation.map((elem) => {
     return (
       <ParticipationListItem
-        id={elem.id}
+        key={elem.id}
+        id={id++}
         country_name={elem.country_name}
         signed={elem.signed}
         bound={elem.bound}
@@ -55,7 +57,10 @@ const ParticipationList = (props) => {
             <th>Id</th>
             <th>Name of the country</th>
             <th>Date of signature</th>
-            <th>Date of ratification (acceptance)</th>
+            <th>Date of<br/>
+              ratification /<br/> 
+            acceptance /<br/> 
+            accession</th>
           </tr>
         </thead>
         <tbody>{listOfParticipation}</tbody>

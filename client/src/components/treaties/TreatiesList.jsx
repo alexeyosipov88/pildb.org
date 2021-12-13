@@ -2,11 +2,12 @@
 import TreatiesListItem from "./TreatiesListItem";
 
 const TreatiesList = (props) => {
+  let id = 1;
   const listOfTreaties = props.treaties.map((elem) => {
     return (
       <TreatiesListItem
         key={elem.id}
-        id={elem.id}
+        id={id++}
         name={elem.name}
         city={elem.city}
         concluded={elem.concluded}

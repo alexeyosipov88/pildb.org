@@ -9,7 +9,7 @@ const Organizations = (props) => {
           <tr>
             <th>Id</th>
             <th>Name of the organization</th>
-            <th>Treaties in the database:</th>
+            <th>Number of treaties in database:</th>
           </tr>
         </thead>
         <tbody>
@@ -71,7 +71,7 @@ const Organizations = (props) => {
             <td>4</td>
             <td>
               <Link className="link" to={`/organizations/icao`}>
-                ICAO
+              International Civil Aviation Organization
               </Link>
             </td>
             <td>

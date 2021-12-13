@@ -7,6 +7,7 @@ const ParticipationListItem = (props) => {
   const dateBound = props.bound
     ? new Date(props.bound).toLocaleDateString("en-GB")
     : null;
+  
   return (
     <tr>
       <td>{props.id}</td>
@@ -18,19 +19,7 @@ const ParticipationListItem = (props) => {
       <td>{dateSigned}</td>
       <td>{dateBound}</td>
     </tr>
-    // <article>
-    //   <header>
-    //     <Link className="link" to={`/countries/${props.country_id}`}>
-    //     <p>{props.country_name}</p>
-    //     </Link>
-    //   </header>
-    //   <footer>
-    //     <div>
-    //       <div>Date signed: {dateSigned}</div>
-    //       <div>Date of ratification (acceptance): {dateBound}</div>
-    //     </div>
-    //   </footer>
-    // </article>
+
   );
 };
 export default ParticipationListItem;
