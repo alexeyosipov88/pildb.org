@@ -24,13 +24,15 @@ const Navbar = () => {
     console.log("clicked on nav menu bar");
   };
   return (
+    // <header className={navMenuClass}>
     <header className={navMenuClass}>
       <div className={ovelay}></div>
-      <a href="/" className="header__logo">
+      <div>
+        <a href="/" className="header__logo">
           <img style={{ width: "50px" }} src={logo} alt="logo" />
-        </a>  
+        </a>
+      </div>
       <nav className="container flex flex-jc-sa flex-ai-c">
-        
         <div className="header__links hide-for-mobile flex flex-jc-sa flex-ai-c">
           <Link className="link" to="#">
             About
@@ -65,6 +67,7 @@ const Navbar = () => {
         clickOnHamburger={clickOnHamburger}
         overlayMenuClass={overlayMenuClass}
       />
+      {/* </header> */}
     </header>
   );
 };

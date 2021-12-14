@@ -1,5 +1,4 @@
 @import "mixins";
-
 html {
   font-size: 100%;
   box-sizing: border-box;
@@ -10,7 +9,6 @@ html {
 *::after {
   box-sizing: inherit;
 }
-
 body {
   margin: 0;
   margin: 0;
@@ -31,7 +29,6 @@ body {
 }
 
 .container {
-  
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
@@ -48,6 +45,7 @@ body {
 
 .flex {
   display: flex;
+
   &-jc-sb {
     justify-content: space-between;
   }
@@ -60,17 +58,19 @@ body {
   &-ai-c {
     align-items: center;
   }
-  
   &-fw-w {
     flex-wrap: wrap;
   }
 }
 
+.align-self {
+  align-self: flex-end;
+}
+
 button,
 .button {
-  // padding: 1rem 1.875rem;
-  background: linear-gradient(to right, $limeGreen, $brightCyan);
-  border-radius: 50px;
+  background: rgb(164, 201, 164);
+  border-radius: 3px;
   cursor: pointer;
   border: 0;
   color: $white;
@@ -87,6 +87,7 @@ button,
 .hide-for-desktop {
   @include breakpoint-up(medium) {
     display: none;
+    
   }
   //hide for desktop viewport widht
 }

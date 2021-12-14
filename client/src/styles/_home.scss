@@ -1,5 +1,5 @@
 .home {
-  width: 900px;
+  width: 56.25rem;
   .topics {
     width: 800px;
     flex: 0 0 40%;
@@ -17,18 +17,26 @@
   .organizations {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    margin-left: 100px;
-    width: 400px;
+    margin-left: 6.25rem;
+    width: 25rem;
     div {
       display: flex;
-      flex-direction: row;
-    
-      margin-bottom: 80px;
+      flex-direction: column;
+      margin-bottom: 2.5rem;
+      .organization-title {
+        width: 50%;
+        align-self: center;
+      }
+      .logo-image {
+        margin-left: 3rem;
+      }
     }
     .big-logos {
+      #un-logo {
+        align-self: center;
+        margin-left: 3rem;
+      }
       display: flex;
-      flex-direction: row;
       justify-content: center;
       img {
         width: 60%;
@@ -37,6 +45,5 @@
     img {
       width: 80%;
     }
-    
   }
 }

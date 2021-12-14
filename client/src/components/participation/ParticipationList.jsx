@@ -66,20 +66,6 @@ const ParticipationList = (props) => {
         <tbody>{listOfParticipation}</tbody>
       </table>
     </div>
-
-    // <div>
-    //   <header>
-    //     <h2>{treaty_name}</h2>
-    //     <div>City of signature: {city}</div>
-    //     <div>Signed: {dateConcluded}</div>
-    //     <div>
-    //       {dateTreatyEnteredIntoForce
-    //         ? `Entered into force ${dateTreatyEnteredIntoForce}`
-    //         : `Not yet into force`}
-    //     </div>
-    //   </header>
-    //   <div>{listOfParticipation}</div>
-    // </div>
   );
 };
 export default ParticipationList;

@@ -9,6 +9,8 @@
   }
   &.open {
     .header__toggle {
+      
+      
       > span:first-child {
         transform: rotate(45deg);
       }
@@ -49,9 +51,7 @@
     bottom: 0px;
     left: 0px;
     background-image: linear-gradient($darkBlue, transparent);
-  
   }
-
   &__logo {
     img {
       width: 8.8125rem;
@@ -59,6 +59,8 @@
     }
   }
   &__toggle {
+    position: absolute;
+    right: 0;
     > span {
       display: block;
       width: 26px;
