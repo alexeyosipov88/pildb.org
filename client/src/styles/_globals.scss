@@ -24,9 +24,9 @@ body {
 .link,
 .link:visited {
   text-decoration: none;
-  color: $grayishBlue;
+  color:$mainBlue;
   &:hover {
-    color: $darkBlue;
+    color:$lightBlue;
   }
 }
 

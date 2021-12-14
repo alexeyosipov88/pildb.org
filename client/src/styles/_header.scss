@@ -32,10 +32,10 @@
     .link, link:visited {
       display: block;
       padding: 0.625rem;
-      color: $grayishBlue;
+      color: $mainBlue;
       text-align: center;
       &:hover {
-        color: $darkBlue;
+        color: $lightBlue;
       }
     }
 
@@ -77,7 +77,7 @@
     .link {
       position: relative;
       font-size: $font-sm;
-      color: $grayishBlue;
+      color: $mainBlue;
       transition: color 200ms ease-in-out;
 
       &::after {
@@ -97,7 +97,7 @@
       }
 
       &:hover {
-        color: $darkBlue;
+        color: $lightBlue;
         &::after {
           opacity: 0.4;
         }
