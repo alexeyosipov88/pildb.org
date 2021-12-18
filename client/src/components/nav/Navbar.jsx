@@ -24,7 +24,7 @@ const Navbar = () => {
     console.log("clicked on nav menu bar");
   };
   return (
-    // <header className={navMenuClass}>
+    
     <header className={navMenuClass}>
       <div className={ovelay}></div>
       <div>

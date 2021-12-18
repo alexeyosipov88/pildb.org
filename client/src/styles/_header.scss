@@ -9,8 +9,6 @@
   }
   &.open {
     .header__toggle {
-      
-      
       > span:first-child {
         transform: rotate(45deg);
       }
@@ -78,7 +76,7 @@
   &__links {
     .link {
       position: relative;
-      font-size: $font-sm;
+      font-size: $font-med;
       color: $mainBlue;
       transition: color 200ms ease-in-out;
 
