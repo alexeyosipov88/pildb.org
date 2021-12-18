@@ -15,8 +15,8 @@ const TreatiesListItem = (props) => {
       <td>{date}</td>
       <td>
         <div key={props.id}>
-          <Link className="link button" to={`/treaties/${props.id}`}>
-            <button type="button">Check status</button>
+          <Link to={`/treaties/${props.id}`}>
+            <button className="status-btn" type="button">check status</button>
           </Link>
         </div>
       </td>

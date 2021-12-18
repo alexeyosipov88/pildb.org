@@ -36,6 +36,8 @@ const CountriesList = (props) => {
             <th>Id</th>
             <th>Name of the country</th>
             <th>Participates in:</th>
+            <th>More info:</th>
+
           </tr>
         </thead>
         <tbody>

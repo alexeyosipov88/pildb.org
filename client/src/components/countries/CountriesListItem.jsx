@@ -10,16 +10,13 @@ const CountriesListItem = (props) => {
           <p>{props.name}</p>
         </Link>
       </td>
-        <Link className="link" to={`/countries/${props.id}`}>
       <td>
-        {props.amount}{props.amount > 1 ? " treaties" : " treaty"}
-          <img
-            className="more-info-icon"
-            src={moreInfoIcon}  
-            alt="more-info-icon"
-          />
+        {props.amount}
+        {props.amount > 1 ? " treaties" : " treaty"}
       </td>
-        </Link>
+      <td>
+        <button className="more-info-btn">more info</button>
+      </td>
     </tr>
   );
 };

@@ -67,7 +67,6 @@ const Navbar = () => {
         clickOnHamburger={clickOnHamburger}
         overlayMenuClass={overlayMenuClass}
       />
-      {/* </header> */}
     </header>
   );
 };
