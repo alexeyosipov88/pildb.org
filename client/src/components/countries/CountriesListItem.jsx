@@ -15,7 +15,9 @@ const CountriesListItem = (props) => {
         {props.amount > 1 ? " treaties" : " treaty"}
       </td>
       <td>
-        <button className="more-info-btn">more info</button>
+        <Link className="link" to={`/countries/${props.id}`}>
+          <button className="more-info-btn">more info</button>
+        </Link>
       </td>
     </tr>
   );
