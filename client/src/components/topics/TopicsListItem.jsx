@@ -16,14 +16,19 @@ const TopicsListItem = (props) => {
   return (
     <tr>
       <td>
-        <p>{props.id}</p>
+        <p>
+          <span className="th-mobile"># </span>
+          {props.id}
+        </p>
       </td>
       <td>
+        <p className="th-mobile">Name of organization:</p>
         <Link className="link" to={`/topics/${props.id}`}>
           <p>{name}</p>
         </Link>
       </td>
       <td>
+        <p className="th-mobile">Amount of treaties in database:</p>
         <p>
           {props.amount}
           {props.amount > 1 ? " treaties" : " treaty"}

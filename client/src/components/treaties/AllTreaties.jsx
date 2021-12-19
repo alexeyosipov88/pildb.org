@@ -26,10 +26,18 @@ const AllTreaties = () => {
     <table>
       <thead>
         <tr>
-          <th>Id</th>
-          <th>Name of the treaty</th>
-          <th>City:</th>
-          <th>Date signed:</th>
+          <th>
+            <p>Id</p>
+          </th>
+          <th>
+            <p>Name of the treaty</p>
+          </th>
+          <th>
+            <p>City of signature</p>
+          </th>
+          <th>
+            <p>Date signed:</p>
+          </th>
         </tr>
       </thead>
       <tbody>{listOfAllTreaties}</tbody>

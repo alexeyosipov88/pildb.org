@@ -42,12 +42,12 @@
   .th-mobile {
     display: none;
   }
-
   @include breakpoint-down(small) {
-    /* Force table to not be like tables anymore */
+
     .th-mobile {
+      opacity: 0.6;
       font-style: italic;
-      display: block;
+      display: unset;
     }
     table,
     thead,

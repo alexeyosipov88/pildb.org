@@ -13,52 +13,62 @@ const Home = () => {
       <div className="organizations">
         <div>
           <div>
-            <Link to={`/organizations/hague`}>
+            <Link className="link" to={`/organizations/hague`}>
               <img src={hagueLogo} alt="hague convention logo" />
             </Link>
           </div>
           <div class="organization-title">
-            <Link to={`/organizations/hague`}>Hague Convention</Link>
+            <Link className="link" to={`/organizations/hague`}>
+              <p>Hague Convention</p>
+            </Link>
           </div>
         </div>
         <div className="big-logos">
           <div className="logo-image">
-            <Link to={`/organizations/un`}>
+            <Link className="link" to={`/organizations/un`}>
               <img src={unLogo} alt="" />
             </Link>
           </div>
           <div class="organization-title">
-            <Link to={`/organizations/un`}>United Nations</Link>
+            <Link className="link" to={`/organizations/un`}>
+              <p>United Nations</p>
+            </Link>
           </div>
         </div>
         <div>
           <div className="logo-image">
-            <Link to={`/organizations/unidroit`}>
+            <Link className="link" to={`/organizations/unidroit`}>
               <img src={unidroitLogo} alt="" />
             </Link>
           </div>
           <div class="organization-title">
-            <Link to={`/organizations/unidroit`}>Unidroit</Link>
+            <Link className="link" to={`/organizations/unidroit`}>
+              <p>Unidroit</p>
+            </Link>
           </div>
         </div>
         <div className="big-logos">
           <div className="logo-image">
-            <Link to={`/organizations/icao`}>
+            <Link className="link" to={`/organizations/icao`}>
               <img src={icaoLogo} alt="" />
             </Link>
           </div>
           <div class="organization-title">
-            <Link to={`/organizations/icao`}>ICAO</Link>
+            <Link className="link" to={`/organizations/icao`}>
+              <p>ICAO</p>
+            </Link>
           </div>
         </div>
         <div className="big-logos">
           <div className="logo-image">
-            <Link to={`/organizations/wipo`}>
+            <Link className="link" to={`/organizations/wipo`}>
               <img src={wipoLogo} alt="" />
             </Link>
           </div>
           <div class="organization-title">
-            <Link to={`/organizations/wipo`}>WIPO</Link>
+            <Link className="link" to={`/organizations/wipo`}>
+              <p>WIPO</p>
+            </Link>
           </div>
         </div>
       </div>

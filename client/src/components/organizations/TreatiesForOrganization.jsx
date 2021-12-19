@@ -75,15 +75,25 @@ const TreatiesForOrganization = () => {
       <table>
         <thead>
           <tr>
-            <th>Id</th>
-            <th>Name of the organization</th>
-            <th>City of signature</th>
-            <th>Date of signature</th>
-            <th>Status</th>
+            <th>
+              <p>Id</p>
+            </th>
+            <th>
+              <p>Name of the organization</p>
+            </th>
+            <th>
+              <p>City of signature</p>
+            </th>
+            <th>
+              <p>Date of signature</p>
+            </th>
+            <th>
+              <p>Status</p>
+            </th>
           </tr>
         </thead>
         <tbody>{listOfTreatiesForOrganization}</tbody>
-      </table>      
+      </table>
     </div>
   );
 };

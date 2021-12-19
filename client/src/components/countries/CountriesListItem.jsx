@@ -5,7 +5,7 @@ const CountriesListItem = (props) => {
   return (
     <tr>
       <td>
-        {props.id}
+        <p><span className="th-mobile"># </span> {props.id}</p>
       </td>
       <td>
         <p className="th-mobile">Name of the country: </p>
@@ -14,9 +14,11 @@ const CountriesListItem = (props) => {
         </Link>
       </td>
       <td>
-      <p className="th-mobile">Participates in: </p>
-        {props.amount}
-        {props.amount > 1 ? " treaties" : " treaty"}
+        <p className="th-mobile">Participates in: </p>
+        <p>
+          {props.amount}
+          {props.amount > 1 ? " treaties" : " treaty"}
+        </p>
       </td>
       <td>
         <Link className="link" to={`/countries/${props.id}`}>

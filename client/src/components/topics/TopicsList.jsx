@@ -45,7 +45,7 @@ const TopicsList = (props) => {
               <p>Name of the topic</p>
             </th>
             <th>
-              <p>Treaties in a database:</p>
+              <p>Amount of treaties in database</p>
             </th>
             <th>
               <p>more info</p>

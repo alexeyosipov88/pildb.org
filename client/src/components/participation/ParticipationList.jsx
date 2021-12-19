@@ -14,7 +14,21 @@ const ParticipationList = (props) => {
         setParticipation(participation.data);
       });
   }, []);
-  const treaty_name = participation[0] && participation[0].treaty_name;
+  let treaty_name = participation[0] && participation[0].treaty_name;
+  if (treaty_name) {
+    treaty_name = treaty_name.split(" ");
+    treaty_name = treaty_name
+      .map((elem) => {
+        if (elem.length > 2 && elem !== "and" && elem !== "the") {
+          const firstLetter = elem.charAt(0);
+          const upperCaseFirstLetter = firstLetter.toUpperCase();
+          elem = elem.replace(firstLetter, upperCaseFirstLetter);
+        }
+        return elem;
+      })
+      .join(" ");
+  }
+
   const city = participation[0] && participation[0].city;
   const concluded = participation[0] && participation[0].concluded;
   const dateConcluded = concluded
@@ -25,7 +39,6 @@ const ParticipationList = (props) => {
   const dateTreatyEnteredIntoForce = treatyEnteredIntoForce
     ? new Date(treatyEnteredIntoForce).toLocaleDateString("en-GB")
     : null;
-  console.log(participation);
   let id = 1;
   const listOfParticipation = participation.map((elem) => {
     return (
@@ -54,13 +67,18 @@ const ParticipationList = (props) => {
       <table>
         <thead>
           <tr>
-            <th>Id</th>
-            <th>Name of the country</th>
-            <th>Date of signature</th>
-            <th>Date of<br/>
-              ratification /<br/> 
-            acceptance /<br/> 
-            accession</th>
+            <th>
+              <p>Id</p>
+            </th>
+            <th>
+              <p>Name of the country</p>
+            </th>
+            <th>
+              <p>Date of signature</p>
+            </th>
+            <th>
+              <p>Date of ratification / acceptance / accession</p>
+            </th>
           </tr>
         </thead>
         <tbody>{listOfParticipation}</tbody>
