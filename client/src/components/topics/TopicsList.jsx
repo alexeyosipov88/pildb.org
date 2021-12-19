@@ -19,11 +19,18 @@ const TopicsList = (props) => {
   }, []);
   let id = 1;
   const listOfTopics = topics.map((elem) => {
-    const amountOfTreaties = countTreatiesByTopic.find(topic => {
+    const amountOfTreaties = countTreatiesByTopic.find((topic) => {
       return topic.id === elem.id;
-    })
+    });
     const amount = amountOfTreaties && amountOfTreaties.count;
-    return <TopicsListItem key={elem.id} name={elem.name} id={elem.id} amount={amount}/>;
+    return (
+      <TopicsListItem
+        key={elem.id}
+        name={elem.name}
+        id={elem.id}
+        amount={amount}
+      />
+    );
   });
 
   return (
@@ -31,9 +38,18 @@ const TopicsList = (props) => {
       <table>
         <thead>
           <tr>
-            <th>Id</th>
-            <th>Name of the topic</th>
-            <th>Treaties in a database:</th>
+            <th>
+              <p>Id</p>
+            </th>
+            <th>
+              <p>Name of the topic</p>
+            </th>
+            <th>
+              <p>Treaties in a database:</p>
+            </th>
+            <th>
+              <p>more info</p>
+            </th>
           </tr>
         </thead>
         <tbody>{listOfTopics}</tbody>

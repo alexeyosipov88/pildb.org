@@ -10,96 +10,97 @@ const Organizations = (props) => {
             <th>Id</th>
             <th>Name of the organization</th>
             <th>Number of treaties in database:</th>
+            <th>More info</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>1</td>
+            <td>
+              <p>1</p>
+            </td>
             <td>
               <Link className="link" to={`/organizations/hague`}>
-                Hague Conference
+                <p>Hague Conference</p>
               </Link>
             </td>
             <td>
-              39 treaties
+              <p>39 treaties</p>
+            </td>
+            <td>
               <Link className="link" to={`/organizations/hague`}>
-                <img
-                  className="more-info-icon"
-                  src={moreInfoIcon}
-                  alt="more-info-icon"
-                />
+                <button className="more-info-btn">more info</button>
               </Link>
             </td>
           </tr>
           <tr>
-            <td>2</td>
+            <td>
+              <p>2</p>
+            </td>
             <td>
               <Link className="link" to={`/organizations/un`}>
-                United Nations
+                <p>United Nations</p>
               </Link>
             </td>
             <td>
-              26 treaties
+              <p>26 treaties</p>
+            </td>
+            <td>
               <Link className="link" to={`/organizations/un`}>
-                <img
-                  className="more-info-icon"
-                  src={moreInfoIcon}
-                  alt="more-info-icon"
-                />
+                <button className="more-info-btn">more info</button>
               </Link>
             </td>
           </tr>
           <tr>
-            <td>3</td>
+            <td>
+              <p>3</p>
+            </td>
             <td>
               <Link className="link" to={`/organizations/unidroit`}>
-                Unidroit
+                <p>Unidroit</p>
               </Link>
             </td>
             <td>
-              14 treaties
+              <p>14 treaties</p>
+            </td>
+            <td>
               <Link className="link" to={`/organizations/unidroit`}>
-                <img
-                  className="more-info-icon"
-                  src={moreInfoIcon}
-                  alt="more-info-icon"
-                />
+                <button className="more-info-btn">more info</button>
               </Link>
             </td>
           </tr>
           <tr>
-            <td>4</td>
+            <td>
+              <p>4</p>
+            </td>
             <td>
               <Link className="link" to={`/organizations/icao`}>
-              International Civil Aviation Organization
+                <p>International Civil Aviation Organization</p>
               </Link>
             </td>
             <td>
-              13 treaties
+              <p>13 treaties</p>
+            </td>
+            <td>
               <Link className="link" to={`/organizations/icao`}>
-                <img
-                  className="more-info-icon"
-                  src={moreInfoIcon}
-                  alt="more-info-icon"
-                />
+                <button className="more-info-btn">more info</button>
               </Link>
             </td>
           </tr>
           <tr>
-            <td>5</td>
+            <td>
+              <p>5</p>
+            </td>
             <td>
               <Link className="link" to={`/organizations/wipo`}>
-                World Intellectual Property Organization
+                <p>World Intellectual Property Organization</p>
               </Link>
             </td>
             <td>
-              24 treaties
+              <p>24 treaties</p>
+            </td>
+            <td>
               <Link className="link" to={`/organizations/wipo`}>
-                <img
-                  className="more-info-icon"
-                  src={moreInfoIcon}
-                  alt="more-info-icon"
-                />
+                <button className="more-info-btn">more info</button>
               </Link>
             </td>
           </tr>

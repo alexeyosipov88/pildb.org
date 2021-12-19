@@ -77,7 +77,9 @@ const TreatiesForOrganization = () => {
           <tr>
             <th>Id</th>
             <th>Name of the organization</th>
-            <th>Participates in:</th>
+            <th>City of signature</th>
+            <th>Date of signature</th>
+            <th>Status</th>
           </tr>
         </thead>
         <tbody>{listOfTreatiesForOrganization}</tbody>

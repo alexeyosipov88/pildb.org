@@ -1,35 +1,37 @@
-import moreInfoIcon from "../../images/more-info-icon.png";
 import { Link } from "react-router-dom";
 const TopicsListItem = (props) => {
   let name = props.name;
   name = name.split(" ");
-  name = name.map((elem) => {
-    if(elem.length > 2 && elem !== "and" && elem !== "the") {
-      const firstLetter = elem.charAt(0);
-      const upperCaseFirstLetter = firstLetter.toUpperCase();
-      elem = elem.replace(firstLetter, upperCaseFirstLetter); 
-    }
-    return elem;
-  }).join(" ");
+  name = name
+    .map((elem) => {
+      if (elem.length > 2 && elem !== "and" && elem !== "the") {
+        const firstLetter = elem.charAt(0);
+        const upperCaseFirstLetter = firstLetter.toUpperCase();
+        elem = elem.replace(firstLetter, upperCaseFirstLetter);
+      }
+      return elem;
+    })
+    .join(" ");
 
   return (
     <tr>
-      <td>{props.id}</td>
+      <td>
+        <p>{props.id}</p>
+      </td>
       <td>
         <Link className="link" to={`/topics/${props.id}`}>
           <p>{name}</p>
         </Link>
       </td>
-
       <td>
-        <Link className="link" to={`/topics/${props.id}`}>
+        <p>
           {props.amount}
           {props.amount > 1 ? " treaties" : " treaty"}
-          <img
-            className="more-info-icon"
-            src={moreInfoIcon}
-            alt="more-info-icon"
-          />
+        </p>
+      </td>
+      <td>
+        <Link className="link" to={`/topics/${props.id}`}>
+          <button className="more-info-btn">more info</button>
         </Link>
       </td>
     </tr>
