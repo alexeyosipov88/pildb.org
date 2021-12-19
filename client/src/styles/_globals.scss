@@ -101,7 +101,6 @@ body {
 }
 
 .hide-for-mobile {
-  //hide for tablet and movile devices
   @include breakpoint-down(small) {
     display: none;
   }
@@ -110,7 +109,5 @@ body {
 .hide-for-desktop {
   @include breakpoint-up(medium) {
     display: none;
-    
   }
-  //hide for desktop viewport widht
 }
