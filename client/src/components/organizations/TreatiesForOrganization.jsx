@@ -54,12 +54,13 @@ const TreatiesForOrganization = () => {
       return filterByName(organizationName, elem.id);
     }
   );
+  let id = 0;
   const listOfTreatiesForOrganization = filteredTreatiesForOrganization.map(
     (elem) => {
       return (
         <TreatiesListItem
           key={elem.id}
-          id={elem.id}
+          id={++id}
           name={elem.name}
           city={elem.city}
           concluded={elem.concluded}

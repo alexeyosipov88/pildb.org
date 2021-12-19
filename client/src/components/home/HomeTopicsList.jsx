@@ -6,7 +6,6 @@ import topicsIconsObject from '../../images/topics-icons/topics-icons-object.js'
 
 
 const HomeTopicsList = (props) => {
-  console.log(topicsIconsObject)
   const [topics, setTopics] = useState([]);
 
   useEffect(() => {

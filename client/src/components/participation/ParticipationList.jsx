@@ -31,6 +31,31 @@ const ParticipationList = (props) => {
 
   const city = participation[0] && participation[0].city;
   const concluded = participation[0] && participation[0].concluded;
+
+  const convertDateToReadable = (date) => {
+    if (!date) {
+      return;
+    }
+    const monthObj = {
+      "01": "January",
+      "02": "February",
+      "03": "March",
+      "04": "April",
+      "05": "May",
+      "06": "June",
+      "07": "July",
+      "08": "August",
+      "09": "September",
+      10: "October",
+      11: "November",
+      12: "December",
+    };
+    date = date.split("/");
+    date[1] = monthObj[date[1]];
+    date[0] = date[0].charAt(0) === "0" ? date[0].slice(1) : date[0];
+    date = date.join(" ");
+    return date;
+  };
   const dateConcluded = concluded
     ? new Date(concluded).toLocaleDateString("en-GB")
     : null;
@@ -52,16 +77,27 @@ const ParticipationList = (props) => {
       />
     );
   });
+  let check = "<span>Check</span>";
   return (
     <div>
       <header>
         <h2>{treaty_name}</h2>
-        <div>City of signature: {city}</div>
-        <div>Signed: {dateConcluded}</div>
         <div>
-          {dateTreatyEnteredIntoForce
-            ? `Entered into force ${dateTreatyEnteredIntoForce}`
-            : `Not yet into force`}
+          <p>
+            <span className="status-info">City of signature: </span>
+            {city}
+          </p>
+        </div>
+        <div>
+          <p>
+            <span className="status-info">Signed: </span>{convertDateToReadable(dateConcluded)}
+          </p>
+        </div>
+        <div>
+          <p>
+            {dateTreatyEnteredIntoForce
+              ? <span><span className="status-info">Entered into force: </span>{convertDateToReadable(dateTreatyEnteredIntoForce)}</span>  : <span className="not-in-force">Not yet into force</span>}
+          </p>
         </div>
       </header>
       <table>
@@ -77,7 +113,7 @@ const ParticipationList = (props) => {
               <p>Date of signature</p>
             </th>
             <th>
-              <p>Date of ratification / acceptance / accession</p>
+              <p>Date of ratification/ acceptance/ accession</p>
             </th>
           </tr>
         </thead>

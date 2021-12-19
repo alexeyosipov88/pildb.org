@@ -21,7 +21,6 @@ const Navbar = () => {
       setOverlay("overlay fade-out");
       setOverlayMenuClass("header__menu container fade-out");
     }
-    console.log("clicked on nav menu bar");
   };
   return (
     

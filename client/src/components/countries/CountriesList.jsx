@@ -19,24 +19,34 @@ const CountriesList = (props) => {
       setCountries(result[1].data);
     });
   }, []);
-  console.log(countTreatiesForCountries);
-  const listOfCountries = countries.map((elem) => {
+  const sortedCountries = countries.sort((a,b) => {
+    if(a.name > b.name) {
+      return 1;
+    }
+    if(a.name < b.name) {
+      return -1;
+    }
+    else return 0;
+
+  })
+
+  const listOfCountries = sortedCountries.map((elem) => {
     const amountOfTreaties = countTreatiesForCountries.find((count) => {
       return count.id === elem.id;
     });
+
     const amount = amountOfTreaties && amountOfTreaties.count;
-    console.log(amount);
     return (
       <CountriesListItem
-        key={elem.id}
-        amount={amount}
-        name={elem.name}
-        id={elem.id}
+      key={elem.id}
+      amount={amount}
+      name={elem.name}
+      id={elem.id}
       />
-    );
-  });
-
-  return (
+      );
+    });
+    
+    return (
     <table>
       <thead>
         <tr>

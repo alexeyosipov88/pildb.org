@@ -31,7 +31,6 @@ const TreatiesForTopic = (props) => {
     }).join(" ");
 
   }
-  console.log(treaties);
   return (
     <div>
       <header>

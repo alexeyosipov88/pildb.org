@@ -9,9 +9,20 @@
   h6 {
     max-width: fit-content;
   }
- 
+
+
+  header {
+    margin-bottom: 3rem;
+    padding: 2rem;
+    // background-color: rgba(241, 252, 253, 0.712);
+  }
   p {
-    max-width: 18.75rem;
+    .status-info {
+      font-style: italic;
+    }
+    .not-in-force {
+      font-weight: bold;
+    }
   }
 
   table {

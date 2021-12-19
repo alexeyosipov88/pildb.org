@@ -16,13 +16,13 @@ const TreatiesForCountry = (props) => {
     })
   }, [])
   const country_name = treaties[0] && treaties[0].country_name
-  console.log(treaties)
   return (
     <div>
       <header>
         <h1>
           {country_name}
         </h1>
+        <p>This country participates in {treaties.length} treaties.</p>
       </header>
       <TreatiesList treaties={treaties}/>
     </div>
