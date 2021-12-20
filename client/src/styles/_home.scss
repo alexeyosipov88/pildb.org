@@ -1,14 +1,24 @@
+@include breakpoint-down(small) {
+  .home {
+    flex-direction: column-reverse;
+    border-style: none;
+  }
+}
 .home {
-  width: 56.25rem;
+  img {
+    width: 100%;
+  }
   .topics {
-    flex: 0 0 40%;
-    // gap: 5px;
+    padding-right: 50px;
+    align-items: center;
     .box-topic {
-      background-color: aliceblue;
-      // padding: 30px;
-      flex: 0 1 50%;
+
+      .topic-image-container {
+        width: 40px;
+        margin: auto;
+      }
+      flex-basis: 33%;
       margin-bottom: 50px;
-      margin-right: 0;
       .topic-image {
         width: 100%;
       }
@@ -16,43 +26,34 @@
   }
 
   .organizations {
+    border-left: 1px solid #ccc;
+    justify-content: center;
+    padding-left: 50px;
     display: flex;
     flex-direction: column;
-    // margin-left: 6.25rem;
-    // width: 25rem;
-
     & > div {
-      // width:450px;
-      // padding: 60px;
-      background-color: rgba(236, 236, 255, 0.76);
       margin-bottom: 3rem;
       display: flex;
       flex-direction: column;
-      // width: fit-content;
-
-      img {
-        width: 100%;
+      & > div {
+        margin: auto;
       }
-
       #hague-logo {
         width: 200px;
       }
       #un-logo {
-        width: 180px;
+        width: 130px;
       }
       #unidroit-logo {
-        width: 290px;
+        width: 230px;
       }
       #icao-logo {
-        width: 200px;
+        width: 140px;
       }
 
       #wipo-logo {
-        width: 210px;
+        width: 160px;
       }
-     
-      
     }
-  
   }
 }

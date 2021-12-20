@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div className="home flex">
+    <div className="home flex container">
       <HomeTopicsList />
       <div className="organizations">
         <div>

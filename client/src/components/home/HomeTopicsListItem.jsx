@@ -16,7 +16,7 @@ const TopicsListItem = (props) => {
 
   return (
     <div className="box-topic">
-      <div>
+      <div className="topic-image-container">
         <img className="topic-image" src={props.img} alt={props.name} />
         <div>
           <Link className="link" to={`/topics/${props.id}`}>

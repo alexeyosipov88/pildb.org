@@ -21,6 +21,6 @@ const HomeTopicsList = (props) => {
     );
   });
 
-  return <div className="topics flex flex-jc-sb flex-fw-w">{listOfTopics}</div>;
+  return <div className="topics flex flex-fw-w">{listOfTopics}</div>;
 };
 export default HomeTopicsList;
