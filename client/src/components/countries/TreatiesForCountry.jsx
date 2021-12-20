@@ -22,7 +22,7 @@ const TreatiesForCountry = (props) => {
         <h1>
           {country_name}
         </h1>
-        <p>This country participates in {treaties.length} treaties.</p>
+        <p>This country participates in {treaties.length} multilateral treaties related to private international law.</p>
       </header>
       <TreatiesList treaties={treaties}/>
     </div>

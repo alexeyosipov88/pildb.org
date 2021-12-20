@@ -4,6 +4,9 @@ import moreInfoIcon from "../../images/more-info-icon.png";
 const Organizations = (props) => {
   return (
     <div>
+      <header>
+        
+      </header>
       <table>
         <thead>
           <tr>

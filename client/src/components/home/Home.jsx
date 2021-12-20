@@ -12,9 +12,9 @@ const Home = () => {
       <HomeTopicsList />
       <div className="organizations">
         <div>
-          <div>
+          <div id="hague-logo">
             <Link className="link" to={`/organizations/hague`}>
-              <img src={hagueLogo} alt="hague convention logo" />
+              <img  src={hagueLogo} alt="hague convention logo" />
             </Link>
           </div>
           <div class="organization-title">
@@ -24,7 +24,7 @@ const Home = () => {
           </div>
         </div>
         <div className="big-logos">
-          <div className="logo-image">
+          <div id="un-logo" className="logo-image">
             <Link className="link" to={`/organizations/un`}>
               <img src={unLogo} alt="" />
             </Link>
@@ -36,7 +36,7 @@ const Home = () => {
           </div>
         </div>
         <div>
-          <div className="logo-image">
+          <div id="unidroit-logo">
             <Link className="link" to={`/organizations/unidroit`}>
               <img src={unidroitLogo} alt="" />
             </Link>
@@ -48,7 +48,7 @@ const Home = () => {
           </div>
         </div>
         <div className="big-logos">
-          <div className="logo-image">
+          <div id="icao-logo">
             <Link className="link" to={`/organizations/icao`}>
               <img src={icaoLogo} alt="" />
             </Link>
@@ -60,7 +60,7 @@ const Home = () => {
           </div>
         </div>
         <div className="big-logos">
-          <div className="logo-image">
+          <div id="wipo-logo">
             <Link className="link" to={`/organizations/wipo`}>
               <img src={wipoLogo} alt="" />
             </Link>
