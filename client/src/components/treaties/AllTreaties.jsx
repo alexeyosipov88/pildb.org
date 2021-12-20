@@ -9,11 +9,23 @@ const AllTreaties = () => {
       setAllTreaties(treaties.data);
     });
   }, []);
+  
+  let id = 1;
+  if (allTreaties && allTreaties.length > 0) {
+    allTreaties.sort((a, b) => {
+      if (a.concluded > b.concluded) {
+        return 1;
+      } else if (a.concluded < b.concluded) {
+        return -1;
+      } else return 0;
+    });
+  }
+
   const listOfAllTreaties = allTreaties.map((elem) => {
     return (
       <TreatiesListItem
         key={elem.id}
-        id={elem.id}
+        id={id++}
         name={elem.name}
         city={elem.city}
         concluded={elem.concluded}
