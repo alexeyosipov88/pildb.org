@@ -1,8 +1,50 @@
 .footer {
+  .legal-footer { 
+    flex-direction: column;
+    padding: 10px;
+    width: fit-content;
+    p {
+      padding: 10px;
+      width: fit-content;
+      font-size: 10px;
+      margin: auto;
+    }
+    margin: auto;
+  }
+  .footer-info {
+    color: rgb(145, 141, 155);
+
+    flex-direction: column;
+  }
+  .footer-links {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    .link {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 100px;
+      padding-right: 100px;
+    }
+  }
   background-color: rgba(15, 16, 22, 0.897);
   padding-top: 64px;
   padding-bottom: 64px;
-
+  color: $white;
+  .icons-info {
+    font-size: 10px;
+    & > .link,
+    & > link:visited {
+      // text-decoration: underline;
+      display: inline;
+      color: $white;
+      padding: 0.625rem;
+      color: $white;
+      text-align: center;
+      &:hover {
+        color: $lightBlue;
+      }
+    }
+  }
   .link,
   link:visited {
     display: block;

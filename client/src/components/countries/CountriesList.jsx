@@ -8,7 +8,6 @@ const CountriesList = (props) => {
   const [countTreatiesForCountries, setCountTreatiesForCountries] = useState(
     []
   );
-
   useEffect(() => {
     const countTreatiesForCountries = axios.get(
       "http://localhost:4000/count-treaties"
