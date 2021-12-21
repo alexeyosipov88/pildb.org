@@ -1,16 +1,4 @@
-@include breakpoint-down(small) {
-  // .home {
-  //   flex-direction: column-reverse;
-  //   border-style: none;
-  // }
 
-  .organizations {
-    // border: none !important;
-    // padding-left: 0px !important;
-    // margin: 50px;
-    // background-color: rgb(238, 205, 156);
-  }
-}
 .home {
   @include breakpoint-down(small) {
     flex-direction: column-reverse;
@@ -67,7 +55,6 @@
       #icao-logo {
         width: 140px;
       }
-
       #wipo-logo {
         width: 160px;
       }

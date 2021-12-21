@@ -1,0 +1,16 @@
+.footer {
+  background-color: rgba(15, 16, 22, 0.897);
+  padding-top: 64px;
+  padding-bottom: 64px;
+
+  .link,
+  link:visited {
+    display: block;
+    padding: 0.625rem;
+    color: $white;
+    text-align: center;
+    &:hover {
+      color: $lightBlue;
+    }
+  }
+}
