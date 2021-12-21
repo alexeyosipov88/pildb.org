@@ -1,16 +1,18 @@
+
 .header {
   position: relative;
   z-index: 1;
   nav {
     position: relative;
-    // background-color: $white;
+    background-color: $white;
     margin: 0 1.5rem;
     padding-top: 1.0625rem;
     padding-bottom: 1.0625rem;
   }
   &.open {
     .header__toggle {
-      background-color: rgb(233, 233, 241);
+      margin-right: 10px;
+      // background-color: rgb(233, 233, 241);
       padding: 10px 0 10px 10px;
       // padding-left: 0.5rem;
       // padding-right: 0.5rem;
@@ -61,6 +63,8 @@
     }
   }
   &__toggle {
+    margin-right: 10px;
+
     position: absolute;
     right: 0;
     > span {
