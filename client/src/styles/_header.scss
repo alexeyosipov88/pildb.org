@@ -11,9 +11,9 @@
   &.open {
     .header__toggle {
       background-color: rgb(233, 233, 241);
-
-      padding-left: 0.5rem;
-      padding-right: 0.5rem;
+      padding: 10px 0 10px 10px;
+      // padding-left: 0.5rem;
+      // padding-right: 0.5rem;
       > span:first-child {
         transform: rotate(45deg);
       }

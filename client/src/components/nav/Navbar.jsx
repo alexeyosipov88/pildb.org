@@ -54,7 +54,7 @@ const Navbar = () => {
         </div>
         <a
           href="#"
-          className="header__toggle container hide-for-desktop"
+          className="header__toggle hide-for-desktop"
           onClick={() => clickOnHamburger()}
         >
           <span></span>
