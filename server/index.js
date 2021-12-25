@@ -99,6 +99,18 @@ app.get("/participation", async (req, res) => {
   }
 });
 
+app.get("/search/:keyword", async (req, res) => {
+  try {
+    const keyword = req.params.keyword.toLowerCase();
+    console.log(keyword);
+    const search = await pool.query(`SELECT * FROM countries WHERE name ILIKE '%${keyword}%'`);
+    console.log(search.rows);
+    res.json(search.rows);
+  } catch (err) {
+    console.error(err.message);
+  }
+});
+
 app.listen(4000, () => {
   console.log("Server has started on port 4000");
 });
