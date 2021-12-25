@@ -80,7 +80,7 @@ const TreatiesForOrganization = () => {
         <p>{organizationInfromation[organizationName].info}</p>
         <p>Our database has {listOfTreatiesForOrganization.length} treaties administered by this international organization.</p>
       </header>
-      <table>name
+      <table>
         <thead>
           <tr>
             <th>
