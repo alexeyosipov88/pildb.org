@@ -14,6 +14,7 @@ import TreatiesForTopic from "./components/topics/TreatiesForTopic";
 import Organizations from "./components/organizations/Organizations";
 import TreatiesForOrganization from "./components/organizations/TreatiesForOrganization";
 import Home from "./components/home/Home";
+import SearchResults from "./components/search/SearchResults";
 
 
 
@@ -31,6 +32,7 @@ ReactDOM.render(
           <Route path="/treaties" element={<AllTreaties />}/>
           <Route path="/organizations/:organizationName" element={<TreatiesForOrganization/>}/>
           <Route path="/organizations" element={<Organizations/>}/>
+          <Route path="/search/:result" element={<SearchResults/>}/>
         </Route>
       </Routes>
     </BrowserRouter>

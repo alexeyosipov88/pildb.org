@@ -7,16 +7,16 @@ const Search = () => {
   const [inputValue, setInputValue] = useState("");
   const [searchRequest, setSearchRequest] = useState("");
   const navigate = useNavigate();
-  useEffect(() => {
-    if (searchRequest) {
-      axios
-        .get(`http://localhost:4000/search/${searchRequest}`)
-        .then((result) => {
-          console.log(result.data); 
-          navigate("/search");
-        });
-    }
-  }, [searchRequest]);
+  // useEffect(() => {
+  //   if (searchRequest) {
+  //     axios
+  //       .get(`http://localhost:4000/search/${searchRequest}`)
+  //       .then((result) => {
+  //         console.log(result.data); 
+  //         navigate("/search");
+  //       });
+  //   }
+  // }, [searchRequest]);
 
   const handleInputChange = (event) => {
     setInputValue(event.target.value);
@@ -24,8 +24,9 @@ const Search = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    setSearchRequest(inputValue);
+    // setSearchRequest(inputValue);
     console.log("submitted");
+    navigate(`/search/${inputValue}`);
   };
 
   return (
