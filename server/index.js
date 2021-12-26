@@ -2,12 +2,15 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 const morgan = require("morgan");
+const {search} = require("./helpers/search");
 
 const pool = require("./db");
+const { rows } = require("pg/lib/defaults");
 // middleware
 app.use(cors());
 app.use(express.json()); // req.bodu
 app.use(morgan("tiny"));
+
 
 app.get("/countries/:id", async (req, res) => {
   try {
@@ -101,11 +104,12 @@ app.get("/participation", async (req, res) => {
 
 app.get("/search/:keyword", async (req, res) => {
   try {
+    // let check;
     const keyword = req.params.keyword.toLowerCase();
     console.log(keyword);
-    const search = await pool.query(`SELECT * FROM countries WHERE name ILIKE '%${keyword}%'`);
-    console.log(search.rows);
-    res.json(search.rows);
+    const result = await search(keyword);
+    console.log(result, " check after await keyword");
+    res.json(result);
   } catch (err) {
     console.error(err.message);
   }
