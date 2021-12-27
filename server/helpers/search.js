@@ -12,9 +12,11 @@ const search = (keyword) => {
     const topics = await pool.query(
       `SELECT * FROM topics WHERE name ILIKE '%${keyword}%'`
     );
+    const cities = await pool.query(`SELECT * FROM treaties WHERE city ILIKE '%${keyword}%'`)
     result.countries = countries.rows;
-    result.treaties = treaties.rows;
     result.topics = topics.rows;
+    result.treaties = treaties.rows;
+    result.cities = cities.rows;
     resolve(result);
   });
 };

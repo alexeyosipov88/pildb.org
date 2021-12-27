@@ -104,11 +104,9 @@ app.get("/participation", async (req, res) => {
 
 app.get("/search/:keyword", async (req, res) => {
   try {
-    // let check;
     const keyword = req.params.keyword.toLowerCase();
     console.log(keyword);
     const result = await search(keyword);
-    console.log(result, " check after await keyword");
     res.json(result);
   } catch (err) {
     console.error(err.message);

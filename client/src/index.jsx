@@ -32,7 +32,7 @@ ReactDOM.render(
           <Route path="/treaties" element={<AllTreaties />}/>
           <Route path="/organizations/:organizationName" element={<TreatiesForOrganization/>}/>
           <Route path="/organizations" element={<Organizations/>}/>
-          <Route path="/search/:result" element={<SearchResults/>}/>
+          <Route path="/search/:keyword" element={<SearchResults/>}/>
         </Route>
       </Routes>
     </BrowserRouter>
