@@ -24,14 +24,13 @@ const TreatiesListItem = (props) => {
     date[0] = date[2];
     date[2] = tmp;
     return date.join("/");
-
   }
   return (
     <tr>
       <td>
         <p>
           <span className="th-mobile"># </span>
-          {props.id}
+          {props.tableId}
         </p>
       </td>
       <td>
