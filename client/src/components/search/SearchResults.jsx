@@ -14,14 +14,38 @@ const SearchResults = () => {
     setSearchResult(axiosResponse.data);
   }, [keyword]);
   console.log(searchResult, "Result outside useEffect");
-  const countries = searchResult ? searchResult.countries : [];
-  const topics = searchResult ? searchResult.topics : [];
-  const treaties = searchResult ? searchResult.treaties : [];
-  let finalArrayOfResults = countries.concat(topics).concat(treaties);
+  let countries = searchResult ? searchResult.countries : [];
+  let topics = searchResult ? searchResult.topics : [];
+  let treaties = searchResult ? searchResult.treaties : [];
+  let cities = searchResult ? searchResult.cities : [];
+  countries = countries.map((elem) => {
+    elem.type = "country";
+    elem.country_id = elem.id;
+    return elem;
+  });
+  topics = topics.map((elem) => {
+    elem.type = "topic";
+    elem.topic_id = elem.id;
+    return elem;
+  });
+  treaties = treaties.map((elem) => {
+    elem.type = "treaty";
+    elem.treaty_id = elem.id;
+    return elem;
+  });
+  cities = cities.map((elem) => {
+    elem.type = "city";
+    elem.treaty_id = elem.id;
+    return elem;
+  });
+  let finalArrayOfResults = countries
+    .concat(topics)
+    .concat(treaties)
+    .concat(cities);
   console.log(finalArrayOfResults, "this is final");
 
   finalArrayOfResults = finalArrayOfResults.map((elem, index) => {
-    return <SearchListItem key={index} name={elem.name}/>;
+    return <SearchListItem key={index} id={elem.id} name={elem.name} type={elem.type}/>;
   });
 
   return (
