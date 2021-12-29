@@ -40,21 +40,28 @@ const SearchListItem = (props) => {
     }
   }, []);
 
-  let test = props.name;
-  test = "hello alex hello alex hello alex";
-  test = (<strong>{test}</strong>)
-  console.log(test);
-  // const testJSX = <h1>hello alex helloe al</h1>;
-  //try React HTML Parser!
-
-  console.log(props.name);
+  const insertStrong = (string, keyword) => {
+    if (!string || !keyword) {
+      return;
+    }
+    let id = 1;
+    let regex = new RegExp(keyword, "i");
+    keyword = string.match(regex);
+    let array = string.split(keyword);
+    for (let i = 0; i < array.length - 1; i += 2) {
+      let strongKeyword = <strong key={id++}>{keyword}</strong>;
+      for (let j = array.length; j > i; j--) {
+        array[j] = array[j - 1];
+      }
+      array[i + 1] = strongKeyword;
+    }
+    return array;
+  };
   return (
     <div>
       <Link className="link" to={link}>
-        <div>{props.name}</div>
-        
+        <div>{insertStrong(props.name, props.keyword)}</div>
       </Link>
-      {test}
     </div>
   );
 };

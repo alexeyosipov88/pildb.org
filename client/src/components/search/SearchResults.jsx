@@ -6,14 +6,12 @@ import SearchListItem from "./SearchListItem";
 const SearchResults = () => {
   const [searchResult, setSearchResult] = useState();
   let keyword = useParams().keyword;
-  console.log(keyword);
   keyword = keyword.replace(/\s\s+/, " ");
   useEffect(async () => {
     let axiosResponse;
     axiosResponse = await axios.get(`http://localhost:4000/search/${keyword}`);
     setSearchResult(axiosResponse.data);
   }, [keyword]);
-  console.log(searchResult, "Result outside useEffect");
   let countries = searchResult ? searchResult.countries : [];
   let topics = searchResult ? searchResult.topics : [];
   let treaties = searchResult ? searchResult.treaties : [];
@@ -42,10 +40,9 @@ const SearchResults = () => {
     .concat(topics)
     .concat(treaties)
     .concat(cities);
-  console.log(finalArrayOfResults, "this is final");
 
   finalArrayOfResults = finalArrayOfResults.map((elem, index) => {
-    return <SearchListItem key={index} id={elem.id} name={elem.name} type={elem.type}/>;
+    return <SearchListItem keyword={keyword} key={index} id={elem.id} name={elem.name} type={elem.type}/>;
   });
 
   return (
