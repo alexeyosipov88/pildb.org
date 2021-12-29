@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
+import { Fragment } from "react";
 
 const SearchListItem = (props) => {
   let [context, setContext] = useState();
@@ -21,7 +22,6 @@ const SearchListItem = (props) => {
       link = `/treaties/${props.id}`;
   }
   useEffect(async () => {
-    console.log("use effect started!");
     if (props.type === "country") {
       countTreatiesForCountries = await axios.get(
         "http://localhost:4000/count-treaties"
@@ -38,12 +38,23 @@ const SearchListItem = (props) => {
         (elem) => elem.id === props.id
       );
     }
-  }, []); 
+  }, []);
+
+  let test = props.name;
+  test = "hello alex hello alex hello alex";
+  test = (<strong>{test}</strong>)
+  console.log(test);
+  // const testJSX = <h1>hello alex helloe al</h1>;
+  //try React HTML Parser!
+
+  console.log(props.name);
   return (
     <div>
       <Link className="link" to={link}>
         <div>{props.name}</div>
+        
       </Link>
+      {test}
     </div>
   );
 };

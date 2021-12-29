@@ -25,7 +25,8 @@ const AllTreaties = () => {
     return (
       <TreatiesListItem
         key={elem.id}
-        id={id++}
+        tableId = {id++}
+        id={elem.id}
         name={elem.name}
         city={elem.city}
         concluded={elem.concluded}
