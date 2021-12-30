@@ -67,13 +67,12 @@ const SearchListItem = (props) => {
     }
     return array;
   };
-  // NEED TO FIX THIS BUG! Link search result appears twice! The problem might relate to react double rendering!
   return (
     <div>
       <Link className="link" to={link}>
         <div>{insertStrong(props.name, props.keyword)}</div>
       </Link>
-      {/* <div>{context}</div> */}
+      <div>{context}</div>
     </div>
   );
 };

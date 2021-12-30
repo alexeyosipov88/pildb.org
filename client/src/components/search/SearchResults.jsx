@@ -36,12 +36,14 @@ const SearchResults = () => {
     elem.treaty_id = elem.id;
     return elem;
   });
+  console.log(treaties, "this is treaties");
+  console.log(countries, "this is countries");
+  console.log(topics, "this is topics");
   let finalArrayOfResults = countries
     .concat(topics)
     .concat(treaties)
     .concat(cities);
-  console.log(finalArrayOfResults);
-  console.log(finalArrayOfResults);
+
   finalArrayOfResults = finalArrayOfResults.map((elem, index) => {
     return (
       <SearchListItem
@@ -56,6 +58,7 @@ const SearchResults = () => {
       />
     );
   });
+  console.log(finalArrayOfResults);
   return (
     <div>
       <header>
