@@ -40,11 +40,22 @@ const SearchResults = () => {
     .concat(topics)
     .concat(treaties)
     .concat(cities);
-
+  console.log(finalArrayOfResults);
+  console.log(finalArrayOfResults);
   finalArrayOfResults = finalArrayOfResults.map((elem, index) => {
-    return <SearchListItem keyword={keyword} key={index} id={elem.id} name={elem.name} type={elem.type}/>;
+    return (
+      <SearchListItem
+        city={elem.city}
+        entered_into_force={elem.entered_into_force}
+        concluded={elem.concluded}
+        keyword={keyword}
+        key={index}
+        id={elem.id}
+        name={elem.name}
+        type={elem.type}
+      />
+    );
   });
-
   return (
     <div>
       <header>
