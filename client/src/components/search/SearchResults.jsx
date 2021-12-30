@@ -7,10 +7,14 @@ const SearchResults = () => {
   const [searchResult, setSearchResult] = useState();
   let keyword = useParams().keyword;
   keyword = keyword.replace(/\s\s+/, " ");
-  useEffect(async () => {
-    let axiosResponse;
-    axiosResponse = await axios.get(`http://localhost:4000/search/${keyword}`);
-    setSearchResult(axiosResponse.data);
+  useEffect(() => {
+    const search = async () => {
+      let axiosResponse = await axios.get(
+        `http://localhost:4000/search/${keyword}`
+      );
+      setSearchResult(axiosResponse.data);
+    };
+    search();
   }, [keyword]);
   let countries = searchResult ? searchResult.countries : [];
   let topics = searchResult ? searchResult.topics : [];

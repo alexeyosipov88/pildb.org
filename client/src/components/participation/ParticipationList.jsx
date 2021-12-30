@@ -13,7 +13,7 @@ const ParticipationList = (props) => {
       .then((participation) => {
         setParticipation(participation.data);
       });
-  }, []);
+  }, [treatyId]);
   let treaty_name = participation[0] && participation[0].treaty_name;
   if (treaty_name) {
     treaty_name = treaty_name.split(" ");
@@ -77,7 +77,6 @@ const ParticipationList = (props) => {
       />
     );
   });
-  let check = "<span>Check</span>";
   return (
     <div>
       <header>

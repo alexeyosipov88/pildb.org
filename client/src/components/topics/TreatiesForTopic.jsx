@@ -11,7 +11,7 @@ const TreatiesForTopic = (props) => {
     axios.get(`http://localhost:4000/topics/${topicId}`).then((treaties) => {
       setTreaties(treaties.data);
     });
-  }, []);
+  }, [topicId]);
   // let topic_name = treaties[0] && treaties[0].topic_name;
   // const firstLetter = topic_name.charAt(0);
   // const upperCaseFirstLetter = firstLetter.toUpperCase();

@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { Outlet } from "react-router";
 const TopicsListItem = (props) => {
   let name = props.name;
   name = name.split(" ");

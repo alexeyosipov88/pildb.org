@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import moreInfoIcon from "../../images/more-info-icon.png";
 
 const CountriesListItem = (props) => {
   return (

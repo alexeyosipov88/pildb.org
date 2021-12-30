@@ -20,31 +20,46 @@ const SearchListItem = (props) => {
     case "city":
       link = `/treaties/${props.id}`;
   }
-  useEffect(async () => {
-    if (props.type === "country") {
-      countTreatiesForCountries = await axios.get(
-        "http://localhost:4000/count-treaties"
-      );
-      countTreatiesForCountries = countTreatiesForCountries.data.find(
-        (elem) => elem.id === props.id
-      );
-      let contextText = `The search with the key from your input matches one of our website's section - countries (${props.name}). It has ${countTreatiesForCountries.count} treaties related to that topic.`;
+  useEffect(() => {
+    if (props.type === "city") {
+      let status = props.entered_into_force
+        ? `Entered info force: ${props.entered_into_force}`
+        : `Not yet into force`;
+      let contextText = `Name of the treaty: ${props.name};  City: ${props.city};  Date of signature: ${props.concluded}; ${status}.`;
       setContext(contextText);
+    }
+    if (props.type === "country") {
+      console.log("COUNTRY condition");
+
+      const setContextForCountry = async () => {
+        countTreatiesForCountries = await axios.get(
+          "http://localhost:4000/count-treaties"
+        );
+        countTreatiesForCountries = countTreatiesForCountries.data.find(
+          (elem) => elem.id === props.id
+        );
+        let contextText = `The search with the key from your input matches one of our website's section - countries (${props.name}). It has ${countTreatiesForCountries.count} treaties related to that topic.`;
+        setContext(contextText);
+      };
+      setContextForCountry();
     }
     if (props.type === "topic") {
-      countTreatiesForTopic = await axios.get(
-        "http://localhost:4000/count-topics"
-      );
-      countTreatiesForTopic = countTreatiesForTopic.data.find(
-        (elem) => elem.id === props.id
-      );
-      let contextText = `The search with the key from your input matches one of our website's section - private international law topics (${props.name}). It has ${countTreatiesForTopic.count} treaties related to that topic.`;
-      setContext(contextText);
+      const setTopicContext = async () => {
+        console.log("TOPIC condition");
+        countTreatiesForTopic = await axios.get(
+          "http://localhost:4000/count-topics"
+        );
+        countTreatiesForTopic = countTreatiesForTopic.data.find(
+          (elem) => elem.id === props.id
+        );
+        let contextText = `The search with the key from your input matches one of our website's section - private international law topics (${props.name}). It has ${countTreatiesForTopic.count} treaties related to that topic.`;
+        setContext(contextText);
+      };
     }
-    let status = props.entered_into_force
-      ? `Entered info force: ${props.entered_into_force}`
-      : `Not yet into force`;
     if (props.type === "treaty") {
+      let status = props.entered_into_force
+        ? `Entered info force: ${props.entered_into_force}`
+        : `Not yet into force`;
       let contextText = `Name of the treaty: ${props.name};  City: ${props.city};  Date of signature: ${props.concluded}; ${status}.`;
       setContext(contextText);
     }
@@ -67,12 +82,13 @@ const SearchListItem = (props) => {
     }
     return array;
   };
+
   return (
     <div>
       <Link className="link" to={link}>
         <div>{insertStrong(props.name, props.keyword)}</div>
       </Link>
-      <div>{context}</div>
+      <div>{insertStrong(context, props.keyword)}</div>
     </div>
   );
 };

@@ -17,7 +17,6 @@ const TopicsList = (props) => {
       setTopics(result[1].data);
     });
   }, []);
-  let id = 1;
   const listOfTopics = topics.map((elem) => {
     const amountOfTreaties = countTreatiesByTopic.find((topic) => {
       return topic.id === elem.id;

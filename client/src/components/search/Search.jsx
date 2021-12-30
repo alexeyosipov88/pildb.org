@@ -1,10 +1,9 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 
 const Search = () => {
   const [inputValue, setInputValue] = useState("");
-  const [searchRequest, setSearchRequest] = useState("");
   const navigate = useNavigate();
   const handleInputChange = (event) => {
     setInputValue(event.target.value);
