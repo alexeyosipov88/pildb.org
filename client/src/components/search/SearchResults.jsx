@@ -5,6 +5,7 @@ import SearchListItem from "./SearchListItem";
 
 const SearchResults = () => {
   const [searchResult, setSearchResult] = useState();
+
   let keyword = useParams().keyword;
   keyword = keyword.replace(/\s\s+/, " ");
   useEffect(() => {
@@ -28,6 +29,17 @@ const SearchResults = () => {
   topics = topics.map((elem) => {
     elem.type = "topic";
     elem.topic_id = elem.id;
+    elem.name = elem.name.split(" ");
+    elem.name = elem.name
+      .map((elem) => {
+        if (elem.length > 2 && elem !== "and" && elem !== "the") {
+          const firstLetter = elem.charAt(0);
+          const upperCaseFirstLetter = firstLetter.toUpperCase();
+          elem = elem.replace(firstLetter, upperCaseFirstLetter);
+        }
+        return elem;
+      })
+      .join(" ");
     return elem;
   });
   treaties = treaties.map((elem) => {
@@ -44,13 +56,24 @@ const SearchResults = () => {
     .concat(topics)
     .concat(treaties)
     .concat(cities);
-
+  console.log(finalArrayOfResults);
+  const convertDateToYearMonthFormat = (date) => {
+    date = new Date(date).toLocaleDateString("en-GB");
+    if (!date) {
+      return;
+    }
+    date = date.split("/");
+    const tmp = date[0];
+    date[0] = date[2];
+    date[2] = tmp;
+    return date.join("/");
+  };
   finalArrayOfResults = finalArrayOfResults.map((elem, index) => {
     return (
       <SearchListItem
         city={elem.city}
-        entered_into_force={elem.entered_into_force}
-        concluded={elem.concluded}
+        entered_into_force={convertDateToYearMonthFormat(elem.entered_into_force)}
+        concluded={convertDateToYearMonthFormat(elem.concluded)}
         keyword={keyword}
         key={index}
         id={elem.id}

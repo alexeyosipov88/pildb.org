@@ -2,8 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import TreatiesListItem from "../treaties/TreatiesListItem";
-// hague: 1 - 39; 40 - 65; unidroit 66 - 79; icao 80 - 93; wipo 94-117
-
+  
 const TreatiesForOrganization = () => {
   const [treatiesForOrganization, setTreatiesForOrganization] = useState([]);
   useEffect(() => {
