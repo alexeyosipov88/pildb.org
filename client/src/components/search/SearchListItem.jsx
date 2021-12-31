@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 const SearchListItem = (props) => {
   let [context, setContext] = useState("");
-  let [countTreatiesForCountries, setCountTreatiesForCountries] = useState();
-  let [countTreatiesForTopic, setCountTreatiesForTopic] = useState();
+  let [countTreatiesForCountries, setCountTreatiesForCountries] = useState([]);
+  let [countTreatiesForTopic, setCountTreatiesForTopic] = useState([]);
   let link;
   switch (props.type) {
     case "country":
@@ -19,6 +19,9 @@ const SearchListItem = (props) => {
       break;
     case "city":
       link = `/treaties/${props.id}`;
+      break;
+    default:
+      break;
   }
   useEffect(() => {
     if (props.type === "city") {
@@ -29,15 +32,14 @@ const SearchListItem = (props) => {
       setContext(contextText);
     }
     if (props.type === "country") {
-      console.log("COUNTRY condition");
-
       const setContextForCountry = async () => {
-        countTreatiesForCountries = await axios.get(
+        let count = await axios.get(
           "http://localhost:4000/count-treaties"
         );
-        countTreatiesForCountries = countTreatiesForCountries.data.find(
+        count = count.data.find(
           (elem) => elem.id === props.id
         );
+        setCountTreatiesForCountries(count);
         let contextText = `The search with the key from your input matches one of our website's section - countries (${props.name}). It has ${countTreatiesForCountries.count} treaties related to that topic.`;
         setContext(contextText);
       };
@@ -45,16 +47,17 @@ const SearchListItem = (props) => {
     }
     if (props.type === "topic") {
       const setTopicContext = async () => {
-        console.log("TOPIC condition");
-        countTreatiesForTopic = await axios.get(
+        let count = await axios.get(
           "http://localhost:4000/count-topics"
         );
-        countTreatiesForTopic = countTreatiesForTopic.data.find(
+        count = count.data.find(
           (elem) => elem.id === props.id
         );
+        setCountTreatiesForTopic(count);
         let contextText = `The search with the key from your input matches one of our website's section - private international law topics (${props.name}). It has ${countTreatiesForTopic.count} treaties related to that topic.`;
         setContext(contextText);
       };
+      setTopicContext();
     }
     if (props.type === "treaty") {
       let status = props.entered_into_force
@@ -63,7 +66,7 @@ const SearchListItem = (props) => {
       let contextText = `Name of the treaty: ${props.name};  City: ${props.city};  Date of signature: ${props.concluded}; ${status}.`;
       setContext(contextText);
     }
-  }, []);
+  }, [countTreatiesForCountries.count, countTreatiesForTopic.count, props.city, props.concluded, props.entered_into_force, props.id, props.name, props.type]);
 
   const insertStrong = (string, keyword) => {
     if (!string || !keyword) {

@@ -9,7 +9,7 @@ const SearchResults = () => {
   keyword = keyword.replace(/\s\s+/, " ");
   useEffect(() => {
     const search = async () => {
-      let axiosResponse = await axios.get(
+      let axiosResponse = await axios.post(
         `http://localhost:4000/search/${keyword}`
       );
       setSearchResult(axiosResponse.data);
@@ -40,9 +40,6 @@ const SearchResults = () => {
     elem.treaty_id = elem.id;
     return elem;
   });
-  console.log(treaties, "this is treaties");
-  console.log(countries, "this is countries");
-  console.log(topics, "this is topics");
   let finalArrayOfResults = countries
     .concat(topics)
     .concat(treaties)
@@ -62,7 +59,6 @@ const SearchResults = () => {
       />
     );
   });
-  console.log(finalArrayOfResults);
   return (
     <div>
       <header>

@@ -3,6 +3,10 @@ const app = express();
 const cors = require("cors");
 const morgan = require("morgan");
 const {search} = require("./helpers/search");
+const bodyParser = require('body-parser');
+const urlencodedParser = bodyParser.urlencoded({ extended: false })
+
+
 
 const pool = require("./db");
 const { rows } = require("pg/lib/defaults");
@@ -10,6 +14,7 @@ const { rows } = require("pg/lib/defaults");
 app.use(cors());
 app.use(express.json()); // req.bodu
 app.use(morgan("tiny"));
+app.use(bodyParser.urlencoded({ extended: false }))
 
 
 app.get("/countries/:id", async (req, res) => {
@@ -102,16 +107,26 @@ app.get("/participation", async (req, res) => {
   }
 });
 
-app.get("/search/:keyword", async (req, res) => {
+// app.get("/search/:keyword", async (req, res) => {
+//   try {
+//     const keyword = req.params.keyword.toLowerCase();
+//     const result = await search(keyword);
+//     res.json(result);
+//   } catch (err) {
+//     console.error(err.message);
+//   }
+// });
+
+app.post("/search/:keyword", urlencodedParser, async (req, res) => {
   try {
     const keyword = req.params.keyword.toLowerCase();
+    console.log(keyword, "keyword from post request");
     const result = await search(keyword);
     res.json(result);
   } catch (err) {
     console.error(err.message);
   }
 });
-
 app.listen(4000, () => {
   console.log("Server has started on port 4000");
 });
