@@ -7,24 +7,24 @@ const Footer = () => {
       <div className="footer-info flex">
         <div className="flex flex-jc-c footer-links">
           <div>
-            <Link className="link" to="#"  target="_blank" rel="noopener noreferrer">
+            <Link className="link" to="#">
               About
             </Link>
             <Link className="link" to="#">
               Contact
             </Link>
-            <Link className="link" to="countries"  target="_blank" rel="noopener noreferrer">
+            <Link className="link" to="countries">
               Countries
             </Link>
           </div>
           <div>
-            <Link className="link" to="treaties"  target="_blank" rel="noopener noreferrer">
+            <Link className="link" to="treaties">
               Treaties
             </Link>
             <Link className="link" to="topics">
               Topics
             </Link>
-            <Link className="link" to="organizations"  target="_blank" rel="noopener noreferrer">
+            <Link className="link" to="organizations">
               Organizations
             </Link>
           </div>

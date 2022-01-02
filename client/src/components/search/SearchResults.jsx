@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
 import SearchListItem from "./SearchListItem";
+import Search from "./Search";
+
 
 const SearchResults = () => {
   const [searchResult, setSearchResult] = useState();
@@ -83,9 +85,10 @@ const SearchResults = () => {
     );
   });
   return (
-    <div>
+    <div className="search-results">
+      <Search/>
       <header>
-        <p>Search results:</p>
+        <p>{finalArrayOfResults.length !== 1 ? `${finalArrayOfResults.length} results` : `${finalArrayOfResults.length} result`} for "{keyword}":</p>
       </header>
       {finalArrayOfResults}
     </div>

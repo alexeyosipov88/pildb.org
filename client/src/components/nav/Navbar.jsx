@@ -39,16 +39,16 @@ const Navbar = () => {
           <Link className="link" to="#">
             Contact
           </Link>
-          <Link className="link" to="countries"  target="_blank" rel="noopener noreferrer">
+          <Link className="link" to="countries">
             Countries
           </Link>
-          <Link className="link" to="treaties"  target="_blank" rel="noopener noreferrer">
+          <Link className="link" to="treaties">
             Treaties
           </Link>
-          <Link className="link" to="topics"  target="_blank" rel="noopener noreferrer">
+          <Link className="link" to="topics">
             Topics
           </Link>
-          <Link className="link" to="organizations"  target="_blank" rel="noopener noreferrer">
+          <Link className="link" to="organizations">
             Organizations
           </Link>
         </div>

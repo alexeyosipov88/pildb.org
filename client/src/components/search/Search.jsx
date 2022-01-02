@@ -14,7 +14,7 @@ const Search = () => {
     navigate(`/search/${inputValue}`);
   };
   return (
-    <div>
+    <div className="search flex flex-column-c">
       <form action="" onSubmit={handleSubmit}>
         <input value={inputValue} onChange={handleInputChange} type="text" />
         <button>SEARCH</button>

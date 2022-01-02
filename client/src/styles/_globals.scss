@@ -45,6 +45,13 @@ body {
   }
 }
 
+.search {
+  input {
+    width: 9rem;
+  }
+  // margin: 5rem;
+}
+
 .flex {
   display: flex;
   &-jc-sb {
@@ -61,6 +68,10 @@ body {
   }
   &-fw-w {
     flex-wrap: wrap;
+  }
+  &-column-c {
+    flex-direction: column;
+    align-items: center;
   }
 }
 
