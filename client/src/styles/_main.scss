@@ -1,6 +1,11 @@
 .main-section {
-  margin-top: 150px;
-
+  // margin-top: 150px;
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+  
+  .organizations-topics {
+    padding-top: 4rem;
+  }
   h1,
   h2,
   h3,
@@ -10,8 +15,8 @@
     max-width: fit-content;
   }
   header {
-    margin-bottom: 2rem;
-    // padding: 2rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
   }
   p {
     .status-info {

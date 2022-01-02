@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <div>
       <Search></Search>
-      <div className="home flex container">
+      <div className="organizations-topics home flex container">
         <HomeTopicsList />
         <div className="organizations">
           <div>

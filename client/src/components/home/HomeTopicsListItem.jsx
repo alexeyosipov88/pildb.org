@@ -16,12 +16,17 @@ const TopicsListItem = (props) => {
   return (
     <div className="box-topic">
       <div className="topic-image-container">
-        <img className="topic-image" src={props.img} alt={props.name} />
-        <div>
-          <Link className="link" to={`/topics/${props.id}`}  target="_blank" rel="noopener noreferrer">
+        <Link
+          className="link"
+          to={`/topics/${props.id}`}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img className="topic-image" src={props.img} alt={props.name} />
+          <div>
             <p>{name}</p>
-          </Link>
-        </div>
+          </div>
+        </Link>
       </div>
     </div>
   );
