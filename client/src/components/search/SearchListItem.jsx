@@ -105,7 +105,7 @@ const SearchListItem = (props) => {
 
   return (
     <div>
-      <Link className="link" to={link}>
+      <Link className="link" to={link}  target="_blank" rel="noopener noreferrer">
         <div>{insertStrong(props.name, props.keyword)}</div>
       </Link>
       <div>{insertStrong(context, props.keyword)}</div>

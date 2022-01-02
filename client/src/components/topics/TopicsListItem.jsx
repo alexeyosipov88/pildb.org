@@ -23,7 +23,7 @@ const TopicsListItem = (props) => {
       </td>
       <td>
         <p className="th-mobile">Name of organization:</p>
-        <Link className="link" to={`/topics/${props.id}`}>
+        <Link className="link" to={`/topics/${props.id}`}  target="_blank" rel="noopener noreferrer">
           <p>{name}</p>
         </Link>
       </td>
@@ -35,7 +35,7 @@ const TopicsListItem = (props) => {
         </p>
       </td>
       <td>
-        <Link className="link" to={`/topics/${props.id}`}>
+        <Link className="link" to={`/topics/${props.id}`}  target="_blank" rel="noopener noreferrer">
           <button className="more-info-btn">more info</button>
         </Link>
       </td>

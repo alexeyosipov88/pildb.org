@@ -18,7 +18,7 @@ const TopicsListItem = (props) => {
       <div className="topic-image-container">
         <img className="topic-image" src={props.img} alt={props.name} />
         <div>
-          <Link className="link" to={`/topics/${props.id}`}>
+          <Link className="link" to={`/topics/${props.id}`}  target="_blank" rel="noopener noreferrer">
             <p>{name}</p>
           </Link>
         </div>

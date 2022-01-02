@@ -21,7 +21,7 @@ const Organizations = (props) => {
               <p>1</p>
             </td>
             <td>
-              <Link className="link" to={`/organizations/hague`}>
+              <Link className="link" to={`/organizations/hague`}  target="_blank" rel="noopener noreferrer">
                 <p>Hague Conference</p>
               </Link>
             </td>
@@ -29,7 +29,7 @@ const Organizations = (props) => {
               <p>39 treaties</p>
             </td>
             <td>
-              <Link className="link" to={`/organizations/hague`}>
+              <Link className="link" to={`/organizations/hague`}  target="_blank" rel="noopener noreferrer">
                 <button className="more-info-btn">more info</button>
               </Link>
             </td>
@@ -39,7 +39,7 @@ const Organizations = (props) => {
               <p>2</p>
             </td>
             <td>
-              <Link className="link" to={`/organizations/un`}>
+              <Link className="link" to={`/organizations/un`}  target="_blank" rel="noopener noreferrer">
                 <p>United Nations</p>
               </Link>
             </td>
@@ -47,7 +47,7 @@ const Organizations = (props) => {
               <p>26 treaties</p>
             </td>
             <td>
-              <Link className="link" to={`/organizations/un`}>
+              <Link className="link" to={`/organizations/un`}  target="_blank" rel="noopener noreferrer">
                 <button className="more-info-btn">more info</button>
               </Link>
             </td>
@@ -57,7 +57,7 @@ const Organizations = (props) => {
               <p>3</p>
             </td>
             <td>
-              <Link className="link" to={`/organizations/unidroit`}>
+              <Link className="link" to={`/organizations/unidroit`}  target="_blank" rel="noopener noreferrer">
                 <p>Unidroit</p>
               </Link>
             </td>
@@ -65,7 +65,7 @@ const Organizations = (props) => {
               <p>14 treaties</p>
             </td>
             <td>
-              <Link className="link" to={`/organizations/unidroit`}>
+              <Link className="link" to={`/organizations/unidroit`}  target="_blank" rel="noopener noreferrer">
                 <button className="more-info-btn">more info</button>
               </Link>
             </td>
@@ -75,7 +75,7 @@ const Organizations = (props) => {
               <p>4</p>
             </td>
             <td>
-              <Link className="link" to={`/organizations/icao`}>
+              <Link className="link" to={`/organizations/icao`}  target="_blank" rel="noopener noreferrer">
                 <p>International Civil Aviation Organization</p>
               </Link>
             </td>
@@ -83,7 +83,7 @@ const Organizations = (props) => {
               <p>13 treaties</p>
             </td>
             <td>
-              <Link className="link" to={`/organizations/icao`}>
+              <Link className="link" to={`/organizations/icao`}  target="_blank" rel="noopener noreferrer">
                 <button className="more-info-btn">more info</button>
               </Link>
             </td>
@@ -93,7 +93,7 @@ const Organizations = (props) => {
               <p>5</p>
             </td>
             <td>
-              <Link className="link" to={`/organizations/wipo`}>
+              <Link className="link" to={`/organizations/wipo`}  target="_blank" rel="noopener noreferrer">
                 <p>World Intellectual Property Organization</p>
               </Link>
             </td>
@@ -101,7 +101,7 @@ const Organizations = (props) => {
               <p>24 treaties</p>
             </td>
             <td>
-              <Link className="link" to={`/organizations/wipo`}>
+              <Link className="link" to={`/organizations/wipo`}  target="_blank" rel="noopener noreferrer">
                 <button className="more-info-btn">more info</button>
               </Link>
             </td>

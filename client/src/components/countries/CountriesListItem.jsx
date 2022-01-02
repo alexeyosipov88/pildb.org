@@ -8,7 +8,7 @@ const CountriesListItem = (props) => {
       </td>
       <td>
         <p className="th-mobile">Name of the country: </p>
-        <Link className="link" to={`/countries/${props.id}`}>
+        <Link className="link" to={`/countries/${props.id}`}  target="_blank" rel="noopener noreferrer">
           <p>{props.name}</p>
         </Link>
       </td>
@@ -20,7 +20,7 @@ const CountriesListItem = (props) => {
         </p>
       </td>
       <td>
-        <Link className="link" to={`/countries/${props.id}`}>
+        <Link className="link" to={`/countries/${props.id}`}  target="_blank" rel="noopener noreferrer">
           <button className="more-info-btn">more info</button>
         </Link>
       </td>

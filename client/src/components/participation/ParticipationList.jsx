@@ -46,9 +46,9 @@ const ParticipationList = (props) => {
       "07": "July",
       "08": "August",
       "09": "September",
-      10: "October",
-      11: "November",
-      12: "December",
+      "10": "October",
+      "11": "November",
+      "12": "December",
     };
     date = date.split("/");
     date[1] = monthObj[date[1]];
