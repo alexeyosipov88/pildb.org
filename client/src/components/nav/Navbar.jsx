@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import logo from "../../images/logo.jpg";
+import logo from "../../images/logo.png";
 import MobileMenu from "./MobileMenu";
 
 const Navbar = () => {
