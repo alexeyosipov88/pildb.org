@@ -24,6 +24,7 @@
       padding-bottom: 20px;
       padding-left: 100px;
       padding-right: 100px;
+     
     }
   }
   background-color: rgba(15, 16, 22, 0.897);
@@ -37,12 +38,12 @@
       // text-decoration: underline;
       display: inline;
       color: $white;
-      padding: 0.625rem;
-      color: $white;
+      padding: 0;
       text-align: center;
       &:hover {
         color: $lightBlue;
       }
+      
     }
   }
   .link,

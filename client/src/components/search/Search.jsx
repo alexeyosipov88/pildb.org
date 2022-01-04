@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-
 const Search = () => {
   const [inputValue, setInputValue] = useState("");
   const navigate = useNavigate();
@@ -14,10 +13,20 @@ const Search = () => {
     navigate(`/search/${inputValue}`);
   };
   return (
-    <div className="search flex flex-column-c">
+    <div className="flex flex-column-c">
       <form action="" onSubmit={handleSubmit}>
-        <input value={inputValue} onChange={handleInputChange} type="text" />
-        <button>SEARCH</button>
+        <div className="search">
+          <input
+            id="search-input"
+            placeholder="Search"
+            value={inputValue}
+            onChange={handleInputChange}
+            type="text"
+          />
+          <button id="search-button">
+            <i class="fa fa-search"></i>
+          </button>
+        </div>
       </form>
     </div>
   );

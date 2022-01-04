@@ -37,7 +37,7 @@ const SearchListItem = (props) => {
         let count = await axios.get("http://localhost:4000/count-treaties");
         count = count.data.find((elem) => elem.id === props.id);
         setCountTreatiesForCountries(count);
-        let contextText = `The search with the key from your input matches one of our website's section - countries (${props.name}). It has ${countTreatiesForCountries.count} treaties related to that topic.`;
+        let contextText = `This search result matches one of our website's section ― countries (${props.name}). It has ${countTreatiesForCountries.count} treaties which this country is party of.`;
         setContext(contextText);
       };
       setContextForCountry();
@@ -48,7 +48,7 @@ const SearchListItem = (props) => {
         let count = await axios.get("http://localhost:4000/count-topics");
         count = count.data.find((elem) => elem.id === props.id);
         setCountTreatiesForTopic(count);
-        let contextText = `The search with the key from your input matches one of our website's section - private international law topics (${props.name}). It has ${countTreatiesForTopic.count} treaties related to that topic.`;
+        let contextText = `This search result matches one of our website's section - private international law topics (${props.name}). It has ${countTreatiesForTopic.count} treaties related to that topic.`;
         setContext(contextText);
       };
       setTopicContext();
@@ -77,19 +77,6 @@ const SearchListItem = (props) => {
       return;
     }
     let id = 1;
-    // if (isTopic) {
-    //   string = string.split(" ");
-    //   string = string
-    //     .map((elem) => {
-    //       if (elem.length > 2 && elem !== "and" && elem !== "the") {
-    //         const firstLetter = elem.charAt(0);
-    //         const upperCaseFirstLetter = firstLetter.toUpperCase();
-    //         elem = elem.replace(firstLetter, upperCaseFirstLetter);
-    //       }
-    //       return elem;
-    //     })
-    //     .join(" ");
-    // }
     let regex = new RegExp(keyword, "i");
     keyword = string.match(regex);
     let array = string.split(keyword);
