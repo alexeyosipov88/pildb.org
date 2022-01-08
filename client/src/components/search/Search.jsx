@@ -13,10 +13,10 @@ const Search = () => {
     navigate(`/search/${inputValue}`);
   };
   return (
-    <div className="flex flex-column-c">
+    <div>
       <form action="" onSubmit={handleSubmit}>
         <div className="search">
-          <input
+          <input autoComplete="off"
             id="search-input"
             placeholder="Search"
             value={inputValue}
@@ -24,7 +24,7 @@ const Search = () => {
             type="text"
           />
           <button id="search-button">
-            <i class="fa fa-search"></i>
+            <i className="fa fa-search"></i>
           </button>
         </div>
       </form>

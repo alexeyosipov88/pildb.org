@@ -3,7 +3,7 @@ import IconsInfo from "./IconsInfo";
 
 const Footer = () => {
   return (
-    <footer className="footer container">
+    <footer className="flex flex-jc-c footer container">
       <div className="footer-info flex">
         <div className="flex flex-jc-c footer-links">
           <div>

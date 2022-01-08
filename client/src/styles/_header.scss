@@ -1,7 +1,11 @@
-
 .header {
   position: relative;
   z-index: 1;
+  @include breakpoint-down(small) {
+    display: flex;
+    // flex-direction: column;
+    border-style: none;
+  }
   nav {
     position: relative;
     background-color: $white;
@@ -11,11 +15,8 @@
   }
   &.open {
     .header__toggle {
-      margin-right: 10px;
-      // background-color: rgb(233, 233, 241);
-      padding: 10px 0 10px 10px;
-      // padding-left: 0.5rem;
-      // padding-right: 0.5rem;
+      margin-right: 0.625rem;
+      padding: 0.625rem 0 0.625rem 0.625rem;
       > span:first-child {
         transform: rotate(45deg);
       }
@@ -56,11 +57,28 @@
     left: 0px;
     background-image: linear-gradient($darkBlue, transparent);
   }
-  &__logo {
-    img {
-      width: 100%;
-      // height: 1.375rem;
+
+  #logo {
+    font-size: 1.875rem;  
+    color: $mainBlue;
+
+  }
+
+  #logo-and-search {
+    @include breakpoint-down(small) {
+      display: flex;
+      flex-direction: column;
     }
+    margin-top: 3.125rem;
+    margin-bottom: 3.125rem;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 900;
+
+  }
+
+
+  #logo_link {
+    text-decoration: none;
   }
   &__toggle {
     margin-right: 10px;

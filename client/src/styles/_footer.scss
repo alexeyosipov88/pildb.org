@@ -1,12 +1,13 @@
 .footer {
+  
   .legal-footer { 
     flex-direction: column;
-    padding: 10px;
+    padding: 0.625rem;
     width: fit-content;
     p {
-      padding: 10px;
+      padding: 0.625rem;
       width: fit-content;
-      font-size: 10px;
+      font-size: 0.625rem;
       margin: auto;
     }
     margin: auto;
@@ -17,22 +18,26 @@
     flex-direction: column;
   }
   .footer-links {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    @include breakpoint-down(small) {
+      flex-direction: column;
+    
+    }
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
     .link {
-      padding-top: 20px;
-      padding-bottom: 20px;
-      padding-left: 100px;
-      padding-right: 100px;
+      padding-top: 1.25rem;
+      padding-bottom: 1.25rem;
+      padding-left: 6.25rem;
+      padding-right: 6.25rem;
      
     }
   }
   background-color: rgba(15, 16, 22, 0.897);
-  padding-top: 64px;
-  padding-bottom: 64px;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   color: $white;
   .icons-info {
-    font-size: 10px;
+    font-size: 0.625rem;
     & > .link,
     & > link:visited {
       // text-decoration: underline;

@@ -33,7 +33,7 @@
     }
     border-left: 1px solid #ccc;
     justify-content: center;
-    padding-left: 50px;
+    padding-left: 3.125rem;
     display: flex;
     flex-direction: column;
     & > div {
@@ -44,19 +44,24 @@
         margin: auto;
       }
       #hague-logo {
-        width: 200px;
+        width: auto;
+        max-width: 200px;
       }
       #un-logo {
-        width: 130px;
+        width: auto;
+        max-width: 130px;
       }
       #unidroit-logo {
-        width: 230px;
+        width: auto;
+        max-width: 230px;
       }
       #icao-logo {
-        width: 140px;
+        width: auto;
+        max-width: 140px;
       }
       #wipo-logo {
-        width: 160px;
+        width: auto;
+        max-width: 160px;
       }
     }
   }

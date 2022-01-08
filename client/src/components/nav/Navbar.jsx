@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import logo from "../../images/logo.png";
+import Search from "../search/Search";
 import MobileMenu from "./MobileMenu";
 
 const Navbar = () => {
@@ -23,13 +23,15 @@ const Navbar = () => {
     }
   };
   return (
-    
     <header className={navMenuClass}>
       <div className={ovelay}></div>
-      <div>
-        <a href="/" className="header__logo">
-          <img style={{ width: "50px" }} src={logo} alt="logo" />
-        </a>
+      <div id="logo-and-search" className="container flex flex-jc-sb">
+          <Link to="/" id="logo_link">
+        <div id="logo">
+            Private International Law Database
+        </div>
+          </Link>
+        <Search></Search>
       </div>
       <nav className="container flex flex-jc-sa flex-ai-c">
         <div className="header__links hide-for-mobile flex flex-jc-sa flex-ai-c">

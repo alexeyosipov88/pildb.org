@@ -10,7 +10,6 @@ import Search from "../search/Search";
 const Home = () => {
   return (
     <div>
-      <Search></Search>
       <div className="organizations-topics home flex container">
         <HomeTopicsList />
         <div className="organizations">
