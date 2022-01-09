@@ -75,6 +75,7 @@
   #logo {
     font-size: 1.875rem;  
     color: $mainBlue;
+    padding-bottom: 35px;
   }
   #logo-and-search {
     @include breakpoint-down(small) {

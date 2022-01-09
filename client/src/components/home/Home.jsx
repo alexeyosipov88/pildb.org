@@ -5,9 +5,10 @@ import icaoLogo from "../../images/logos/icao-logo.png";
 import unLogo from "../../images/logos/UN-logo.png";
 import wipoLogo from "../../images/logos/wipo-logo.png";
 import { Link } from "react-router-dom";
-import Search from "../search/Search";
+
 
 const Home = () => {
+
   return (
     <div>
       <div className="organizations-topics home flex container">

@@ -9,7 +9,7 @@ const Search = () => {
   };
   const handleSubmit = (event) => {
     event.preventDefault();
-    console.log("submitted");
+
     navigate(`/search/${inputValue}`);
   };
   return (

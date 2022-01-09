@@ -86,8 +86,7 @@ const SearchResults = () => {
   });
   return (
     <div className="search-results">
-      <Search/>
-      <header>
+=      <header>
         <p>{finalArrayOfResults.length !== 1 ? `${finalArrayOfResults.length} results` : `${finalArrayOfResults.length} result`} for "{keyword}":</p>
       </header>
       {finalArrayOfResults}

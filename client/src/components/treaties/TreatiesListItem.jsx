@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 
 const TreatiesListItem = (props) => {
   let name = props.name;
+
   name = name.split(" ");
   name = name
     .map((elem) => {
