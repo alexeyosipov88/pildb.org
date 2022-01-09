@@ -19,8 +19,6 @@ const TopicsListItem = (props) => {
         <Link
           className="link"
           to={`/topics/${props.id}`}
-          target="_blank"
-          rel="noopener noreferrer"
         >
           <img className="topic-image" src={props.img} alt={props.name} />
           <div>

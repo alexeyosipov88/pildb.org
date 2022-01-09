@@ -19,8 +19,6 @@ const Home = () => {
               <Link
                 className="link"
                 to={`/organizations/hague`}
-                target="_blank"
-                rel="noopener noreferrer"
               >
                 <img src={hagueLogo} alt="hague convention logo" />
               </Link>
@@ -29,8 +27,6 @@ const Home = () => {
               <Link
                 className="link"
                 to={`/organizations/hague`}
-                target="_blank"
-                rel="noopener noreferrer"
               >
                 <p>Hague Convention</p>
               </Link>
@@ -41,8 +37,6 @@ const Home = () => {
               <Link
                 className="link"
                 to={`/organizations/un`}
-                target="_blank"
-                rel="noopener noreferrer"
               >
                 <img src={unLogo} alt="" />
               </Link>
@@ -51,8 +45,6 @@ const Home = () => {
               <Link
                 className="link"
                 to={`/organizations/un`}
-                target="_blank"
-                rel="noopener noreferrer"
               >
                 <p>United Nations</p>
               </Link>
@@ -63,8 +55,6 @@ const Home = () => {
               <Link
                 className="link"
                 to={`/organizations/unidroit`}
-                target="_blank"
-                rel="noopener noreferrer"
               >
                 <img src={unidroitLogo} alt="" />
               </Link>
@@ -73,8 +63,6 @@ const Home = () => {
               <Link
                 className="link"
                 to={`/organizations/unidroit`}
-                target="_blank"
-                rel="noopener noreferrer"
               >
                 <p>Unidroit</p>
               </Link>
@@ -85,8 +73,6 @@ const Home = () => {
               <Link
                 className="link"
                 to={`/organizations/icao`}
-                target="_blank"
-                rel="noopener noreferrer"
               >
                 <img src={icaoLogo} alt="" />
               </Link>
@@ -95,8 +81,6 @@ const Home = () => {
               <Link
                 className="link"
                 to={`/organizations/icao`}
-                target="_blank"
-                rel="noopener noreferrer"
               >
                 <p>ICAO</p>
               </Link>
@@ -107,8 +91,6 @@ const Home = () => {
               <Link
                 className="link"
                 to={`/organizations/wipo`}
-                target="_blank"
-                rel="noopener noreferrer"
               >
                 <img src={wipoLogo} alt="" />
               </Link>
@@ -117,8 +99,6 @@ const Home = () => {
               <Link
                 className="link"
                 to={`/organizations/wipo`}
-                target="_blank"
-                rel="noopener noreferrer"
               >
                 <p>WIPO</p>
               </Link>
