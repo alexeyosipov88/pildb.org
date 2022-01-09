@@ -1,18 +1,23 @@
+.hide-for-menu {
+  z-index: 2;
+}
+
 .search {
-  width: 100%;
+  width: auto;
+  max-width: 200px;
   position: relative;
   display: flex;
   input:focus::placeholder {
     color: transparent;
   }
   #search-input {
+    
     width: 100%;
     border: 3px solid $mainBlue;
     border-right: none;
     padding: 5px;
     border-radius: 5px 0 0 5px;
     outline: none;
-
   }
 
   #search-button {

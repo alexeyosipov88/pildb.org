@@ -10,7 +10,6 @@ const Navbar = () => {
     "header__menu container has-fade"
   );
   let navMenuClass = navClass ? "header" : "header open";
-
   const clickOnHamburger = () => {
     if (navClass) {
       setNavClass(false);
@@ -31,9 +30,9 @@ const Navbar = () => {
             Private International Law Database
         </div>
           </Link>
-        <Search></Search>
+        <Search/>
       </div>
-      <nav className="container flex flex-jc-sa flex-ai-c">
+      <nav className="flex">
         <div className="header__links hide-for-mobile flex flex-jc-sa flex-ai-c">
           <Link className="link" to="#">
             About
@@ -54,6 +53,7 @@ const Navbar = () => {
             Organizations
           </Link>
         </div>
+        <div className="toggle_background">
         <a
           href="#"
           className="header__toggle hide-for-desktop"
@@ -63,6 +63,7 @@ const Navbar = () => {
           <span></span>
           <span></span>
         </a>
+        </div>
       </nav>
       <MobileMenu
         clickOnHamburger={clickOnHamburger}

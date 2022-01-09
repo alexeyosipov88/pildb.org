@@ -1,22 +1,35 @@
 .header {
-  position: relative;
   z-index: 1;
+
+  position: relative;
+  // z-index: 1;
   @include breakpoint-down(small) {
     display: flex;
-    // flex-direction: column;
     border-style: none;
   }
+
   nav {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    background-color: $white;
-    margin: 0 1.5rem;
-    padding-top: 1.0625rem;
-    padding-bottom: 1.0625rem;
+    margin: 1.5rem 1.5rem;
+    
   }
   &.open {
+
+    .toggle_background {
+      flex-direction: flex;
+      justify-content: center;
+      align-self: center;
+      padding-left: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-right: 5px;
+      background-color: $white;
+    }
     .header__toggle {
-      margin-right: 0.625rem;
-      padding: 0.625rem 0 0.625rem 0.625rem;
       > span:first-child {
         transform: rotate(45deg);
       }
@@ -30,8 +43,10 @@
   }
   &__menu {
     position: absolute;
+
     width: calc(100% - 3rem);
     left: 50%;
+    top: 80%;
     transform: translateX(-50%);
     background: $white;
     border-radius: 3px;
@@ -57,13 +72,10 @@
     left: 0px;
     background-image: linear-gradient($darkBlue, transparent);
   }
-
   #logo {
     font-size: 1.875rem;  
     color: $mainBlue;
-
   }
-
   #logo-and-search {
     @include breakpoint-down(small) {
       display: flex;
@@ -73,18 +85,12 @@
     margin-bottom: 3.125rem;
     font-family: 'Playfair Display', sans-serif;
     font-weight: 900;
-
   }
-
-
   #logo_link {
     text-decoration: none;
   }
   &__toggle {
-    margin-right: 10px;
 
-    position: absolute;
-    right: 0;
     > span {
       display: block;
       width: 26px;
