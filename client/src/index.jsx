@@ -14,6 +14,7 @@ import Organizations from "./components/organizations/Organizations";
 import TreatiesForOrganization from "./components/organizations/TreatiesForOrganization";
 import Home from "./components/home/Home";
 import SearchResults from "./components/search/SearchResults";
+import TreatyText from "./components/participation/TreatyText";
 
 
 
@@ -24,6 +25,7 @@ ReactDOM.render(
         <Route path="/" element={<App />}>
           <Route path="/" element={<Home/>}/>
           <Route path="/countries/:countryId" element={<TreatiesForCountry />}/> 
+          <Route path="/treaties/:treatyId/eng" element={<TreatyText/>}/> 
           <Route path="/treaties/:treatyId" element={<ParticipationList/>}/> 
           <Route path="/countries" element={<CountriesList />}/>
           <Route path="/topics/:topicId" element={<TreatiesForTopic />}/> 

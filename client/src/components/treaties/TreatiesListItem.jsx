@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 
 const TreatiesListItem = (props) => {
   let name = props.name;
-
   name = name.split(" ");
   name = name
     .map((elem) => {
@@ -58,20 +57,6 @@ const TreatiesListItem = (props) => {
         </div>
       </td>
     </tr>
-
-    // <article>
-    //   <header>
-    //     <p>{props.name}</p>
-    //   </header>
-    //   <footer>
-    //     <div>
-    //       <div>{props.city}</div>
-    //       <div>{date}</div>
-    //       <Link className="link button" to={`/treaties/${props.id}`}>
-    //       <button type='button'>Check status</button> </Link>
-    //     </div>
-    //   </footer>
-    // </article>
   );
 };
 export default TreatiesListItem;
