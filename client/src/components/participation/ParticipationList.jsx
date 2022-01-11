@@ -3,8 +3,9 @@ import { useEffect } from "react";
 import axios from "axios";
 import { useParams } from "react-router";
 import ParticipationListItem from "./ParticipationListItem";
+import { Link } from "react-router-dom";
 
-const ParticipationList = (props) => {
+const ParticipationList = () => {
   const [participation, setParticipation] = useState([]);
   const treatyId = useParams().treatyId;
   useEffect(() => {
@@ -46,9 +47,9 @@ const ParticipationList = (props) => {
       "07": "July",
       "08": "August",
       "09": "September",
-      "10": "October",
-      "11": "November",
-      "12": "December",
+      10: "October",
+      11: "November",
+      12: "December",
     };
     date = date.split("/");
     date[1] = monthObj[date[1]];
@@ -89,14 +90,26 @@ const ParticipationList = (props) => {
         </div>
         <div>
           <p>
-            <span className="status-info">Signed: </span>{convertDateToReadable(dateConcluded)}
+            <span className="status-info">Signed: </span>
+            {convertDateToReadable(dateConcluded)}
           </p>
         </div>
         <div>
           <p>
-            {dateTreatyEnteredIntoForce
-              ? <span><span className="status-info">Entered into force: </span>{convertDateToReadable(dateTreatyEnteredIntoForce)}</span>  : <span className="not-in-force">Not yet into force</span>}
+            {dateTreatyEnteredIntoForce ? (
+              <span>
+                <span className="status-info">Entered into force: </span>
+                {convertDateToReadable(dateTreatyEnteredIntoForce)}
+              </span>
+            ) : (
+              <span className="not-in-force">Not yet into force</span>
+            )}
           </p>
+        </div>
+        <div>
+          <Link to="eng" className="link">
+            <p>Read text</p>
+          </Link>
         </div>
       </header>
       <table>

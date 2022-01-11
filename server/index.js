@@ -49,6 +49,21 @@ app.get("/topics/:id", async (req, res) => {
   }
 });
 
+
+
+
+app.get("/treaties/:id", async (req, res) => {
+  try {
+    const treaty = await pool.query(`SELECT treaties.id, treaties.name, treaties.concluded, treaties.city, treaties.entered_into_force, status, english_text.text FROM treaties INNER JOIN english_text ON treaties.id = english_text.treaty_id WHERE treaties.id = ${req.params.id}`);
+    res.json(treaty.rows);
+  } catch (err) {
+    console.error(err.message);
+  }
+});
+
+
+
+
 app.get("/treaties/", async (req, res) => {
   try {
     const treatiesAll = await pool.query(`SELECT * FROM treaties`);
