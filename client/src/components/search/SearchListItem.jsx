@@ -10,6 +10,7 @@ const SearchListItem = (props) => {
   switch (props.type) {
     case "text":
       link = `/treaties/${props.id}`;
+      break;
     case "country":
       link = `/countries/${props.id}`;
       break;
@@ -35,27 +36,26 @@ const SearchListItem = (props) => {
     }
     if (props.type === "text") {
       const makeContextForText = (text, keyword) => {
-        let indexOfkeyword = 0;
-        let textArr = text.split(" ");
-        for (let i = 0; i < textArr.length; i++) {
-          let regex = new RegExp(keyword, "gi");
-          if (regex.test(textArr[i])) {
-            indexOfkeyword = i;
-            break;
+        let regex = new RegExp(keyword, "i");
+        let indexOfkeyword = text.match(regex).index;
+        let result = "";
+        console.log(text.length, indexOfkeyword)
+        for (let i = 0; i < text.length; i++) {
+          if (i <= indexOfkeyword && indexOfkeyword - 250 <= i) {
+            result += text[i];
+          }
+          if (i > indexOfkeyword && i < 500 + (indexOfkeyword - 50)) {
+            result += text[i];
           }
         }
-        textArr = textArr.filter((elem, index) => {
-          if (index <= indexOfkeyword) {
-            return indexOfkeyword - 50 <= index;
-          }
-          if (index > indexOfkeyword) {
-            return index < (100 + (indexOfkeyword - 50));
-          }
-        });
-        return textArr.join(" ");
+        result = result.split(" ");
+        result.shift();
+        result.pop();
+        result = result.join(" ");
+        return result;
       };
       let text = makeContextForText(props.text, props.keyword);
-      text = text.replace(/\n/g, " ")
+      text = text.replace(/\n/g, " ");
       setContext(text);
     }
     if (props.type === "country") {
@@ -94,7 +94,7 @@ const SearchListItem = (props) => {
     props.id,
     props.name,
     props.type,
-    props.text
+    props.text,
   ]);
 
   const insertStrong = (string, keyword) => {
@@ -117,8 +117,13 @@ const SearchListItem = (props) => {
 
   return (
     <div>
-      <Link className="link" to={link}  target="_blank" rel="noopener noreferrer">
-      <div>{insertStrong(props.name, props.keyword)}</div>
+      <Link
+        className="link"
+        to={link}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <div>{insertStrong(props.name, props.keyword)}</div>
       </Link>
       <div>{insertStrong(context, props.keyword)}</div>
     </div>

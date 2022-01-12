@@ -23,7 +23,7 @@ const TopicsListItem = (props) => {
       </td>
       <td>
         <p className="th-mobile">Name of organization:</p>
-        <Link className="link" to={`/topics/${props.id}`}  target="_blank" rel="noopener noreferrer">
+        <Link className="link" to={`/topics/${props.id}`}>
           <p>{name}</p>
         </Link>
       </td>
