@@ -25,7 +25,7 @@ const TreatyText = () => {
   const dateTreatyEnteredIntoForce = treatyEnteredIntoForce
     ? new Date(treatyEnteredIntoForce).toLocaleDateString("en-GB")
     : null;
-
+  const linkToStatus = `/treaties/${treatyId}`;
   return (
     <div className="container">
       <header>
@@ -53,6 +53,11 @@ const TreatyText = () => {
               <span className="not-in-force">Not yet into force</span>
             )}
           </p>
+        </div>
+        <div>
+          <Link to={linkToStatus} className="link">
+            <p>Check status</p>
+          </Link>
         </div>
       </header>
       <div>{makeHtmlText(text)}</div>

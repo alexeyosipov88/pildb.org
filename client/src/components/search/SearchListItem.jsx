@@ -4,11 +4,12 @@ import { Link } from "react-router-dom";
 
 const SearchListItem = (props) => {
   let [context, setContext] = useState("");
-  let isTopic = props.type === "topic" ? true : false;
   let [countTreatiesForCountries, setCountTreatiesForCountries] = useState([]);
   let [countTreatiesForTopic, setCountTreatiesForTopic] = useState([]);
   let link;
   switch (props.type) {
+    case "text":
+      link = `/treaties/${props.id}`;
     case "country":
       link = `/countries/${props.id}`;
       break;
@@ -32,6 +33,31 @@ const SearchListItem = (props) => {
       let contextText = `Name of the treaty: ${props.name};  City: ${props.city};  Date of signature: ${props.concluded}; ${status}.`;
       setContext(contextText);
     }
+    if (props.type === "text") {
+      const makeContextForText = (text, keyword) => {
+        let indexOfkeyword = 0;
+        let textArr = text.split(" ");
+        for (let i = 0; i < textArr.length; i++) {
+          let regex = new RegExp(keyword, "gi");
+          if (regex.test(textArr[i])) {
+            indexOfkeyword = i;
+            break;
+          }
+        }
+        textArr = textArr.filter((elem, index) => {
+          if (index <= indexOfkeyword) {
+            return indexOfkeyword - 50 <= index;
+          }
+          if (index > indexOfkeyword) {
+            return index < (100 + (indexOfkeyword - 50));
+          }
+        });
+        return textArr.join(" ");
+      };
+      let text = makeContextForText(props.text, props.keyword);
+      text = text.replace(/\n/g, " ")
+      setContext(text);
+    }
     if (props.type === "country") {
       const setContextForCountry = async () => {
         let count = await axios.get("http://localhost:4000/count-treaties");
@@ -43,7 +69,6 @@ const SearchListItem = (props) => {
       setContextForCountry();
     }
     if (props.type === "topic") {
-
       const setTopicContext = async () => {
         let count = await axios.get("http://localhost:4000/count-topics");
         count = count.data.find((elem) => elem.id === props.id);
@@ -69,7 +94,7 @@ const SearchListItem = (props) => {
     props.id,
     props.name,
     props.type,
-    // searchName,
+    props.text
   ]);
 
   const insertStrong = (string, keyword) => {
@@ -93,7 +118,7 @@ const SearchListItem = (props) => {
   return (
     <div>
       <Link className="link" to={link}  target="_blank" rel="noopener noreferrer">
-        <div>{insertStrong(props.name, props.keyword)}</div>
+      <div>{insertStrong(props.name, props.keyword)}</div>
       </Link>
       <div>{insertStrong(context, props.keyword)}</div>
     </div>

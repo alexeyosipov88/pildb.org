@@ -49,7 +49,7 @@ const TreatiesListItem = (props) => {
       </td>
       <td>
         <div key={props.id}>
-          <Link to={`/treaties/${props.id}`}  target="_blank" rel="noopener noreferrer">
+          <Link to={`/treaties/${props.id}`}>
             <button className="status-btn" type="button"  target="_blank" rel="noopener noreferrer">
               check status
             </button>

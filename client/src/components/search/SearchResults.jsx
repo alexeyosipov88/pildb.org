@@ -2,12 +2,9 @@ import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
 import SearchListItem from "./SearchListItem";
-import Search from "./Search";
-
 
 const SearchResults = () => {
   const [searchResult, setSearchResult] = useState();
-
   let keyword = useParams().keyword;
   keyword = keyword.replace(/\s\s+/, " ");
   useEffect(() => {
@@ -19,6 +16,7 @@ const SearchResults = () => {
     };
     search();
   }, [keyword]);
+  let text = searchResult ? searchResult.text : [];
   let countries = searchResult ? searchResult.countries : [];
   let topics = searchResult ? searchResult.topics : [];
   let treaties = searchResult ? searchResult.treaties : [];
@@ -54,11 +52,22 @@ const SearchResults = () => {
     elem.treaty_id = elem.id;
     return elem;
   });
+  text = text.map(elem => {
+    elem.type = "text";
+    return elem;  
+  })
+
   let finalArrayOfResults = countries
     .concat(topics)
     .concat(treaties)
-    .concat(cities);
-  console.log(finalArrayOfResults);
+    .concat(cities)
+    .concat(text);
+
+  console.log(topics, "TOPICS!");
+
+  console.log(treaties, "TREATIES!");
+  console.log(text, "TEXT!");
+
   const convertDateToYearMonthFormat = (date) => {
     date = new Date(date).toLocaleDateString("en-GB");
     if (!date) {
@@ -74,10 +83,14 @@ const SearchResults = () => {
     return (
       <SearchListItem
         city={elem.city}
-        entered_into_force={convertDateToYearMonthFormat(elem.entered_into_force)}
+        entered_into_force={convertDateToYearMonthFormat(
+          elem.entered_into_force
+        )}
         concluded={convertDateToYearMonthFormat(elem.concluded)}
         keyword={keyword}
         key={index}
+        treaty_id={elem.treaty_id}
+        text={elem.text}
         id={elem.id}
         name={elem.name}
         type={elem.type}
@@ -86,8 +99,13 @@ const SearchResults = () => {
   });
   return (
     <div className="search-results">
-=      <header>
-        <p>{finalArrayOfResults.length !== 1 ? `${finalArrayOfResults.length} results` : `${finalArrayOfResults.length} result`} for "{keyword}":</p>
+      <header>
+        <p>
+          {finalArrayOfResults.length !== 1
+            ? `${finalArrayOfResults.length} results`
+            : `${finalArrayOfResults.length} result`}{" "}
+          for "{keyword}":
+        </p>
       </header>
       {finalArrayOfResults}
     </div>
