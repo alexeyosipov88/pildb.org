@@ -78,6 +78,16 @@ app.get("/topics", async (req, res) => {
   }
 });
 
+app.get("/organizations", async (req, res) => {
+  try {
+    const organizations = await pool.query("SELECT * FROM organizations");
+    res.json(organizations.rows);
+  } catch (err) {
+    console.error(err.message);
+  }
+
+})
+
 app.get("/participation/:id", async (req, res) => {
   try {
     const participationByTreaty = await pool.query(
