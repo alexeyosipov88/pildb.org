@@ -1,17 +1,20 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-
-const OrganizationsList = (props) => {
+import OrganizationListItem from "./OrganizationListItem";
+const OrganizationsList = () => {
   const [organizations, setOrganizations] = useState([]);
 
   useEffect(() => {
     axios.get("http://localhost:4000/organizations").then((organizations) => {
       setOrganizations(organizations.data);
     });
-
   }, []);
 
-  console.log(organizations);
+  let listOfOrganizations = organizations.map((elem) => {
+    return (
+      <OrganizationListItem key={elem.id} id={elem.id} name={elem.name} amount={elem.count} />
+    );
+  });
 
   return (
     <table>
@@ -31,6 +34,10 @@ const OrganizationsList = (props) => {
           </th>
         </tr>
       </thead>
+      <tbody>{listOfOrganizations}</tbody>
+      {/* <tbody>
+
+      </tbody> */}
       {/* <tbody>
         <tr>
           <td>

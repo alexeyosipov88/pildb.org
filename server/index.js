@@ -78,10 +78,31 @@ app.get("/topics", async (req, res) => {
   }
 });
 
+app.get("/organizations/:id", async (req, res) => {
+  try {
+    const treaties = await pool.query(`SELECT treaties.* FROM treaties INNER JOIN treaties_by_organization ON treaties.id = treaties_by_organization.treaty_id WHERE organization_id = ${req.params.id}`);
+    res.json(treaties.rows);
+  } catch (err) {
+    console.error(err.message);
+  }
+
+})
+
 app.get("/organizations", async (req, res) => {
   try {
-    const organizations = await pool.query("SELECT * FROM organizations");
-    res.json(organizations.rows);
+    let organizations = await pool.query("SELECT * FROM organizations");
+    organizations = organizations.rows;
+    let countOfTreaties = await pool.query("SELECT organization_id, count(*) FROM treaties_by_organization GROUP BY organization_id");
+    countOfTreaties = countOfTreaties.rows;
+    countOfTreaties.forEach(elem => {
+      for(let i = 0; i < organizations.length; i++) {
+        if(organizations[i].id === elem.organization_id) {
+          console.log('sd')
+          organizations[i].count = elem.count;
+        }
+      }
+    })
+    res.json(organizations);
   } catch (err) {
     console.error(err.message);
   }
@@ -127,16 +148,6 @@ app.get("/participation", async (req, res) => {
     console.error(err.message);
   }
 });
-
-// app.get("/search/:keyword", async (req, res) => {
-//   try {
-//     const keyword = req.params.keyword.toLowerCase();
-//     const result = await search(keyword);
-//     res.json(result);
-//   } catch (err) {
-//     console.error(err.message);
-//   }
-// });
 
 app.post("/search/:keyword", urlencodedParser, async (req, res) => {
   try {
