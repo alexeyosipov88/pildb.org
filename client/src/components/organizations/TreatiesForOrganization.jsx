@@ -13,7 +13,7 @@ const TreatiesForOrganization = () => {
 
   const organizationInfromation = {
     hague: {
-      name: "Hague Conference on Private International Law ",
+      name: "Hague Conference on Private International Law",
       info: `The Hague Conference on Private International Law (HCCH) is an intergovernmental organisation in the area of private international law (also known as conflict of laws), that administers several international conventions, protocols and soft law instruments.`,
     },
     un: {

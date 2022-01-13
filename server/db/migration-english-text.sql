@@ -1,5 +1,8 @@
+DROP TABLE IF EXISTS english_text CASCADE;
+
 CREATE TABLE english_text (
   id SERIAL PRIMARY KEY NOT NULL,
   treaty_id INTEGER REFERENCES treaties(id) ON DELETE CASCADE,
   text TEXT
+  
 );
