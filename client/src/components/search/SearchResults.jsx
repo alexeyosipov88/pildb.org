@@ -16,6 +16,7 @@ const SearchResults = () => {
     };
     search();
   }, [keyword]);
+  let organizations = searchResult ? searchResult.organizations : [];
   let text = searchResult ? searchResult.text : [];
   let countries = searchResult ? searchResult.countries : [];
   let topics = searchResult ? searchResult.topics : [];
@@ -42,6 +43,10 @@ const SearchResults = () => {
       .join(" ");
     return elem;
   });
+  organizations = organizations.map(elem => {
+      elem.type = "organization";
+      return elem;
+  })
   treaties = treaties.map((elem) => {
     elem.type = "treaty";
     elem.treaty_id = elem.id;
@@ -52,21 +57,17 @@ const SearchResults = () => {
     elem.treaty_id = elem.id;
     return elem;
   });
-  text = text.map(elem => {
+  text = text.map((elem) => {
     elem.type = "text";
-    return elem;  
-  })
+    return elem;
+  });
 
   let finalArrayOfResults = countries
+    .concat(organizations)
     .concat(topics)
     .concat(treaties)
     .concat(cities)
     .concat(text);
-
-  console.log(topics, "TOPICS!");
-
-  console.log(treaties, "TREATIES!");
-  console.log(text, "TEXT!");
 
   const convertDateToYearMonthFormat = (date) => {
     date = new Date(date).toLocaleDateString("en-GB");
@@ -79,6 +80,7 @@ const SearchResults = () => {
     date[2] = tmp;
     return date.join("/");
   };
+  console.log(finalArrayOfResults)
   finalArrayOfResults = finalArrayOfResults.map((elem, index) => {
     return (
       <SearchListItem
@@ -86,6 +88,7 @@ const SearchResults = () => {
         entered_into_force={convertDateToYearMonthFormat(
           elem.entered_into_force
         )}
+        organization_id={elem.organization_id}
         concluded={convertDateToYearMonthFormat(elem.concluded)}
         keyword={keyword}
         key={index}

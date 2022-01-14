@@ -3,19 +3,25 @@ const pool = require("../db");
 const search = (keyword) => {
   return new Promise(async (resolve, reject) => {
     const result = {};
-    const text = await pool.query(`SELECT english_text.*, treaties.name FROM english_text INNER JOIN treaties ON treaties.id = english_text.treaty_id WHERE text ILIKE '${keyword}%' OR text ILIKE '% ${keyword}%'`);
+    const organizations = await pool.query(
+      `SELECT * FROM organizations WHERE name ILIKE '${keyword}%' OR name ILIKE '% ${keyword}%' OR name ILIKE '%(${keyword})%'`);
+    const text = await pool.query(
+      `SELECT english_text.*, treaties.name FROM english_text INNER JOIN treaties ON treaties.id = english_text.treaty_id WHERE text ILIKE '${keyword}%' OR text ILIKE '% ${keyword}%' OR text ILIKE '%(${keyword})%'`
+    );
     const countries = await pool.query(
-      `SELECT * FROM countries WHERE name ILIKE '${keyword}%' OR name ILIKE '% ${keyword}%'`
+      `SELECT * FROM countries WHERE name ILIKE '${keyword}%' OR name ILIKE '% ${keyword}%' OR name ILIKE '%(${keyword})%'`
     );
     const treaties = await pool.query(
-      `SELECT * FROM treaties WHERE name ILIKE '${keyword}%' OR name ILIKE '% ${keyword}%'`
+      `SELECT * FROM treaties WHERE name ILIKE '${keyword}%' OR name ILIKE '% ${keyword}%' OR name ILIKE '%(${keyword})%'`
     );
     const topics = await pool.query(
-      `SELECT * FROM topics WHERE name ILIKE '${keyword}%' OR name ILIKE '% ${keyword}%'`
+      `SELECT * FROM topics WHERE name ILIKE '${keyword}%' OR name ILIKE '% ${keyword}%' OR name ILIKE '%(${keyword})%'`
     );
-    const cities = await pool.query(`SELECT * FROM treaties WHERE city ILIKE '${keyword}%' OR city ILIKE '% ${keyword}%'`);
+    const cities = await pool.query(
+      `SELECT * FROM treaties WHERE city ILIKE '${keyword}%' OR city ILIKE '% ${keyword}%' OR city ILIKE '%(${keyword})%'`
+    );
     result.text = text.rows;
-    console.log(result.text)
+    result.organizations = organizations.rows;
     result.countries = countries.rows;
     result.topics = topics.rows;
     result.treaties = treaties.rows;

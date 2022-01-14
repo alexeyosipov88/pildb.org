@@ -16,10 +16,8 @@ const TreatiesForOrganization = () => {
       setOrganizations(result[0].data);
       setTreatiesForOrganization(result[1].data);
     });
-    // .then((treaties) => {
-    //   setTreatiesForOrganization(treaties.data);
-    // });
-  }, []);
+   
+  }, [organizationId]);
   let organizationName;
   console.log(organizations, organizationId);
   organizations.forEach((elem) => {

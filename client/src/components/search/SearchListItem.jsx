@@ -5,9 +5,13 @@ import { Link } from "react-router-dom";
 const SearchListItem = (props) => {
   let [context, setContext] = useState("");
   let [countTreatiesForCountries, setCountTreatiesForCountries] = useState([]);
+  let [countTreatiesForOrganization, setCountTreatiesForOrganization] = useState([]);
   let [countTreatiesForTopic, setCountTreatiesForTopic] = useState([]);
   let link;
   switch (props.type) {
+    case "organization":
+      link= `/organizations/${props.id}`
+      break;
     case "text":
       link = `/treaties/${props.id}`;
       break;
@@ -39,7 +43,6 @@ const SearchListItem = (props) => {
         let regex = new RegExp(keyword, "i");
         let indexOfkeyword = text.match(regex).index;
         let result = "";
-        console.log(text.length, indexOfkeyword)
         for (let i = 0; i < text.length; i++) {
           if (i <= indexOfkeyword && indexOfkeyword - 250 <= i) {
             result += text[i];
@@ -63,10 +66,21 @@ const SearchListItem = (props) => {
         let count = await axios.get("http://localhost:4000/count-treaties");
         count = count.data.find((elem) => elem.id === props.id);
         setCountTreatiesForCountries(count);
+        console.log(count, "countries")
         let contextText = `This search result matches one of our website's section ― countries (${props.name}). It has ${countTreatiesForCountries.count} treaties which this country is party of.`;
         setContext(contextText);
       };
       setContextForCountry();
+    }
+    if(props.type === "organization") {
+      const setContextForOrganization = async () => {
+        let organization = await axios.get("http://localhost:4000/organizations");
+        organization = organization.data.find((elem) => elem.id === props.id);
+        setCountTreatiesForOrganization(organization);
+        let contextText = `This search result matches one of our website's section ― countries (${props.name}). It has ${countTreatiesForOrganization.count} treaties which this country is party of.`;
+        setContext(contextText);
+      };
+      setContextForOrganization();
     }
     if (props.type === "topic") {
       const setTopicContext = async () => {
@@ -85,7 +99,7 @@ const SearchListItem = (props) => {
       let contextText = `Name of the treaty: ${props.name};  City: ${props.city};  Date of signature: ${props.concluded}; ${status}.`;
       setContext(contextText);
     }
-  }, [
+  }, [countTreatiesForOrganization.count,
     countTreatiesForCountries.count,
     countTreatiesForTopic.count,
     props.city,

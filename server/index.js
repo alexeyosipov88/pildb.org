@@ -129,6 +129,7 @@ app.get("/count-treaties", async (req, res) => {
     console.error(err.message);
   }
 });
+
 app.get("/count-topics", async (req, res) => {
   try {
     const countTreatiesForTopic = await pool.query(
