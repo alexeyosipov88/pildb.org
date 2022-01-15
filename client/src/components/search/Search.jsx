@@ -14,9 +14,8 @@ const Search = () => {
       setWarning(true);
     } else {
       setWarning(false);
-      console.log("You are good to go");
+      navigate(`/search/${inputValue}`);
     }
-    // navigate(`/search/${inputValue}`);
   };
   return (
     <form action="" onSubmit={handleSubmit}>

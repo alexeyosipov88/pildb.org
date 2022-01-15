@@ -35,6 +35,10 @@ const AllTreaties = () => {
   });
 
   return (
+    <div>
+      <header>
+        Let's change the contents here!
+      </header>
     <table>
       <thead>
         <tr>
@@ -50,10 +54,14 @@ const AllTreaties = () => {
           <th>
             <p>Date signed:</p>
           </th>
+          <th>
+            <p>Check status</p>
+          </th>
         </tr>
       </thead>
       <tbody>{listOfAllTreaties}</tbody>
     </table>
+    </div>
   );
 };
 
