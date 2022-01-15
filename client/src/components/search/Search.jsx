@@ -3,20 +3,27 @@ import { useNavigate } from "react-router-dom";
 
 const Search = () => {
   const [inputValue, setInputValue] = useState("");
+  const [warning, setWarning] = useState(false);
   const navigate = useNavigate();
   const handleInputChange = (event) => {
     setInputValue(event.target.value);
   };
   const handleSubmit = (event) => {
     event.preventDefault();
-
-    navigate(`/search/${inputValue}`);
+    if (inputValue.length < 3) {
+      setWarning(true);
+    } else {
+      setWarning(false);
+      console.log("You are good to go");
+    }
+    // navigate(`/search/${inputValue}`);
   };
   return (
-    <div>
-      <form action="" onSubmit={handleSubmit}>
+    <form action="" onSubmit={handleSubmit}>
+      <div className="search-and-warning">
         <div className="search">
-          <input autoComplete="off"
+          <input
+            autoComplete="off"
             id="search-input"
             placeholder="Search"
             value={inputValue}
@@ -27,8 +34,9 @@ const Search = () => {
             <i className="fa fa-search"></i>
           </button>
         </div>
-      </form>
-    </div>
+        <div>{warning && <div className="fade-in" id="warning">Please enter more than 2 characters</div>}</div>
+      </div>
+    </form>
   );
 };
 
