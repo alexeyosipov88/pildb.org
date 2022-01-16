@@ -6,7 +6,6 @@ const pool = new Pool({
   host: "localhost",
   port: 5432,
   database: "pildb"
-
 })
 
 module.exports = pool;

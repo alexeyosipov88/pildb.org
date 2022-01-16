@@ -4,21 +4,21 @@ const search = (keyword) => {
   return new Promise(async (resolve, reject) => {
     const result = {};
     const organizations = await pool.query(
-      `SELECT * FROM organizations WHERE name ILIKE '${keyword}%' OR name ILIKE '% ${keyword}%' OR name ILIKE '%(${keyword})%'`);
+      `SELECT * FROM organizations WHERE name ILIKE $1 OR name ILIKE $2 OR name ILIKE $3`, [`${keyword}%`, `% ${keyword}%`, `%(${keyword})%`]);
     const text = await pool.query(
-      `SELECT english_text.*, treaties.name FROM english_text INNER JOIN treaties ON treaties.id = english_text.treaty_id WHERE text ILIKE '${keyword}%' OR text ILIKE '% ${keyword}%' OR text ILIKE '%(${keyword})%'`
+      `SELECT english_text.*, treaties.name FROM english_text INNER JOIN treaties ON treaties.id = english_text.treaty_id WHERE text ILIKE $1 OR text ILIKE $2 OR text ILIKE $3`, [`${keyword}%`, `% ${keyword}%`, `%(${keyword})%`]
     );
     const countries = await pool.query(
-      `SELECT * FROM countries WHERE name ILIKE '${keyword}%' OR name ILIKE '% ${keyword}%' OR name ILIKE '%(${keyword})%'`
+      `SELECT * FROM countries WHERE name ILIKE $1 OR name ILIKE $2 OR name ILIKE $3`, [`${keyword}%`, `% ${keyword}%`, `%(${keyword})%`]
     );
     const treaties = await pool.query(
-      `SELECT * FROM treaties WHERE name ILIKE '${keyword}%' OR name ILIKE '% ${keyword}%' OR name ILIKE '%(${keyword})%'`
+      `SELECT * FROM treaties WHERE name ILIKE $1 OR name ILIKE $2 OR name ILIKE $3`, [`${keyword}%` ,`% ${keyword}%`, `%(${keyword})%`]
     );
     const topics = await pool.query(
-      `SELECT * FROM topics WHERE name ILIKE '${keyword}%' OR name ILIKE '% ${keyword}%' OR name ILIKE '%(${keyword})%'`
+      `SELECT * FROM topics WHERE name ILIKE $1 OR name ILIKE $2 OR name ILIKE $3`, [`${keyword}%`, `% ${keyword}%`, `%(${keyword})%`]
     );
     const cities = await pool.query(
-      `SELECT * FROM treaties WHERE city ILIKE '${keyword}%' OR city ILIKE '% ${keyword}%' OR city ILIKE '%(${keyword})%'`
+      `SELECT * FROM treaties WHERE city ILIKE $1 OR city ILIKE $2 OR city ILIKE $3`, [`${keyword}%`, `% ${keyword}%`, `%(${keyword})%`]
     );
     result.text = text.rows;
     result.organizations = organizations.rows;
