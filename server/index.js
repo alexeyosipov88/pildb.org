@@ -4,6 +4,7 @@ const cors = require("cors");
 const morgan = require("morgan");
 const { search } = require("./helpers/search");
 const bodyParser = require("body-parser");
+const api = require('./api/api')
 const urlencodedParser = bodyParser.urlencoded({ extended: false });
 const {
   getTreatiesByCountry,
@@ -24,6 +25,10 @@ app.use(cors());
 app.use(express.json()); // req.bodu
 app.use(morgan("tiny"));
 app.use(bodyParser.urlencoded({ extended: false }));
+app.use('/api', api);
+
+
+
 
 app.get("/countries/:id", async (req, res) => {
   try {

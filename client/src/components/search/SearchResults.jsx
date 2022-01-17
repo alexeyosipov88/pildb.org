@@ -9,8 +9,8 @@ const SearchResults = () => {
   keyword = keyword.replace(/\s\s+/, " ");
   useEffect(() => {
     const search = async () => {
-      let axiosResponse = await axios.post(
-        `http://localhost:4000/search/${keyword}`
+      let axiosResponse = await axios.get(
+        `http://localhost:4000/api/search/${keyword}`
       );
       setSearchResult(axiosResponse.data);
     };
