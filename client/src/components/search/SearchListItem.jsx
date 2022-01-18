@@ -120,26 +120,6 @@ const SearchListItem = (props) => {
     props.text,
   ]);
 
-  const insertStrong = (string, keyword) => {
-    if (!string || !keyword) {
-      return;
-    }
-    if (keyword.length < 1) return;
-    let id = 1;
-    let regex = new RegExp(keyword, "i");
-    keyword = string.match(regex);
-
-    let array = string.split(keyword);
-    for (let i = 0; i < array.length - 1; i += 2) {
-      let strongKeyword = <strong key={id++}>{keyword}</strong>;
-      for (let j = array.length; j > i; j--) {
-        array[j] = array[j - 1];
-      }
-      array[i + 1] = strongKeyword;
-    }
-    return array;
-  };
-
   const insertStrongForMultipleKeywords = (string, key) => {
     if (!string || !key) {
       return;
@@ -148,28 +128,43 @@ const SearchListItem = (props) => {
     let keyArr = key.split(/\s/);
     let id = 1;
     let alreayModifiedWords = [];
-    while (keyArr.length > 0) {
-      let keyword = keyArr.pop();
-      let regex = new RegExp(keyword, "ig");
-      keyword = keyword.match(regex);
+
+    for (let i = 0; i < keyArr.length; i++) {
+      const regex = new RegExp(keyArr[i], "i");
+      console.log(regex);
+      // mark a word for wrapping with strong later
       arrFromString.forEach((elem, index) => {
         if (regex.test(elem)) {
-          alreayModifiedWords[index] = true;
-          let strongKeyword = <strong key={id++}>{elem + " "}</strong>;
-          arrFromString[index] = strongKeyword;
-        } else if(!alreayModifiedWords[index]) {
-          arrFromString[index] = elem + " ";
+          arrFromString[index] = "`" + elem;
         }
       });
     }
-    // let newArr = [];
-    // for (let i = 0; i < arrFromString.length * 2; i++) {
-    //   if (i % 2 === 0) newArr.push(arrFromString[i]);
-    //   else newArr.push(" ");
-    // }
 
+    arrFromString.forEach((elem, index) => {
+      if (elem.charAt(0) === "`") {
+        elem = elem.slice(1);
+        let strongKeyword = <strong key={id++}>{elem + " "}</strong>;
+        arrFromString[index] = strongKeyword;
+      } else arrFromString[index] = elem + " ";
+    });
+
+
+
+    // while (keyArr.length > 0) {
+    //   let keyword = keyArr.pop();
+    //   let regex = new RegExp(keyword, "ig");
+    //   keyword = keyword.match(regex);
+    //   arrFromString.forEach((elem, index) => {
+    //     if (regex.test(elem)) {
+    //       alreayModifiedWords[index] = true;
+    //       let strongKeyword = <strong key={id++}>{elem + " "}</strong>;
+    //       arrFromString[index] = strongKeyword;
+    //     } else if(!alreayModifiedWords[index]) {
+    //       arrFromString[index] = elem + " ";
+    //     }
+    //   });
+    // }
     return arrFromString;
-    // return arrFromString;
   };
 
   return (
