@@ -5,12 +5,13 @@ import { Link } from "react-router-dom";
 const SearchListItem = (props) => {
   let [context, setContext] = useState("");
   let [countTreatiesForCountries, setCountTreatiesForCountries] = useState([]);
-  let [countTreatiesForOrganization, setCountTreatiesForOrganization] = useState([]);
+  let [countTreatiesForOrganization, setCountTreatiesForOrganization] =
+    useState([]);
   let [countTreatiesForTopic, setCountTreatiesForTopic] = useState([]);
   let link;
   switch (props.type) {
     case "organization":
-      link= `/organizations/${props.id}`
+      link = `/organizations/${props.id}`;
       break;
     case "text":
       link = `/treaties/${props.id}`;
@@ -57,24 +58,31 @@ const SearchListItem = (props) => {
         result = result.join(" ");
         return result;
       };
-      let text = makeContextForText(props.text, props.keyword);
-      text = text.replace(/\n/g, " ");
-      setContext(text);
+      let finalText = "";
+      let keywordArr = props.keyword.split(/\s/);
+      for (let i = 0; i < keywordArr.length; i++) {
+        let text = makeContextForText(props.text, keywordArr[i]);
+        text = text.replace(/\n/g, " ");
+        finalText = finalText + text + "\n\n";
+      }
+      setContext(finalText);
     }
     if (props.type === "country") {
       const setContextForCountry = async () => {
         let count = await axios.get("http://localhost:4000/count-treaties");
         count = count.data.find((elem) => elem.id === props.id);
         setCountTreatiesForCountries(count);
-        console.log(count, "countries")
+        console.log(count, "countries");
         let contextText = `This search result matches one of our website's section ― countries (${props.name}). It has ${countTreatiesForCountries.count} treaties which this country is party of.`;
         setContext(contextText);
       };
       setContextForCountry();
     }
-    if(props.type === "organization") {
+    if (props.type === "organization") {
       const setContextForOrganization = async () => {
-        let organization = await axios.get("http://localhost:4000/organizations");
+        let organization = await axios.get(
+          "http://localhost:4000/organizations"
+        );
         organization = organization.data.find((elem) => elem.id === props.id);
         setCountTreatiesForOrganization(organization);
         let contextText = `This search result matches one of our website's section ― countries (${props.name}). It has ${countTreatiesForOrganization.count} treaties which this country is party of.`;
@@ -99,7 +107,8 @@ const SearchListItem = (props) => {
       let contextText = `Name of the treaty: ${props.name};  City: ${props.city};  Date of signature: ${props.concluded}; ${status}.`;
       setContext(contextText);
     }
-  }, [countTreatiesForOrganization.count,
+  }, [
+    countTreatiesForOrganization.count,
     countTreatiesForCountries.count,
     countTreatiesForTopic.count,
     props.city,
@@ -115,9 +124,11 @@ const SearchListItem = (props) => {
     if (!string || !keyword) {
       return;
     }
+    if (keyword.length < 1) return;
     let id = 1;
     let regex = new RegExp(keyword, "i");
     keyword = string.match(regex);
+
     let array = string.split(keyword);
     for (let i = 0; i < array.length - 1; i += 2) {
       let strongKeyword = <strong key={id++}>{keyword}</strong>;
@@ -129,6 +140,38 @@ const SearchListItem = (props) => {
     return array;
   };
 
+  const insertStrongForMultipleKeywords = (string, key) => {
+    if (!string || !key) {
+      return;
+    }
+    let arrFromString = string.split(/\s/);
+    let keyArr = key.split(/\s/);
+    let id = 1;
+    let alreayModifiedWords = [];
+    while (keyArr.length > 0) {
+      let keyword = keyArr.pop();
+      let regex = new RegExp(keyword, "ig");
+      keyword = keyword.match(regex);
+      arrFromString.forEach((elem, index) => {
+        if (regex.test(elem)) {
+          alreayModifiedWords[index] = true;
+          let strongKeyword = <strong key={id++}>{elem + " "}</strong>;
+          arrFromString[index] = strongKeyword;
+        } else if(!alreayModifiedWords[index]) {
+          arrFromString[index] = elem + " ";
+        }
+      });
+    }
+    // let newArr = [];
+    // for (let i = 0; i < arrFromString.length * 2; i++) {
+    //   if (i % 2 === 0) newArr.push(arrFromString[i]);
+    //   else newArr.push(" ");
+    // }
+
+    return arrFromString;
+    // return arrFromString;
+  };
+
   return (
     <div>
       <Link
@@ -137,9 +180,9 @@ const SearchListItem = (props) => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <div>{insertStrong(props.name, props.keyword)}</div>
+        <div>{insertStrongForMultipleKeywords(props.name, props.keyword)}</div>
       </Link>
-      <div>{insertStrong(context, props.keyword)}</div>
+      {/* <div>{insertStrongForMultipleKeywords(context, props.keyword)}</div> */}
     </div>
   );
 };
