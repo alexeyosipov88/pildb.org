@@ -127,15 +127,28 @@ const SearchListItem = (props) => {
     let arrFromString = string.split(/\s/);
     let keyArr = key.split(/\s/);
     let id = 1;
-    let alreayModifiedWords = [];
 
     for (let i = 0; i < keyArr.length; i++) {
       const regex = new RegExp(keyArr[i], "i");
       console.log(regex);
-      // mark a word for wrapping with strong later
       arrFromString.forEach((elem, index) => {
-        if (regex.test(elem)) {
+        let specialCase = false;
+        if (
+          (regex.test(elem) && elem.charAt(0) === "(") ||
+          (regex.test(elem) && /[^a-zA-Z]/.test(elem.charAt(elem.length - 1)))
+        ) {
+          specialCase = true;
+        }
+        if (
+          (regex.test(elem) && elem.length === keyArr[i].length) ||
+          specialCase
+        ) {
           arrFromString[index] = "`" + elem;
+          if (props.type === "city") {
+            console.log("CITY");
+          }
+
+          console.log(arrFromString[index]);
         }
       });
     }
@@ -147,8 +160,6 @@ const SearchListItem = (props) => {
         arrFromString[index] = strongKeyword;
       } else arrFromString[index] = elem + " ";
     });
-
-
 
     // while (keyArr.length > 0) {
     //   let keyword = keyArr.pop();
@@ -177,7 +188,7 @@ const SearchListItem = (props) => {
       >
         <div>{insertStrongForMultipleKeywords(props.name, props.keyword)}</div>
       </Link>
-      {/* <div>{insertStrongForMultipleKeywords(context, props.keyword)}</div> */}
+      <div>{insertStrongForMultipleKeywords(context, props.keyword)}</div>
     </div>
   );
 };

@@ -41,7 +41,6 @@ const getFromMultipleKeywods = (keyword, callback) => {
                 check = false;
               }
             }
-            // checking backwards
             for (let k = i - 1; k >= 0; k--) {
               let idOfResults = values[k].map((elem) => elem.id);
               if (!idOfResults.includes(values[i][j].id)) {
@@ -53,7 +52,8 @@ const getFromMultipleKeywods = (keyword, callback) => {
         }
       }
 
-      finalArrOfResults = getUniqueArrayFromSearchResults(finalArrOfResults).flat();
+      finalArrOfResults =
+        getUniqueArrayFromSearchResults(finalArrOfResults).flat();
 
       resolve(finalArrOfResults);
     });
@@ -67,44 +67,44 @@ const search = (keyword) => {
       keyword,
       async (keyword) => {
         return await pool.query(
-          `SELECT * FROM organizations WHERE name ILIKE $1 OR name ILIKE $2 OR name ILIKE $3`,
-          [`${keyword}%`, `% ${keyword}%`, `%(${keyword})%`]
+          `SELECT * FROM organizations WHERE name ILIKE $1 OR name ILIKE $2 OR name ILIKE $3 OR name ILIKE $4 OR name ILIKE $5 OR name ILIKE $6`,
+          [`${keyword} %`, `% ${keyword}`, `% ${keyword} %`, `%(${keyword})%`, `${keyword}`, `% ${keyword}_%`]
         );
       }
     );
 
     const text = await getFromMultipleKeywods(keyword, async (keyword) => {
       return await pool.query(
-        `SELECT english_text.*, treaties.name FROM english_text INNER JOIN treaties ON treaties.id = english_text.treaty_id WHERE text ILIKE $1 OR text ILIKE $2 OR text ILIKE $3`,
-        [`${keyword} %`, `% ${keyword}`, `% ${keyword} %`]
+        `SELECT english_text.*, treaties.name FROM english_text INNER JOIN treaties ON treaties.id = english_text.treaty_id WHERE text ILIKE $1 OR text ILIKE $2 OR text ILIKE $3 OR text ILIKE $4 OR text ILIKE $5`,
+        [`${keyword} %`, `% ${keyword}`, `% ${keyword} %`, `%(${keyword})%`, `% ${keyword}_%`]
       );
     });
 
     const countries = await getFromMultipleKeywods(keyword, async (keyword) => {
       return await pool.query(
-        `SELECT * FROM countries WHERE name ILIKE $1 OR name ILIKE $2 OR name ILIKE $3`,
-        [`${keyword} %`, `% ${keyword}`, `% ${keyword} %`]
+        `SELECT * FROM countries WHERE name ILIKE $1 OR name ILIKE $2 OR name ILIKE $3 OR name ILIKE $4 OR name ILIKE $5 OR name ILIKE $6`,
+        [`${keyword} %`, `% ${keyword}`, `% ${keyword} %`, `%(${keyword})%`, `${keyword}`, `% ${keyword}_%`]
       );
     });
 
     const treaties = await getFromMultipleKeywods(keyword, async (keyword) => {
       return await pool.query(
-        `SELECT * FROM treaties WHERE name ILIKE $1 OR name ILIKE $2 OR name ILIKE $3`,
-        [`${keyword} %`, `% ${keyword}`, `% ${keyword} %`]
+        `SELECT * FROM treaties WHERE name ILIKE $1 OR name ILIKE $2 OR name ILIKE $3 OR name ILIKE $4 OR name ILIKE $5 OR name ILIKE $6`,
+        [`${keyword} %`, `% ${keyword}`, `% ${keyword} %`, `%(${keyword})%`, `${keyword}`, `% ${keyword}_%`]
       );
     });
 
     const topics = await getFromMultipleKeywods(keyword, async (keyword) => {
       return await pool.query(
-        `SELECT * FROM topics WHERE name ILIKE $1 OR name ILIKE $2 OR name ILIKE $3`,
-        [`${keyword} %`, `% ${keyword}`, `% ${keyword} %`]
+        `SELECT * FROM topics WHERE name ILIKE $1 OR name ILIKE $2 OR name ILIKE $3 OR name ILIKE $4 OR name ILIKE $5 OR name ILIKE $6`,
+        [`${keyword} %`, `% ${keyword}`, `% ${keyword} %`, `%(${keyword})%`, `${keyword}`, `% ${keyword}_%`]
       );
     });
 
     const cities = await getFromMultipleKeywods(keyword, async (keyword) => {
       return await pool.query(
-        `SELECT * FROM treaties WHERE city ILIKE $1 OR city ILIKE $2 OR city ILIKE $3`,
-        [`${keyword} %`, `% ${keyword}`, `% ${keyword} %`]
+        `SELECT * FROM treaties WHERE city ILIKE $1 OR city ILIKE $2 OR city ILIKE $3 OR name ILIKE $4 OR name ILIKE $5 OR name ILIKE $6`,
+        [`${keyword} %`, `% ${keyword}`, `% ${keyword} %`, `%(${keyword})%`, `${keyword}`, `% ${keyword}_%`]
       );
     });
 
