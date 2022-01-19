@@ -56,7 +56,7 @@ const SearchListItem = (props) => {
         result.shift();
         result.pop();
         result = result.join(" ");
-        result = "[..." + result + "...]";
+        result = "[... " + result + " ...]";
         return result;
       };
       let finalText = "";
@@ -135,7 +135,7 @@ const SearchListItem = (props) => {
         let specialCase = false;
         if (
           (regex.test(elem) && elem.charAt(0) === "(") ||
-          (regex.test(elem) && /[^a-zA-Z]/.test(elem.charAt(elem.length - 1)))
+          (regex.test(elem) && elem.length - keyArr[i].length === 1)
         ) {
           specialCase = true;
         }
@@ -150,7 +150,6 @@ const SearchListItem = (props) => {
         }
       });
     }
-
     arrFromString.forEach((elem, index) => {
       if (elem.charAt(0) === "`") {
         elem = elem.slice(1);

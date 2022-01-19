@@ -27,7 +27,7 @@ const Navbar = () => {
       <div id="logo-and-search" className="container flex flex-jc-sb">
           <Link to="/" id="logo_link">
         <div id="logo">
-            Private International Law Database
+        <span className="first-letter-logo">P</span>rivate <span className="first-letter-logo">I</span>nternational <span className="first-letter-logo">L</span>aw <span className="first-letter-logo">D</span>atabase
         </div>
           </Link>
         <Search/>

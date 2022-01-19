@@ -1,4 +1,4 @@
-package database.text_english.java_sql_maker;
+package sql_makers.text_english.java_sql_maker;
 
 import java.io.File; // Import the File class
 import java.io.FileNotFoundException; // Import this class to handle errors

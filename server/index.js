@@ -1,10 +1,14 @@
+require('dotenv').config();
+
 const express = require("express");
 const app = express();
 const cors = require("cors");
 const morgan = require("morgan");
 const { search } = require("./helpers/search");
 const bodyParser = require("body-parser");
-const api = require('./api/api')
+const api = require('./api/api');
+const port = process.env.PORT || 4000;
+
 const urlencodedParser = bodyParser.urlencoded({ extended: false });
 const {
   getTreatiesByCountry,
@@ -155,5 +159,5 @@ app.post("/search/:keyword", urlencodedParser, async (req, res) => {
   }
 });
 app.listen(4000, () => {
-  console.log("Server has started on port 4000");
+  console.log(`Server has started on port ${port}`);
 });

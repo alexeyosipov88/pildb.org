@@ -32,7 +32,7 @@ const Search = () => {
           <input
             autoComplete="off"
             id="search-input"
-            placeholder="Search"
+            placeholder="Search in PILDB"
             value={inputValue}
             onChange={handleInputChange}
             type="text"

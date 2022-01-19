@@ -1,4 +1,4 @@
-package database.organizations;
+package sql_makers.organizations;
 
 import java.io.File;
 import java.io.FileWriter;

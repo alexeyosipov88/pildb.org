@@ -2,23 +2,19 @@
   z-index: 1;
 
   position: relative;
-  // z-index: 1;
   @include breakpoint-down(small) {
     display: flex;
     border-style: none;
   }
 
   nav {
-    
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     margin: 1.5rem 1.5rem;
-    
   }
   &.open {
-
     .toggle_background {
       flex-direction: flex;
       justify-content: center;
@@ -73,9 +69,12 @@
     background-image: linear-gradient($darkBlue, transparent);
   }
   #logo {
-    font-size: 1.875rem;  
-    color: $mainBlue;
-    padding-bottom: 35px;
+    span.first-letter-logo {
+      color: $mainBlue;
+    }
+    font-size: 1.875rem;
+    color: rgb(48, 90, 168);
+    padding-bottom: 2.188rem;
   }
   #logo-and-search {
     @include breakpoint-down(small) {
@@ -84,14 +83,13 @@
     }
     margin-top: 3.125rem;
     margin-bottom: 3.125rem;
-    font-family: 'Playfair Display', sans-serif;
+    font-family: "Playfair Display", sans-serif;
     font-weight: 900;
   }
   #logo_link {
     text-decoration: none;
   }
   &__toggle {
-
     > span {
       display: block;
       width: 26px;
