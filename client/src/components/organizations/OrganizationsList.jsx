@@ -1,11 +1,12 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
+import axiosApi from "../../api/axios-api";
 import OrganizationListItem from "./OrganizationListItem";
 const OrganizationsList = () => {
   const [organizations, setOrganizations] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:4000/api/organizations").then((organizations) => {
+    axiosApi.get("/organizations").then((organizations) => {
       setOrganizations(organizations.data);
     });
   }, []);

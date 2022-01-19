@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
+import axiosApi from "../../api/axios-api";
 import SearchListItem from "./SearchListItem";
 
 const SearchResults = () => {
@@ -9,8 +10,8 @@ const SearchResults = () => {
   keyword = keyword.replace(/\s\s+/, " ");
   useEffect(() => {
     const search = async () => {
-      let axiosResponse = await axios.get(
-        `http://localhost:4000/api/search/${keyword}`
+      let axiosResponse = await axiosApi.get(
+        `/search/${keyword}`
       );
       setSearchResult(axiosResponse.data);
     };

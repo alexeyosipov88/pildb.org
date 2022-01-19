@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useEffect } from "react";
 import axios from "axios";
+import axiosApi from "../../api/axios-api";
 import HomeTopicsListItem from "./HomeTopicsListItem";
 import topicsIconsObject from '../../images/topics-icons/topics-icons-object.js';
 
@@ -9,7 +10,7 @@ const HomeTopicsList = (props) => {
   const [topics, setTopics] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:4000/api/topics").then((topics) => {
+    axiosApi.get("http://localhost:4000/api/topics").then((topics) => {
       setTopics(topics.data);
     });
   }, []);

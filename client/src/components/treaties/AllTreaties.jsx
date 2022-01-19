@@ -1,11 +1,12 @@
 import axios from "axios";
+import axiosApi from "../../api/axios-api";
 import { useEffect, useState } from "react";
 import TreatiesListItem from "./TreatiesListItem";
 
 const AllTreaties = () => {
   const [allTreaties, setAllTreaties] = useState([]);
   useEffect(() => {
-    axios.get("http://localhost:4000/api/treaties").then((treaties) => {
+    axiosApi.get("/treaties").then((treaties) => {
       setAllTreaties(treaties.data);
     });
   }, []);

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useEffect } from "react";
 import axios from "axios";
+import axiosApi from "../../api/axios-api";
 import { useParams } from "react-router-dom";
 import TreatiesList from "../treaties/TreatiesList";
 
@@ -8,7 +9,7 @@ const TreatiesForTopic = (props) => {
   const [treaties, setTreaties] = useState([]);
   const topicId = useParams().topicId;
   useEffect(() => {
-    axios.get(`http://localhost:4000/api/topics/${topicId}`).then((treaties) => {
+    axiosApi.get(`/topics/${topicId}`).then((treaties) => {
       setTreaties(treaties.data);
     });
   }, [topicId]);

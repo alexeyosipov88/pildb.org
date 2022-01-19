@@ -1,4 +1,5 @@
 import axios from "axios";
+import axiosApi from "../../api/axios-api";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router";
 import makeHtmlText from "../../helpers/make-html-text";
@@ -10,7 +11,7 @@ const TreatyText = () => {
   const treatyId = useParams().treatyId;
   console.log(treaty);
   useEffect(() => {
-    axios.get(`http://localhost:4000/api/treaties/${treatyId}`).then((result) => {
+    axios.get(`/treaties/${treatyId}`).then((result) => {
       setTreaty(result.data[0]);
     });
   }, [treatyId]);

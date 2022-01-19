@@ -5,11 +5,10 @@ const app = express();
 const cors = require("cors");
 const morgan = require("morgan");
 const api = require('./api/api');
-const port = process.env.PORT || 4000;
+const PORT = process.env.PORT || 4000;
 
 
 
-const pool = require("./db");
 // const { rows } = require("pg/lib/defaults");
 // middleware
 app.use(cors());
@@ -19,6 +18,6 @@ app.use(morgan("tiny"));
 app.use('/api', api);
 
 
-app.listen(4000, () => {
-  console.log(`Server has started on port ${port}`);
+app.listen(PORT, () => {
+  console.log(`Server has started on port ${PORT}`);
 });

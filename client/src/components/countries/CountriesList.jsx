@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useEffect } from "react";
 import axios from "axios";
+import axiosApi from "../../api/axios-api";
 import CountriesListItem from "./CountriesListItem";
 
 const CountriesList = (props) => {
@@ -9,10 +10,16 @@ const CountriesList = (props) => {
     []
   );
   useEffect(() => {
-    const countTreatiesForCountries = axios.get(
-      "http://localhost:4000/api/count-treaties"
+    const countTreatiesForCountries = axiosApi.get(
+      "/count-treaties"
     );
-    const getCountries = axios.get("http://localhost:4000/api/countries");
+    const getCountries = axiosApi.get("/countries");
+
+
+    // const countTreatiesForCountries = axios.get(
+    //   "http://localhost:4000/api/count-treaties"
+    // );
+    // const getCountries = axios.get("http://localhost:4000/api/countries");
     Promise.all([countTreatiesForCountries, getCountries]).then((result) => {
       setCountTreatiesForCountries(result[0].data);
       setCountries(result[1].data);

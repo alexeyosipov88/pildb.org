@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useEffect } from "react";
 import axios from "axios";
+import axiosApi from "../../api/axios-api";
 import TopicsListItem from "./TopicsListItem";
 
 const TopicsList = (props) => {
@@ -8,10 +9,10 @@ const TopicsList = (props) => {
   const [countTreatiesByTopic, setCountTreatiesByTopic] = useState([]);
 
   useEffect(() => {
-    const countTreatiesForTopics = axios.get(
-      "http://localhost:4000/api/count-topics"
+    const countTreatiesForTopics = axiosApi.get(
+      "/count-topics"
     );
-    const getTopics = axios.get("http://localhost:4000/api/topics");
+    const getTopics = axiosApi.get("/topics");
     Promise.all([countTreatiesForTopics, getTopics]).then((result) => {
       setCountTreatiesByTopic(result[0].data);
       setTopics(result[1].data);

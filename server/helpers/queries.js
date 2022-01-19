@@ -76,7 +76,6 @@ const getOrganizations = () => {
         }
       }
     });
-    console.log(organizations);
     resolve(organizations);
   });
 };

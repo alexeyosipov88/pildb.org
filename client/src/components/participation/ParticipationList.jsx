@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useEffect } from "react";
 import axios from "axios";
+import axiosApi from "../../api/axios-api";
 import { useParams } from "react-router";
 import ParticipationListItem from "./ParticipationListItem";
 import { Link } from "react-router-dom";
@@ -10,8 +11,8 @@ const ParticipationList = () => {
   const [participation, setParticipation] = useState([]);
   const treatyId = useParams().treatyId;
   useEffect(() => {
-    axios
-      .get(`http://localhost:4000/api/participation/${treatyId}`)
+    axiosApi
+      .get(`/participation/${treatyId}`)
       .then((participation) => {
         setParticipation(participation.data);
       });
