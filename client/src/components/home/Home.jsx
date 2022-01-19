@@ -18,7 +18,7 @@ const Home = () => {
             <div id="hague-logo">
               <Link
                 className="link"
-                to={`/organizations/hague`}
+                to={`/organizations/1`}
               >
                 <img src={hagueLogo} alt="hague convention logo" />
               </Link>
@@ -26,7 +26,7 @@ const Home = () => {
             <div className="organization-title">
               <Link
                 className="link"
-                to={`/organizations/hague`}
+                to={`/organizations/1`}
               >
                 <p>Hague Convention</p>
               </Link>
@@ -36,7 +36,7 @@ const Home = () => {
             <div id="un-logo" className="logo-image">
               <Link
                 className="link"
-                to={`/organizations/un`}
+                to={`/organizations/2`}
               >
                 <img src={unLogo} alt="" />
               </Link>
@@ -44,7 +44,7 @@ const Home = () => {
             <div className="organization-title">
               <Link
                 className="link"
-                to={`/organizations/un`}
+                to={`/organizations/2`}
               >
                 <p>United Nations</p>
               </Link>
@@ -54,7 +54,7 @@ const Home = () => {
             <div id="unidroit-logo">
               <Link
                 className="link"
-                to={`/organizations/unidroit`}
+                to={`/organizations/3`}
               >
                 <img src={unidroitLogo} alt="" />
               </Link>
@@ -62,7 +62,7 @@ const Home = () => {
             <div className="organization-title">
               <Link
                 className="link"
-                to={`/organizations/unidroit`}
+                to={`/organizations/3`}
               >
                 <p>Unidroit</p>
               </Link>
@@ -72,7 +72,7 @@ const Home = () => {
             <div id="icao-logo">
               <Link
                 className="link"
-                to={`/organizations/icao`}
+                to={`/organizations/4`}
               >
                 <img src={icaoLogo} alt="" />
               </Link>
@@ -80,7 +80,7 @@ const Home = () => {
             <div className="organization-title">
               <Link
                 className="link"
-                to={`/organizations/icao`}
+                to={`/organizations/4`}
               >
                 <p>ICAO</p>
               </Link>
@@ -90,7 +90,7 @@ const Home = () => {
             <div id="wipo-logo">
               <Link
                 className="link"
-                to={`/organizations/wipo`}
+                to={`/organizations/5`}
               >
                 <img src={wipoLogo} alt="" />
               </Link>
@@ -98,7 +98,7 @@ const Home = () => {
             <div className="organization-title">
               <Link
                 className="link"
-                to={`/organizations/wipo`}
+                to={`/organizations/5`}
               >
                 <p>WIPO</p>
               </Link>

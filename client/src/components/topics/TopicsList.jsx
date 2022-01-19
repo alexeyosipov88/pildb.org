@@ -33,26 +33,34 @@ const TopicsList = (props) => {
   });
 
   return (
-    <div>
-      <table>
-        <thead>
-          <tr>
-            <th>
-              <p>Id</p>
-            </th>
-            <th>
-              <p>Name of the topic</p>
-            </th>
-            <th>
-              <p>Amount of treaties in database</p>
-            </th>
-            <th>
-              <p>more info</p>
-            </th>
-          </tr>
-        </thead>
-        <tbody>{listOfTopics}</tbody>
-      </table>
+    <div className="header-and-table">
+      <header>
+        <p>
+          Our database contains information about the status of multilateral treaties related to private
+          international law. You can browse them by following topics.
+        </p>
+      </header>
+      <div>
+        <table>
+          <thead>
+            <tr>
+              <th>
+                <p>Id</p>
+              </th>
+              <th>
+                <p>Name of the topic</p>
+              </th>
+              <th>
+                <p>Amount of treaties in database</p>
+              </th>
+              <th>
+                <p>more info</p>
+              </th>
+            </tr>
+          </thead>
+          <tbody>{listOfTopics}</tbody>
+        </table>
+      </div>
     </div>
   );
 };

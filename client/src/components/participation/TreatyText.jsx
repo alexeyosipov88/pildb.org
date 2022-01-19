@@ -46,11 +46,11 @@ const TreatyText = () => {
           <p>
             {dateTreatyEnteredIntoForce ? (
               <span>
-                <span className="status-info">Entered into force: </span>
+                <span className="status-info">Entered in force: </span>
                 {convertDateToReadable(dateTreatyEnteredIntoForce)}
               </span>
             ) : (
-              <span className="not-in-force">Not yet into force</span>
+              <span className="not-in-force">Not yet in force</span>
             )}
           </p>
         </div>

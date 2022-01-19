@@ -1,6 +1,22 @@
 .main-section {
+  .context-info {
+    font-style: italic;
+  
+  }
+  .search-results {
+    text-align: justify;
+  }
+  .search-list-item {
+    margin-bottom: 0.438rem;
+
+  }
+  .header-and-table {
+    header {
+      max-width: fit-content;
+    }
+  }
+
   margin-top: 30px;
-  // padding-top: 10rem;
   padding-bottom: 5rem;
   
   .organizations-topics {
@@ -71,6 +87,9 @@
     tr {
       display: block;
     }
+
+
+    
 
     /* Hide table headers (but not display: none;, for accessibility) */
     thead tr {

@@ -19,7 +19,6 @@ const TreatiesForOrganization = () => {
    
   }, [organizationId]);
   let organizationName;
-  console.log(organizations, organizationId);
   organizations.forEach((elem) => {
     if (elem.id === Number(organizationId)) organizationName = elem.name;
   });

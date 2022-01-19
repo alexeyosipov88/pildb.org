@@ -1,10 +1,18 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 const Search = () => {
   const [inputValue, setInputValue] = useState("");
   const [warning, setWarning] = useState(false);
   const navigate = useNavigate();
+
+  useEffect(() => {
+    let removeWarning = setTimeout(() => setWarning(false), 3000);
+    return () => {
+      clearTimeout(removeWarning);
+    };
+  });
+
   const handleInputChange = (event) => {
     setInputValue(event.target.value);
   };
@@ -33,7 +41,13 @@ const Search = () => {
             <i className="fa fa-search"></i>
           </button>
         </div>
-        <div>{warning && <div className="fade-in" id="warning">Please enter more than 2 characters</div>}</div>
+        <div>
+          {warning && (
+            <div className="fade-in" id="warning">
+              Please enter more than 2 characters
+            </div>
+          )}
+        </div>
       </div>
     </form>
   );

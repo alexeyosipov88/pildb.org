@@ -9,7 +9,7 @@ const AllTreaties = () => {
       setAllTreaties(treaties.data);
     });
   }, []);
-  
+
   let id = 1;
   if (allTreaties && allTreaties.length > 0) {
     allTreaties.sort((a, b) => {
@@ -25,7 +25,7 @@ const AllTreaties = () => {
     return (
       <TreatiesListItem
         key={elem.id}
-        tableId = {id++}
+        tableId={id++}
         id={elem.id}
         name={elem.name}
         city={elem.city}
@@ -35,32 +35,39 @@ const AllTreaties = () => {
   });
 
   return (
-    <div>
+    <div className="header-and-table">
       <header>
-        Let's change the contents here!
+        <p>
+          Our database contains information about the status of
+          {allTreaties.length} multilateral treaties related to private
+          international law. You can browse them by participating countries,
+          topics and administrating organization.
+        </p>
       </header>
-    <table>
-      <thead>
-        <tr>
-          <th>
-            <p>Id</p>
-          </th>
-          <th>
-            <p>Name of the treaty</p>
-          </th>
-          <th>
-            <p>City of signature</p>
-          </th>
-          <th>
-            <p>Date signed:</p>
-          </th>
-          <th>
-            <p>Check status</p>
-          </th>
-        </tr>
-      </thead>
-      <tbody>{listOfAllTreaties}</tbody>
-    </table>
+      <div>
+        <table>
+          <thead>
+            <tr>
+              <th>
+                <p>Id</p>
+              </th>
+              <th>
+                <p>Name of the treaty</p>
+              </th>
+              <th>
+                <p>City of signature</p>
+              </th>
+              <th>
+                <p>Date signed:</p>
+              </th>
+              <th>
+                <p>Check status</p>
+              </th>
+            </tr>
+          </thead>
+          <tbody>{listOfAllTreaties}</tbody>
+        </table>
+      </div>
     </div>
   );
 };

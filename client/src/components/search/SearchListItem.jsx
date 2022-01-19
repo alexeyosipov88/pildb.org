@@ -34,8 +34,8 @@ const SearchListItem = (props) => {
   useEffect(() => {
     if (props.type === "city") {
       let status = props.entered_into_force
-        ? `Entered info force: ${props.entered_into_force}`
-        : `Not yet into force`;
+        ? `Entered into force: ${props.entered_into_force}`
+        : `Not yet in force`;
       let contextText = `Name of the treaty: ${props.name};  City: ${props.city};  Date of signature: ${props.concluded}; ${status}.`;
       setContext(contextText);
     }
@@ -103,8 +103,8 @@ const SearchListItem = (props) => {
     }
     if (props.type === "treaty") {
       let status = props.entered_into_force
-        ? `Entered info force: ${props.entered_into_force}`
-        : `Not yet into force`;
+        ? `Entered into force: ${props.entered_into_force}`
+        : `Not yet in force`;
       let contextText = `Name of the treaty: ${props.name};  City: ${props.city};  Date of signature: ${props.concluded}; ${status}.`;
       setContext(contextText);
     }
@@ -131,7 +131,6 @@ const SearchListItem = (props) => {
 
     for (let i = 0; i < keyArr.length; i++) {
       const regex = new RegExp(keyArr[i], "i");
-      console.log(regex);
       arrFromString.forEach((elem, index) => {
         let specialCase = false;
         if (
@@ -145,9 +144,7 @@ const SearchListItem = (props) => {
           specialCase
         ) {
           arrFromString[index] = "`" + elem;
-          if (props.type === "city") {
-            console.log("CITY");
-          }
+         
 
           console.log(arrFromString[index]);
         }

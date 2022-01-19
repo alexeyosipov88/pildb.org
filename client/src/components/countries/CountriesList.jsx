@@ -18,16 +18,14 @@ const CountriesList = (props) => {
       setCountries(result[1].data);
     });
   }, []);
-  const sortedCountries = countries.sort((a,b) => {
-    if(a.name > b.name) {
+  const sortedCountries = countries.sort((a, b) => {
+    if (a.name > b.name) {
       return 1;
     }
-    if(a.name < b.name) {
+    if (a.name < b.name) {
       return -1;
-    }
-    else return 0;
-
-  })
+    } else return 0;
+  });
 
   const listOfCountries = sortedCountries.map((elem) => {
     const amountOfTreaties = countTreatiesForCountries.find((count) => {
@@ -37,34 +35,45 @@ const CountriesList = (props) => {
     const amount = amountOfTreaties && amountOfTreaties.count;
     return (
       <CountriesListItem
-      key={elem.id}
-      amount={amount}
-      name={elem.name}
-      id={elem.id}
+        key={elem.id}
+        amount={amount}
+        name={elem.name}
+        id={elem.id}
       />
-      );
-    });
-    
-    return (
-    <table>
-      <thead>
-        <tr>
-          <th>
-            <p>Id</p>
-          </th>
-          <th>
-            <p>Name of the country</p>
-          </th>
-          <th>
-            <p>Participates in:</p>
-          </th>
-          <th>
-            <p>More info:</p>
-          </th>
-        </tr>
-      </thead>
-      <tbody>{listOfCountries}</tbody>
-    </table>
+    );
+  });
+
+  return (
+    <div>
+      <div className="header-and-table">
+      <header>
+        <p>
+          Our database contains information about participation of{" "}
+          {countries.length} countries in multilateral treaties related to
+          private international law.
+        </p>
+      </header>
+        <table>
+          <thead>
+            <tr>
+              <th>
+                <p>Id</p>
+              </th>
+              <th>
+                <p>Name of the country</p>
+              </th>
+              <th>
+                <p>Participates in:</p>
+              </th>
+              <th>
+                <p>More info:</p>
+              </th>
+            </tr>
+          </thead>
+          <tbody>{listOfCountries}</tbody>
+        </table>
+      </div>
+    </div>
   );
 };
 export default CountriesList;
