@@ -56,6 +56,7 @@ const SearchListItem = (props) => {
         result.shift();
         result.pop();
         result = result.join(" ");
+        result = "[..." + result + "...]";
         return result;
       };
       let finalText = "";
@@ -161,22 +162,19 @@ const SearchListItem = (props) => {
       } else arrFromString[index] = elem + " ";
     });
 
-    // while (keyArr.length > 0) {
-    //   let keyword = keyArr.pop();
-    //   let regex = new RegExp(keyword, "ig");
-    //   keyword = keyword.match(regex);
-    //   arrFromString.forEach((elem, index) => {
-    //     if (regex.test(elem)) {
-    //       alreayModifiedWords[index] = true;
-    //       let strongKeyword = <strong key={id++}>{elem + " "}</strong>;
-    //       arrFromString[index] = strongKeyword;
-    //     } else if(!alreayModifiedWords[index]) {
-    //       arrFromString[index] = elem + " ";
-    //     }
-    //   });
-    // }
     return arrFromString;
   };
+
+ const contextInfo = {
+    country: "countries",
+    topic: "topics",
+    organization: "organizations",
+    text: "text of the treaty",
+    treaty: "status of the treaty",
+    city: "status of the treaty",
+  };
+
+
 
   return (
     <div>
@@ -188,6 +186,9 @@ const SearchListItem = (props) => {
       >
         <div>{insertStrongForMultipleKeywords(props.name, props.keyword)}</div>
       </Link>
+      <div className="context-info">
+        Found in: {contextInfo[props.type]}
+      </div>
       <div>{insertStrongForMultipleKeywords(context, props.keyword)}</div>
     </div>
   );

@@ -102,12 +102,14 @@ const search = (keyword) => {
     });
 
     const cities = await getFromMultipleKeywods(keyword, async (keyword) => {
+      
       return await pool.query(
-        `SELECT * FROM treaties WHERE city ILIKE $1 OR city ILIKE $2 OR city ILIKE $3 OR name ILIKE $4 OR name ILIKE $5 OR name ILIKE $6`,
+        `SELECT * FROM treaties WHERE city ILIKE $1 OR city ILIKE $2 OR city ILIKE $3 OR city ILIKE $4 OR city ILIKE $5 OR city ILIKE $6`,
         [`${keyword} %`, `% ${keyword}`, `% ${keyword} %`, `%(${keyword})%`, `${keyword}`, `% ${keyword}_%`]
       );
     });
 
+    console.log(cities, "THIS IS CITIES")
     result.text = text;
     result.organizations = organizations;
     result.countries = countries;
