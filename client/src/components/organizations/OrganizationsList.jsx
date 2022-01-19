@@ -5,7 +5,7 @@ const OrganizationsList = () => {
   const [organizations, setOrganizations] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:4000/organizations").then((organizations) => {
+    axios.get("http://localhost:4000/api/organizations").then((organizations) => {
       setOrganizations(organizations.data);
     });
   }, []);

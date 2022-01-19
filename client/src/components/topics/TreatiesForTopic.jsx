@@ -8,7 +8,7 @@ const TreatiesForTopic = (props) => {
   const [treaties, setTreaties] = useState([]);
   const topicId = useParams().topicId;
   useEffect(() => {
-    axios.get(`http://localhost:4000/topics/${topicId}`).then((treaties) => {
+    axios.get(`http://localhost:4000/api/topics/${topicId}`).then((treaties) => {
       setTreaties(treaties.data);
     });
   }, [topicId]);

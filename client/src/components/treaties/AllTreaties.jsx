@@ -5,7 +5,7 @@ import TreatiesListItem from "./TreatiesListItem";
 const AllTreaties = () => {
   const [allTreaties, setAllTreaties] = useState([]);
   useEffect(() => {
-    axios.get("http://localhost:4000/treaties").then((treaties) => {
+    axios.get("http://localhost:4000/api/treaties").then((treaties) => {
       setAllTreaties(treaties.data);
     });
   }, []);

@@ -9,7 +9,7 @@ const HomeTopicsList = (props) => {
   const [topics, setTopics] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:4000/topics").then((topics) => {
+    axios.get("http://localhost:4000/api/topics").then((topics) => {
       setTopics(topics.data);
     });
   }, []);

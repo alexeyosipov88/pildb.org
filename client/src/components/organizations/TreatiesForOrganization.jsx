@@ -8,9 +8,9 @@ const TreatiesForOrganization = () => {
   const [organizations, setOrganizations] = useState([]);
   const organizationId = useParams().id;
   useEffect(() => {
-    const organizationsArr = axios.get("http://localhost:4000/organizations/");
+    const organizationsArr = axios.get("http://localhost:4000/api/organizations/");
     const treatiesArr = axios.get(
-      `http://localhost:4000/organizations/${organizationId}`
+      `http://localhost:4000/api/organizations/${organizationId}`
     );
     Promise.all([organizationsArr, treatiesArr]).then((result) => {
       setOrganizations(result[0].data);

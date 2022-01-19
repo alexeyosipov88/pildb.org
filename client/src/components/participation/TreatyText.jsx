@@ -10,7 +10,7 @@ const TreatyText = () => {
   const treatyId = useParams().treatyId;
   console.log(treaty);
   useEffect(() => {
-    axios.get(`http://localhost:4000/treaties/${treatyId}`).then((result) => {
+    axios.get(`http://localhost:4000/api/treaties/${treatyId}`).then((result) => {
       setTreaty(result.data[0]);
     });
   }, [treatyId]);

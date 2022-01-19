@@ -9,9 +9,9 @@ const TopicsList = (props) => {
 
   useEffect(() => {
     const countTreatiesForTopics = axios.get(
-      "http://localhost:4000/count-topics"
+      "http://localhost:4000/api/count-topics"
     );
-    const getTopics = axios.get("http://localhost:4000/topics");
+    const getTopics = axios.get("http://localhost:4000/api/topics");
     Promise.all([countTreatiesForTopics, getTopics]).then((result) => {
       setCountTreatiesByTopic(result[0].data);
       setTopics(result[1].data);

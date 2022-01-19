@@ -11,7 +11,7 @@ const ParticipationList = () => {
   const treatyId = useParams().treatyId;
   useEffect(() => {
     axios
-      .get(`http://localhost:4000/participation/${treatyId}`)
+      .get(`http://localhost:4000/api/participation/${treatyId}`)
       .then((participation) => {
         setParticipation(participation.data);
       });

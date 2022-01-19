@@ -9,7 +9,7 @@ const TreatiesForCountry = (props) => {
   const [treaties, setTreaties] = useState([]);
   const countryId = useParams().countryId;
   useEffect(() => {
-  axios.get(`http://localhost:4000/countries/${countryId}`).then((treaties) => {
+  axios.get(`http://localhost:4000/api/countries/${countryId}`).then((treaties) => {
         setTreaties(treaties.data);
     })
   }, [countryId])

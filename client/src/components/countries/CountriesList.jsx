@@ -10,9 +10,9 @@ const CountriesList = (props) => {
   );
   useEffect(() => {
     const countTreatiesForCountries = axios.get(
-      "http://localhost:4000/count-treaties"
+      "http://localhost:4000/api/count-treaties"
     );
-    const getCountries = axios.get("http://localhost:4000/countries");
+    const getCountries = axios.get("http://localhost:4000/api/countries");
     Promise.all([countTreatiesForCountries, getCountries]).then((result) => {
       setCountTreatiesForCountries(result[0].data);
       setCountries(result[1].data);
