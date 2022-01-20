@@ -1,10 +1,11 @@
-const {getTreatyByName, getTreaties} = require("../../helpers/queries")
+const {getTreatyByName, getTreaties, getEnglishText} = require("../../helpers/queries")
 
 
 module.exports = (router) => {
-  router.get("/treaties/:id", async (req, res) => {
+  router.get("/treaties/:id/eng", async (req, res) => {
     try {
-      const treaty = await getTreatyByName(req.params.id);
+      const treaty = await getEnglishText(req.params.id);
+      console.log(treaty);
       res.json(treaty);
     } catch (err) {
       console.error(err.message);

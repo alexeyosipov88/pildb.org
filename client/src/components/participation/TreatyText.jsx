@@ -1,17 +1,18 @@
 import axios from "axios";
-import axiosApi from "../../api/axios-api";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router";
 import makeHtmlText from "../../helpers/make-html-text";
 import convertDateToReadable from "../../helpers/readable-date";
 import { Link } from "react-router-dom";
-
+import axiosApi
+ from "../../api/axios-api";
 const TreatyText = () => {
   const [treaty, setTreaty] = useState({});
   const treatyId = useParams().treatyId;
-  console.log(treaty);
+  console.log(treaty, 'result');
+  const paramsUrl = process.env.NODE_ENV === "production" ? `/${treatyId}/eng` : `/treaties/${treatyId}/eng`;
   useEffect(() => {
-    axios.get(`/treaties/${treatyId}`).then((result) => {
+    axiosApi.get(paramsUrl).then((result) => {
       setTreaty(result.data[0]);
     });
   }, [treatyId]);

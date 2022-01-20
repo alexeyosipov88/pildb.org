@@ -15,11 +15,6 @@ const CountriesList = (props) => {
     );
     const getCountries = axiosApi.get("/countries");
 
-
-    // const countTreatiesForCountries = axios.get(
-    //   "http://localhost:4000/api/count-treaties"
-    // );
-    // const getCountries = axios.get("http://localhost:4000/api/countries");
     Promise.all([countTreatiesForCountries, getCountries]).then((result) => {
       setCountTreatiesForCountries(result[0].data);
       setCountries(result[1].data);

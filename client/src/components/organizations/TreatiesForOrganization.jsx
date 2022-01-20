@@ -8,11 +8,11 @@ const TreatiesForOrganization = () => {
   const [treatiesForOrganization, setTreatiesForOrganization] = useState([]);
   const [organizations, setOrganizations] = useState([]);
   const organizationId = useParams().id;
+  const paramsUrl = process.env.NODE_ENV === "production" ? `/${paramsUrl}` : `/organizations/${organizationId}`;
+
   useEffect(() => {
     const organizationsArr = axiosApi.get("/organizations/");
-    const treatiesArr = axiosApi.get(
-      `/organizations/${organizationId}`
-    );
+    const treatiesArr = axiosApi.get(paramsUrl);
     Promise.all([organizationsArr, treatiesArr]).then((result) => {
       setOrganizations(result[0].data);
       setTreatiesForOrganization(result[1].data);

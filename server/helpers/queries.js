@@ -80,12 +80,22 @@ const getOrganizations = () => {
   });
 };
 
+const getEnglishText = (id) => {
+  return new Promise(async (resolve, reject) => {
+    const text = await pool.query(`SELECT treaties.*, english_text.text FROM treaties INNER JOIN english_text ON treaties.id = english_text.treaty_id WHERE treaties.id = $1`, [id]);
+    
+    resolve(text.rows);
+  })
+
+}
+
 const getParticipationByTreaty = (id) => {
   return new Promise(async (resolve, reject) => {
     const participationByTreaty = await pool.query(
       `SELECT treaties.name AS treaty_name, treaties.city AS city, treaties.concluded AS concluded, treaties.entered_into_force AS treaty_entry_into_force, treaties.status AS treaty_status, countries.name AS country_name, participation.* FROM participation INNER JOIN treaties ON participation.treaty_id = treaties.id INNER JOIN countries ON participation.country_id = countries.id WHERE treaties.id = $1`,
       [id]
     );
+    console.log(participationByTreaty)
     resolve(participationByTreaty.rows);
   });
 };
@@ -124,5 +134,5 @@ module.exports = {
   getTreatiesByOrganization,
   getOrganizations,
   getParticipationByTreaty,
-  getTreatiesAmountByCountry, getTreatiesAmountByTopic
+  getTreatiesAmountByCountry, getTreatiesAmountByTopic, getEnglishText
 };

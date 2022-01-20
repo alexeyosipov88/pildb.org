@@ -4,6 +4,7 @@ import axios from "axios";
 
 const baseURL = process.env.NODE_ENV === "production" ? "api/" :  "http://localhost:3001/api/";
 
+// const paramsUrl = process.env.NODE_ENV === "production" ? `/${countryId}` : `/countries/${countryId}`;
 
 export default axios.create({
   baseURL

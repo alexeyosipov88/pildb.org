@@ -9,10 +9,10 @@ const SearchResults = () => {
   let keyword = useParams().keyword;
   keyword = keyword.replace(/\s\s+/, " ");
   useEffect(() => {
+    const paramsUrl = process.env.NODE_ENV === "production" ? `/${keyword}` : `/search/${keyword}`;
+
     const search = async () => {
-      let axiosResponse = await axiosApi.get(
-        `/search/${keyword}`
-      );
+      let axiosResponse = await axiosApi.get(paramsUrl);
       setSearchResult(axiosResponse.data);
     };
     search();

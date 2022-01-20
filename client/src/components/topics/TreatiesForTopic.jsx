@@ -9,7 +9,8 @@ const TreatiesForTopic = (props) => {
   const [treaties, setTreaties] = useState([]);
   const topicId = useParams().topicId;
   useEffect(() => {
-    axiosApi.get(`/topics/${topicId}`).then((treaties) => {
+    const paramsUrl = process.env.NODE_ENV === "production" ? `/${topicId}` : `/topics/${topicId}`;
+    axiosApi.get(paramsUrl).then((treaties) => {
       setTreaties(treaties.data);
     });
   }, [topicId]);
