@@ -1,8 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(44, 'UNITED NATIONS CONVENTION ON INDEPENDENT GUARANTEES AND STAND-BY LETTERS OF
-CREDIT
-******************************************************************************
-CHAPTER I. SCOPE OF APPLICATION
+VALUES(44, 'CHAPTER I. SCOPE OF APPLICATION
 ===============================
 ARTICLE 1. SCOPE OF APPLICATION
 -------------------------------

@@ -1,9 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(72, 'UNIDROIT CONVENTION ON
-INTERNATIONAL FINANCIAL LEASING
-(Ottawa, 28 May 1988)
- 
-THE STATES PARTIES TO THIS CONVENTION,
+VALUES(72, 'THE STATES PARTIES TO THIS CONVENTION,
 RECOGNISING the importance of removing certain legal impediments to the international financial leasing of equipment, while maintaining a fair balance of interests between the different parties to the transaction,
 AWARE of the need to make international financial leasing more available,
 CONSCIOUS of the fact that the rules of law governing the traditional contract of hire need to be adapted to the distinctive triangular relationship created by the financial leasing transaction,

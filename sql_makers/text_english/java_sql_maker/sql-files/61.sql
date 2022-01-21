@@ -1,8 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(61, 'PROTOCOL AMENDING ARTICLE 1 ( a ) , ARTICLE 14 (1) AND ARTICLE 14 (3) (b)
-OF THE EUROPEAN AGREEMENT OF 30 SEPTEMBER 1957 CONCERNING THE
-INTERNATIONAL CARRIAGE OF DANGEROUS GOODS BY ROAD (ADR)
-THE PARTIES TO THE PRESENT PROTOCOL,
+VALUES(61, 'THE PARTIES TO THE PRESENT PROTOCOL,
 HAVING CONSIDERED the provisions of the European Agreement concerning .
 the International Carriage of Dangerous Goods by Road (ADR), done at Geneva on 30
 September 1957 (hereafter referred to as -"the Agreement"), relating to the definition

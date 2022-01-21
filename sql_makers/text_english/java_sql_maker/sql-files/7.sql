@@ -1,8 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
 VALUES(7, '(This Convention was drawn up in French only.)
-CONVENTION ON THE LAW APPLICABLE TO MAINTENANCE OBLIGATIONS TOWARDS CHILDREN
-(Concluded 24 October 1956)
- 
 Les Etats signataires de la pr?sente Convention ;
 D?sirant ?tablir des dispositions communes concernant la loi applicable aux obligations alimentaires envers les enfants ;
 Ont r?solu de conclure une Convention ? cet effet et sont convenus des dispositions suivantes :

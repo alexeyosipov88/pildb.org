@@ -1,10 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(77, 'LUXEMBOURG PROTOCOL
-TO THE CONVENTION
-ON INTERNATIONAL INTERESTS IN MOBILE EQUIPMENT
-ON MATTERS SPECIFIC TO RAILWAY ROLLING STOCK
- 
-THE STATES PARTIES TO THIS PROTOCOL
+VALUES(77, 'THE STATES PARTIES TO THIS PROTOCOL
 CONSIDERING it necessary to implement the Convention on International Interests in Mobile Equipment (the "Convention") as it relates to railway rolling stock, in the light of the purposes set out in the preamble to the Convention,
 MINDFUL of the need to adapt the Convention to meet the particular requirements of railway rolling stock and their finance,
 HAVE AGREED upon the following provisions relating to railway rolling stock:

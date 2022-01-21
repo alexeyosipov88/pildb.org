@@ -1,6 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(54, 'European Agreement concerning the International Carriage of Dangerous Goods by Inland Waterways (ADN)
-The Contracting Parties,
+VALUES(54, 'The Contracting Parties,
 Desiring to establish by joint agreement uniform principles and rules, for the purposes of:
 a.	
 increasing the safety of international carriage of dangerous goods by inland waterways;

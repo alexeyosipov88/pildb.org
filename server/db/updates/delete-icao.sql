@@ -1,0 +1,1 @@
+DELETE FROM treaties WHERE id = 82;

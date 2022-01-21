@@ -175,8 +175,6 @@ const SearchListItem = (props) => {
       <Link
         className="link"
         to={link}
-        target="_blank"
-        rel="noopener noreferrer"
       >
         <div>{insertStrongForMultipleKeywords(props.name, props.keyword)}</div>
       </Link>

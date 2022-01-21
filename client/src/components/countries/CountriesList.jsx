@@ -50,7 +50,7 @@ const CountriesList = (props) => {
       <div className="header-and-table">
       <header>
         <p>
-          Our database contains information about participation of{" "}
+          Our database contains information about participation of
           {countries.length} countries in multilateral treaties related to
           private international law.
         </p>

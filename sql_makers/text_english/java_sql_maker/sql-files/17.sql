@@ -1,8 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(17, 'CONVENTION ON THE RECOGNITION OF DIVORCES AND LEGAL SEPARATIONS
-(Concluded 1 June 1970)
- 
-The States signatory to the present Convention,
+VALUES(17, 'The States signatory to the present Convention,
 Desiring to facilitate the recognition of divorces and legal separations obtained in their respective territories,
 Have resolved to conclude a Convention to this effect, and have agreed on the following provisions -
  

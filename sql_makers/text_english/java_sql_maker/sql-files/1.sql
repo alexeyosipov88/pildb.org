@@ -1,7 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(1, 'CONVENTION ON CIVIL PROCEDURE
-(Concluded 1 March 1954)
-The States signatory to the present Convention;
+VALUES(1, 'The States signatory to the present Convention;
 Desiring to make in the Convention of 17th July 1905, on civil procedure, the improvements suggested by experience;
 Have resolved to conclude a new Convention to this effect, and have agreed upon the following provisions -
 I. COMMUNICATION OF JUDICIAL AND EXTRAJUDICIAL DOCUMENTS

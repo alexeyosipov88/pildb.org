@@ -1,8 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(28, 'CONVENTION ON INTERNATIONAL ACCESS TO JUSTICE
-(Concluded 25 October 1980)
- 
-The States signatory to this Convention,
+VALUES(28, 'The States signatory to this Convention,
 Desiring to facilitate international access to justice,
 Have resolved to conclude a Convention for this purpose and have agreed upon the following provisions -
  

@@ -1,10 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(65, 'UNITED NATIONS CONVENTION ON INTERNATIONAL MULTIMODAL TRANSPORT OF GOODS
-(GENEVA, 24 MAY 1980)
-******************************************************************************
-/ [PREAMBLE] /
---------------
-The States Parties to this Convention,
+VALUES(65, 'The States Parties to this Convention,
 Recognising:
 (a) That international multimodal transport is one means of facilitating the
 orderly expansion of world trade;

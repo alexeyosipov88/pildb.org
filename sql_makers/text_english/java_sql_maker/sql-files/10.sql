@@ -1,8 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(10, 'CONVENTION ON THE CONFLICTS OF LAWS RELATING TO THE FORM OF TESTAMENTARY DISPOSITIONS
-(Concluded 5 October 1961)
- 
-The States signatory to the present Convention,
+VALUES(10, 'The States signatory to the present Convention,
 Desiring to establish common provisions on the conflicts of laws relating to the form of testamentary dispositions,
 Have resolved to conclude a Convention to this effect and have agreed upon the following provisions:
  

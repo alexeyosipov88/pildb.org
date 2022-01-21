@@ -1,9 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(3, ' 
-(This Convention was drawn up in French only.)
-CONVENTION ON THE LAW GOVERNING TRANSFER OF TITLE IN INTERNATIONAL SALES OF GOODS
-(Concluded 15 April 1958)
- 
+VALUES(3, '(This Convention was drawn up in French only.)
 Les Etats signataires de la pr?sente Convention ;
 D?sirant ?tablir des dispositions communes concernant la loi applicable au transfert de la propri?t? en cas de vente ? caract?re international d''objets mobiliers corporels ;
 Ont r?solu de conclure une Convention ? cet effet et sont convenus des dispositions suivantes :
@@ -35,5 +31,35 @@ Sauf pour l''application des alin?as 2 et 3 de l''article pr?c?dent, les objets 
 Article 7
 Dans chacun des Etats contractants, l''application de la loi d?termin?e par la pr?sente Convention peut ?tre ?cart?e pour un motif d''ordre public.
 Article 8
-Les Etats sont convenus d
+Les Etats sont convenus d''introduire les dispositions des articles 1-7 de la pr?sente Convention dans le droit national de leurs pays respectifs.
+Article 9
+La pr?sente Convention ne porte pas atteinte ? des Conventions conclues ou ? conclure par les Etats contractants sur la reconnaissance et les effets d''une faillite d?clar?e dans un des Etats partie ? une telle Convention.
+Article 10
+Lors de la signature ou de la ratification de la pr?sente Convention ou lors de l''adh?sion, les Etats contractants pourront se r?server la facult? :
+a) de restreindre l''application de l''article 3 aux droits de l''acheteur ? l''encontre des cr?anciers du vendeur, ainsi que d''y remplacer les mots � au moment o? se produit une r?clamation � par les mots � au moment d''une r?clamation ou d''une saisie � ;
+b) de ne pas appliquer les dispositions de l''article 5.
+Article 11
+La pr?sente Convention est ouverte ? la signature des Etats repr?sent?s ? la Huiti?me session de la Conf?rence de La Haye de droit international priv?.
+Elle sera ratifi?e et les instruments de ratification seront d?pos?s aupr?s du Minist?re des Affaires Etrang?res des Pays-Bas.
+Il sera dress? de tout d?p?t d''instruments de ratification un proc?s-verbal, dont une copie, certifi?e conforme, sera remise, par la voie diplomatique, ? chacun des Etats signataires.
+Article 12
+La pr?sente Convention entrera en vigueur le soixanti?me jour ? partir du d?p?t du cinqui?me instrument de ratification pr?vu ? l''article 11, alin?a 2.
+Pour chaque Etat signataire, ratifiant post?rieurement la Convention, celle-ci entrera en vigueur le soixanti?me jour ? partir de la date du d?p?t de son instrument de ratification.
+Article 13
+La pr?sente Convention s''applique de plein droit aux territoires m?tropolitains des Etats contractants.
+Si un Etat contractant en d?sire la mise en vigueur dans tous les autres territoires, ou dans tels des autres territoires dont les relations internationales sont assur?es par lui, il notifiera son intention ? cet effet par un acte qui sera d?pos? aupr?s du Minist?re des Affaires Etrang?res des Pays-Bas. Celui-ci en enverra, par la voie diplomatique, une copie, certifi?e conforme, ? chacun des Etats contractants.
+La pr?sente Convention entrera en vigueur pour ces territoires le soixanti?me jour apr?s la date du d?p?t de l''acte de notification mentionn? ci-dessus.
+Il est entendu que la notification, pr?vue par l''alin?a 2 du pr?sent article, ne pourra avoir effet qu''apr?s l''entr?e en vigueur de la pr?sente Convention en vertu de son article 12, alin?a premier.
+Article 14
+Tout Etat non repr?sent? ? la Huiti?me session de la Conf?rence de La Haye de droit international priv?, pourra adh?rer ? la pr?sente Convention. L''Etat d?sirant adh?rer notifiera son intention par un acte qui sera d?pos? aupr?s du Minist?re des Affaires Etrang?res des Pays-Bas. Celui-ci en enverra, par la voie diplomatique, une copie, certifi?e conforme, ? chacun des Etats contractants. La Convention entrera en vigueur, pour l''Etat adh?rant, le soixanti?me jour apr?s la date du d?p?t de l''acte d''adh?sion.
+Il est entendu que le d?p?t de l''acte d''adh?sion ne pourra avoir lieu qu''apr?s l''entr?e en vigueur de la pr?sente Convention en vertu de l''article 12, alin?a premier.
+Article 15
+La pr?sente Convention aura une dur?e de cinq ans ? partir de la date indiqu?e dans l''article 12, alin?a premier, de la pr?sente Convention. Ce d?lai commencera ? courir de cette date, m?me pour les Etats qui l''auront ratifi?e ou y auront adh?r? post?rieurement.
+La Convention sera renouvel?e tacitement de cinq ans en cinq ans, sauf d?nonciation.
+La d?nonciation devra, au moins six mois avant l''expiration du d?lai, ?tre notifi?e au Minist?re des Affaires Etrang?res des Pays-Bas, qui en donnera connaissance ? tous les autres Etats contractants.
+La d?nonciation peut se limiter aux territoires, ou ? certains des territoires indiqu?s dans une notification faite en vertu de l''article 13, alin?a 2.
+La d?nonciation ne produira son effet qu''? l''?gard de l''Etat qui l''aura notifi?e. La Convention restera en vigueur pour les autres Etats contractants.
+ 
+En foi de quoi, les soussign?s, d?ment autoris?s, ont sign? la pr?sente Convention.
+Fait ? La Haye, le 15 avril 1958, en un seul exemplaire, qui sera d?pos? dans les archives du Gouvernement des Pays-Bas et dont une copie, certifi?e conforme, sera remise, par la voie diplomatique, ? chacun des Etats repr?sent?s ? la Huiti?me session de la Conf?rence de La Haye de droit international priv? ainsi qu''aux Etats adh?rant ult?rieurement.
 ')

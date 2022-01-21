@@ -1,8 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(67, 'UNIDROIT CONVENTION ON SUBSTANTIVE
-RULES FOR INTERMEDIATED SECURITIES
- 
-THE STATES SIGNATORY TO THIS CONVENTION,
+VALUES(67, 'THE STATES SIGNATORY TO THIS CONVENTION,
 CONSCIOUS of the growth and development of global capital markets and recognising the benefits of holding securities, or interests in securities, through intermediaries in increasing the liquidity of modern securities markets,
 RECOGNISING the need to protect persons that acquire or otherwise hold intermediated securities,
 AWARE of the importance of reducing legal risk, systemic risk and associated costs in relation to domestic and cross-border transactions involving intermediated securities so as to facilitate the flow of capital and access to capital markets,

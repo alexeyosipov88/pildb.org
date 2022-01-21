@@ -35,7 +35,7 @@ const TreatiesListItem = (props) => {
       </td>
       <td>
         <p className="th-mobile">Name of the treaty:</p>
-        <Link className="link" to={`/treaties/${props.id}`}  target="_blank" rel="noopener noreferrer">
+        <Link className="link" to={`/treaties/${props.id}`}>
           <p>{name}</p>
         </Link>
       </td>
@@ -50,7 +50,7 @@ const TreatiesListItem = (props) => {
       <td>
         <div key={props.id}>
           <Link to={`/treaties/${props.id}`}>
-            <button className="status-btn" type="button"  target="_blank" rel="noopener noreferrer">
+            <button className="status-btn" type="button">
               check status
             </button>
           </Link>

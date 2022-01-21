@@ -8,9 +8,9 @@ import java.io.FileWriter; // Import the FileWriter class
 
 public class ReadText {
   public static void main(String[] args) {
-    for (int i = 1; i <= 79; i++) {
+    for (int i = 1; i <= 117; i++) {
       try {
-        String pathOfNewFile = "database/text_english/java_sql_maker/sql-files/%s.sql";
+        String pathOfNewFile = "sql_makers/text_english/java_sql_maker/sql-files/%s.sql";
         pathOfNewFile = String.format(pathOfNewFile, i);
         File newFile = new File(pathOfNewFile);
         if(newFile.createNewFile()) {
@@ -40,7 +40,7 @@ public class ReadText {
 
   public static String readFile(int i) {
     try {
-      String path = "database/text_english/java_sql_maker/files-to-read/%s.txt";
+      String path = "sql_makers/text_english/java_sql_maker/raw-text-english/files-to-read/%s.txt";
       path = String.format(path, i);
       File fileToRead = new File(path);
       Scanner readFile = new Scanner(fileToRead);

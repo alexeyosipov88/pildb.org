@@ -1,8 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(19, 'CONVENTION ON THE TAKING OF EVIDENCE ABROAD IN CIVIL OR COMMERCIAL MATTERS
-(Concluded 18 March 1970)
- 
-The States signatory to the present Convention,
+VALUES(19, 'The States signatory to the present Convention,
 Desiring to facilitate the transmission and execution of Letters of Request and to further the accommodation of the different methods which they use for this purpose,
 Desiring to improve mutual judicial co-operation in civil or commercial matters,
 Have resolved to conclude a Convention to this effect and have agreed upon the following provisions -

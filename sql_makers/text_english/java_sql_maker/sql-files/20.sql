@@ -1,8 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(20, 'CONVENTION CONCERNING THE INTERNATIONAL ADMINISTRATION OF THE ESTATES OF DECEASED PERSONS
-(Concluded 2 October 1973)
- 
-The States signatory to this Convention,
+VALUES(20, 'The States signatory to this Convention,
 Desiring to facilitate the international administration of the estates of deceased persons,
 Have resolved to conclude a Convention to this effect and have agreed upon the following provisions:
  

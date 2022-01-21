@@ -1,8 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(37, 'CONVENTION ON THE INTERNATIONAL RECOVERY OF CHILD SUPPORT AND OTHER FORMS OF FAMILY MAINTENANCE
-(Concluded 23 November 2007) 
- 
-The States signatory to the present Convention,
+VALUES(37, 'The States signatory to the present Convention,
 Desiring to improve co-operation among States for the international recovery of child support and other forms of family maintenance,
 Aware of the need for procedures which produce results and are accessible, prompt, efficient, cost-effective, responsive and fair,
 Wishing to build upon the best features of existing Hague Conventions and other international instruments, in particular the United Nations Convention on the Recovery Abroad of Maintenance of 20 June 1956,

@@ -1,8 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(35, 'CONVENTION ON THE LAW APPLICABLE TO CERTAIN RIGHTS IN RESPECT OF SECURITIES HELD WITH AN INTERMEDIARY
-(Concluded 5 July 2006)
- 
-The States signatory to the present Convention,
+VALUES(35, 'The States signatory to the present Convention,
 Aware of the urgent practical need in a large and growing global financial market to provide legal certainty and predictability as to the law applicable to securities that are now commonly held through clearing and settlement systems or other intermediaries,
 Conscious of the importance of reducing legal risk, systemic risk and associated costs in relation to cross-border transactions involving securities held with an intermediary so as to facilitate the international flow of capital and access to capital markets,
 Desiring to establish common provisions on the law applicable to securities held with an intermediary beneficial to States at all levels of economic development,

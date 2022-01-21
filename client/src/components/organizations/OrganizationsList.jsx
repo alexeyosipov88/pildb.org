@@ -24,7 +24,7 @@ const OrganizationsList = () => {
 
   return (
     <div className="header-and-table">
-      <header>Our database contains information about the status of multilateral treaties related to private international law. You can browse them by following organizations wich administer said treaties.</header>
+      <header>Our database contains information about the status of multilateral treaties related to private international law. You can browse them by the following administrating organizations.</header>
       <div>
         <table>
           <thead>

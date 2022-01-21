@@ -1,8 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(49, 'United Nations Convention on International
-Settlement Agreements Resulting
-from Mediation
-Preamble
+VALUES(49, 'Preamble
 The Parties to this Convention,
 Recognizing the value for international trade of mediation as a
 method for settling commercial disputes in which the parties in dispute

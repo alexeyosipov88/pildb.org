@@ -1,9 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(11, ' 
-CONVENTION ABOLISHING THE REQUIREMENT OF LEGALISATION FOR FOREIGN PUBLIC DOCUMENTS
-(Concluded 5 October 1961)
- 
-The States signatory to the present Convention,
+VALUES(11, 'The States signatory to the present Convention,
 Desiring to abolish the requirement of diplomatic or consular legalisation for foreign public documents,
 Have resolved to conclude a Convention to this effect and have agreed upon the following provisions:
 Article 1

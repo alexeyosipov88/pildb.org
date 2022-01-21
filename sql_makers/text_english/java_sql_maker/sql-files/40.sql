@@ -1,10 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(40, 'Convention on the Limitation Period in the
-International Sale of Goods as amended by
-the Protocol amending the Convention on
-the Limitation Period in the International
-Sale Of Goods
-PREAMBLE
+VALUES(40, 'PREAMBLE
 The States Parties to the present Convention,
 Considering that international trade is an important factor in the promotion of friendly relations amongst States,
 Believing that the adoption of uniform rules governing the limitation

@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { useEffect } from "react";
-import axios from "axios";
 import axiosApi from "../../api/axios-api";
 import { useParams } from "react-router";
 import ParticipationListItem from "./ParticipationListItem";

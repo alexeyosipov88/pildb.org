@@ -1,11 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(79, 'PROTOCOL
-TO THE CONVENTION
-ON INTERNATIONAL INTERESTS IN MOBILE EQUIPMENT
-ON MATTERS SPECIFIC TO MINING, AGRICULTURAL
-AND CONSTRUCTION EQUIPMENT
- 
-THE STATES PARTIES TO THIS PROTOCOL,
+VALUES(79, 'THE STATES PARTIES TO THIS PROTOCOL,
 CONSIDERING the significant benefits of the Convention on International Interests in Mobile Equipment (hereinafter referred to as the "Convention"), as facilitating the financing and leasing of uniquely identifiable high-value mobile equipment,
 RECOGNISING the important role that mining, agricultural and construction equipment play in the global economy,
 AWARE of the benefits of extending the Convention to mining, agricultural and construction equipment,

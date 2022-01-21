@@ -1,10 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(52, 'UNITED NATIONS CONVENTION ON THE CARRIAGE OF GOODS BY SEA
-(THE HAMBURG RULES) HAMBURG, 30 MARCH 1978
-******************************************************************************
-/ [PREAMBLE] /
---------------
-The States Parties to this Convention,
+VALUES(52, 'The States Parties to this Convention,
 Having recognised the desirability of determining by agreement certain rules
 relating to the carriage of goods by sea,
 Have decided to conclude a Convention for this purpose and have thereto agreed

@@ -1,8 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(56, 'CONVENTION ON THE CONTRACT FOR THE INTERNATIONAL CARRIAGE OF GOODS BY ROAD
-(CMR) (GENEVA, 19 MAY 1956)
-******************************************************************************
-PREAMBLE
+VALUES(56, 'PREAMBLE
 ========
 / [PREAMBLE] /
 --------------

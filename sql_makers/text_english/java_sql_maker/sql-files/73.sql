@@ -1,8 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(73, 'UNIDROIT CONVENTION ON INTERNATIONAL FACTORING
-(Ottawa, 28 May 1988)
- 
-THE STATES PARTIES TO THIS CONVENTION,
+VALUES(73, 'THE STATES PARTIES TO THIS CONVENTION,
 CONSCIOUS of the fact that international factoring has a significant role to play in the development of international trade,
 RECOGNISING therefore the importance of adopting uniform rules to provide a legal framework that will facilitate international factoring, while maintaining a fair balance of interests between the different parties involved in factoring transactions,
 HAVE AGREED as follows:

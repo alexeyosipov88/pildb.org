@@ -1,11 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(45, 'UNITED NATIONS CONVENTION ON THE USE OF ELECTRONIC COMMUNICATIONS IN
-INTERNATIONAL CONTRACTS
-******************************************************************************
-/ [PREAMBLE] /
---------------
-/The States Parties to this Convention,/
-/Reaffirming/ their belief that international trade on the basis of equality
+VALUES(45, '/Reaffirming/ their belief that international trade on the basis of equality
 and mutual benefit is an important element in promoting friendly relations
 among States,
 /Noting/ that the increased use of electronic communications improves the

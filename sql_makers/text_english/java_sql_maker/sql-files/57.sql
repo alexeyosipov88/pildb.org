@@ -1,9 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(57, 'CONVENTION ON THE CONTRACT FOR THE INTERNATIONAL CARRIAGE OF GOODS BY ROAD
-(CMR) (1978 - THE CMR CONVENTION OF GENEVA, 19 MAY 1956 AS AMENDED BY THE CMR
-PROTOCOL OF GENEVA, 5 JULY, 1978)
-******************************************************************************
-PREAMBLE
+VALUES(57, 'PREAMBLE
 ========
 / [PREAMBLE] /
 --------------

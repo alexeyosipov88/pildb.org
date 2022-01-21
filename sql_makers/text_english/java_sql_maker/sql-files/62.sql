@@ -1,9 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(62, 'CONVENTION
-ON THE CONTRACT FOR THE INTERNATIONAL
-CARRIAGE OF PASSGENGERS AND LUGGAGE BY ROAD
-(CVR)
-THE CONTRACTING PARTIES,
+VALUES(62, 'THE CONTRACTING PARTIES,
 HAVING RECOGNIZED the desirability of standardizing the conditions governing the contract for the
 international carriage of passengers and luggage by road,
 HAVE AGREED as follows:

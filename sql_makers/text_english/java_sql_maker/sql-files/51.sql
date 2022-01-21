@@ -1,8 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(51, 'Convention on the contract for the international
-carriage of passengers and luggage by inland waterway
-(CVN). Geneva, 6 February 1976
-CHAPTER I
+VALUES(51, 'CHAPTER I
 SCOPE OF APPLICATION
 Article 1
 1. This Convention shall apply to every contract for the carriage of passengers

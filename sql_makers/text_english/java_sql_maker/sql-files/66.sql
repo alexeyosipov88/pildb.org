@@ -1,8 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(66, 'Convention on Agency in the International Sale of Goods
-(Geneva, 17 February 1983)
- 
-THE STATES PARTIES TO THIS CONVENTION,
+VALUES(66, 'THE STATES PARTIES TO THIS CONVENTION,
 DESIRING to establish common provisions concerning agency in the international sale of goods,
 BEARING IN MIND the objectives of the United Nations Convention on Contracts for the International Sale of Goods,
 CONSIDERING that the development of international trade on the basis of equality and mutual benefit is an important element in promoting friendly relations among States, bearing in mind the New International Economic Order,

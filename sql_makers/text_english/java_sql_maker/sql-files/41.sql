@@ -1,7 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(41, 'PROTOCOL AMENDING THE CONVENTION ON THE LIMITATION
-PERIOD IN THE INTERNATIONAL SALE OF GOODS
-THE STATES PARTIES to this Protocol,
+VALUES(41, 'THE STATES PARTIES to this Protocol,
 CONSIDERING that international trade 1s an important factor in the promotion of
 friendly relations amongst States,
 BELIEVING that the adoption of uniform rules governing the limitation period in

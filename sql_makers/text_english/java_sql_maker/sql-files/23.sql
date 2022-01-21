@@ -1,8 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(23, 'CONVENTION ON THE LAW APPLICABLE TO MAINTENANCE OBLIGATIONS
-(Concluded 2 October 1973)
- 
-The States signatory to this Convention,
+VALUES(23, 'The States signatory to this Convention,
 Desiring to establish common provisions concerning the law applicable to maintenance obligations in respect of adults,
 Desiring to coordinate these provisions and those of the Convention of the 24th of October 1956 on the Law Applicable to Maintenance Obligations in Respect of Children,
 Have resolved to conclude a Convention for this purpose and have agreed upon the following provisions -

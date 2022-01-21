@@ -1,8 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(74, '  UNIDROIT CONVENTION ON STOLEN OR ILLEGALLY EXPORTED
-CULTURAL OBJECTS
-(Rome, 24 June 1995)
-THE STATES PARTIES TO THIS CONVENTION,
+VALUES(74, 'THE STATES PARTIES TO THIS CONVENTION,
 ASSEMBLED in Rome at the invitation of the Government of the Italian Republic from 7 to 24 June 1995 for a Diplomatic Conference for the adoption of the draft UNIDROIT Convention on the International Return of Stolen or Illegally Exported Cultural Objects,
 CONVINCED of the fundamental importance of the protection of cultural heritage and of cultural exchanges for promoting understanding between peoples, and the dissemination of culture for the well-being of humanity and the progress of civilisation,
 DEEPLY CONCERNED by the illicit trade in cultural objects and the irreparable damage frequently caused by it, both to these objects themselves and to the cultural heritage of national, tribal, indigenous or other communities, and also to the heritage of all peoples, and in particular by the pillage of archaeological sites and the resulting loss of irreplaceable archaeological, historical and scientific information,

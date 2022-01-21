@@ -15,7 +15,7 @@
   padding: 10px;
   border-radius: 10px;
   color: $white;
-  max-width: 200px;
+  max-width: 11.875rem;
   position: absolute;
 
 }
@@ -23,7 +23,7 @@
 
 .search {
   width: auto;
-  max-width: 200px;
+  max-width: 11.875rem;
   position: relative;
   display: flex;
   input:focus::placeholder {

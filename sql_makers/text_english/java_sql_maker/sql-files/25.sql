@@ -1,8 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(25, 'CONVENTION ON CELEBRATION AND RECOGNITION OF THE VALIDITY OF MARRIAGES
-(Concluded 14 March 1978)
- 
-The States signatory to the present Convention,
+VALUES(25, 'The States signatory to the present Convention,
 Desiring to facilitate the celebration of marriages and the recognition of the validity of marriages,
 Have resolved to conclude a Convention to this effect, and have agreed on the following provisions -
  

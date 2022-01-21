@@ -18,6 +18,7 @@ const Search = () => {
   };
   const handleSubmit = (event) => {
     event.preventDefault();
+
     if (inputValue.length < 3) {
       setWarning(true);
     } else {

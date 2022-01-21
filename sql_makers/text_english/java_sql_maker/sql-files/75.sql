@@ -1,7 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(75, 'CONVENTION
-ON INTERNATIONAL INTERESTS IN MOBILE EQUIPMENT
-THE STATES PARTIES TO THIS CONVENTION,
+VALUES(75, 'THE STATES PARTIES TO THIS CONVENTION,
 AWARE of the need to acquire and use mobile equipment of high value or particular economic significance and to facilitate the financing of the acquisition and use of such equipment in an efficient manner,
 RECOGNISING the advantages of asset-based financing and leasing for this purpose and desiring to facilitate these types of transaction by establishing clear rules to govern them,
 MINDFUL of the need to ensure that interests in such equipment are recognised and protected universally,

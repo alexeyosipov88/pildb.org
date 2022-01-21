@@ -80,6 +80,7 @@ const SearchResults = () => {
     return date.join("/");
   };
   console.log(finalArrayOfResults);
+
   finalArrayOfResults = finalArrayOfResults.map((elem, index) => {
     return (
       <SearchListItem

@@ -1,8 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(38, 'PROTOCOL ON THE LAW APPLICABLE TO MAINTENANCE OBLIGATIONS
-(Concluded 23 November 2007)
- 
-The States signatory to this Protocol,
+VALUES(38, 'The States signatory to this Protocol,
 Desiring to establish common provisions concerning the law applicable to maintenance obligations,
 Wishing to modernise the Hague Convention of 24 October 1956 on the law applicable to maintenance obligations towards children and the Hague Convention of 2 October 1973 on the Law Applicable to Maintenance Obligations,
 Wishing to develop general rules on applicable law that may supplement the Hague Convention of 23 November 2007 on the International Recovery of Child Support and Other Forms of Family Maintenance,

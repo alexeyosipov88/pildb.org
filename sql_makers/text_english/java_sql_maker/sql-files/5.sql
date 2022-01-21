@@ -1,9 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(5, ' 
-(This Convention was drawn up in French only.)
-CONVENTION RELATING TO THE SETTLEMENT OF THE CONFLICTS BETWEEN THE LAW OF NATIONALITY AND THE LAW OF DOMICILE
-(Concluded 15 June 1955)
- 
+VALUES(5, '(This Convention was drawn up in French only.)
 Les Etats signataires de la pr?sente Convention ;
 D?sirant ?tablir des dispositions communes concernant une r?glementation des conflits entre la loi nationale et la loi du domicile ;
 Ont r?solu de conclure une Convention ? cet effet et sont convenus des dispositions suivantes :

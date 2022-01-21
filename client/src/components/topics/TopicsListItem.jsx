@@ -35,7 +35,7 @@ const TopicsListItem = (props) => {
         </p>
       </td>
       <td>
-        <Link className="link" to={`/topics/${props.id}`}  target="_blank" rel="noopener noreferrer">
+        <Link className="link" to={`/topics/${props.id}`}>
           <button className="more-info-btn">more info</button>
         </Link>
       </td>

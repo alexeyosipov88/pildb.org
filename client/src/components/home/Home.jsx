@@ -28,7 +28,7 @@ const Home = () => {
                 className="link"
                 to={`/organizations/1`}
               >
-                <p>Hague Convention</p>
+                <p>Hague Conference</p>
               </Link>
             </div>
           </div>

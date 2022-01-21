@@ -1,8 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(42, 'UNITED NATIONS CONVENTION ON CONTRACTS FOR THE INTERNATIONAL SALE OF GOODS,
-1980 ( CISG )
-/ [PREAMBLE] /
-THE STATES PARTIES TO THIS CONVENTION,
+VALUES(42, 'THE STATES PARTIES TO THIS CONVENTION,
 BEARING IN MIND the broad objectives in the resolutions adopted by the sixth
 special session of the General Assembly of the United Nations on the
 establishment of a New International Economic Order,
