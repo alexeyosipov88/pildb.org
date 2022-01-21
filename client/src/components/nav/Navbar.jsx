@@ -25,20 +25,20 @@ const Navbar = () => {
     <header className={navMenuClass}>
       <div className={ovelay}></div>
       <div id="logo-and-search" className="container flex flex-jc-sb">
-          <Link to="/" id="logo_link">
-        <div id="logo">
-        <span className="first-letter-logo">P</span>rivate <span className="first-letter-logo">I</span>nternational <span className="first-letter-logo">L</span>aw <span className="first-letter-logo">D</span>atabase
-        </div>
-          </Link>
-        <Search/>
+        <Link to="/" id="logo_link">
+          <div id="logo">
+            <span className="first-letter-logo">P</span>rivate{" "}
+            <span className="first-letter-logo">I</span>nternational{" "}
+            <span className="first-letter-logo">L</span>aw{" "}
+            <span className="first-letter-logo">D</span>atabase
+          </div>
+        </Link>
+        <Search />
       </div>
       <nav className="flex">
         <div className="header__links hide-for-mobile flex flex-jc-sa flex-ai-c">
           <Link className="link" to="#">
             About
-          </Link>
-          <Link className="link" to="#">
-            Contact
           </Link>
           <Link className="link" to="countries">
             Countries
@@ -52,17 +52,20 @@ const Navbar = () => {
           <Link className="link" to="organizations">
             Organizations
           </Link>
+          <Link className="link" to="#">
+            Contact
+          </Link>
         </div>
         <div className="toggle_background">
-        <a
-          href="#"
-          className="header__toggle hide-for-desktop"
-          onClick={() => clickOnHamburger()}
-        >
-          <span></span>
-          <span></span>
-          <span></span>
-        </a>
+          <a
+            href="#"
+            className="header__toggle hide-for-desktop"
+            onClick={() => clickOnHamburger()}
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </a>
         </div>
       </nav>
       <MobileMenu

@@ -11,7 +11,7 @@ const Footer = () => {
               About
             </Link>
             <Link className="link" to="#">
-              Contact
+              Contact 
             </Link>
             <Link className="link" to="countries">
               Countries

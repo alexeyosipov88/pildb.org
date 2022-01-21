@@ -2,13 +2,13 @@ import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import axiosApi from "../../api/axios-api";
 import SearchListItem from "./SearchListItem";
+import ScrollToTop from "../hepler-components/ScrollToTop";
 
 const SearchResults = () => {
   const [searchResult, setSearchResult] = useState();
   let keyword = useParams().keyword;
   keyword = keyword.replace(/\s\s+/, " ");
   useEffect(() => {
-
     const search = async () => {
       let axiosResponse = await axiosApi.get(`search/${keyword}`);
       setSearchResult(axiosResponse.data);
@@ -42,10 +42,10 @@ const SearchResults = () => {
       .join(" ");
     return elem;
   });
-  organizations = organizations.map(elem => {
-      elem.type = "organization";
-      return elem;
-  })
+  organizations = organizations.map((elem) => {
+    elem.type = "organization";
+    return elem;
+  });
   treaties = treaties.map((elem) => {
     elem.type = "treaty";
     elem.treaty_id = elem.id;
@@ -79,7 +79,7 @@ const SearchResults = () => {
     date[2] = tmp;
     return date.join("/");
   };
-  console.log(finalArrayOfResults)
+  console.log(finalArrayOfResults);
   finalArrayOfResults = finalArrayOfResults.map((elem, index) => {
     return (
       <SearchListItem
@@ -101,6 +101,7 @@ const SearchResults = () => {
   });
   return (
     <div className="search-results">
+      <ScrollToTop />
       <header>
         <p>
           {finalArrayOfResults.length !== 1
@@ -109,7 +110,7 @@ const SearchResults = () => {
           for "{keyword}":
         </p>
       </header>
-      {finalArrayOfResults}
+      <div className="container">{finalArrayOfResults}</div>
     </div>
   );
 };

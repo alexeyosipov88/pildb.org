@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import axios from "axios";
 import axiosApi from "../../api/axios-api";
 import { Link } from "react-router-dom";
 
@@ -71,7 +70,7 @@ const SearchListItem = (props) => {
     }
     if (props.type === "country") {
       const setContextForCountry = async () => {
-        let count = await axiosApi.get("http://localhost:4000/api/count-treaties");
+        let count = await axiosApi.get("/count-treaties");
         count = count.data.find((elem) => elem.id === props.id);
         setCountTreatiesForCountries(count);
         console.log(count, "countries");
@@ -82,9 +81,7 @@ const SearchListItem = (props) => {
     }
     if (props.type === "organization") {
       const setContextForOrganization = async () => {
-        let organization = await axiosApi.get(
-          "http://localhost:4000/api/organizations"
-        );
+        let organization = await axiosApi.get("/organizations");
         organization = organization.data.find((elem) => elem.id === props.id);
         setCountTreatiesForOrganization(organization);
         let contextText = `This search result matches one of our website's section ― countries (${props.name}). It has ${countTreatiesForOrganization.count} treaties which this country is party of.`;
@@ -94,7 +91,7 @@ const SearchListItem = (props) => {
     }
     if (props.type === "topic") {
       const setTopicContext = async () => {
-        let count = await axiosApi.get("http://localhost:4000/api/count-topics");
+        let count = await axiosApi.get("/count-topics");
         count = count.data.find((elem) => elem.id === props.id);
         setCountTreatiesForTopic(count);
         let contextText = `This search result matches one of our website's section - private international law topics (${props.name}). It has ${countTreatiesForTopic.count} treaties related to that topic.`;
@@ -174,7 +171,7 @@ const SearchListItem = (props) => {
 
 
   return (
-    <div>
+    <div className="search-list-item">
       <Link
         className="link"
         to={link}
