@@ -9,10 +9,8 @@ import axiosApi
 const TreatyText = () => {
   const [treaty, setTreaty] = useState({});
   const treatyId = useParams().treatyId;
-  console.log(treaty, 'result');
-  const paramsUrl = process.env.NODE_ENV === "production" ? `/${treatyId}/eng` : `/treaties/${treatyId}/eng`;
   useEffect(() => {
-    axiosApi.get(paramsUrl).then((result) => {
+    axiosApi.get(`/treaties/${treatyId}/eng`).then((result) => {
       setTreaty(result.data[0]);
     });
   }, [treatyId]);

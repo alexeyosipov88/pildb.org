@@ -37,9 +37,7 @@ const TreatiesList = (props) => {
       <tbody>{listOfTreaties}</tbody>
     </table>
 
-    // <div>
-    //  {listOfTreaties}
-    // </div>
+  
   );
 };
 export default TreatiesList;

@@ -10,10 +10,9 @@ import convertDateToReadable from "../../helpers/readable-date";
 const ParticipationList = () => {
   const [participation, setParticipation] = useState([]);
   const treatyId = useParams().treatyId;
-  const paramsUrl = process.env.NODE_ENV === "production" ? `/${treatyId}` : `/treaties/${treatyId}`;
   useEffect(() => {
     axiosApi
-      .get(paramsUrl)
+      .get(`/treaties/${treatyId}`)
       .then((participation) => {
         setParticipation(participation.data);
       });

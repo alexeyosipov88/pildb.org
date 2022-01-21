@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import axios from "axios";
 import axiosApi from "../../api/axios-api";
 import SearchListItem from "./SearchListItem";
 
@@ -9,10 +8,9 @@ const SearchResults = () => {
   let keyword = useParams().keyword;
   keyword = keyword.replace(/\s\s+/, " ");
   useEffect(() => {
-    const paramsUrl = process.env.NODE_ENV === "production" ? `/${keyword}` : `/search/${keyword}`;
 
     const search = async () => {
-      let axiosResponse = await axiosApi.get(paramsUrl);
+      let axiosResponse = await axiosApi.get(`search/${keyword}`);
       setSearchResult(axiosResponse.data);
     };
     search();

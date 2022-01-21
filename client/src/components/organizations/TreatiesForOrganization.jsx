@@ -1,4 +1,3 @@
-import axios from "axios";
 import axiosApi from "../../api/axios-api";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
@@ -8,11 +7,10 @@ const TreatiesForOrganization = () => {
   const [treatiesForOrganization, setTreatiesForOrganization] = useState([]);
   const [organizations, setOrganizations] = useState([]);
   const organizationId = useParams().id;
-  const paramsUrl = process.env.NODE_ENV === "production" ? `/${paramsUrl}` : `/organizations/${organizationId}`;
 
   useEffect(() => {
-    const organizationsArr = axiosApi.get("/organizations/");
-    const treatiesArr = axiosApi.get(paramsUrl);
+    const organizationsArr = axiosApi.get(`/organizations/`);
+    const treatiesArr = axiosApi.get(`/organizations/${organizationId}`);
     Promise.all([organizationsArr, treatiesArr]).then((result) => {
       setOrganizations(result[0].data);
       setTreatiesForOrganization(result[1].data);

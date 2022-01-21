@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useEffect } from "react";
+import axios from "axios";
 import axiosApi from "../../api/axios-api";
 import { useParams } from "react-router-dom";
 import TreatiesList from "../treaties/TreatiesList";
@@ -8,10 +9,9 @@ import TreatiesList from "../treaties/TreatiesList";
 const TreatiesForCountry = () => {
   const [treaties, setTreaties] = useState([]);
   const countryId = useParams().countryId;
-  const paramsUrl = process.env.NODE_ENV === "production" ? `/${countryId}` : `/countries/${countryId}`;
-  console.log(countryId, 'params')
+
   useEffect(() => {
-    axiosApi.get(paramsUrl).then((treaties) => {
+    axiosApi.get(`/countries/${countryId}`).then((treaties) => {
         setTreaties(treaties.data);
     })
   }, [countryId])
