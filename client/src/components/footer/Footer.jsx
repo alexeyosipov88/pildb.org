@@ -32,7 +32,7 @@ const Footer = () => {
         <div className="legal-footer flex">
           <IconsInfo />
           <div>
-          <p>© 2021 Alexey Osipov</p>
+          <p>© 2022 Alexey Osipov</p>
           </div>
         </div>
       </div>

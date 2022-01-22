@@ -1,11 +1,10 @@
 import { useState } from "react";
 import { useEffect } from "react";
-import axios from "axios";
 import axiosApi from "../../api/axios-api";
 import { useParams } from "react-router-dom";
 import TreatiesList from "../treaties/TreatiesList";
 
-const TreatiesForTopic = (props) => {
+const TreatiesForTopic = () => {
   const [treaties, setTreaties] = useState([]);
   const topicId = useParams().topicId;
   useEffect(() => {
@@ -13,11 +12,7 @@ const TreatiesForTopic = (props) => {
       setTreaties(treaties.data);
     });
   }, [topicId]);
-  // let topic_name = treaties[0] && treaties[0].topic_name;
-  // const firstLetter = topic_name.charAt(0);
-  // const upperCaseFirstLetter = firstLetter.toUpperCase();
-  // topic_name = topic_name.replace(firstLetter, upperCaseFirstLetter);
-
+  
   let topic_name = treaties[0] && treaties[0].topic_name;
   if(treaties[0]) {
     topic_name = treaties[0].topic_name;
