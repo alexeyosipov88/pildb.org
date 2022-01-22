@@ -14,7 +14,7 @@ const SearchListItem = (props) => {
       link = `/organizations/${props.id}`;
       break;
     case "text":
-      link = `/treaties/${props.id}`;
+      link = `/treaties/${props.treaty_id}`;
       break;
     case "country":
       link = `/countries/${props.id}`;
