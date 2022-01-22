@@ -82,7 +82,6 @@ const SearchResults = () => {
     date[2] = tmp;
     return date.join("/");
   };
-  console.log(finalArrayOfResults);
 
   finalArrayOfResults = finalArrayOfResults.map((elem, index) => {
     return (
@@ -108,7 +107,6 @@ const SearchResults = () => {
       <ScrollToTop />
       <header>
         <p>
-          
           {finalArrayOfResults.length !== 1
             ? `${finalArrayOfResults.length} results`
             : `${finalArrayOfResults.length} result`}{" "}

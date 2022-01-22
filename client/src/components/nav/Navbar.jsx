@@ -37,7 +37,7 @@ const Navbar = () => {
       </div>
       <nav className="flex">
         <div className="header__links hide-for-mobile flex flex-jc-sa flex-ai-c">
-          <Link className="link" to="#">
+          <Link className="link" to="about">
             About
           </Link>
           <Link className="link" to="countries">
@@ -52,7 +52,7 @@ const Navbar = () => {
           <Link className="link" to="organizations">
             Organizations
           </Link>
-          <Link className="link" to="#">
+          <Link className="link" to="contact">
             Contact
           </Link>
         </div>

@@ -10,13 +10,14 @@ import ParticipationList from "./components/participation/ParticipationList";
 import AllTreaties from "./components/treaties/AllTreaties";
 import TopicsList from "./components/topics/TopicsList";
 import TreatiesForTopic from "./components/topics/TreatiesForTopic";
+import Contact from "./components/about/Contact";
 // import Organizations from "./components/organizations/Organizations";
 import TreatiesForOrganization from "./components/organizations/TreatiesForOrganization";
 import Home from "./components/home/Home";
 import SearchResults from "./components/search/SearchResults";
 import TreatyText from "./components/participation/TreatyText";
 import OrganizationsList from "./components/organizations/OrganizationsList";
-
+import About from "./components/about/About"
 
 
 ReactDOM.render(
@@ -25,6 +26,8 @@ ReactDOM.render(
       <Routes>
         <Route path="/" element={<App />}>
           <Route path="/" element={<Home/>}/>
+          <Route path="/about" element={<About />}/> 
+          <Route path="/contact" element={<Contact />}/> 
           <Route path="/countries/:countryId" element={<TreatiesForCountry />}/> 
           <Route path="/treaties/:treatyId/eng" element={<TreatyText/>}/> 
           <Route path="/treaties/:treatyId" element={<ParticipationList/>}/> 
