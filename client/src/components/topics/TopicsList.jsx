@@ -37,8 +37,7 @@ const TopicsList = (props) => {
     <div className="header-and-table">
       <header>
         <p>
-          The database contains information about the status of multilateral treaties related to private
-          international law. You can browse them by the following topics.
+          The database contains information about the status of multilateral treaties related to {listOfTopics.length} private intrnational law topics.
         </p>
       </header>
       <div>

@@ -1,17 +1,14 @@
 INSERT INTO english_text (treaty_id, text)
 VALUES(56, 'PREAMBLE
-========
 / [PREAMBLE] /
---------------
 The Contracting Parties,
 Having recognized the desirability of standardizing the conditions governing
 the contract for the international carriage of goods by road, particularly with
 respect to the documents used for such carriage and to the carrier''s liability,
 Have agreed as follows:
 CHAPTER 1 - SCOPE OF APPLICATION
-================================
 ARTICLE 1
----------
+-
 1. This Convention shall apply to every contract for the carriage of goods by
 road in vehicles for reward, when the place of taking over of the goods and the
 place designated for delivery, as specified in the contract, are situated in
@@ -33,7 +30,7 @@ inapplicable to their frontier traffic or to authorize the use in transport
 operations entirely confined to their territory of consignment notes
 representing a title to the goods.
 ARTICLE 2
----------
+-
 1. Where the vehicle containing the goods is carried over part of the journey
 by sea, rail, inland waterways or air, and, except where the provisions of
 article 14 are applicable, the goods are not unloaded from the vehicle, this
@@ -56,24 +53,22 @@ provisions paragraph 1 of this article, but as if, in his capacities as carrier
 by road and carrier by the other means of transport, he were two separate
 persons.
 CHAPTER II - PERSONS FOR WHOM THE CARRIER IS RESPONSIBLE
-========================================================
 ARTICLE 3
----------
+-
 For the purposes of this Convention the carrier shall be responsible for the
 acts of omissions of his agents and servants and of any other persons of whose
 services he makes use for the performance of the carriage, when such agents,
 servants or other persons are acting within the scope of their employment, as
 if such acts or omissions were his own.
 CHAPTER III - CONCLUSION AND PERFORMANCE OF THE CONTRACT OF CARRIAGE
-====================================================================
 ARTICLE 4
----------
+-
 The contract of carriage shall be confirmed by the making out of a consignment
 note. The absence, irregularity or loss of the consignment note shall not
 affect the existence or the validity of the contract of carriage which shall
 remain subject the provisions of this Convention.
 ARTICLE 5
----------
+-
 1. The consignment note shall be made out in three original copies signed by
 the sender and by the carrier. These signatures may be printed or replaced by
 the stamps of the sender and the carrier if the law of the country in which the
@@ -85,7 +80,7 @@ vehicles, or are of different kinds or are divided into different lots, the
 sender or the carrier shall have the right to require a separate consignment
 note to be made out for each vehicle used, or for each kind or lot of goods.
 ARTICLE 6
----------
+-
 1. The consignment note shall contain the following particulars:
 (a) The date of the consignment note and the place at which it is made out;
 (b) The name and address of the sender;
@@ -117,7 +112,7 @@ interest in delivery;
 3. The parties may enter in the consignment note any other particulars which
 they may deem useful.
 ARTICLE 7
----------
+-
 1. The sender shall be responsible for all expenses, loss and damage sustained
 by the carrier by reason of the inaccuracy or inadequacy of:
 (a) The particulars specified in article 6, paragraph 1, (b), (d), (e), (f),
@@ -134,7 +129,7 @@ unless the contrary is proved, to have done so on behalf of the sender.
 damage sustained through such omission by the person entitled to dispose of the
 goods.
 ARTICLE 8
----------
+-
 1. On taking over the goods, the carrier shall check:
 (a) The accuracy of the statements in the consignment note as to the number of
 packages and their marks and numbers, and
@@ -152,7 +147,7 @@ contents of the packages to be checked. The carrier shall be entitled to claim
 the cost of such checking. The result of the checks shall be entered in the
 consignment note.
 ARTICLE 9
----------
+-
 1. The consignment note shall be prima facie evidence of the making of the
 contract of carriage, the conditions of the contract and the receipt of the
 goods by the carrier.
@@ -162,13 +157,11 @@ packaging appeared to be in good condition when the carrier took them over and
 that the number of packages, their marks and numbers corresponded with the
 statements in the consignment note.
 ARTICLE 10
-----------
 The sender shall be liable to the carrier for damage to persons, equipment or
 other goods, and for any expenses due to defective packing of the goods, unless
 the defect was apparent or known to the carrier at the time when he took over
 the goods and he made no reservations concerning it.
 ARTICLE 11
-----------
 1. For the purposes of the Customs or other formalities which have to be
 completed before delivery of the goods, the sender shall attach the necessary
 documents to the consignment note or place them at the disposal of the carrier
@@ -184,7 +177,6 @@ note or deposited with the carrier shall be that of an agent, provided that the
 compensation payable by the carrier shall not exceed that payable in the event
 of loss of the goods.
 ARTICLE 12
-----------
 1. The sender has the right to dispose of the goods, in particular by asking
 the carrier to stop the goods in transit, to change the place at which delivery
 is to take place or to deliver the goods to a consignee other than the
@@ -220,7 +212,6 @@ requiring the first copy of the consignment note to be produced, shall be
 liable to the person entitled to make a claim for any loss or damage caused
 thereby.
 ARTICLE 13
-----------
 1. After arrival of the goods at the place designated for delivery, the
 consignee shall be entitled to require the carrier to deliver to him, against a
 receipt, the second copy of the consignment note and the goods. If the loss of
@@ -234,7 +225,6 @@ consignment note, but in the event of dispute on this matter the carrier shall
 not be required to deliver the goods unless security has been furnished by the
 consignee.
 ARTICLE 14
-----------
 1. If for any reason it is or becomes impossible to carry out the contract in
 accordance with the terms laid down in the consignment note before the goods
 reach the place designated for delivery, the carrier shall ask for instructions
@@ -247,7 +237,6 @@ time the person entitled to dispose of the goods in accordance with the
 provisions of article 12, he shall take such steps as seem to him to be in the
 best interests the person entitled to dispose of the goods
 ARTICLE 15
-----------
 1. Where circumstances prevent delivery of the goods after their arrival at the
 place designated for delivery, the carrier shall ask the sender for his
 instructions. If the consignee refuses the goods the sender shall be entitled
@@ -262,7 +251,6 @@ an order for the goods to be delivered to another person, paragraphs 1 and 2 of
 this article shall apply as if the consignee were the sender and that other
 person were the consignee.
 ARTICLE 16
-----------
 1. The carrier shall be entitled to recover the cost of his request for
 instructions and any expenses entailed in carrying out such instructions,
 unless such expenses were caused by the wrongful act or neglect of the carrier.
@@ -289,9 +277,7 @@ difference.
 5. The procedure in the case of sale shall be determined by the law or custom
 of the place where the goods are situated.
 CHAPTER IV - LIABILITY OF THE CARRIER
-=====================================
 ARTICLE 17
-----------
 1. The carrier shall be liable for the total or partial loss of the goods and
 for damage thereto occurring between the time when he takes over the goods and
 the time of delivery, as well as for any delay in delivery.
@@ -325,7 +311,6 @@ some of the factors causing the loss, damage or delay, he shall only be liable
 the extent that those factors for which he is liable under this article have
 contributed to the loss, damage or delay.
 ARTICLE 18
-----------
 1. The burden of proving that loss, damage or delay was due to one of the
 specified in article 17, paragraph 2, shall rest upon the carrier.
 2. When the carrier establishes that in the circumstances of the case, the loss
@@ -347,7 +332,6 @@ paragraph 4 (f), unless he proves that all steps normally incumbent on him in
 the circumstances were taken and that he complied with any special instructions
 issued to him.
 ARTICLE 19
-----------
 Delay in delivery shall be said to occur when the goods have not been delivered
 within the agreed time-limit or when, failing an agreed time-limit, the actual
 duration of the carriage having regard to the circumstances of the case, and in
@@ -355,7 +339,6 @@ particular, in the case of partial loads, the time required for making up a
 complete load in the normal way, exceeds the time it would be reasonable to
 allow a diligent carrier.
 ARTICLE 20
-----------
 1. The fact that goods have not been delivered within thirty days following the
 expiry of the agreed time-limit, or, if there is no agreed time-limit, within
 sixty days from the time when the carrier took over the goods, shall be
@@ -377,14 +360,12 @@ or if the goods are not recovered until more than one year after the payment of
 compensation , the carrier shall be entitled to deal with them in accordance
 with the law place where the goods are situated.
 ARTICLE 21
-----------
 Should the goods have been delivered to the consignee without collection of the
 "cash on delivery" charge which should have been collected by the carrier under
 terms of the contract of carriage, the carrier shall be liable to the sender
 for compensation not exceeding the amount of such charge without prejudice to
 his right of action against the consignee.
 ARTICLE 22
-----------
 1. When the sender hands goods of a dangerous nature to the carrier, he shall
 inform the carrier of the exact nature of the danger and indicate if necessary,
 precautions to be taken. If this information has not been entered in the
@@ -398,7 +379,6 @@ without compensation; further, the sender shall be liable for all expenses,
 loss or damage arising out of their handing over for carriage or of their
 carriage.
 ARTICLE 23
-----------
 1. When, under the provisions of this Convention, a carrier is liable for
 compensation in respect of total or partial loss of goods, such compensation
 shall be calculated by reference to the value of the goods at the place and
@@ -421,13 +401,11 @@ carriage charges.
 special interest in delivery has been declared in accordance with articles 24
 and 26.
 ARTICLE 24
-----------
 The sender may, against payment of a surcharge to be agreed upon, declare in
 the consignment note a value for the goods exceeding the limit laid down in
 article 23, paragraph 3, and in that case the amount of the declared value
 shall be substituted for that limit.
 ARTICLE 25
-----------
 1. In case of damage, the carrier shall be liable for the amount by which the
 goods have diminished in value, calculated by reference to the value of the
 goods fixed in accordance with article 23, paragraphs 1, 2 and 4.
@@ -437,7 +415,6 @@ of total loss;
 (b) If part only of the consignment has been damaged, the amount payable in the
 case of loss of the part affected.
 ARTICLE 26
-----------
 1. The sender may, against payment of a surcharge to be agreed upon, fix the
 amount of a special interest in delivery in the case of loss or damage or of
 the agreed time-limit being exceeded, by entering such amount in the
@@ -447,7 +424,6 @@ compensation for the additional loss or damage proved may be claimed, up to the
 total amount of the interest declared, independently of the compensation
 provided for in articles 23, 24 and 25.
 ARTICLE 27
-----------
 1. The claimant shall be entitled to claim interest on compensation payable.
 Such interest, calculated at five per centum per annum, shall accrue from the
 date on which the claim was sent in writing to the carrier or, if no such claim
@@ -457,7 +433,6 @@ not expressed in the currency of the country in which payment is claimed,
 conversion shall be at the rate of exchange applicable on the day and at the
 place of payment of compensation.
 ARTICLE 28
-----------
 1. In cases where, under the law applicable, loss, damage or delay arising out
 of carriage under this Convention gives rise to an extra-contractual claim, the
 carrier may avail himself of the provisions of this Convention which exclude
@@ -468,7 +443,6 @@ article 3 is in issue, such person may also avail himself of the provisions of
 this Convention which exclude the liability of the carrier or which fix or
 limit the compensation due.
 ARTICLE 29
-----------
 1. The carrier shall not be entitled to avail himself of the provisions of this
 chapter which exclude or limit his liability or which shift the burden of proof
 if the damage was caused by his wilful misconduct or by such default on his
@@ -482,9 +456,7 @@ employment. Furthermore, in such a case such agents, servants or other persons
 shall not be entitled to avail themselves, with regard to their personal
 liability, of the provisions of this chapter referred to in paragraph 1.
 CHAPTER V - CLAIMS AND ACTIONS
-==============================
 ARTICLE 30
-----------
 1. If the consignee takes delivery of the goods without duly checking their
 condition with the carrier or without sending him reservations giving a general
 indication of the loss or damage, not later than the time of delivery in the
@@ -508,7 +480,6 @@ the disposal of the consignee, as the case may be, shall not be included.
 5. The carrier and the consignee shall give each other every reasonable
 facility for making the requisite investigations and checks.
 ARTICLE 31
-----------
 1. In legal proceedings arising out of carriage under this Convention, the
 plaintiff may bring an action in any court or tribunal of a contracting country
 designated by agreement between the parties and, in addition, in the courts or
@@ -537,7 +508,6 @@ addition to costs against a plaintiff who wholly or partly fails in his action.
 carriage under this Convention from nationals of contracting countries resident
 or having their place of business in one of those countries.
 ARTICLE 32
-----------
 1. The period of limitation for an action arising out of carriage under this
 Convention shall be one year. Nevertheless, in the case of wilful misconduct,
 or such default as in accordance with the law of the court or tribunal seised
@@ -566,21 +536,17 @@ the case. That law shall also govern the fresh accrual of rights of action.
 4. A right of action which has become barred by lapse of time may not be
 exercised by way of counterclaim or set-off.
 ARTICLE 33
-----------
 The contract of carriage may contain a clause conferring competence on an
 arbitration tribunal if the clause conferring competence on the tribunal
 provides that the tribunal shall apply this Convention.
 CHAPTER VI - PROVISIONS RELATING TO CARRIAGE PERFORMED BY SUCCESSIVE CARRIERS
-=============================================================================
 ARTICLE 34
-----------
 If carriage governed by a single contract is performed by successive road
 carriers, each of them shall be responsible for the performance of the whole
 operation, the second carrier and each succeeding carrier becoming a party to
 the contract of carriage, under the terms of the consignment note, by reason of
 his acceptance of the goods and the consignment note.
 ARTICLE 35
-----------
 1. A carrier accepting the goods from a previous carrier shall give the latter
 a dated and signed receipt. He shall enter his name and address on the second
 copy of the consignment note. Where applicable, he shall enter on the second
@@ -589,7 +555,6 @@ provided for in article 8, paragraph 2.
 2. The provisions of article 9 shall apply to the relations between successive
 carriers .
 ARTICLE 36
-----------
 Except in the case of a counterclaim or a setoff raised in an action concerning
 a claim based on the same contract of carriage, legal proceedings in respect of
 liability for loss, damage or delay may only be brought against the first
@@ -597,7 +562,6 @@ carrier, the last carrier or the carrier who was performing that portion of the
 carriage during which the event causing the loss, damage or delay occurred, an
 action may be brought at the same time against several of these carriers.
 ARTICLE 37
-----------
 A carrier who has paid compensation in compliance with the provisions of this
 Convention, shall be entitled to recover such compensation, together with
 interest thereon and all costs and expenses incurred by reason of the claim,
@@ -614,12 +578,10 @@ which is due to him;
 the loss or damage, the amount of the compensation shall be apportioned between
 all the carriers as laid down in (b) above.
 ARTICLE 38
-----------
 If one of the carriers is insolvent, the share of the compensation due from him
 and unpaid by him shall be divided among the other carriers in proportion to
 the share of the payment for the carriage due to them.
 ARTICLE 39
-----------
 1. No carrier against whom a claim is made under articles 37 and 38 shall be
 entitled to dispute the validity of the payment made by the carrier making the
 claim if the amount of the compensation was determined by judicial authority
@@ -639,13 +601,10 @@ final judicial decision fixing the amount of compensation payable under the
 provisions of this Convention, or, if there is no such judicial decision, from
 the actual date of payment.
 ARTICLE 40
-----------
 Carriers shall be free to agree among themselves on provisions other than those
 laid down in articles 37 and 38.
 CHAPTER VII - NULLITY OF STIPULATION TO THE CONVENTION
-======================================================
 ARTICLE 41
-----------
 1. Subject to the provisions of article 40, any stipulation which would
 directly or indirectly derogate from the provisions of this Convention shall be
 null and void. The nullity of such a stipulation shall not involve the nullity
@@ -654,9 +613,7 @@ of the other provisions of the contract.
 similar clause, or any clause shifting the burden of proof shall be null and
 void.
 CHAPTER VIII - FINAL PROVISIONS
-===============================
 ARTICLE 42
-----------
 1. This Convention is open for signature or accession by countries members of
 the Economic Commission for Europe and countries admitted to the Commission in
 a consultative capacity under paragraph 8 of the Commission''s terms of
@@ -671,7 +628,6 @@ Thereafter, it shall be open for accession.
 5. Ratification or accession shall be effected by the deposit of an instrument
 with the Secretary-General of the United Nations.
 ARTICLE 43
-----------
 1. This Convention shall come into force on the ninetieth day after five of the
 countries referred to in article 42, paragraph 1, have deposited their
 instruments of ratification or accession.
@@ -680,19 +636,16 @@ deposited their instruments of ratification of accession, this Convention shall
 enter into force on the ninetieth day after the said country has deposited its
 instrument of ratification or accession.
 ARTICLE 44
-----------
 1. Any Contracting Party may denounce this Convention by so notifying the
 Secretary-General of the United Nations.
 2. Denunciation shall take effect twelve months after the date of receipt by
 the Secretary-General of the notification of denunciation.
 ARTICLE 45
-----------
 If, after the entry into force of this Convention, the number of Contracting
 Parties is reduced, as a result of denunciations, to less than five, the
 Convention shall cease to be in force from the date in which the last of such
 denunciations takes effect.
 ARTICLE 46
-----------
 1. Any country may, at the time of depositing its instrument of ratification or
 accession or at any time thereafter, declare by notification addressed to the
 Secretary-General of the United Nations that this Convention shall extend to
@@ -706,14 +659,12 @@ extending this Convention to any territory for whose international relations it
 is responsible may denounce the Convention separately in respect of that
 territory in accordance with the provisions of article 44.
 ARTICLE 47
-----------
 Any dispute between two or more Contracting Parties relating to the
 interpretation or application of this Convention, which the parties are unable
 to settle by negotiation or other means may, at the request of any one of the
 Contracting Parties concerned, be referred for settlement to the International
 Court of Justice
 ARTICLE 48
-----------
 1. Each Contracting Party may, at the time of signing, ratifying, or acceding
 to, this Convention, declare that it does not consider itself as bound by
 article 47 of the Convention. Other Contracting Parties shall not be bound by
@@ -724,7 +675,6 @@ paragraph 1 may at any time withdraw such reservation by notifying the
 Secretary-General of the United Nations.
 3. No other reservation to this Convention shall be permitted.
 ARTICLE 49
-----------
 1. After this Convention has been in force for three years, any Contracting
 Party may, by notification to the Secretary-General of the United Nations,
 request that a conference be convened for the purpose of reviewing the
@@ -744,7 +694,6 @@ conference is to meet.
 with this article all countries referred to in article 42, paragraph 1, and
 countries which have become Contracting Parties under article 42, paragraph 2.
 ARTICLE 50
-----------
 In addition to the notifications provided for in article 49, the
 Secretary-General of the United Nations shall notify the countries referred to
 in article 42, paragraph 1, and the countries which have become Contracting
@@ -758,7 +707,6 @@ Parties under article 42, paragraph 2, of:
 (f) Declarations and notifications received in accordance with article 48,
 paragraphs 1 and 2.
 ARTICLE 51
-----------
 After 31 August 1956, the original of this Convention shall be deposited with
 the Secretary-general of the United Nations, who shall transmit certified true
 copies to each of the countries mentioned in article 42, paragraphs 1 and 2.

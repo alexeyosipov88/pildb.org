@@ -1,7 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(32, 'CONVENTION ON PROTECTION OF CHILDREN AND CO-OPERATION IN RESPECT OF INTERCOUNTRY ADOPTION
-(Concluded 29 May 1993)
-The States signatory to the present Convention,
+VALUES(32, 'The States signatory to the present Convention,
 Recognising that the child, for the full and harmonious development of his or her personality, should grow up in a family environment, in an atmosphere of happiness, love and understanding,
 Recalling that each State should take, as a matter of priority, appropriate measures to enable the child to remain in the care of his or her family of origin,
 Recognising that intercountry adoption may offer the advantage of a permanent family to a child for whom a suitable family cannot be found in his or her State of origin,

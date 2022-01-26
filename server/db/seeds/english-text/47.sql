@@ -1,9 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(47, 'EUROPEAN CONVENTION ON INTERNATIONAL COMMERCIAL ARBITRATION OF 1961 DONE AT
-******************************************************************************
-[PRE]
------
-THE UNDERSIGNED, DULY AUTHORIZED,
+VALUES(47, 'THE UNDERSIGNED, DULY AUTHORIZED,
 Convened under the auspices of the Economic Commission for Europe of the United
 Nations.
 Having noted that on 10th June 1958 at the United Nations Conference on

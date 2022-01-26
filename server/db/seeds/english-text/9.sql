@@ -1,9 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
 VALUES(9, '(This Convention was drawn up in French only.)
-English translation as published in the United Nations Treaty Series, 1969, pp. 145 ff.:
-CONVENTION CONCERNING THE POWERS OF AUTHORITIES AND THE LAW APPLICABLE IN RESPECT OF THE PROTECTION OF INFANTS
-(Concluded 5 October 1961)
- 
 The States signatory to the present Convention,
 Desiring to establish common provisions on the powers of authorities and the law applicable in respect of the protection of infants,
 Have resolved to conclude a Convention to this effect and have agreed upon the following provisions:

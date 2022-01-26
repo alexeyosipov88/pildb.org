@@ -1,8 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(39, 'CONVENTION ON THE RECOGNITION AND ENFORCEMENT OF FOREIGN JUDGMENTS IN CIVIL OR COMMERCIAL MATTERS
-(Concluded 2 July 2019) 
- 
-The Contracting Parties to the present Convention, 
+VALUES(39, 'The Contracting Parties to the present Convention, 
 Desiring to promote effective access to justice for all and to facilitate rule-based multilateral trade and investment, and mobility, through judicial co-operation, 
 Believing that such co-operation can be enhanced through the creation of a uniform set of core rules on recognition and enforcement of foreign judgments in civil or commercial matters, to facilitate the effective recognition and enforcement of such judgments, 
 Convinced that such enhanced judicial co-operation requires, in particular, an international legal regime that provides greater predictability and certainty in relation to the global circulation of foreign judgments, and that is complementary to the Convention of 30 June 2005 on Choice of Court Agreements, 

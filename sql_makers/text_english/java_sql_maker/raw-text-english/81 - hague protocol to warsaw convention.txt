@@ -2,24 +2,24 @@ PROTOCOL TO AMEND THE CONVENTION FOR THE UNIFICATION OF CERTAIN RULES RELATING
 TO INTERNATIONAL CARRIAGE BY AIR, SIGNED AT WARSAW ON 12 OCTOBER 1929, DONE AT
 THE HAGUE ON 28 SEPTEMBER 1955
 (THE HAGUE PROTOCOL TO THE WARSAW CONVENTION 1955)
-******************************************************************************
+                                                                              
 
 /[PREAMBLE]/
-------------
+      
 
-*The Governments Undersigned*
+ The Governments Undersigned 
 
-*Considering* that it is desirable to amend the Convention for the Unification
+ Considering  that it is desirable to amend the Convention for the Unification
 of Certain Rules Relating to International Carriage by Air signed at Warsaw on
 12 October 1929,
 
-*Have Agreed* as follows:
+ Have Agreed  as follows:
 
 CHAPTER I - AMENDMENTS TO THE CONVENTION
-========================================
+
 
 ARTICLE I
----------
+    -
 
 In Article 1 of the Convention -
 
@@ -48,7 +48,7 @@ In Article 1 of the Convention -
   the same State."
 
 ARTICLE II
-----------
+     
 
 In Article 2 of the Convention - paragraph 2 shall be deleted and replaced by
 the following:-
@@ -56,7 +56,7 @@ the following:-
   "2. This Convention shall not apply to carriage of mail and postal packages."
 
 ARTICLE III
------------
+     -
 
 In Article 3 of the Convention -
 
@@ -89,7 +89,7 @@ In Article 3 of the Convention -
   the provisions of Article 22."
 
 ARTICLE IV
-----------
+     
 
 In Article 4 of the Convention -
 
@@ -123,7 +123,7 @@ In Article 4 of the Convention -
   the passenger ticket which complies with the provisions of Article 3,
 
 ARTICLE V
----------
+    -
 
 In Article 6 of the Convention - paragraph 3 shall be deleted and replaced by
 the following:-
@@ -132,7 +132,7 @@ the following:-
   aircraft."
 
 ARTICLE VI
-----------
+     
 
 Article 8 of the Convention shall be deleted and replaced by the following:-
 
@@ -152,7 +152,7 @@ Article 8 of the Convention shall be deleted and replaced by the following:-
     loss of or damage to cargo."
 
 ARTICLE VII
------------
+     -
 
 Article 9 of the Convention shall be deleted and replaced by the following:-
 
@@ -164,7 +164,7 @@ Article 9 of the Convention shall be deleted and replaced by the following:-
     of Article 22, paragraph 2."
 
 ARTICLE VIII
-------------
+      
 
 In Article 10 of the Convention - paragraph 2 shall be deleted and replaced by
 the following:-
@@ -175,7 +175,7 @@ the following:-
   statements furnished by the consignor."
 
 ARTICLE IX
-----------
+     
 
 To Article 15 of the Convention - the following paragraph shall be added:-
 
@@ -183,12 +183,12 @@ To Article 15 of the Convention - the following paragraph shall be added:-
   waybill."
 
 ARTICLE X
----------
+    -
 
 Paragraph 2 of Article 20 of the Convention shall be deleted.
 
 ARTICLE XI
-----------
+     
 
 Article 22 of the Convention shall be deleted and replaced by the following:-
 
@@ -235,7 +235,7 @@ Article 22 of the Convention shall be deleted and replaced by the following:-
   the gold value of such currencies at the date of the judgment."
 
 ARTICLE XII
------------
+     -
 
 In Article 23 of the Convention, the existing provision shall be renumbered as
 paragraph 1 and another paragraph shall be added as follows:-
@@ -245,7 +245,7 @@ paragraph 1 and another paragraph shall be added as follows:-
   carried."
 
 ARTICLE XIII
-------------
+      
 
 In Article 25 of the Convention - paragraphs 1 and 2 shall be deleted and
 replaced by the following:-
@@ -258,7 +258,7 @@ replaced by the following:-
   acting within the scope of his employment."
 
 ARTICLE XIV
------------
+     -
 
 After Article 25 of the Convention, the following article shall be inserted:-
 
@@ -279,7 +279,7 @@ After Article 25 of the Convention, the following article shall be inserted:-
   damage would probably result."
 
 ARTICLE XV
-----------
+     
 
 In Article 26 of the Convention - paragraph 2 shall be deleted and replaced by
 the following:-
@@ -292,7 +292,7 @@ the following:-
   the date on which the baggage or cargo have been placed at his disposal."
 
 ARTICLE XVI
------------
+     -
 
 Article 34 of the Convention shall be deleted and replaced by the following:-
 
@@ -301,7 +301,7 @@ Article 34 of the Convention shall be deleted and replaced by the following:-
   circumstances outside the normal scope of an air carrier's business."
 
 ARTICLE XVII
-------------
+      
 
 After Article 40 of the Convention, the following Article shall be inserted:-
 
@@ -318,10 +318,10 @@ After Article 40 of the Convention, the following Article shall be inserted:-
   foreign relations of which that State is responsible."
 
 CHAPTER II - SCOPE OF APPLICATION OF THE CONVENTION AS AMENDED
-==============================================================
+
 
 ARTICLE XVIII
--------------
+      -
 
 The Convention as amended by this Protocol shall apply to international
 carriage as defined in Article 1 of the Convention, provided that the places of
@@ -331,17 +331,17 @@ single party to this Protocol with an agreed stopping place within the
 territory of another State.
 
 CHAPTER III - FINAL CLAUSES
-===========================
+
 
 ARTICLE XIX
------------
+     -
 
 As between the Parties to this Protocol, the Convention and the Protocol shall
 be read and interpreted together as one single instrument and shall be known as
 the Warsaw Convention as amended at The Hague, 1955.
 
 ARTICLE XX
-----------
+     
 
 Until the date on which this Protocol comes into force in accordance with the
 provisions of Article XXII, paragraph 1, it shall remain open for signature on
@@ -350,7 +350,7 @@ Convention or which has participated in the Conference at which this Protocol
 was adopted.
 
 ARTICLE XXI
------------
+     -
 
 1. This Protocol shall be subject to ratification by the signatory States.
 
@@ -362,7 +362,7 @@ this Protocol.
 the People's Republic of Poland.
 
 ARTICLE XXII
-------------
+      
 
 1. As soon as thirty signatory States have deposited their instruments of
 ratification of this Protocol, it shall come into force between them on the
@@ -374,7 +374,7 @@ after the deposit of its instrument of ratification.
 United Nations by the Government of the People's Republic of Poland.
 
 ARTICLE XXIII
--------------
+      -
 
 1. This Protocol shall, after it has come into force, be open for adherence by
 any non-signatory State.
@@ -388,7 +388,7 @@ with the Government of the People's Republic of Poland and shall take effect on
 the ninetieth day after the deposit.
 
 ARTICLE XXIV
-------------
+      
 
 1. Any Party to this Protocol may denounce the Protocol by notification
 addressed to the Government of the People's Republic of Poland.
@@ -402,7 +402,7 @@ Convention in accordance with Article 39 thereof shall not be construed in any
 way as a denunciation of the Convention as amended by this Protocol.
 
 ARTICLE XXV
------------
+     -
 
 1. This Protocol shall apply to all territories for the foreign relations of
 which a State Party to this Protocol is responsible, with the exception of
@@ -425,7 +425,7 @@ provisions of Article XXIV, paragraph 1, separately for any or all of the
 territories for the foreign relations of which such State is responsible.
 
 ARTICLE XXVI
-------------
+      
 
 No reservation may be made to this Protocol except that a State may at any time
 declare by a notification addressed to the Government of the People's Republic
@@ -435,7 +435,7 @@ aircraft, registered in that State, the whole capacity of which has been
 reserved by or on behalf of such authorities.
 
 ARTICLE XXVII
--------------
+      -
 
 The Government of the People's Republic of Poland shall give immediate notice
 to the Governments of all States signatories to the Convention or this
@@ -460,11 +460,11 @@ and the date thereof; and
 thereof.
 
 /[POST PROVISIONS]/
-===================
+
 
 /[POST CLAUSES (IF ANY: SIGNED; WITNESSED; DONE; AUTHENTIC TEXTS; & DEPOSITED
 CLAUSES)]/
-------------------------------------------------------------------------------
+                                       
 
 IN WITNESS WHEREOF the undersigned Plenipotentiaries, having been duly
 authorized, have signed this Protocol.
@@ -483,51 +483,3 @@ States Parties to the Convention or this Protocol, and all States Members of
 the International Civil Aviation Organization or of the United Nations, and to
 the International Civil Aviation Organization.
 
-
-==============================================================================
-
-	Title:  Protocol to Amend the Convention for the Unification of Certain
-               Rules Relating to International Carriage by Air, Signed at
-               Warsaw on 12 October 1929, Done at The Hague On 28 September
-               1955 - The Hague Protocol to the Warsaw Convention 1955
-
-	Subject:  law, transport, carriage by air
-
-	Publisher:  SiSU http://www.jus.uio.no/sisu (this copy)
-
-	Date:  1955-09-28
-
-	Sourcefile:  air.carriage.warsaw.convention.hague.protocol.1955.sst
-
-	Filetype:  SiSU text 2.0
-
-	Source digest:  SHA256(air.carriage.warsaw.convention.hague.protocol.1955.sst)=
-               eab571edcb71020111c5f5a2344c245c0377c0b6704ead250b0d816aa5df6d78
-
-	Skin digest:  SHA256(skin_lm.rb)=
-               5acda64a9532f9ef6b71693da2b471d4efac2f23a8499e68de066eec8ea9b8e9
-
-	Generated by:  Generated by: SiSU 2.6.3 of 2010w30/3 (2010-07-28)
-
-	Ruby version:  ruby 1.8.7 (2010-08-16 patchlevel 302) [i486-linux]
-
-	Document (dal) last generated:  Tue Sep 21 15:47:52 -0400 2010
-
-==============================================================================
-
-Other versions of this document:
-manifest:
-   http://www.jus.uio.no/lm//air.carriage.warsaw.convention.hague.protocol.1955/sisu_manifest.html
-html:
-   http://www.jus.uio.no/lm//air.carriage.warsaw.convention.hague.protocol.1955/toc.html
-pdf:
-   http://www.jus.uio.no/lm//air.carriage.warsaw.convention.hague.protocol.1955/portrait.pdf
-   http://www.jus.uio.no/lm//air.carriage.warsaw.convention.hague.protocol.1955/landscape.pdf
-plaintext (plain text):
-   http://www.jus.uio.no/lm//air.carriage.warsaw.convention.hague.protocol.1955/plain.txt
-at:
-   http://lexmercatoria.org
-* Generated by: SiSU 2.6.3 of 2010w30/3 (2010-07-28)
-* Ruby version: ruby 1.8.7 (2010-08-16 patchlevel 302) [i486-linux]
-* Last Generated on: Tue Sep 21 15:47:54 -0400 2010
-* SiSU http://www.sisudoc.org/

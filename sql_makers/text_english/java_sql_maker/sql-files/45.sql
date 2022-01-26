@@ -1,5 +1,6 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(45, '/Reaffirming/ their belief that international trade on the basis of equality
+VALUES(45, '/The States Parties to this Convention,/
+/Reaffirming/ their belief that international trade on the basis of equality
 and mutual benefit is an important element in promoting friendly relations
 among States,
 /Noting/ that the increased use of electronic communications improves the
@@ -25,9 +26,7 @@ electronic communications in a manner acceptable to States with different
 legal, social and economic systems,
 /Have agreed/ as follows:
 CHAPTER I - SPHERE OF APPLICATION
-=================================
 ARTICLE 1 - SCOPE OF APPLICATION
---------------------------------
 1. This Convention applies to the use of electronic communications in
 connection with the formation or performance of a contract between parties
 whose place of business are in different States.
@@ -39,7 +38,6 @@ by the parties at any time before or at the conclusion of the contract.
 of the parties or of the contract is to be taken into consideration in
 determining the application of this Convention.
 ARTICLE 2 - EXCLUSIONS
-----------------------
 1. This Convention does not apply to electronic communications relating to any
 of the following:
 (a) Contracts concluded for personal, family or household purposes;
@@ -54,13 +52,11 @@ consignment notes, bills of lading, warehouse receipts or any transferable
 document or instrument that entitles the bearer or beneficiary to claim the
 delivery of goods or the payment of a sum of money.
 ARTICLE 3 - PARTY AUTONOMY
---------------------------
 The parties may exclude the application of this Convention or derogate from or
 vary the effect of any of its provisions.
 CHAPTER II - GENERAL PROVISIONS
-===============================
 ARTICLE 4 - DEFINITIONS
------------------------
+-
 For the purposes of this Convention:
 (a) "Communication" means any statement, declaration, demand, notice or
 request, including an offer and the acceptance of an offer, that the parties
@@ -89,7 +85,6 @@ system;
 non-transitory establishment to pursue an economic activity other than the
 temporary provision of goods or services out of a specific location.
 ARTICLE 5 - INTERPRETATION
---------------------------
 1. In the interpretation of this Convention, regard is to be had to its
 international character and to the need to promote uniformity in its
 application and the observance of good faith in international trade.
@@ -99,7 +94,7 @@ principles on which it is based or, in the absence of such principles, in
 conformity with the law applicable by virtue of the rules of private
 international law.
 ARTICLE 6 - LOCATION OF THE PARTIES
------------------------------------
+-
 1. For the purposes of this Convention, a party''s place of business is presumed
 to be the location indicated by that party, unless another party demonstrates
 that the party making the indication does not have a place of business at that
@@ -119,22 +114,19 @@ information system may be accessed by other parties.
 address connected to a specific country does not create a presumption that its
 place of business is located in that country.
 ARTICLE 7 - INFORMATION REQUIREMENTS
-------------------------------------
 Nothing in this Convention affects the application of any rule of law that may
 require the parties to disclose their identities, place of business or other
 information, or relieves a party from the legal consequences of making
 inaccurate, incomplete or false statements in that regard.
 CHAPTER III - USE OF ELECTRONIC COMMUNICATIONS IN INTERNATIONAL CONTRACTS
-=========================================================================
 ARTICLE 8 - LEGAL RECOGNITION OF ELECTRONIC COMMUNICATIONS
-----------------------------------------------------------
 1. A communication or a contract shall not be denied validity or enforceability
 on the sole ground that it is in the form of an electronic communication.
 2. Nothing in this Convention requires a party to use or accept electronic
 communications, but a party''s general agreement to do so may be inferred from
 the party''s conduct.
 ARTICLE 9 - FORM REQUIREMENTS
------------------------------
+-
 1. Nothing in this Convention requires a communication or a contract to be made
 or evidenced in any particular form.
 2. Where the law requires that a communication or a contract should be in
@@ -173,7 +165,6 @@ purpose for which the information was generated and in the light of all the
 relevant circumstances.
 ARTICLE 10 - TIME AND PLACE OF DISPATCH AND RECEIPT OF ELECTRONIC
 COMMUNICATIONS
-------------------------------------------------------------------------------
 1. The time of dispatch of an electronic communication is the time when it
 leaves an information system under the control of the originator or of the
 party who sent it on behalf of the originator or, if the electronic
@@ -197,7 +188,6 @@ information system supporting an electronic address is located may be different
 from the place where the electronic communication is deemed to be received
 under paragraph 3 of the article.
 ARTICLE 11 - INVITATION TO MAKE OFFERS
---------------------------------------
 A proposal to conclude a contract made through one or more electronic
 communications which is not addressed to one or more specific parties, but is
 generally accessible to parties making use of information systems, including
@@ -206,14 +196,12 @@ through such information systems, is to be considered as an invitation to make
 offers, unless it clearly indicates the intention of the party making the
 proposal to be bound in case of acceptance.
 ARTICLE 12 - USE OF AUTOMATED MESSAGE SYSTEMS FOR CONTRACT FORMATION
---------------------------------------------------------------------
 A contract formed by the interaction of an automated message system and a
 natural person, or by the interaction of automated message systems, shall not
 be denied validity or enforceability on the sole ground that no natural person
 reviewed or intervened in each of the individual actions carried out by the
 automated message systems or the resulting contract.
 ARTICLE 13 - AVAILABILITY OF CONTRACTUAL TERMS
-----------------------------------------------
 Nothing in this Convention affects the application of any rule of law that may
 require a party that negotiates some or all of the terms of a contract through
 the exchange of electronic communications to make available to the other party
@@ -221,7 +209,7 @@ those electronic communications which contain the contractual terms in a
 particular manner, or relieves a party from the legal consequences of failure
 to do so.
 ARTICLE 14 - ERROR IN ELECTRONIC COMMUNICATIONS
------------------------------------------------
+-
 1. Where a natural person makes an input error in an electronic communication
 exchanged with the automated message system of another party and the automated
 message system does not provide the person with an opportunity to correct the
@@ -238,13 +226,11 @@ any, received from the other party.
 2. Nothing in this article affects the application of any rule of law that may
 govern the consequences of any error other than as provided for in paragraph 1.
 CHAPTER IV - FINAL PROVISIONS
-=============================
 ARTICLE 15 - DEPOSITARY
------------------------
+-
 The Secretary-General of the United Nations is hereby designated as the
 depository for this Convention.
 ARTICLE 16 - SIGNATURE, RATIFICATION, ACCEPTANCE OR APPROVAL
-------------------------------------------------------------
 1. This Convention is open for signature by all States at United Nations
 Headquarters in New York from 16 January 2006 to 16 January 2008.
 2. This Convention is subject to ratification, acceptance or approval by the
@@ -254,7 +240,7 @@ States as from the date it is open for signature.
 4. Instruments of ratification, acceptance, approval and accession are to be
 deposited with the Secretary-General of the United Nations.
 ARTICLE 17 - PARTICIPATION BY REGIONAL ECONOMIC INTEGRATION ORGANIZATIONS
--------------------------------------------------------------------------
+-
 1. A regional economic integration organization that is constituted by
 sovereign States and has competence over certain matters governed by this
 Convention may similarly sign, ratify, accept, approve or accede to this
@@ -279,7 +265,6 @@ economic integration organization as applicable to parties whose respective
 places of business are located in States members of any such organization, as
 set out by declaration made in accordance with article 21.
 ARTICLE 18 - EFFECTS IN DOMESTIC TERRITORIAL UNITS
---------------------------------------------------
 1. If a Contracting State has two or more territorial units in which different
 systems of law are applicable in relation to the matters dealt with in this
 Convention, it may, at the time of signature, ratification, acceptance,
@@ -297,7 +282,6 @@ extends.
 4. If a Contracting State makes no declaration under paragraph 1 of this
 article, the Convention is to extend to all territorial units of that State.
 ARTICLE 19 - DECLARATION ON THE SCOPE OF APPLICATION
-----------------------------------------------------
 1. Any Contracting State may declare, in accordance with article 21, that it
 will apply this Convention only:
 (a) When the States referred to in article 1, paragraph 1, are Contracting
@@ -307,7 +291,7 @@ States to this Convention; or
 Convention the matters it specifies in a declaration made in accordance with
 article 21.
 ARTICLE 20 - COMMUNICATIONS EXCHANGED UNDER OTHER INTERNATIONAL CONVENTIONS
----------------------------------------------------------------------------
+-
 1. The provisions of this Convention apply to the use of electronic
 communications in connection with the formation or performance of a contract to
 which any of the following international conventions, to which a Contracting
@@ -347,16 +331,15 @@ referred to in paragraph 1 of this article, even if such State has not excluded
 the application of paragraph 2 of this article by a declaration made in
 accordance with article 21.
 ARTICLE 21 - PROCEDURE AND EFFECTS OF DECLARATIONS
---------------------------------------------------
 1. Declarations under article 17, paragraph 4, article 19, paragraphs 1 and 2,
 and article 20, paragraphs 2, 3 and 4, may be made at any time. Declarations
 made at the time of signature are subject to confirmation upon ratification,
 acceptance or approval.
 ARTICLE 22 - RESERVATIONS
--------------------------
+-
 No reservations may be made under this Convention.
 ARTICLE 23 - ENTRY INTO FORCE
------------------------------
+-
 1. This Convention enters into force the first day of the month following the
 expiration of six months after the date of deposit of the third instrument of
 ratification, acceptance, approval or accession
@@ -367,12 +350,10 @@ first day of the month following the expiration of six months after the date of
 the deposit of its instrument of ratification, acceptance, approval or
 accession.
 ARTICLE 24 - TIME OF APPLICATION
---------------------------------
 This Convention and any declaration apply only to electronic communications
 that are made after the date when the Convention or the declaration enters into
 force or takes effect in respect of each Contracting State.
 ARTICLE 25 - DENUNCIATIONS
---------------------------
 1. A Contracting State may denounce this Convention by a formal notification in
 writing addressed to the depositary.
 2. The denunciation takes effect on the first day of the first month following
@@ -382,10 +363,8 @@ specified in the notification, the denunciation takes effect upon the
 expiration of such longer period after the notification is received by the
 depositary.
 / [POST PROVISIONS] /
-=====================
 / [POST CLAUSES (IF ANY: SIGNED; WITNESSED; DONE; AUTHENTIC TEXTS; & DEPOSITED
 CLAUSES)] /
-------------------------------------------------------------------------------
 DONE at New York this twenty-third day of November two thousand and five, in a
 single original, of which the Arabic, Chinese, English, French, Russian and
 Spanish texts are equally authentic.

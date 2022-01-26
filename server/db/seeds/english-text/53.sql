@@ -1,6 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(53, 'International Convention on Maritime Liens and Mortgages
-THE STATES PARTIES TO THE PRESENT CONVENTION
+VALUES(53, 'THE STATES PARTIES TO THE PRESENT CONVENTION
 RECOGNIZING the desirability of determining by agreement uniform international rules regarding salvage operations,
 NOTING that substantial developments, in particular the increased concern for the protection of the environment, have demonstrated the need to review the international rules presently contained in the Convention for the Unification of Certain Rules of Law relating to Assistance and Salvage at Sea, done at Brussels, 23 September 1910,
 CONSCIOUS of the major contribution which efficient and timely salvage operations can make to the safety of vessels and other property in danger and to the protection of the environment,

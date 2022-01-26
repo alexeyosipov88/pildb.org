@@ -1,7 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(69, 'Convention relating to a Uniform Law on the Formation of Contracts for the International Sale of Goods
-(The Hague, 1 July 1964)
-The States signatory to the present Convention,
+VALUES(69, 'The States signatory to the present Convention,
 Desiring to establish a uniform law on the formation of contracts for the international sale of goods,
 Have resolved to conclude a convention to this effect and have agreed upon the following provisions:
 Article I

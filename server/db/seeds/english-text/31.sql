@@ -1,8 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(31, 'CONVENTION ON THE LAW APPLICABLE TO SUCCESSION TO THE ESTATES OF DECEASED PERSONS
-(Concluded on August 1st, 1989)
- 
-The States signatory to this Convention,
+VALUES(31, 'The States signatory to this Convention,
 Desiring to establish common provisions concerning the law applicable to succession to the estates of deceased persons,
 Have resolved to conclude a Convention for this purpose and have agreed upon the following provisions -
  

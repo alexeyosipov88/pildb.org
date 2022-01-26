@@ -1,11 +1,9 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(64, 'CONVENTION ON CIVIL LIABILITY FOR DAMAGE CAUSED DURING CARRIAGE OF
-DANGEROUS GOODS BY ROAD, RAIL AND INLAND NAVIGATION VESSELS (CRTD)
-	THE STATES PARTIES TO THIS CONVENTION,
-	NOTING the continuous increase in the carriage of dangerous goods,
-	CONSCIOUS of the existence at international level of technical standards aimed at securing safety during such carriage,
-	DESIRING to establish uniform rules ensuring adequate and speedy compensation for damage caused during carriage of dangerous goods by road, rail and inland navigation vessels,
-	HAVE AGREED as follows:
+VALUES(64, 'THE STATES PARTIES TO THIS CONVENTION,
+NOTING the continuous increase in the carriage of dangerous goods,
+CONSCIOUS of the existence at international level of technical standards aimed at securing safety during such carriage,
+DESIRING to establish uniform rules ensuring adequate and speedy compensation for damage caused during carriage of dangerous goods by road, rail and inland navigation vessels,
+HAVE AGREED as follows:
 DEFINITIONS
 Article 1
 	For the purpose of this Convention:

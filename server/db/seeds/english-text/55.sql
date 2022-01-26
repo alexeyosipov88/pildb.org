@@ -1,7 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(55, 'United Nations Convention on Contracts for the International
-Carriage of Goods Wholly or Partly by Sea
-The General Assembly,
+VALUES(55, 'The General Assembly,
 Recalling its resolution 2205 (XXI) of 17 December 1966, by which it
 established the United Nations Commission on International Trade Law with a
 mandate to further the progressive harmonization and unification of the law of

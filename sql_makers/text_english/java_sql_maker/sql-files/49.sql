@@ -63,10 +63,10 @@ in any form. The requirement that a settlement agreement be in
 writing is met by an electronic communication if the information
 contained therein is accessible so as to be useable for subsequent
 reference.
-3. M“ediation means a process, irrespective of the expression
+3. M"ediation means a process, irrespective of the expression
 used or the basis upon which the process is carried out, whereby
 parties attempt to reach an amicable settlement of their dispute
-with the assistance of a third person or persons (“the mediator)
+with the assistance of a third person or persons ("the mediator)
 lacking the authority to impose a solution upon the parties to the
 dispute.
 Article 3. General principles
@@ -86,7 +86,7 @@ where relief is sought:
 (a) The settlement agreement signed by the parties;
 (b) Evidence that the settlement agreement resulted from
 mediation, such as:
-(i)	 The mediator’s signature on the settlement agreement;
+(i)	 The mediator''s signature on the settlement agreement;
 (ii)	 A document signed by the mediator indicating that
 the mediation was carried out;
 (iii) A
@@ -98,7 +98,7 @@ acceptable to the competent authority.
 the parties or, where applicable, the mediator is met in relation to an
 electronic communication if:
 (a) A method is used to identify the parties or the mediator
-and to indicate the parties’ or mediator’s intention in respect of the
+and to indicate the parties'' or mediator''s intention in respect of the
 information contained in the electronic communication; and
 (b) The method used is either:
 (i)	 As reliable as appropriate for the purpose for which

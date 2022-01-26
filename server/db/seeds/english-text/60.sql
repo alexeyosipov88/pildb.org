@@ -1,7 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(60, 'PROTOCOL2 AMENDING ARTICLE 14 (3) OF THE ABOVE-MENTIONED AGREEMENT. CON
-CLUDED AT NEW YORK ON 21 AUGUST 1975
-The Parties to the present Protocol,
+VALUES(60, 'The Parties to the present Protocol,
 Having considered the provisions of the European Agreement concerning the Inter
 national Carriage of Dangerous Goods by Road (ADR), done at Geneva on 30 September
 19573 (hereafter referred to as '' ''the Agreement"), in so far as concerns the amendment of the

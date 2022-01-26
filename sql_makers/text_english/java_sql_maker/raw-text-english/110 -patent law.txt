@@ -6,51 +6,51 @@ Abbreviated Expressions
 
 For the purposes of this Treaty, unless expressly stated otherwise:
 
-(i) “Office” means the authority of a Contracting Party entrusted with the granting of patents or with other matters covered by this Treaty;
+(i)  "Office " means the authority of a Contracting Party entrusted with the granting of patents or with other matters covered by this Treaty;
 
-(ii) “application” means an application for the grant of a patent, as referred to in Article 3;
+(ii)  "application " means an application for the grant of a patent, as referred to in Article 3;
 
-(iii) “patent” means a patent as referred to in Article 3;
+(iii)  "patent " means a patent as referred to in Article 3;
 
-(iv) references to a “person” shall be construed as including, in particular, a natural person and a legal entity;
+(iv) references to a  "person " shall be construed as including, in particular, a natural person and a legal entity;
 
-(v) “communication” means any application, or any request, declaration, document, correspondence or other information relating to an application or patent, whether relating to a procedure under this Treaty or not, which is filed with the Office;
+(v)  "communication " means any application, or any request, declaration, document, correspondence or other information relating to an application or patent, whether relating to a procedure under this Treaty or not, which is filed with the Office;
 
-(vi) “records of the Office” means the collection of information maintained by the Office, relating to and including the applications filed with, and the patents granted by, that Office or another authority with effect for the Contracting Party concerned, irrespective of the medium in which such information is maintained;
+(vi)  "records of the Office " means the collection of information maintained by the Office, relating to and including the applications filed with, and the patents granted by, that Office or another authority with effect for the Contracting Party concerned, irrespective of the medium in which such information is maintained;
 
-(vii) “recordation” means any act of including information in the records of the Office;
+(vii)  "recordation " means any act of including information in the records of the Office;
 
-(viii) “applicant” means the person whom the records of the Office show, pursuant to the applicable law, as the person who is applying for the patent, or as another person who is filing or prosecuting the application;
+(viii)  "applicant " means the person whom the records of the Office show, pursuant to the applicable law, as the person who is applying for the patent, or as another person who is filing or prosecuting the application;
 
-(ix) “owner” means the person whom the records of the Office show as the owner of the patent;
+(ix)  "owner " means the person whom the records of the Office show as the owner of the patent;
 
-(x) “representative” means a representative under the applicable law;
+(x)  "representative " means a representative under the applicable law;
 
-(xi) “signature” means any means of self-identification;
+(xi)  "signature " means any means of self-identification;
 
-(xii) “a language accepted by the Office” means any one language accepted by the Office for the relevant procedure before the Office;
+(xii)  "a language accepted by the Office " means any one language accepted by the Office for the relevant procedure before the Office;
 
-(xiii) “translation” means a translation into a language or, where appropriate, a transliteration into an alphabet or character set, accepted by the Office;
+(xiii)  "translation " means a translation into a language or, where appropriate, a transliteration into an alphabet or character set, accepted by the Office;
 
-(xiv) “procedure before the Office” means any procedure in proceedings before the Office with respect to an application or patent;
+(xiv)  "procedure before the Office " means any procedure in proceedings before the Office with respect to an application or patent;
 
 (xv) except where the context indicates otherwise, words in the singular include the plural, and vice versa, and masculine personal pronouns include the feminine;
 
-(xvi) “Paris Convention” means the Paris Convention for the Protection of Industrial Property, signed on March 20, 1883, as revised and amended;
+(xvi)  "Paris Convention " means the Paris Convention for the Protection of Industrial Property, signed on March 20, 1883, as revised and amended;
 
-(xvii) “Patent Cooperation Treaty” means the Patent Cooperation Treaty, signed on June 19, 1970, together with the Regulations and the Administrative Instructions under that Treaty, as revised, amended and modified;
+(xvii)  "Patent Cooperation Treaty " means the Patent Cooperation Treaty, signed on June 19, 1970, together with the Regulations and the Administrative Instructions under that Treaty, as revised, amended and modified;
 
-(xviii) “Contracting Party” means any State or inter-governmental organization that is party to this Treaty;
+(xviii)  "Contracting Party " means any State or inter-governmental organization that is party to this Treaty;
 
-(xix) “applicable law” means, where the Contracting Party is a State, the law of that State and, where the Contracting Party is an intergovernmental organization, the legal enactments under which that intergovernmental organization operates;
+(xix)  "applicable law " means, where the Contracting Party is a State, the law of that State and, where the Contracting Party is an intergovernmental organization, the legal enactments under which that intergovernmental organization operates;
 
-(xx) “instrument of ratification” shall be construed as including instruments of acceptance or approval;
+(xx)  "instrument of ratification " shall be construed as including instruments of acceptance or approval;
 
-(xxi) “Organization” means the World Intellectual Property Organization;
+(xxi)  "Organization " means the World Intellectual Property Organization;
 
-(xxii) “International Bureau” means the International Bureau of the Organization;
+(xxii)  "International Bureau " means the International Bureau of the Organization;
 
-(xxiii) “Director General” means the Director General of the Organization.
+(xxiii)  "Director General " means the Director General of the Organization.
 
  
 
@@ -336,7 +336,7 @@ Article 13
 Correction or Addition of Priority Claim;
 Restoration of Priority Right
 
-(1) [Correction or Addition of Priority Claim] Except where otherwise prescribed in the Regulations, a Contracting Party shall provide for the correction or addition of a priority claim with respect to an application (“the subsequent application”), if:
+(1) [Correction or Addition of Priority Claim] Except where otherwise prescribed in the Regulations, a Contracting Party shall provide for the correction or addition of a priority claim with respect to an application ( "the subsequent application "), if:
 
 (i) a request to that effect is made to the Office in accordance with the requirements prescribed in the Regulations;
 
@@ -344,7 +344,7 @@ Restoration of Priority Right
 
 (iii) the filing date of the subsequent application is not later than the date of the expiration of the priority period calculated from the filing date of the earliest application whose priority is claimed.
 
-(2) [Delayed Filing of the Subsequent Application] Taking into consideration Article 15, a Contracting Party shall provide that, where an application (“the subsequent application”) which claims or could have claimed the priority of an earlier application has a filing date which is later than the date on which the priority period expired, but within the time limit prescribed in the Regulations, the Office shall restore the right of priority, if:
+(2) [Delayed Filing of the Subsequent Application] Taking into consideration Article 15, a Contracting Party shall provide that, where an application ( "the subsequent application ") which claims or could have claimed the priority of an earlier application has a filing date which is later than the date on which the priority period expired, but within the time limit prescribed in the Regulations, the Office shall restore the right of priority, if:
 
 (i) a request to that effect is made to the Office in accordance with the requirements prescribed in the Regulations;
 
@@ -379,7 +379,7 @@ Regulations
 
 (a) The Regulations annexed to this Treaty provide rules concerning:
 
-(i) matters which this Treaty expressly provides are to be “prescribed in the Regulations”;
+(i) matters which this Treaty expressly provides are to be  "prescribed in the Regulations ";
 
 (ii) details useful in the implementation of the provisions of this Treaty;
 

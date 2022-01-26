@@ -1,49 +1,52 @@
 INSERT INTO english_text (treaty_id, text)
 VALUES(5, '(This Convention was drawn up in French only.)
-Les Etats signataires de la pr?sente Convention ;
-D?sirant ?tablir des dispositions communes concernant une r?glementation des conflits entre la loi nationale et la loi du domicile ;
-Ont r?solu de conclure une Convention ? cet effet et sont convenus des dispositions suivantes :
+CONVENTION RELATING TO THE SETTLEMENT OF THE CONFLICTS BETWEEN THE LAW OF NATIONALITY AND THE LAW OF DOMICILE
+(Concluded 15 June 1955)
+ 
+Les Etats signataires de la présente Convention ;
+Désirant établir des dispositions communes concernant une réglementation des conflits entre la loi nationale et la loi du domicile ;
+Ont résolu de conclure une Convention à cet effet et sont convenus des dispositions suivantes :
  
 Article premier
-Lorsque l''Etat, o? la personne int?ress?e est domicili?e, prescrit l''application de la loi nationale, mais que l''Etat, dont cette personne est ressortissante, prescrit l''application de la loi du domicile, tout Etat contractant appliquera les dispositions du droit interne de la loi du domicile.
+Lorsque l''Etat, où la personne intéressée est domiciliée, prescrit l''application de la loi nationale, mais que l''Etat, dont cette personne est ressortissante, prescrit l''application de la loi du domicile, tout Etat contractant appliquera les dispositions du droit interne de la loi du domicile.
 Article 2
-Lorsque l''Etat, o? la personne int?ress?e est domicili?e, et l''Etat, dont cette personne est ressortissante, prescrivent tous les deux l''application de la loi du domicile, tout Etat contractant appliquera les dispositions du droit interne de la loi du domicile.
+Lorsque l''Etat, où la personne intéressée est domiciliée, et l''Etat, dont cette personne est ressortissante, prescrivent tous les deux l''application de la loi du domicile, tout Etat contractant appliquera les dispositions du droit interne de la loi du domicile.
 Article 3
-Lorsque l''Etat, o? la personne int?ress?e est domicili?e, et l''Etat, dont cette personne est ressortissante, prescrivent tous les deux l''application de la loi nationale, tout Etat contractant appliquera les dispositions du droit interne de la loi nationale.
+Lorsque l''Etat, où la personne intéressée est domiciliée, et l''Etat, dont cette personne est ressortissante, prescrivent tous les deux l''application de la loi nationale, tout Etat contractant appliquera les dispositions du droit interne de la loi nationale.
 Article 4
-Aucun Etat contractant ne s''oblige ? appliquer les r?gles ?dict?es aux articles pr?c?dents, lorsque ses r?gles de droit international priv? ne prescrivent l''application, au cas donn?, ni de la loi du domicile, ni de la loi nationale.
+Aucun Etat contractant ne s''oblige à appliquer les règles édictées aux articles précédents, lorsque ses règles de droit international privé ne prescrivent l''application, au cas donné, ni de la loi du domicile, ni de la loi nationale.
 Article 5
-Le domicile, au sens de la pr?sente Convention, est le lieu o? une personne r?side habituellement, ? moins qu''il ne d?pende de celui d''une autre personne ou du si?ge d''une autorit?.
+Le domicile, au sens de la présente Convention, est le lieu où une personne réside habituellement, à moins qu''il ne dépende de celui d''une autre personne ou du siège d''une autorité.
 Article 6
-Dans chacun des Etats contractants, l''application de la loi, d?termin?e par la pr?sente Convention, peut ?tre ?cart?e pour un motif d''ordre public.
+Dans chacun des Etats contractants, l''application de la loi, déterminée par la présente Convention, peut être écartée pour un motif d''ordre public.
 Article 7
-Aucun Etat contractant ne s''oblige ? appliquer les dispositions de la pr?sente Convention, lorsque l''Etat, o? la personne int?ress?e est domicili?e, ou l''Etat, dont cette personne est ressortissante, n''est pas un Etat contractant.
+Aucun Etat contractant ne s''oblige à appliquer les dispositions de la présente Convention, lorsque l''Etat, où la personne intéressée est domiciliée, ou l''Etat, dont cette personne est ressortissante, n''est pas un Etat contractant.
 Article 8
-Chaque Etat contractant, en signant ou ratifiant la pr?sente Convention ou en y adh?rant, peut d?clarer qu''il exclut de l''application de la pr?sente Convention les conflits de lois relatifs ? certaines mati?res.
-L''Etat qui aura fait usage de la facult?, pr?vue ? l''alin?a pr?c?dent, ne pourra pr?tendre ? l''application de la pr?sente Convention, par les autres Etats contractants, en ce qui concerne les mati?res qu''il aura exclues.
+Chaque Etat contractant, en signant ou ratifiant la présente Convention ou en y adhérant, peut déclarer qu''il exclut de l''application de la présente Convention les conflits de lois relatifs à certaines matières.
+L''Etat qui aura fait usage de la faculté, prévue à l''alinéa précédent, ne pourra prétendre à l''application de la présente Convention, par les autres Etats contractants, en ce qui concerne les matières qu''il aura exclues.
 Article 9
-La pr?sente Convention est ouverte ? la signature des Etats repr?sent?s ? la Septi?me session de la Conf?rence de La Haye de droit international priv?.
-Elle sera ratifi?e et les instruments de ratification seront d?pos?s aupr?s du Minist?re des Affaires Etrang?res des Pays-Bas.
-Il sera dress? de tout d?p?t d''instruments de ratification un proc?s-verbal dont une copie, certifi?e conforme, sera remise, par la voie diplomatique, ? chacun des Etats signataires.
+La présente Convention est ouverte à la signature des Etats représentés à la Septième session de la Conférence de La Haye de droit international privé.
+Elle sera ratifiée et les instruments de ratification seront déposés auprès du Ministère des Affaires Etrangères des Pays-Bas.
+Il sera dressé de tout dépôt d''instruments de ratification un procès-verbal dont une copie, certifiée conforme, sera remise, par la voie diplomatique, à chacun des Etats signataires.
 Article 10
-La pr?sente Convention entrera en vigueur le soixanti?me jour ? partir du d?p?t du cinqui?me instrument de ratification pr?vu par l''article 9, alin?a 2.
-Pour chaque Etat signataire, ratifiant post?rieurement la Convention, celle-ci entrera en vigueur le soixanti?me jour ? partir de la date du d?p?t de son instrument de ratification.
+La présente Convention entrera en vigueur le soixantième jour à partir du dépôt du cinquième instrument de ratification prévu par l''article 9, alinéa 2.
+Pour chaque Etat signataire, ratifiant postérieurement la Convention, celle-ci entrera en vigueur le soixantième jour à partir de la date du dépôt de son instrument de ratification.
 Article 11
-La pr?sente Convention s''applique de plein droit aux territoires m?tropolitains des Etats contractants.
-Si un Etat contractant en d?sire la mise en vigueur dans tous les autres territoires ou dans tels des autres territoires dont les relations internationales sont assur?es par lui, il notifiera son intention ? cet effet par un acte qui sera d?pos? aupr?s du Minist?re des Affaires Etrang?res des Pays-Bas. Celui-ci en enverra, par la voie diplomatique, une copie, certifi?e conforme, ? chacun des Etats contractants.
-La pr?sente Convention entrera en vigueur, pour ces territoires, le soixanti?me jour apr?s la date du d?p?t de l''acte de notification mentionn? ci-dessus.
-Il est entendu que la notification, pr?vue par l''alin?a 2 du pr?sent article, ne pourra avoir effet qu''apr?s l''entr?e en vigueur de la pr?sente Convention en vertu de son article 10, alin?a premier.
+La présente Convention s''applique de plein droit aux territoires métropolitains des Etats contractants.
+Si un Etat contractant en désire la mise en vigueur dans tous les autres territoires ou dans tels des autres territoires dont les relations internationales sont assurées par lui, il notifiera son intention à cet effet par un acte qui sera déposé auprès du Ministère des Affaires Etrangères des Pays-Bas. Celui-ci en enverra, par la voie diplomatique, une copie, certifiée conforme, à chacun des Etats contractants.
+La présente Convention entrera en vigueur, pour ces territoires, le soixantième jour après la date du dépôt de l''acte de notification mentionné ci-dessus.
+Il est entendu que la notification, prévue par l''alinéa 2 du présent article, ne pourra avoir effet qu''après l''entrée en vigueur de la présente Convention en vertu de son article 10, alinéa premier.
 Article 12
-Tout Etat, non repr?sent? ? la Septi?me session de la Conf?rence de La Haye de droit international priv?, pourra adh?rer ? la pr?sente Convention. L''Etat, d?sirant adh?rer, notifiera son intention par un acte qui sera d?pos? aupr?s du Minist?re des Affaires Etrang?res des Pays-Bas. Celui-ci en enverra, par la voie diplomatique, une copie, certifi?e conforme, ? chacun des Etats contractants. La Convention entrera en vigueur pour l''Etat adh?rant le soixanti?me jour apr?s la date du d?p?t de l''acte d''adh?sion.
-Il est entendu que le d?p?t de l''acte d''adh?sion ne pourra avoir lieu qu''apr?s l''entr?e en vigueur de la pr?sente Convention en vertu de l''article 10, alin?a premier.
+Tout Etat, non représenté à la Septième session de la Conférence de La Haye de droit international privé, pourra adhérer à la présente Convention. L''Etat, désirant adhérer, notifiera son intention par un acte qui sera déposé auprès du Ministère des Affaires Etrangères des Pays-Bas. Celui-ci en enverra, par la voie diplomatique, une copie, certifiée conforme, à chacun des Etats contractants. La Convention entrera en vigueur pour l''Etat adhérant le soixantième jour après la date du dépôt de l''acte d''adhésion.
+Il est entendu que le dépôt de l''acte d''adhésion ne pourra avoir lieu qu''après l''entrée en vigueur de la présente Convention en vertu de l''article 10, alinéa premier.
 Article 13
-La pr?sente Convention aura une dur?e de cinq ans ? partir de la date indiqu?e dans l''article 10, alin?a premier, de la pr?sente Convention. Ce terme commencera ? courir d?s cette date, m?me pour les Etats qui l''auront ratifi?e ou y auront adh?r? post?rieurement.
-La Convention sera renouvel?e tacitement de cinq ans en cinq ans, sauf d?nonciation.
-La d?nonciation devra, au moins six mois avant l''expiration du terme, ?tre notifi?e au Minist?re des Affaires Etrang?res des Pays-Bas, qui en donnera connaissance ? tous les autres Etats contractants.
-La d?nonciation peut se limiter aux territoires, ou ? certains des territoires compris dans une notification faite en vertu de l''article 11, alin?a 2.
-La d?nonciation ne produira son effet qu''? l''?gard de l''Etat qui l''aura notifi?e. La Convention restera en vigueur pour les autres Etats contractants.
+La présente Convention aura une durée de cinq ans à partir de la date indiquée dans l''article 10, alinéa premier, de la présente Convention. Ce terme commencera à courir dès cette date, même pour les Etats qui l''auront ratifiée ou y auront adhéré postérieurement.
+La Convention sera renouvelée tacitement de cinq ans en cinq ans, sauf dénonciation.
+La dénonciation devra, au moins six mois avant l''expiration du terme, être notifiée au Ministère des Affaires Etrangères des Pays-Bas, qui en donnera connaissance à tous les autres Etats contractants.
+La dénonciation peut se limiter aux territoires, ou à certains des territoires compris dans une notification faite en vertu de l''article 11, alinéa 2.
+La dénonciation ne produira son effet qu''à l''égard de l''Etat qui l''aura notifiée. La Convention restera en vigueur pour les autres Etats contractants.
  
-En foi de quoi, les soussign?s, d?ment autoris?s par leurs Gouvernements respectifs, ont sign? la pr?sente Convention.
-Fait ? La Haye, le 15 juin 1955, en un seul exemplaire, qui sera d?pos? dans les archives du Gouvernement des Pays-Bas et dont une copie, certifi?e conforme, sera remise, par la voie diplomatique, ? chacun des Etats repr?sent?s ? la Septi?me session de la Conf?rence de La Haye de droit international priv?.
+En foi de quoi, les soussignés, dûment autorisés par leurs Gouvernements respectifs, ont signé la présente Convention.
+Fait à La Haye, le 15 juin 1955, en un seul exemplaire, qui sera déposé dans les archives du Gouvernement des Pays-Bas et dont une copie, certifiée conforme, sera remise, par la voie diplomatique, à chacun des Etats représentés à la Septième session de la Conférence de La Haye de droit international privé.
  
 ')

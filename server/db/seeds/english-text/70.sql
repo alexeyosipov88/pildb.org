@@ -1,8 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(70, 'International Convention on Travel Contracts (CCV)
-(Brussels, April 23, 1970)
- 
-The States Parties to this Convention,
+VALUES(70, 'The States Parties to this Convention,
 Noting the development of tourism and its economical and social role,
 Recognizing the need to establish uniform provisions relating to travel contracts,
 Have agreed as follows:

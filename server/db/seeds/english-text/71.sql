@@ -1,7 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(71, 'Convention providing a Uniform Law on
-the Form of an International Will
-The States signatory to the present Convention,
+VALUES(71, 'The States signatory to the present Convention,
 DESIRING to provide to a greater extent for the respecting of last wills by establishing an additional form of will hereinafter to be called an "international will" which, if employed, would dispense to some extent with the search for the applicable law;
 HAVE RESOLVED to conclude a Convention for this purpose and have agreed upon the following provisions:
 Article I

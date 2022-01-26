@@ -5,7 +5,7 @@ Recognizing the value of arbitration as a method of settling disputes that may a
 
 Also recognizing the need for provisions on transparency in the settlement of treaty-based investor-State disputes to take account of the public interest involved in such arbitrations,
 
-Believing that the Rules on Transparency in Treaty-based Investor-State Arbitration adopted by the United Nations Commission on International Trade Law on 11 July 2013 (“UNCITRAL Rules on Transparency”), effective as of 1 April 2014, would contribute significantly to the establishment of a harmonized legal framework for a fair and efficient settlement of international investment disputes,
+Believing that the Rules on Transparency in Treaty-based Investor-State Arbitration adopted by the United Nations Commission on International Trade Law on 11 July 2013 ("UNCITRAL Rules on Transparency"), effective as of 1 April 2014, would contribute significantly to the establishment of a harmonized legal framework for a fair and efficient settlement of international investment disputes,
 
 Noting the great number of treaties providing for the protection of investments or investors already in force, and the practical importance of promoting the application of the UNCITRAL Rules on Transparency to arbitration under those already concluded investment treaties,
 
@@ -16,10 +16,10 @@ Have agreed as follows:
 Article 1
 Scope of application
 1.	
-This Convention applies to arbitration between an investor and a State or a regional economic integration organization conducted on the basis of an investment treaty concluded before 1 April 2014 (“investor-State arbitration”).
+This Convention applies to arbitration between an investor and a State or a regional economic integration organization conducted on the basis of an investment treaty concluded before 1 April 2014 ("investor-State arbitration").
 
 2.	
-The term “investment treaty” means any bilateral or multilateral treaty, including any treaty commonly referred to as a free trade agreement, economic integration agreement, trade and investment framework or cooperation agreement, or bilateral investment treaty, which contains provisions on the protection of investments or investors and a right for investors to resort to arbitration against contracting parties to that investment treaty.
+The term "investment treaty" means any bilateral or multilateral treaty, including any treaty commonly referred to as a free trade agreement, economic integration agreement, trade and investment framework or cooperation agreement, or bilateral investment treaty, which contains provisions on the protection of investments or investors and a right for investors to resort to arbitration against contracting parties to that investment treaty.
 
 Article 2
 Application of the UNCITRAL Rules on Transparency

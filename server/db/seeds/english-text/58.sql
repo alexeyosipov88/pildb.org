@@ -1,10 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(58, '
-ADDITIONAL PROTOCOL TO THE CONVENTION ON
-THE CONTRACT FOR THE INTERNATIONAL CARRIAGE OF
-GOODS BY ROAD (CMR) CONCERNING THE ELECTRONIC
-CONSIGNMENT NOTE
-The Parties to this Protocol,
+VALUES(58, 'The Parties to this Protocol,
 Being Parties to the Convention on the Contract for the International
 Carriage of Goods by Road (CMR), done at Geneva on 19 May 1956,
 Desirous of supplementing the Convention in order to facilitate the

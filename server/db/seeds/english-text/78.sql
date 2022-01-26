@@ -1,6 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(78, 'PROTOCOL TO THE CONVENTION ON INTERNATIONAL INTERESTS IN MOBILE EQUIPMENT ON MATTERS SPECIFIC TO SPACE ASSETS
-THE STATES PARTIES TO THIS PROTOCOL,
+VALUES(78, 'THE STATES PARTIES TO THIS PROTOCOL,
 CONSIDERING it desirable to implement the Convention on International Interests in Mobile Equipment (hereinafter referred to as the Convention) as it relates to space assets, in the light of the purposes set out in the preamble to the Convention,
 CONSCIOUS of the need to adapt the Convention to meet the particular demand for and the utility of space assets and the need to finance their acquisition and use,
 TAKING INTO CONSIDERATION the benefits to all States from expanded space-based services and financing which the Convention and this Protocol may yield,

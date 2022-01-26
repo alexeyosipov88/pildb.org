@@ -1,6 +1,7 @@
 INSERT INTO english_text (treaty_id, text)
 VALUES(43, 'CHAPTER I. - SPHERE OF APPLICATION AND FORM OF THE INSTRUMENT
 ARTICLE 1
+-
 1. This Convention applies to an international bill of exchange when it
 contains the heading "International bill of exchange (UNCITRAL Convention)" and
 also contains in its text the words "International bill of exchange (UNCITRAL
@@ -11,7 +12,7 @@ contains in its text the words "International promissory note (UNCITRAL
 Convention)".
 3. This Convention does not apply to cheques.
 ARTICLE 2
----------
+-
 1. An international bill of exchange is a bill of exchange which specifies at
 least two of the following places and indicates that any two so specified are
 situated in different States:
@@ -36,7 +37,7 @@ been made on an instrument in respect of a place referred to in paragraph 1 or
 2 of this article. However, any such sanctions shall not affect the validity of
 the instrument or the application of this Convention.
 ARTICLE 3
----------
+-
 1. A bill of exchange is a written instrument which:
 (a) Contains an unconditional order whereby the drawer directs the drawee to
 pay a definite sum of money to the payee or to his order;
@@ -50,16 +51,14 @@ definite sum of money to the payee or to his order;
 (c) Is dated;
 (d) Is signed by the maker.
 CHAPTER II. - INTERPRETATION
-****************************
 SECTION 1. - GENERAL PROVISIONS
-===============================
 ARTICLE 4
----------
+-
 In the interpretation of this Convention, regard is to be had to its
 international character and to the need to promote uniformity in its
 application and the observance of good faith in international transactions.
 ARTICLE 5
----------
+-
 In this Convention:
 (a) "Bill" means an international bill of exchange governed by this Convention;
 (b) "Note" means an international promissory note governed by this Convention;
@@ -87,14 +86,13 @@ more States, provided that this Convention shall apply without prejudice to the
 rules of the intergovernmental institution or to the stipulations of the
 agreement.
 ARTICLE 6
----------
+-
 For the purposes of this Convention, a person is considered to have knowledge
 of a fact if he has actual knowledge of that fact or could not have been
 unaware of its existence.
 SECTION 2. - INTERPRETATION OF FORMAL REQUIREMENTS
-==================================================
 ARTICLE 7
----------
+-
 The sum payable by an instrument is deemed to be a definite sum although the
 instrument states that it is to be paid:
 (a) With interest;
@@ -106,7 +104,7 @@ determined as directed by the instrument; or
 (e) In a currency other than the currency in which the sum is expressed in the
 instrument.
 ARTICLE 8
----------
+-
 1. If there is a discrepancy between the sum expressed in words and the sum
 expressed in figures, the sum payable by the instrument is the sum expressed in
 words.
@@ -141,7 +139,7 @@ any reason it is not possible to determine the numerical value of the variable
 rate for any period, interest shall be payable for the relevant period at the
 rate calculated in accordance with paragraph 2 of article 70.
 ARTICLE 9
----------
+-
 1. An instrument is deemed to be payable on demand:
 (a) If it states that it is payable at sight or on demand or on presentment or
 if it contains words of similar import; or
@@ -174,7 +172,6 @@ is payable on the corresponding date of the month when payment must be made. If
 there is no corresponding date, the instrument is payable on the last day of
 that month.
 ARTICLE 10
-----------
 1. A bill may be drawn:
 (a) By two or more drawers;
 (b) Payable to two or more payees.
@@ -187,7 +184,6 @@ may exercise the rights of a holder. In any other case the instrument is
 payable to all of them and the rights of a holder may be exercised only by all
 of them.
 ARTICLE 11
-----------
 A bill may be drawn by the drawer:
 (a) On himself;
 (b) Payable to his order.
@@ -208,15 +204,12 @@ of authority when he became a holder;
 (b) A party who signed the instrument after the completion is liable according
 to the terms of the instrument so completed.
 CHAPTER III. - TRANSFER
-***********************
 ARTICLE 13
-----------
 An instrument is transferred:
 (a) By endorsement and delivery of the instrument by the endorser to the
 endorsee; or
 (b) By mere delivery of the instrument if the last endorsement is in blank.
 ARTICLE 14
-----------
 1. An endorsement must be written on the instrument or on a slip affixed
 thereto ("allonge"). It must be signed.
 2. An endorsement may be:
@@ -228,7 +221,6 @@ to whom the instrument is payable.
 3. A signature alone, other than that of the drawee, is an endorsement only if
 placed on the back of the instrument.
 ARTICLE 15
-----------
 1. A person is a holder if he is:
 (a) The payee in possession of the instrument; or
 (b) In possession of an instrument which has been endorsed to him, or on which
@@ -243,7 +235,6 @@ instrument was obtained by him or any previous holder under circumstances,
 including incapacity or fraud, duress or mistake of any kind, that would give
 rise to a claim to, or a defence against liability on, the instrument.
 ARTICLE 16
-----------
 The holder of an instrument on which the last endorsement is in blank may:
 (a) Further endorse it either by an endorsement in blank or by a special
 endorsement;
@@ -252,7 +243,6 @@ the endorsement that the instrument is payable to himself or to some other
 specified person; or
 (c) Transfer the instrument in accordance with subparagraph (b) of article 13.
 ARTICLE 17
-----------
 1. If the drawer or the maker has inserted in the instrument such words as "not
 negotiable", "not transferable", "not to order", "pay (X) only", or words of
 similar import, the instrument may not be transferred except for purposes of
@@ -266,22 +256,18 @@ subsequent endorsement, even if it does not contain words authorizing the
 endorsee to collect the instrument, is deemed to be an endorsement for
 collection.
 ARTICLE 18
-----------
 1. An endorsement must be unconditional.
 2. A conditional endorsement transfers the instrument whether or not the
 condition is fulfilled. The condition is ineffective as to those parties and
 transferees who are subsequent to the endorsee.
 ARTICLE 19
-----------
 An endorsement in respect of a part of the sum due under the instrument is
 ineffective as an endorsement.
 ARTICLE 20
-----------
 If there are two or more endorsements, it is presumed, unless the contrary is
 proved, that each endorsement was made in the order in which it appears on the
 instrument.
 ARTICLE 21
-----------
 1. If an endorsement contains the words "for collection", "for deposit", "value
 in collection", "by procuration", "pay any bank", or words of similar import
 authorizing the endorsee to collect the instrument, the endorsee is a holder
@@ -293,7 +279,6 @@ endorser.
 2. The endorser for collection is not liable on the instrument to any
 subsequent holder.
 ARTICLE 22
-----------
 1. If an endorsement contains the words "value in security", "value in pledge",
 or any other words indicating a pledge, the endorsee is a holder who:
 (a) May exercise all rights arising out of the instrument;
@@ -303,17 +288,14 @@ article 30.
 2. If such an endorsee endorses for collection, he is not liable on the
 instrument to any subsequent holder.
 ARTICLE 23
-----------
 The holder of an instrument may transfer it to a prior party or to the drawee
 in accordance with article 13; however, if the transferee has previously been a
 holder of the instrument, no endorsement is required, and any endorsement which
 would prevent him from qualifying as a holder may be struck out.
 ARTICLE 24
-----------
 An instrument may be transferred in accordance with article 13 after maturity,
 except by the drawee, the acceptor or the maker.
 ARTICLE 25
-----------
 1. If an endorsement is forged, the person whose endorsement is forged, or a
 party who signed the instrument before the forgery, has the right to recover
 compensation for any damage that he may have suffered because of the forgery
@@ -336,7 +318,6 @@ failure to act in good faith or to exercise reasonable care.
 4. Except as against the forger, the damages recoverable under paragraph 1 of
 this article may not exceed the amount referred to in article 70 or article 71.
 ARTICLE 26
-----------
 1. If an endorsement is made by an agent without authority or power to bind his
 principal in the matter, the principal, or a party who signed the instrument
 before such endorsement, has the right to recover compensation for any damage
@@ -361,16 +342,12 @@ reasonable care.
 4. Except as against the agent, the damages recoverable under paragraph 1 of
 this article may not exceed the amount referred to in article 70 or article 71.
 CHAPTER IV. - RIGHTS AND LIABILITIES
-************************************
 SECTION 1. - THE RIGHTS OF A HOLDER AND OF A PROTECTED HOLDER
-=============================================================
 ARTICLE 27
-----------
 1. The holder of an instrument has all the rights conferred on him by this
 Convention against the parties to the instrument.
 2. The holder may transfer the instrument in accordance with article 13.
 ARTICLE 28
-----------
 1. A party may set up against a holder who is not a protected holder:
 (a) Any defence that may be set up against a protected holder in accordance
 with paragraph 1 of article 30;
@@ -399,7 +376,6 @@ holder the fact that a third person has a claim to the instrument unless:
 (b) The holder acquired the instrument by theft or forged the signature of the
 payee or an endorsee, or participated in the theft or the forgery.
 ARTICLE 29
-----------
 "Protected holder" means the holder of an instrument which was complete when he
 took it or which was incomplete within the meaning of paragraph 1 of article 12
 and was completed in accordance with authority given, provided that when he
@@ -414,7 +390,7 @@ for payment had not expired;
 (e) He did not obtain the instrument by fraud or theft or participate in a
 fraud or theft concerning it.
 ARTICLE  30
------------
+-
 1. A party may not set up against a protected holder any defence except:
 (a) Defences under paragraph 1 of article 33, article 34, paragraph 1 of
 article 35, paragraph 3 of article 36, paragraph 1 of article 53, paragraph 1
@@ -431,7 +407,7 @@ claim to the instrument on the part of any person, except a valid claim arising
 from the underlying transaction between himself and the person by whom the
 claim is raised.
 ARTICLE  31
------------
+-
 1. The transfer of an instrument by a protected holder vests in any subsequent
 holder the rights to and on the instrument which the protected holder had.
 2. Those rights are not vested in a subsequent holder if:
@@ -439,27 +415,25 @@ holder the rights to and on the instrument which the protected holder had.
 defence against liability on, the instrument;
 (b) He has previously been a holder, but not a protected holder.
 ARTICLE  32
------------
+-
 Every holder is presumed to be a protected holder unless the contrary is
 proved.
 SECTION  2. - LIABILITIES OF THE PARTIES
-========================================
 A. - GENERAL PROVISIONS
-=======================
 ARTICLE  33
------------
+-
 1. Subject to the provisions of articles 34 and 36, a person is not liable on
 an instrument unless he signs it.
 2. A person who signs an instrument in a name which is not his own is liable as
 if he had signed it in his own name.
 ARTICLE  34
------------
+-
 A forged signature on an instrument does not impose any liability on the person
 whose signature was forged. However, if he consents to be bound by the forged
 signature or represents that it is his own, he is liable as if he had signed
 the instrument himself.
 ARTICLE  35
------------
+-
 1. If an instrument is materially altered:
 (a) A party who signs it after the material alteration is liable according to
 the terms of the altered text;
@@ -472,7 +446,7 @@ material alteration unless the contrary is proved.
 3. Any alteration is material which modifies the written undertaking on the
 instrument of any party in any respect.
 ARTICLE  36
------------
+-
 1. An instrument may be signed by an agent.
 2. The signature of an agent placed by him on an instrument with the authority
 of his principal and showing on the instrument that he is signing in a
@@ -493,14 +467,13 @@ the instrument.
 the instrument has the same rights as the person for whom he purported to act
 would have had if that person had paid the instrument.
 ARTICLE  37
------------
+-
 The order to pay contained in a bill does not of itself operate as an
 assignment to the payee of funds made available for payment by the drawer with
 the drawee.
 B. - THE DRAWER
-===============
 ARTICLE  38
------------
+-
 1. The drawer engages that upon dishonour of the bill by non-acceptance or by
 non-payment, and upon any necessary protest, he will pay the bill to the
 holder, or to any endorser or any endorser''s guarantor who takes up and pays
@@ -511,30 +484,28 @@ only with respect to the drawer. A stipulation excluding or limiting liability
 for payment is effective only if another party is or becomes liable on the
 bill.
 C. - THE MAKER
-==============
 ARTICLE  39
------------
+-
 1. The maker engages that he will pay the note in accordance with its terms to
 the holder, or to any party who takes up and pays the note.
 2. The maker may not exclude or limit his own liability by a stipulation in the
 note. Any such stipulation is ineffective.
 D. - THE DRAWEE AND THE ACCEPTOR
-================================
 ARTICLE  40
------------
+-
 1. The drawee is not liable on a bill until he accepts it.
 2. The acceptor engages that he will pay the bill in accordance with the terms
 of his acceptance to the holder, or to any party who takes up and pays the
 bill.
 ARTICLE  41
------------
+-
 1. An acceptance must be written on the bill and may be effected:
 (a) By the signature of the drawee accompanied by the word "accepted" or by
 words of similar import; or
 (b) By the signature alone of the drawee.
 2. An acceptance may be written on the front or on the back of the bill.
 ARTICLE  42
------------
+-
 1. An incomplete bill which satisfies the requirements set out in paragraph 1
 of article 1 may be accepted by the drawee before it has been signed by the
 drawer, or while otherwise incomplete.
@@ -548,7 +519,7 @@ acceptor, the drawer or the holder may insert the date of acceptance.
 non-acceptance and the drawee subsequently accepts it, the holder is entitled
 to have the acceptance dated as of the date on which the bill was dishonoured.
 ARTICLE  43
------------
+-
 1. An acceptance must be unqualified. An acceptance is qualified if it is
 conditional or varies the terms of the bill.
 2. If the drawee stipulates in the bill that his acceptance is subject to
@@ -564,9 +535,8 @@ or by a particular agent is not a qualified acceptance, provided that:
 (a) The place in which payment is to be made is not changed;
 (b) The bill is not drawn payable by another agent.
 E. - THE ENDORSER
-=================
 ARTICLE  44
------------
+-
 1. The endorser engages that upon dishonour of the instrument by non-acceptance
 or by non-payment, and upon any necessary protest, he will pay the instrument
 to the holder, or to any subsequent endorser or any endorser''s guarantor who
@@ -575,9 +545,8 @@ takes up and pays the instrument.
 in the instrument. Such a stipulation is effective only with respect to that
 endorser.
 F. - THE TRANSFEROR BY ENDORSEMENT OR BY MERE DELIVERY
-======================================================
 ARTICLE  45
------------
+-
 1. Unless otherwise agreed, a person who transfers an instrument, by
 endorsement and delivery or by mere delivery, represents to the holder to whom
 he transfers the instrument that:
@@ -595,9 +564,8 @@ transferee may recover, even before maturity, the amount paid by him to the
 transferor, with interest calculated in accordance with article 70, against
 return of the instrument.
 G. - THE GUARANTOR
-==================
 ARTICLE  46
------------
+-
 1. Payment of an instrument, whether or not it has been accepted, may be
 guaranteed, as to the whole or part of its amount, for the account of a party
 or the drawee. A guarantee may be given by any person, who may or may not
@@ -619,7 +587,7 @@ a note.
 signed the instrument before it was signed by the person for whom he is a
 guarantor, or while the instrument was incomplete.
 ARTICLE  47
------------
+-
 1. The liability of a guarantor on the instrument is of the same nature as that
 of the party for whom he has become guarantor.
 2. If the person for whom he has become guarantor is the drawee, the guarantor
@@ -662,7 +630,7 @@ holder only the defences referred to in subparagraph (b) of this paragraph;
 expresses its guarantee by a signature alone may set up against a protected
 holder only the defences referred to in subparagraph (c) of this paragraph.
 ARTICLE  48
------------
+-
 1. Payment of an instrument by the guarantor in accordance with article 72
 discharges the party for whom he became guarantor of his liability on the
 instrument to the extent of the amount paid.
@@ -671,11 +639,9 @@ has become guarantor and from the parties who are liable on it to that party
 the amount paid and any interest.
 CHAPTER  V. - PRESENTMENT, DISHONOUR BY NON-ACCEPTANCE OR NON-PAYMENT, AND
 RECOURSE
-******************************************************************************
 SECTION  1. - PRESENTMENT FOR ACCEPTANCE AND DISHONOUR BY NON-ACCEPTANCE
-========================================================================
 ARTICLE  49
------------
+-
 1. A bill may be presented for acceptance.
 2. A bill must be presented for acceptance:
 (a) If the drawer has stipulated in the bill that it must be presented for
@@ -684,7 +650,7 @@ acceptance;
 (c) If the bill is payable elsewhere than at the residence or place of business
 of the drawee, unless it is payable on demand.
 ARTICLE  50
------------
+-
 1. The drawer may stipulate in the bill that it must not be presented for
 acceptance before a specified date or before the occurrence of a specified
 event. Except where a bill must be presented for acceptance under
@@ -696,7 +662,7 @@ is not thereby dishonoured.
 3. If the drawee accepts a bill notwithstanding a stipulation that it must not
 be presented for acceptance, the acceptance is effective.
 ARTICLE  51
------------
+-
 A bill is duly presented for acceptance if it is presented in accordance with
 the following rules:
 (a) The holder must present the bill to the drawee on a business day at a
@@ -712,7 +678,7 @@ for acceptance within one year of its date;
 for acceptance must be presented on the stated date or within the stated
 time-limit.
 ARTICLE  52
------------
+-
 1. A necessary or optional presentment for acceptance is dispensed with if:
 (a) The drawee is dead, or no longer has the power freely to deal with his
 assets by reason of his insolvency, or is a fictitious person, or is a person
@@ -736,13 +702,13 @@ control of the holder and which he could neither avoid nor overcome. When the
 cause of the delay ceases to operate, presentment must be made with reasonable
 diligence.
 ARTICLE  53
------------
+-
 1. If a bill which must be presented for acceptance is not so presented, the
 drawer, the endorsers and their guarantors are not liable on the bill.
 2. Failure to present a bill for acceptance does not discharge the guarantor of
 the drawee of liability on the bill.
 ARTICLE  54
------------
+-
 1. A bill is considered to be dishonoured by non-acceptance:
 (a) If the drawee, upon due presentment, expressly refuses to accept the bill
 or acceptance cannot be obtained with reasonable diligence or if the holder
@@ -762,9 +728,8 @@ upon any necessary protest.
 3. If a bill payable on demand is presented for acceptance, but acceptance is
 refused, it is not considered to be dishonoured by non-acceptance.
 SECTION  2. - PRESENTMENT FOR PAYMENT AND DISHONOUR BY NON-PAYMENT
-==================================================================
 ARTICLE  55
------------
+-
 An instrument is duly presented for payment if it is presented in accordance
 with the following rules:
 (a) The holder must present the instrument to the drawee or to the acceptor or
@@ -792,7 +757,7 @@ habitual residence of the drawee or the acceptor or the maker;
 payment if the law of the place where the clearing-house is located or the
 rules or customs of that clearing-house so provide.
 ARTICLE  56
------------
+-
 1. Delay in making presentment for payment is excused if the delay is caused by
 circumstances which are beyond the control of the holder and which he could
 neither avoid nor overcome. When the cause of the delay ceases to operate,
@@ -823,14 +788,14 @@ accordance with subparagraph (g) of article 55.
 3. Presentment for payment is also dispensed with as regards a bill, if the
 bill has been protested for dishonour by non-acceptance.
 ARTICLE  57
------------
+-
 1. If an instrument is not duly presented for payment, the drawer, the
 endorsers and their guarantors are not liable on it.
 2. Failure to present an instrument for payment does not discharge the
 acceptor, the maker and their guarantors or the guarantor of the drawee of
 liability on it.
 ARTICLE  58
------------
+-
 1. An instrument is considered to be dishonoured by non-payment:
 (a) If payment is refused upon due presentment or if the holder cannot obtain
 the payment to which he is entitled under this Convention;
@@ -843,16 +808,13 @@ endorsers and their guarantors.
 provisions of article 59, exercise a right of recourse against the endorsers
 and their guarantors.
 SECTION  3. - RECOURSE
-======================
 ARTICLE  59
------------
+-
 If an instrument is dishonoured by non-acceptance or by non-payment, the holder
 may exercise a right of recourse only after the instrument has been duly
 protested for dishonour in accordance with the provisions of articles 60 to 62.
 A. - PROTEST
-============
 ARTICLE 60
-----------
 1. A protest is a statement of dishonour drawn up at the place where the
 instrument has been dishonoured and signed and dated by a person authorized in
 that respect by the law of that place. The statement must specify:
@@ -872,12 +834,10 @@ to the effect that acceptance or payment is refused.
 4. A declaration made in accordance with paragraph 3 of this article is a
 protest for the purpose of this Convention.
 ARTICLE 61
-----------
 Protest for dishonour of an instrument by non-acceptance or by non-payment must
 be made on the day on which the instrument is dishonoured or on one of the four
 business days which follow.
 ARTICLE 62
-----------
 1. Delay in protesting an instrument for dishonour is excused if the delay is
 caused by circumstances which are beyond the control of the holder and which he
 could neither avoid nor overcome. When the cause of the delay ceases to
@@ -899,16 +859,13 @@ acceptor are the same person;
 (d) If presentment for acceptance or for payment is dispensed with in
 accordance with article 52 or paragraph 2 of article 56.
 ARTICLE 63
-----------
 1. If an instrument which must be protested for non-acceptance or for
 non-payment is not duly protested, the drawer, the endorsers and their
 guarantors are not liable on it.
 2. Failure to protest an instrument does not discharge the acceptor, the maker
 and their guarantors or the guarantor of the drawee of liability on it.
 B. - NOTICE OF DISHONOUR
-========================
 ARTICLE 64
-----------
 1. The holder, upon dishonour of an instrument by non-acceptance or by
 non-payment, must give notice of such dishonour:
 (a) To the drawer and the last endorser;
@@ -919,7 +876,6 @@ to the last party preceding him and liable on the instrument.
 3. Notice of dishonour operates for the benefit of any party who has a right of
 recourse on the instrument against the party notified.
 ARTICLE 65
-----------
 1. Notice of dishonour may be given in any form whatever and in any terms which
 identify the instrument and state that it has been dishonoured. The return of
 the dishonoured instrument is sufficient notice, provided it is accompanied by
@@ -930,13 +886,11 @@ received by that party.
 3. The burden of proving that notice has been duly given rests upon the person
 who is required to give such notice.
 ARTICLE 66
-----------
 Notice of dishonour must be given within the two business days which follow:
 (a) The day of protest or, if protest is dispensed with, the day of dishonour;
 or
 (b) The day of receipt of notice of dishonour.
 ARTICLE 67
-----------
 1. Delay in giving notice of dishonour is excused if the delay is caused by
 circumstances which are beyond the control of the person required to give
 notice, and which he could neither avoid nor overcome. When the cause of the
@@ -954,15 +908,12 @@ benefits only a holder in whose favour it was made;
 (c) As regards the drawer of the bill, if the drawer and the drawee or the
 acceptor are the same person.
 ARTICLE 68
-----------
 If a person who is required to give notice of dishonour fails to give it to a
 party who is entitled to receive it, he is liable for any damages which that
 party may suffer from such failure, provided that such damages do not exceed
 the amount referred to in article 70 or article 71.
 SECTION 4. - AMOUNT PAYABLE
-===========================
 ARTICLE 69
-----------
 1. The holder may exercise his rights on the instrument against any one party,
 or several or all parties, liable on it and is not obliged to observe the order
 in which the parties have become bound. Any party who takes up and pays the
@@ -971,7 +922,6 @@ him.
 2. Proceedings against a party do not preclude proceedings against any other
 party, whether or not subsequent to the party originally proceeded against.
 ARTICLE 70
-----------
 1. The holder may recover from any party liable:
 (a) At maturity: the amount of the instrument with interest, if interest has
 been stipulated for;
@@ -1000,7 +950,6 @@ where the holder has his principal place of business, or, if he does not have a
 place of business, his habitual residence, or, if there is no such rate, then
 at such rate as is reasonable in the circumstances.
 ARTICLE 71
-----------
 A party who pays an instrument and is thereby discharged in whole or in part of
 his liability on the instrument may recover from the parties liable to him:
 (a) The entire sum which he has paid;
@@ -1008,11 +957,8 @@ his liability on the instrument may recover from the parties liable to him:
 from the date on which he made payment;
 (c) Any expenses of the notices given by him.
 CHAPTER VI. - DISCHARGE
-***********************
 SECTION 1. - DISCHARGE BY PAYMENT
-=================================
 ARTICLE 72
-----------
 1. A party is discharged of liability on the instrument when he pays the
 holder, or a party subsequent to himself who has paid the instrument and is in
 possession of it, the amount due pursuant to article 70 or article 71:
@@ -1051,7 +997,6 @@ obtain the instrument, such person is discharged but the discharge cannot be
 set up as a defence against a protected holder to whom the instrument has been
 subsequently transferred.
 ARTICLE 73
-----------
 1. The holder is not obliged to take partial payment.
 2. If the holder who is offered partial payment does not take it, the
 instrument is dishonoured by non-payment.
@@ -1075,14 +1020,12 @@ him.
 of the instrument must deliver to the payor the receipted instrument and any
 authenticated protest.
 ARTICLE 74
-----------
 1. The holder may refuse to take payment at a place other than the place where
 the instrument was presented for payment in accordance with article 55.
 2. In such case if payment is not made at the place where the instrument was
 presented for payment in accordance with article 55, the instrument is
 considered to be dishonoured by non-payment.
 ARTICLE 75
-----------
 1. An instrument must be paid in the currency in which the sum payable is
 expressed.
 2. If the sum payable is expressed in a monetary unit of account within the
@@ -1130,7 +1073,6 @@ ruling, at the option of the holder, at the place where the instrument must be
 presented for payment in accordance with subparagraph (g) of article 55 or at
 the place of actual payment.
 ARTICLE 76
-----------
 1. Nothing in this Convention prevents a Contracting State from enforcing
 exchange control regulations applicable in its territory and its provisions
 relating to the protection of its currency, including regulations which it is
@@ -1151,9 +1093,7 @@ calculated, at the option of the holder, according to the rate of exchange
 ruling on the date of presentment or on the date of actual payment.
 (iii) Paragraphs 4 and 5 of article 75 are applicable where appropriate.
 SECTION 2. - DISCHARGE OF OTHER PARTIES
-=======================================
 ARTICLE 77
-----------
 1. If a party is discharged in whole or in part of his liability on the
 instrument, any party who has a right on the instrument against him is
 discharged to the same extent.
@@ -1165,9 +1105,7 @@ and knows at the time of payment that the holder or that party acquired the
 bill by theft or forged the signature of the payee or an endorsee, or
 participated in the theft or the forgery.
 CHAPTER VII. - LOST INSTRUMENTS
-*******************************
 ARTICLE 78
-----------
 1. If an instrument is lost, whether by destruction, theft or otherwise, the
 person who lost the instrument has, subject to the provisions of paragraph 2 of
 this article, the same right to payment which he would have had if he had been
@@ -1198,7 +1136,6 @@ court or any other competent authority or institution, and may determine the
 duration of such deposit. Such deposit is to be considered as payment to the
 person claiming payment.
 ARTICLE 79
-----------
 1. A party who has paid a lost instrument and to whom the instrument is
 subsequently presented for payment by another person must give notice of such
 presentment to the person whom he paid.
@@ -1217,7 +1154,6 @@ to operate, notice must be given with reasonable diligence.
 to operate beyond thirty days after the last day on which it should have been
 given.
 ARTICLE 80
-----------
 1. A party who has paid a lost instrument in accordance with the provisions of
 article 78 and who is subsequently required to, and does, pay the instrument,
 or who, by reason of the loss of the instrument, then loses his right to
@@ -1230,27 +1166,22 @@ paragraph 2 (b) of article 78 is entitled to obtain release of the security
 when the party for whose benefit the security was given is no longer at risk to
 suffer loss because of the fact that the instrument is lost.
 ARTICLE 81
-----------
 For the purpose of making protest for dishonour by non-payment, a person
 claiming payment of a lost instrument may use a written statement that
 satisfies the requirements of paragraph 2 (a) of article 78.
 ARTICLE 82
-----------
 A person receiving payment of a lost instrument in accordance with article 78
 must deliver to the party paying the written statement required under
 paragraph 2 (a) of article 78, receipted by him, and any protest and a
 receipted account.
 ARTICLE 83
-----------
 1. A party who pays a lost instrument in accordance with article 78 has the
 same rights which he would have had if he had been in possession of the
 instrument.
 2. Such party may exercise his rights only if he is in possession of the
 receipted written statement referred to in article 82.
 CHAPTER VIII. - LIMITATION (PRESCRIPTION)
-*****************************************
 ARTICLE 84
-----------
 1. A right of action arising on an instrument may no longer be exercised after
 four years have elapsed:
 (a) Against the maker, or his guarantor, of a note payable on demand, from the
@@ -1274,13 +1205,10 @@ dispensed with, from the date of dishonour.
 may exercise his right of action against a party liable to him within one year
 from the date on which he paid the instrument.
 CHAPTER IX. - FINAL PROVISIONS
-******************************
 ARTICLE 85
-----------
 The Secretary-General of the United Nations is hereby designated as the
 Depositary for this Convention.
 ARTICLE 86
-----------
 1. This Convention is open for signature by all States at the Headquarters of
 the United Nations, New York, until 30 June 1990.
 2. This Convention is subject to ratification, acceptance or approval by the
@@ -1290,7 +1218,6 @@ States as from the date it is open for signature.
 4. Instruments of ratification, acceptance, approval and accession are to be
 deposited with the Secretary-General of the United Nations.
 ARTICLE 87
-----------
 1. If a Contracting State has two or more territorial units in which, according
 to its constitution, different systems of law are applicable in relation to the
 matters dealt with in this Convention, it may, at the time of signature,
@@ -1302,7 +1229,6 @@ expressly the territorial units to which the Convention extends.
 3. If a Contracting State makes no declaration under paragraph 1 of this
 article, the Convention is to extend to all territorial units of that State.
 ARTICLE 88
-----------
 1. Any State may declare at the time of signature, ratification, acceptance,
 approval or accession that its courts will apply the Convention only if both
 the place indicated in the instrument where the bill is drawn, or the note is
@@ -1310,7 +1236,6 @@ made, and the place of payment indicated in the instrument are situated in
 Contracting States.
 2. No other reservations are permitted.
 ARTICLE 89
-----------
 1. This Convention enters into force on the first day of the month following
 the expiration of twelve months after the date of deposit of the tenth
 instrument of ratification, acceptance, approval or accession.
@@ -1321,7 +1246,6 @@ first day of the month following the expiration of twelve months after the date
 of deposit of its instrument of ratification, acceptance, approval or
 accession.
 ARTICLE 90
-----------
 1. A Contracting State may denounce this Convention by a formal notification in
 writing addressed to the Depositary.
 2. The denunciation takes effect on the first day of the month following the
@@ -1332,10 +1256,8 @@ period after the notification is received by the Depositary. The Convention
 remains applicable to instruments drawn or made before the date at which the
 denunciation takes effect.
 / [POST PROVISIONS] /
-=====================
 / [POST CLAUSES (IF ANY: SIGNED; WITNESSED; DONE; AUTHENTIC TEXTS; & DEPOSITED
 CLAUSES)] /
-------------------------------------------------------------------------------
 DONE at New York, this ninth day of December, one thousand nine hundred and
 eighty-eight, in a single original, of which the Arabic, Chinese, English,
 French, Russian and Spanish texts are equally authentic.
@@ -1343,10 +1265,8 @@ IN WITNESS WHEREOF the undersigned plenipotentiaries, being duly authorized by
 their respective Governments, have signed this Convention.
 ANNEX - EXPLANATORY NOTE BY THE UNCITRAL SECRETARIAT ON THE UNITED NATIONS
 CONVENTION ON INTERNATIONAL BILLS OF EXCHANGE AND INTERNATIONAL PROMISSORY
-NOTES *[NOTE]
-==============================================================================
+NOTES [NOTE]
 INTRODUCTION
-------------
 1. The United Nations Convention on International Bills of Exchange and
 International Promissory Notes is the culmination of over fifteen years of work
 by the United Nations Commission on International Trade Law (UNCITRAL). It was
@@ -1375,7 +1295,7 @@ discharge of liability on an instrument. Chapters seven and eight deal with
 lost instruments and limitation of actions (prescription). Lastly, the final
 provisions are found in chapter nine.
 A. - BACKGROUND TO THE CONVENTION
----------------------------------
+-
 4. The United Nations Convention on International Bills of Exchange and
 International Promissory Notes is the result of a movement to establish a
 modern, self-contained international legal regime that would apply world-wide.
@@ -1429,9 +1349,7 @@ of rules that are theoretically and practically sound, being derived from a
 coherent set of principles fundamental to all known laws governing bills of
 exchange and promissory notes.
 B. - SALIENT FEATURES OF THE CONVENTION
-=======================================
 1. SCOPE OF APPLICATION AND FORM OF THE INSTRUMENT
---------------------------------------------------
 12. The Convention applies only to international bills of exchange and
 international promissory notes when they comply with certain requisites of
 form. In particular, the Convention applies only to international instruments
@@ -1505,7 +1423,7 @@ instruments fulfilling separate functions. Work on the draft Convention on
 International Cheques was suspended in 1984, partly due to the fact that
 cheques were seen to play a less important role in international payments.
 2. INTERPRETATION OF THE CONVENTION
------------------------------------
+-
 19. An international body of rules aiming at the unification of a certain field
 of law can fulfil its ultimate purpose only if it is interpreted in a sensible
 and consistent manner by all legal systems applying it. Like many other
@@ -1518,7 +1436,6 @@ transactions.
 court decisions or arbitral awards that apply any of the Conventions or Model
 Laws that emanate from the work of UNCITRAL.
 3. THE CONCEPTS OF "HOLDER" AND "PROTECTED HOLDER"
---------------------------------------------------
 21. In its desire to win commercial acceptance and free circulation of its
 instruments in international commerce, the Convention firmly upholds the
 principle of negotiability.
@@ -1562,7 +1479,6 @@ the first place. It is not possible, however, for a holder who is not entitled
 to any protection to simply "wash" an instrument by transferring it to a
 protected holder and then taking it back.
 4. TRANSFER WARRANTIES
-----------------------
 27. Article 45 of the Convention brings light to an area that is dealt with in
 different ways in the existing principal legal systems. Moreover, it brings
 into the realm of negotiable instruments law a principle that is left to the
@@ -1584,7 +1500,7 @@ immediate transferee; it is stronger in that a transferee may recover, even
 before maturity, the amount paid by it to the transferor, independently of any
 presentment, dishonour or protest.
 5. GUARANTEES AND AVALS
------------------------
+-
 30. The provisions of the Convention dealing with the liability of the
 guarantor comprise one of the most attractive features of the text. The
 Convention subtly recognizes both the aval, or the Geneva type of guarantee,
@@ -1612,7 +1528,7 @@ guarantee or "aval"; a guarantor that is not a bank or other financial
 institution and which does the same is considered to have contracted the weaker
 type of guarantee.
 6. OTHER NOVEL PROVISIONS OF PRACTICAL IMPORTANCE
--------------------------------------------------
+-
 33. The Convention introduces a number of provisions which ought to be of
 benefit in modern commercial practice. In this, the Convention reflects its
 recent development, while many of the rules found in the negotiable instruments
@@ -1704,7 +1620,6 @@ own liability for acceptance or for payment by an express stipulation on the
 bill, e.g. by drawing the bill "without recourse". This stipulation will be
 effective only if another party is or becomes liable on the bill.
 7. FINAL CLAUSES
-----------------
 45. The final clauses contain the usual provisions designating the
 Secretary-General of the United Nations as depositary for the Convention. The
 Convention was open for signature until 30 June 1990 and remains subject to
@@ -1719,9 +1634,8 @@ Convention are equally authentic. The final clauses also contain provisions
 dealing with the implementation of the Convention in States having two or more
 territorial units where different legal systems apply.
 NOTES
-=====
-*[NOTE]
--------
+[NOTE]
+-
 This note has been prepared by the secretariat of the United Nations Commission
 on International Trade Law (UNCITRAL) for informational purposes only; it is
 not an official commentary on the Convention. Commentaries prepared by the

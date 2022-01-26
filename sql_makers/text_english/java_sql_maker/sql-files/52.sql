@@ -1,13 +1,15 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(52, 'The States Parties to this Convention,
+VALUES(52, 'UNITED NATIONS CONVENTION ON THE CARRIAGE OF GOODS BY SEA
+(THE HAMBURG RULES) HAMBURG, 30 MARCH 1978
+/ [PREAMBLE] /
+The States Parties to this Convention,
 Having recognised the desirability of determining by agreement certain rules
 relating to the carriage of goods by sea,
 Have decided to conclude a Convention for this purpose and have thereto agreed
 as follows:
 PART I - GENERAL PROVISIONS
-***************************
 ARTICLE 1 - DEFINITIONS
------------------------
+-
 In this Convention:
 1. "Carrier" means any person by whom or in whose name a contract of carriage
 of goods by sea has been concluded with a shipper.
@@ -36,7 +38,6 @@ A provision in the document that the goods are to be delivered to the order of
 a named person, or to order, or to bearer, constitutes such an undertaking.
 8. "Writing" includes, inter alia, telegram and telex.
 ARTICLE 2 - SCOPE OF APPLICATION
---------------------------------
 1. The provisions of this Convention are applicable to all contracts of
 carriage by sea between two different States, if:
 (a)The port of loading as provided for in the contract of carriage by sea is
@@ -64,14 +65,11 @@ during an agreed period, the provisions of this Convention apply to each
 shipment. However, where a shipment is made under a charter-party, the
 provisions of paragraph 3 of thisArticle apply.
 ARTICLE 3 - INTERPRETATION OF THE CONVENTION
---------------------------------------------
 In the interpretation and application of the provisions of this Convention
 regard shall be had to its international character and to the need to promote
 uniformity.
 PART II - LIABILITY OF THE CARRIER
-**********************************
 ARTICLE 4 - PERIOD OF RESPONSIBILITY
-------------------------------------
 1. The responsibility of the carrier for the goods under this Convention covers
 the period during which the carrier is in charge of the goods at the port of
 loading, during the carriage and at the port of discharge.
@@ -94,7 +92,6 @@ must be handed over.
 consignee means, in addition to the carrier or the consignee, the servants or
 agents, respectively of the carrier or the consignee.
 ARTICLE 5 - BASIS OF LIABILITY
-------------------------------
 1. The carrier is liable for loss resulting from loss of or damage to the
 goods, as well as from delay in delivery, if the occurrence which caused the
 loss, damage or delay took place while the goods were in his charge as defined
@@ -140,7 +137,7 @@ carrier is liable only to the extent that the loss, damage or delay in delivery
 is attributable to such fault or neglect, provided that the carrier proves the
 amount of the loss, damage or delay in delivery not attributable thereto.
 ARTICLE 6 - LIMITS OF LIABILITY
--------------------------------
+-
 1. (a) The liability of the carrier for loss resulting from loss of or damage
 to goods according to the provisions ofArticle 5 is limited to an amount
 equivalent to 835 units of account per package or other shipping unit or 2.5
@@ -169,7 +166,7 @@ considered one separate shipping unit.
 4. By agreement between the carrier and the shipper, limits of liability
 exceeding those provided for in paragraph 1 may be fixed.
 ARTICLE 7 - APPLICATION TO NON-CONTRACTUAL CLAIMS
--------------------------------------------------
+-
 1. The defences and limits of liability provided for in this Convention apply
 in any action against the carrier in respect of loss or damage to the goods
 covered by the contract of carriage by sea, as well as of delay in delivery
@@ -182,7 +179,7 @@ liability which the carrier is entitled to invoke under this Convention.
 from the carrier and from any persons referred to in paragraph 2 of thisArticle
 shall not exceed the limits of liability provided for in this Convention.
 ARTICLE 8 - LOSS OF RIGHT TO LIMIT RESPONSIBILITY
--------------------------------------------------
+-
 1. The carrier is not entitled to the benefit of the limitation of liability
 provided for inArticle 6 if it is proved that the loss, damage or delay in
 delivery resulted from an act or omission of the carrier done with the intent
@@ -195,7 +192,6 @@ delay in delivery resulted from an act or omission of such servant or agent,
 done with the intent to cause such loss, damage or delay, or recklessly and
 with knowledge that such loss, damage or delay would probably result.
 ARTICLE 9 - DECK CARGO
-----------------------
 1. The carrier is entitled to carry the goods on deck only if such carriage is
 in accordance with an agreement with the shipper or with the usage of the
 particular trade or is required by statutory rules or regulations.
@@ -218,7 +214,6 @@ as the case may be.
 deck is deemed to be an act or omission of the carrier within the meaning
 ofArticle 8.
 ARTICLE 10 - LIABILITY OF THE CARRIER AND ACTUAL CARRIER
---------------------------------------------------------
 1. Where the performance of the carriage or part thereof has been entrusted to
 an actual carrier, whether or not in pursuance of a liberty under the contract
 of carriage by sea to do so, the carrier nevertheless remains responsible for
@@ -245,7 +240,6 @@ provided for in this Convention.
 6. Nothing in thisArticle shall prejudice any right of recourse as between the
 carrier and the actual carrier.
 ARTICLE 11- THROUGH CARRIAGE
-----------------------------
 1. Notwithstanding the provisions of paragraph 1 ofArticle 10, where a contract
 of carriage by sea provides explicitly that a specified part of the carriage
 covered by the said contract is to be performed by a named person other than
@@ -261,16 +255,14 @@ an occurrence rests upon the carrier.
 paragraph 2 ofArticle 10 for loss, damage or delay in delivery caused by an
 occurrence which takes place while the goods are in his charge.
 PART III - LIABILITY OF THE SHIPPER
-***********************************
 ARTICLE 12- GENERAL RULE
-------------------------
 The shipper is not liable for loss sustained by the carrier or the actual
 carrier, or for damage sustained by the ship, unless such loss or damage was
 caused by the fault or neglect of the shipper, his servants or agents. Nor is
 any servant or agent of the shipper liable for such loss or damage unless the
 loss or damage was caused by fault or neglect on his part.
 ARTICLE 13 - SPECIAL RULES ON DANGEROUS GOODS
----------------------------------------------
+-
 1. The shipper must mark or label in a suitable manner dangerous goods as
 dangerous.
 2. Where the shipper hands over dangerous goods to the carrier or an actual
@@ -292,9 +284,7 @@ innocuous, as the circumstances may require, without payment of compensation
 except where there is an obligation to contribute in general average or where
 the carrier is liable in accordance with the provisions ofArticle 5.
 PART IV - TRANSPORT DOCUMENTS
-*****************************
 ARTICLE 14 - ISSUE OF BILL OF LADING
-------------------------------------
 1. When the carrier or the actual carrier takes the goods in his charge, the
 carrier must, on demand of the shipper, issue to the shipper a bill of lading.
 2. The bill of lading may be signed by a person having authority from the
@@ -305,7 +295,6 @@ facsimile, perforated, stamped, in symbols, or made by any other mechanical or
 electronic means, if no inconsistent with the law of the country where the bill
 of lading is issued.
 ARTICLE 15- CONTENTS OF BILL OF LADING
---------------------------------------
 1. The bill of lading must include, inter alia, the following particulars:
 (a) The general nature of the goods, the leading marks necessary for
 identification of the goods, an express statement, if applicable, as to the
@@ -347,7 +336,7 @@ thisArticle does not affect the legal character of the document as a bill of
 lading provided that it nevertheless meets the requirements set out in
 paragraph 7 ofArticle 1.
 ARTICLE 16 - BILLS OF LADING: RESERVATIONS AND EVIDENTIARY EFFECT
------------------------------------------------------------------
+-
 1. If the bill of lading contains particulars concerning the general nature,
 leading marks, number of packages or pieces, weight or quantity of the goods
 which the carrier or other person issuing the bill of lading on his behalf
@@ -378,7 +367,6 @@ is not admissible when the bill of lading has been transferred to a third
 party, including a consignee, who in good faith has acted in reliance on the
 absence in the bill of lading of any such indication.
 ARTICLE 17 - GUARANTEES BY THE SHIPPER
---------------------------------------
 1. The shipper is deemed to have guaranteed to the carrier the accuracy of
 particulars relating to the general nature of the goods, their marks, number,
 weight and quantity as furnished by him for insertion in the bill of lading.
@@ -408,15 +396,13 @@ for in this Convention, for the loss incurred by a third party, including a
 consignee, because he has acted in reliance on the description of the goods in
 the bill of lading.
 ARTICLE 18 - DOCUMENTS OTHER THAN BILLS OF LADING
--------------------------------------------------
+-
 Where a carrier issues a document other than a bill of lading to evidence the
 receipt of the goods to be carried, such a document is prima facie evidence of
 the conclusion of the contract of carriage by sea and the taking over by the
 carrier of the goods as therein described.
 PART V - CLAIMS AND ACTIONS
-***************************
 ARTICLE 19 - NOTICE OF LOSS, DAMAGE OR DELAY
---------------------------------------------
 1. Unless notice of loss or damage, specifying the general nature of such loss
 or damage, is given in writing by the consignee to the carrier not later than
 the working day after the day when the goods were handed over to the consignee,
@@ -454,7 +440,6 @@ in charge of the ship, or to a person acting on the shipper''s behalf is deemed
 to have been given to the carrier, to the actual carrier or to the shipper,
 respectively.
 ARTICLE 20 - LIMITATION OF ACTIONS
-----------------------------------
 1. Any action relating to carriage of goods under this Convention is
 time-barred if judicial or arbitral proceedings have not been instituted within
 a period of two years.
@@ -475,7 +460,7 @@ days commencing from the day when the person instituting such action for
 indemnity has settled the claim or has been served with process in the action
 against himself.
 ARTICLE 21 - JURISDICTION
--------------------------
+-
 1. In judicial proceedings relating to carriage of goods under this Convention
 the plaintiff, at his option, may institute an action in a court which,
 according to the law of the State where the court is situated, is competent and
@@ -520,7 +505,6 @@ made by the parties, after a claim under the contract of carriage by sea has
 arisen, which designates the place where the claimant may institute an action,
 is effective.
 ARTICLE 22 - ARBITRATION
-------------------------
 1. Subject to the provisions of thisArticle, parties may provide by agreement
 evidenced in writing that any dispute that may arise relating to carriage of
 goods under this Convention shall be referred to arbitration.
@@ -550,9 +534,8 @@ which is inconsistent therewith is null and void.
 arbitration made by the parties after the claim under the contract of carriage
 by sea has arisen.
 PART VI - SUPPLEMENTARY PROVISIONS
-**********************************
 ARTICLE 23 - CONTRACTUAL STIPULATIONS
--------------------------------------
+-
 1. Any stipulation in a contract of carriage by sea, in a bill of lading, or in
 any other document evidencing the contract of carriage by sea is null and void
 to the extent that it derogates, directly or indirectly, from the provisions of
@@ -578,7 +561,6 @@ incurred in the action where the foregoing provision is invoked are to be
 determined in accordance with the law of the State where proceedings are
 instituted.
 ARTICLE 24 - GENERAL AVERAGE
-----------------------------
 1. Nothing in this Convention shall prevent the application of provisions in
 the contract of carriage by sea or national law regarding the adjustment of
 general average.
@@ -588,7 +570,6 @@ determine whether the consignee may refuse contribution in general average and
 the liability of the carrier to indemnify the consignee in respect of any such
 contribution made or any salvage paid.
 ARTICLE 25 - OTHER CONVENTIONS
-------------------------------
 1. This Convention does not modify the rights or duties of the carrier, the
 actual carrier and their servants and agents, provided for in international
 conventions or national law relating to the limitation of liability of owners
@@ -621,7 +602,6 @@ of goods primarily by a mode of transport other than transport by sea. This
 provision also applies to any subsequent revision or amendment of such
 international convention.
 ARTICLE 26 - UNIT OF ACCOUNT
-----------------------------
 l. The unit of account referred to inArticle 6 of this Convention is the
 Special Drawing Right as defined by the International Monetary Fund. The
 amounts mentioned inArticle 6 are to be converted into the national currency of
@@ -658,13 +638,11 @@ ratification, acceptance, approval or accession, or when availing themselves of
 the option provided for in paragraph 2 of thisArticle and whenever there is a
 change in the manner of such calculation or in the result of such conversion.
 PART VII - FINAL CLAUSES
-************************
 ARTICLE 27- DEPOSITARY
-----------------------
 The Secretary-General of the United Nations is hereby designated as the
 depositary of this Convention.
 ARTICLE 28 - SIGNATURE, RATIFICATION, ACCEPTANCE, APPROVAL, ACCESSION
----------------------------------------------------------------------
+-
 1. This Convention is open for signature by all States until 30 April 1979 at
 the Headquarters of the United Nations, New York.
 2. This Convention is subject to ratification, acceptance or approval by the
@@ -674,10 +652,9 @@ States which are not signatory States.
 4. Instruments of ratification, acceptance, approval and accession are to be
 deposited with the Secretary-General of the United Nations.
 ARTICLE 29- RESERVATIONS
-------------------------
 No reservations may be made to this Convention.
 ARTICLE 30 - ENTRY INTO FORCE
------------------------------
+-
 1. This Convention enters into force on the first day of the month following
 the expiration of one year from the date of deposit of the 20th instrument of
 ratification, acceptance, approval or accession.
@@ -690,7 +667,7 @@ appropriate instrument on behalf of that State.
 contracts of carriage by sea concluded on or after the date of the entry into
 force of this Convention in respect of that State.
 ARTICLE 31- DENUNCIATION OF OTHER CONVENTIONS
----------------------------------------------
+-
 1. Upon becoming a Contracting State to this Convention, any State party to the
 International Convention for the Unification of Certain Rules relating to Bills
 of Lading signed at Brussels on 25 August 1924 (1924 Convention) must notify
@@ -715,7 +692,7 @@ of this Convention. It will then notify the Government of Belgium of its
 intention. During this transitory period, it must apply to the Contracting
 States this Convention to the exclusion of any other one.
 ARTICLE 32 - REVISION AND AMENDMENT
------------------------------------
+-
 1. At the request of not less than one-third of the Contracting States to this
 Convention, the depositary shall convene a conference of the Contracting States
 for revising or amending it.
@@ -724,7 +701,6 @@ after the entry into force of an amendment to this Convention, is deemed to
 apply to the Convention as amended.
 ARTICLE 33 - REVISION OF THE LIMITATION AMOUNTS AND UNIT OF ACCOUNT OR MONETARY
 UNIT
-------------------------------------------------------------------------------
 1. Notwithstanding the provisions ofArticle 32, a conference only for the
 purpose of altering the amount specified inArticle 6 and paragraph 2 ofArticle
 26, or of substituting either or both of the units defined in paragraphs 1 and
@@ -750,7 +726,7 @@ the amendment.
 after the entry into force of an amendment to this Convention, is deemed to
 apply to the Convention as amended.
 ARTICLE 34 - DENUNCIATION
--------------------------
+-
 1. A Contracting State may denounce this Convention at any time by means of a
 notification in writing addressed to the depositary.
 2. The denunciation takes effect on the first day of the month following the
@@ -762,7 +738,6 @@ received by the depositary.
 =====================
 / [POST CLAUSES (IF ANY: SIGNED; WITNESSED; DONE; AUTHENTIC TEXTS; & DEPOSITED
 CLAUSES)] /
-------------------------------------------------------------------------------
 Done at Hamburg, this thirty-first day of March one thousand nine hundred and
 seventy-eight, in a single original, of which the Arabic, Chinese, English,
 French, Russian and Spanish texts are equally authentic.

@@ -1,5 +1,8 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(47, 'THE UNDERSIGNED, DULY AUTHORIZED,
+VALUES(47, 'EUROPEAN CONVENTION ON INTERNATIONAL COMMERCIAL ARBITRATION OF 1961 DONE AT
+[PRE]
+-
+THE UNDERSIGNED, DULY AUTHORIZED,
 Convened under the auspices of the Economic Commission for Europe of the United
 Nations.
 Having noted that on 10th June 1958 at the United Nations Conference on
@@ -11,7 +14,7 @@ international commercial arbitration in relations between physical or legal
 persons of different European countries,
 Have agreed on the following provisions:
 ARTICLE I - SCOPE OF THE CONVENTION
------------------------------------
+-
 1. This Convention shall apply:
 (a) to arbitration agreements concluded for the purpose of settling disputes
 arising from international trade between physical or legal persons having, when
@@ -32,7 +35,6 @@ institutions;
 (c) the term "seat" shall mean the place of the situation of the establishment
 that has made the arbitration agreement.
 ARTICLE II - RIGHT OF LEGAL PERSONS OF PUBLIC LAW TO RESORT TO ARBITRATION
---------------------------------------------------------------------------
 1. In cases referred to in Article I, paragraph 1, of this Convention, legal
 persons considered by the law which is applicable to them as "legal persons of
 public law" have the right to conclude valid arbitration agreements.
@@ -40,11 +42,9 @@ public law" have the right to conclude valid arbitration agreements.
 entitled to declare that it limits the above faculty to such conditions as may
 be stated in its declaration.
 ARTICLE III - RIGHT OF FOREIGN NATIONALS TO BE DESIGNATED AS ARBITRATORS
-------------------------------------------------------------------------
 In arbitration covered by this Convention, foreign nationals may be designated
 as arbitrators.
 ARTICLE IV - ORGANIZATION OF THE ARBITRATION
---------------------------------------------
 1. The parties to an arbitration agreement shall be free to submit their
 disputes:
 (a) to a permanent arbitral institution; in this case, the arbitration
@@ -119,7 +119,6 @@ Article, the President of the Chamber of Commerce designated by virtue of these
 paragraphs has not fulfilled one of these functions, the party requesting shall
 be entitled to ask the Special Committee to do so.
 ARTICLE V - PLEA AS TO ARBITRAL JURISDICTION
---------------------------------------------
 1. The party which intends to raise a plea as to the arbitrator''s jurisdiction
 based on the fact that the arbitration agreement was either non-existent or
 null and void or had lapsed shall do so during the arbitration proceedings, not
@@ -145,7 +144,6 @@ proceed with the arbitration, to rule on his own jurisdiction and to decide
 upon the existence or the validity of the arbitration agreement or of the
 contract of which the agreement forms part.
 ARTICLE VI - JURISDICTION OF COURTS OF LAW
-------------------------------------------
 1. A plea as to the jurisdiction of the court made before the court seized by
 either party to the arbitration agreement, on the basis of the fact that an
 arbitration agreement exists shall, under penalty of estoppel, be presented by
@@ -180,7 +178,6 @@ judicial authority shall not be deemed incompatible with the arbitration
 agreement, or regarded as a submission of the substance of the case to the
 court.
 ARTICLE VII - APPLICABLE LAW
-----------------------------
 1. The parties shall be free to determine, by agreement, the law to be applied
 by the arbitrators to the substance of the dispute. Failing any indication by
 the parties as to the applicable law, the arbitrators shall apply the proper
@@ -190,7 +187,6 @@ usages.
 2. The arbitrators shall act as amiables compositeurs if the parties so decide
 and if they may do so under the law applicable to the arbitration.
 ARTICLE VIII - REASONS FOR THE AWARD
-------------------------------------
 The parties shall be presumed to have agreed that reasons shall be given for
 the award unless they
 (a) either expressly declare that reasons shall not be given; or
@@ -199,7 +195,6 @@ give reasons for awards, provided that in this case neither party requests
 before the end of the hearing, or if there has not been a hearing then before
 the making of the award, that reasons be given.
 ARTICLE IX - SETTING ASIDE OF THE ARBITRAL AWARD
-------------------------------------------------
 1. The setting aside in a Contracting State of an arbitral award covered by
 this Convention shall only constitute a ground for the refusal of recognition
 or enforcement in another Contracting State where such setting aside took place
@@ -227,7 +222,7 @@ of 10th June 1958, paragraph 1 of this Article limits the application of
 Article V (1) (e) of the New York Convention solely to the cases of setting
 aside set out under paragraph 1 above.
 ARTICLE X - FINAL CLAUSES
--------------------------
+-
 1. This Convention is open for signature or accession by countries members of
 the Economic Commission for Europe and countries admitted to the Commission in
 a consultative capacity under paragraph 8 of the Commission''s terms of
@@ -282,7 +277,6 @@ sixty-one, in a single copy in the English, French and Russian languages, each
 text being equally authentic.
 ANNEX COMPOSITION AND PROCEDURE OF THE SPECIAL COMMITTEE REFERRED TO IN ARTICLE
 IV OF THE CONVENTION
-==============================================================================
 1. The Special Committee referred to in Article IV of the Convention shall
 consist of two regular members and a Chairman. One of the regular members shall
 be elected by the Chambers of Commerce or other institutions designated, under

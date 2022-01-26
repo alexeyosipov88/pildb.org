@@ -1,9 +1,9 @@
 UNITED NATIONS CONVENTION ON INTERNATIONAL MULTIMODAL TRANSPORT OF GOODS
 (GENEVA, 24 MAY 1980)
-******************************************************************************
+                                                                              
 
 / [PREAMBLE] /
---------------
+       
 
 The States Parties to this Convention,
 
@@ -66,7 +66,7 @@ PART I - GENERAL PROVISIONS
 ===========================
 
 ARTICLE 1 - DEFINITIONS
------------------------
+           -
 
 For the purposes of this Convention:
 
@@ -113,7 +113,7 @@ stipulation to the detriment of the consignor.
 10. "Writing" means, inter alia, telegram or telex.
 
 ARTICLE 2 - SCOPE OF APPLICATION
---------------------------------
+                
 
 The provisions of this Convention shall apply to all contracts of multimodal
 transport between places in two States, if:
@@ -127,7 +127,7 @@ provided for in the multimodal transport contract is located in a Contracting
 State.
 
 ARTICLE 3 - MANDATORY APPLICATION
----------------------------------
+                -
 
 1. When a multimodal transport contract has been concluded which according to
 article 2 shall be governed by this Convention, the provisions of this
@@ -137,7 +137,7 @@ Convention shall be mandatorily applicable to such contract.
 between multimodal transport and segmented transport.
 
 ARTICLE 4 - REGULATION AND CONTROL OF MULTIMODAL TRANSPORT
-----------------------------------------------------------
+                             
 
 1. This Convention shall not affect, or be incompatible with, the application
 of any international convention or national law relating to the regulation and
@@ -160,7 +160,7 @@ PART II - DOCUMENTATION
 =======================
 
 ARTICLE 5 - ISSUE OF MULTIMODAL TRANSPORT DOCUMENT
---------------------------------------------------
+                         
 
 1. When the goods are taken in charge by the multimodal transport operator, he
 shall issue a multimodal transport document which, at the option of the
@@ -184,7 +184,7 @@ for the purposes of the provisions of this Convention be deemed to be a
 multimodal transport document.
 
 ARTICLE 6 - NEGOTIABLE MULTIMODAL TRANSPORT DOCUMENT
-----------------------------------------------------
+                          
 
 1. Where a multimodal transport document is issued in negotiable form:
 
@@ -210,7 +210,7 @@ has in good faith delivered the goods against surrender of one of such
 originals.
 
 ARTICLE 7- NON-NEGOTIABLE MULTIMODAL TRANSPORT
-----------------------------------------------
+                       
 
 1. Where a multimodal transport document is issued in non-negotiable form it
 shall indicate a named consignee.
@@ -221,7 +221,7 @@ non-negotiable multimodal transport document or to such other person as he may
 be duly instructed, as a rule, in writing.
 
 ARTICLE 8 - CONTENTS OF THE MULTIMODAL TRANSPORT DOCUMENT
----------------------------------------------------------
+                            -
 
 1. The multimodal transport document shall contain the following particulars:
 
@@ -276,7 +276,7 @@ that it nevertheless meets the requirements set out in paragraph 4 of article
 1.
 
 ARTICLE 9 - RESERVATIONS IN THE MULTIMODAL TRANSPORT DOCUMENT
--------------------------------------------------------------
+                              -
 
 1. If the multimodal transport document contains particulars concerning the
 general nature, leading marks, number of packages or pieces, weight or quantity
@@ -294,7 +294,7 @@ goods, he is deemed to have noted on the multimodal transport document that the
 goods were in apparent good condition.
 
 ARTICLE 10 - EVIDENTIARY EFFECT OF THE MULTIMODAL TRANSPORT DOCUMENT
---------------------------------------------------------------------
+                                  
 
 Except for particulars in respect of which and to the extent to which a
 reservation permitted under article 9 has been entered:
@@ -309,7 +309,7 @@ and has been transferred to a third party, including a consignee, who has acted
 in good faith in reliance on the description of the goods therein.
 
 ARTICLE 11 - LIABILITY FOR INTENTIONAL MISSTATEMENTS OR OMISSIONS
------------------------------------------------------------------
+                                -
 
 When the multimodal transport operator, with intent to defraud, gives in the
 multimodal transport document false information concerning the goods or omits
@@ -320,7 +320,7 @@ incurred by a third party, including a consignee, who acted in reliance on the
 description of the goods in the multimodal transport document issued.
 
 ARTICLE 12 - GUARANTEE BY THE CONSIGNOR
----------------------------------------
+                   -
 
 1. The consignor shall be deemed to have guaranteed to the multimodal transport
 operator the accuracy, at the time the goods were taken in charge by the
@@ -338,7 +338,7 @@ liability under the multimodal transport contract to any person other than the
 consignor.
 
 ARTICLE 13 - OTHER DOCUMENTS
-----------------------------
+              
 
 The issue of the multimodal transport document does not preclude the issue, if
 necessary, of other documents relating to transport or other services involved
@@ -351,7 +351,7 @@ PART III - LIABILITY OF THE MULTIMODAL TRANSPORT OPERATOR
 =========================================================
 
 ARTICLE 14- PERIOD OF RESPONSIBILITY
-------------------------------------
+                  
 
 1. The responsibility of the multimodal transport operator for the goods under
 this Convention covers the period from the time he takes the goods in his
@@ -389,7 +389,7 @@ agents.
 
 ARTICLE 15 - THE LIABILITY OF THE MULTIMODAL TRANSPORT OPERATOR FOR HIS
 SERVANTS, AGENTS AND OTHER PERSONS
-------------------------------------------------------------------------------
+                                       
 
 Subject to article 21, the multimodal transport operator shall be liable for
 the acts and omissions of his servants or agents, when any such servant or
@@ -399,7 +399,7 @@ contract, when such person is acting in the performance of the contract, as if
 such acts and omissions were his own.
 
 ARTICLE 16- BASIS OF LIABILITY
-------------------------------
+               
 
 1. The multimodal transport operator shall be liable for loss resulting from
 loss or damage to the goods, as well as from delay in delivery, if the
@@ -419,7 +419,7 @@ the date of delivery determined according to paragraph 2 of this article, the
 claimant may treat the goods as lost.
 
 ARTICLE 17- CONCURRENT CAUSES
------------------------------
+              -
 
 Where fault or neglect on the part of the multimodal transport operator, his
 servants or agents or any other person referred to in article 15 combines with
@@ -430,7 +430,7 @@ multimodal transport operator proves the part of the loss, damage or delay in
 delivery not attributable thereto.
 
 ARTICLE 18- LIMITATION OF LIABILITY
------------------------------------
+                 -
 
 1. When the multimodal transport operator is liable for loss resulting from
 loss of or damage to the goods according to article 16, his liability shall be
@@ -475,7 +475,7 @@ this article may be fixed in the multimodal transport document.
 7. "Unit of account" means the unit of account mentioned in article 31.
 
 ARTICLE 19- LOCALISED DAMAGE
-----------------------------
+              
 
 When the loss of or damage to the goods occurred during one particular of the
 multimodal transport, in respect of which an applicable international
@@ -486,7 +486,7 @@ loss or damage shall be determined by reference to the provisions of such
 convention or mandatory national law.
 
 ARTICLE 20 - NON-CONTRACTUAL LIABILITY
---------------------------------------
+                   
 
 1. The defences and limits of liability provided for in this Convention shall
 apply in any action against the multimodal transport operator in respect of
@@ -510,7 +510,7 @@ transport contract shall not exceed the limits of liability provided for in
 this Convention.
 
 ARTICLE 21 - LOSS OF THE RIGHT TO LIMIT LIABILITY
--------------------------------------------------
+                        -
 
 1. The multimodal transport operator is not entitled to the benefit of the
 limitation of liability provided for in this Convention if it is proved that
@@ -532,7 +532,7 @@ PART IV - LIABILITY OF THE CONSIGNOR
 ====================================
 
 ARTICLE 22 - GENERAL RULE
--------------------------
+            -
 
 The consignor shall be liable for loss sustained by the multimodal transport
 operator if such loss is caused by the fault or neglect of the consignor, or
@@ -541,7 +541,7 @@ of their employment. Any servant or agent of the consignor shall be liable for
 such loss if the loss is caused by fault or neglect on his part.
 
 ARTICLE 23 - SPECIAL RULES ON DANGEROUS GOODS
----------------------------------------------
+                      -
 
 1. The consignor shall mark or label in a suitable manner dangerous goods as
 dangerous.
@@ -573,7 +573,7 @@ PART V - CLAIMS AND ACTIONS
 ===========================
 
 ARTICLE 24 - NOTICE OF LOSS, DAMAGE OR DELAY
---------------------------------------------
+                      
 
 1. Unless notice of loss or damage, specifying the general nature of such loss
 or damage, is given in writing by the consignee to the multimodal transport
@@ -622,7 +622,7 @@ behalf, shall be deemed to have been given to the multimodal transport
 operator, or to the consignor, respectively.
 
 ARTICLE 25 - LIMITATION OF ACTIONS
-----------------------------------
+                 
 
 1. Any action relating to international multimodal transport under this
 Convention shall be time-barred if judicial or arbitral proceedings have not
@@ -652,7 +652,7 @@ day when the person instituting such action for indemnity has settled the claim
 or has been served with process in the action against himself.
 
 ARTICLE 26 - JURISDICTION
--------------------------
+            -
 
 1. In judicial proceedings relating to international multimodal transport under
 this Convention, the plaintiff, at his option, may institute an action in a
@@ -695,7 +695,7 @@ court within the same country shall be considered as the starting of a new
 action
 
 ARTICLE 27- ARBITRATION
------------------------
+           -
 
 1. Subject to the provisions of this article, parties may provide by agreement
 evidenced in writing that any dispute that may arise relating to international
@@ -732,7 +732,7 @@ PART VI - SUPPLEMENTARY PROVISIONS
 ==================================
 
 ARTICLE 28 - CONTRACTUAL STIPULATIONS
--------------------------------------
+                  -
 
 1. Any stipulation in a multimodal transport contract or multimodal transport
 document shall be null and void to the extent that it derogates, directly or
@@ -764,7 +764,7 @@ provision is invoked are to be determined in accordance with the law of the
 State where proceedings are instituted.
 
 ARTICLE 29 - GENERAL AVERAGE
-----------------------------
+              
 
 1. Nothing in this Convention shall prevent the application of provisions in
 the multimodal transport contract or national law regarding the adjustment of
@@ -778,7 +778,7 @@ indemnify the consignee in respect of any such contribution made or any salvage
 paid.
 
 ARTICLE 30 - OTHER CONVENTIONS
-------------------------------
+               
 
 1. This Convention does not modify the rights or duties provided for in the
 Brussels International Convention for the unification of certain rules relating
@@ -821,7 +821,7 @@ Convention, in so far as such States are bound to apply the provisions of such
 Conventions to such carriage of goods.
 
 ARTICLE 31 - UNIT OF ACCOUNT OF MONETARY UNIT AND CONVERSION
-------------------------------------------------------------
+                              
 
 1. The unit of account referred to in article 18 of this Convention is the
 Special Drawing Right as defined by the International Monetary Fund. The
@@ -870,7 +870,7 @@ PART VII - CUSTOMS MATTERS
 ==========================
 
 ARTICLE 32 - CUSTOMS TRANSIT
-----------------------------
+              
 
 1. Contracting States shall authorise the use of the procedure of customs
 transit for international multimodal transport.
@@ -888,13 +888,13 @@ PART VIII - FINAL CLAUSES
 =========================
 
 ARTICLE 33 - DEPOSITARY
------------------------
+           -
 
 The Secretary-General of the United Nations is hereby designated as the
 depositary of this Convention.
 
 ARTICLE 34 - SIGNATURE, RATIFICATION, ACCEPTANCE, APPROVAL AND ACCESSION
-------------------------------------------------------------------------
+                                    
 
 1. All States are entitled to become Parties to this Convention by:
 
@@ -924,12 +924,12 @@ relation to other Parties to this Convention the rights and duties under this
 Convention in the specific fields referred to above.
 
 ARTICLE 35 - RESERVATIONS
--------------------------
+            -
 
 No reservation may be made to this Convention.
 
 ARTICLE 36 - ENTRY INTO FORCE
------------------------------
+              -
 
 1. This Convention shall enter into force 12 months after the Governments of 30
 States have either signed it not subject to ratification, acceptance or
@@ -942,14 +942,14 @@ this article have been met, the Convention shall enter into force 12 months
 after the deposit by such State of the appropriate instrument.
 
 ARTICLE 37 - DATE OF APPLICATION
---------------------------------
+                
 
 Each Contracting State shall apply the provisions of this Convention to
 multimodal transport contracts concluded on or after the date of entry into
 force of this Convention in respect of that State.
 
 ARTICLE 38 - RIGHTS AND OBLIGATIONS UNDER EXISTING CONVENTIONS
---------------------------------------------------------------
+                               
 
 If, according to articles 26 or 27, judicial or arbitral proceedings are
 brought in a Contracting State in a case relating to international multimodal
@@ -960,7 +960,7 @@ convention, the court or arbitral tribunal may, in accordance with the
 obligations under such convention, give effect to the provisions thereof.
 
 ARTICLE 39 - REVISION AND AMENDMENTS
-------------------------------------
+                  
 
 1. At the request of not less than one third of the Contracting States, the
 Secretary-General of the United Nations shall, after the entry into force of
@@ -999,7 +999,7 @@ after the entry into force of any amendment adopted by the conference shall be
 deemed to apply to the Convention as amended.
 
 ARTICLE 40 - DENUNCIATION
--------------------------
+            -
 
 1. Each Contracting State may denounce this Convention at any time after the
 expiration o a period of two years from the date on which this Convention has
@@ -1017,7 +1017,7 @@ the notification is received by the depositary.
 
 / [POST CLAUSES (IF ANY: SIGNED; WITNESSED; DONE; AUTHENTIC TEXTS; & DEPOSITED
 CLAUSES)] /
-------------------------------------------------------------------------------
+                                       
 
 In witness whereof the undersigned, being duly authorised thereto, have affixed
 their signatures hereunder on the dates indicated.
@@ -1030,13 +1030,13 @@ ANNEX
 =====
 
 / [ANNEX] /
------------
+     -
 
 Provisions on customs matters relating to international multimodal transport of
 goods
 
 ARTICLE I
----------
+    -
 
 For the purpose of this Convention:
 
@@ -1055,7 +1055,7 @@ amount to the approximate cost of services rendered.
 and information required for the customs transit operation.
 
 ARTICLE II
-----------
+     
 
 1. Subject to the provisions of the law, regulations and international
 conventions in force in their territories, Contracting States shall grant
@@ -1077,7 +1077,7 @@ subject to any customs formalities or requirements additional to those of the
 customs transit regime used for the transit operation.
 
 ARTICLE III
------------
+     -
 
 In order to facilitate the transit of the goods, each Contracting State shall:
 
@@ -1095,7 +1095,7 @@ possible to the place of final destination of the goods, provided that national
 law and regulations do not require otherwise.
 
 ARTICLE IV
-----------
+     
 
 1. Provided that the conditions laid down in the customs transit procedure are
 fulfilled to the satisfaction of the customs authorities, the goods in
@@ -1112,7 +1112,7 @@ approximate cost of services rendered, provided they are imposed under
 conditions of equality.
 
 ARTICLE V
----------
+    -
 
 1. Where a financial guarantee for the customs transit operation is required,
 it shall be furnished to the satisfaction of the customs authorities of the
@@ -1125,7 +1125,7 @@ duties and taxes chargeable and, in countries where they are covered by
 guarantees, any penalties due.
 
 ARTICLE VI
-----------
+     
 
 1. Without prejudice to any other documents which may be required by virtue of
 an international convention or national law and regulations, customs

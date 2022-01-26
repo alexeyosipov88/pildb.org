@@ -1,8 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(15, 'CONVENTION ON THE RECOGNITION AND ENFORCEMENT OF FOREIGN JUDGMENTS IN CIVIL AND COMMERCIAL MATTERS
-(Concluded 1 February 1971)
- 
-The States signatory to the present Convention,
+VALUES(15, 'The States signatory to the present Convention,
 Desiring to establish common provisions on mutual recognition and enforcement of judicial decisions rendered in their respective countries,
 Have resolved to conclude a Convention to this effect and have agreed on the following provisions:
  

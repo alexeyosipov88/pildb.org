@@ -1,7 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
 VALUES(8, '(This Convention was drawn up in French only.)
-CONVENTION CONCERNING THE RECOGNITION AND ENFORCEMENT OF DECISIONS RELATING TO MAINTENANCE OBLIGATIONS TOWARDS CHILDREN
-(Concluded 15 April 1958)
  
 Les Etats signataires de la pr?sente Convention ;
 D?sirant ?tablir des dispositions communes pour r?gler la reconnaissance et l''ex?cution des d?cisions en mati?re d''obligations alimentaires envers les enfants ;

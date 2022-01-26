@@ -1,8 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(22, 'CONVENTION ON THE RECOGNITION AND ENFORCEMENT OF DECISIONS RELATING TO MAINTENANCE OBLIGATIONS
-(Concluded 2 October 1973) 
- 
-The States signatory to this Convention,
+VALUES(22, 'The States signatory to this Convention,
 Desiring to establish common provisions to govern the reciprocal recognition and enforcement of decisions relating to maintenance obligations in respect of adults,
 Desiring to coordinate these provisions and those of the Convention of the 15th of April 1958 on the Recognition and Enforcement of Decisions Relating to Maintenance Obligations in Respect of Children,
 Have resolved to conclude a Convention for this purpose and have agreed upon the following provisions -

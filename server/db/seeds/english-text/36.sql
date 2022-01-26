@@ -1,8 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(36, 'CONVENTION ON CHOICE OF COURT AGREEMENTS
-(Concluded 30 June 2005)
- 
-The States Parties to the present Convention,
+VALUES(36, 'The States Parties to the present Convention,
 Desiring to promote international trade and investment through enhanced judicial co-operation,
 Believing that such co-operation can be enhanced by uniform rules on jurisdiction and on recognition and enforcement of foreign judgments in civil or commercial matters,
 Believing that such enhanced co-operation requires in particular an international legal regime that provides certainty and ensures the effectiveness of exclusive choice of court agreements between parties to commercial transactions and that governs the recognition and enforcement of judgments resulting from proceedings based on such agreements,

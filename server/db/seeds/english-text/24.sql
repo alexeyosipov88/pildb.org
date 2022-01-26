@@ -1,8 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(24, 'CONVENTION ON THE LAW APPLICABLE TO MATRIMONIAL PROPERTY REGIMES
-(Concluded 14 March 1978)
- 
-The States signatory to this Convention,
+VALUES(24, 'The States signatory to this Convention,
 Desiring to establish common provisions concerning the law applicable to matrimonial property regimes,
 Have resolved to conclude a Convention for this purpose and have agreed upon the following provisions -
  

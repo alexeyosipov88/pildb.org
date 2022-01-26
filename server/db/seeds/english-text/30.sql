@@ -1,8 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(30, 'CONVENTION ON THE LAW APPLICABLE TO CONTRACTS FOR THE INTERNATIONAL SALE OF GOODS
-(Concluded December 22, 1986)
- 
-The States Parties to the present Convention,
+VALUES(30, 'The States Parties to the present Convention,
 Desiring to unify the choice of law rules relating to contracts for the international sale of goods,
 Bearing in mind the United Nations Convention on contracts for the international sale of goods, concluded at Vienna on 11 April 1980,
 Have agreed upon the following provisions -

@@ -3,31 +3,31 @@ RULES RELATING TO INTERNATIONAL CARRIAGE BY AIR SIGNED AT WARSAW ON 12 OCTOBER
 1929, AS AMENDED BY THE PROTOCOL DONE AT THE HAGUE ON 28 SEPTEMBER 1955 AND AT
 GUATEMALA CITY ON 8 MARCH 1971, SIGNED AT MONTREAL, ON 25 SEPTEMBER 1975
 (ADDITIONAL PROTOCOL NO. 3 TO THE WARSAW CONVENTION)
-******************************************************************************
+                                                                              
 
 /[PREAMBLE]/
-------------
+      
 
-*The Governments Undersigned*
+ The Governments Undersigned 
 
-*Considering* that it is desirable to amend the Convention for the Unification
+ Considering  that it is desirable to amend the Convention for the Unification
 of Certain Rules Relating to International Carriage by Air signed at Warsaw on
 12 October 1929 as amended by the Protocols done at The Hague on 28 September
 1955, and at Guatemala City on 8 March 1971,
 
-*Have Agreed* as follows:
+ Have Agreed  as follows:
 
 CHAPTER I - AMENDMENTS TO THE CONVENTION
-========================================
+                                        
 
 ARTICLE I
----------
+    -
 
 The Convention which the provisions of the present Chapter modify is the Warsaw
 Convention as amended at The Hague in 1955, and at Guatemala City in 1971.
 
 ARTICLE II
-----------
+     
 
 .Article 22 of the Convention shall be deleted and replaced by the following:-
 
@@ -121,7 +121,7 @@ ARTICLE II
   currency shall be made according to the law of the State concerned."
 
 ARTICLE III
------------
+     -
 
 In Article 42 of the Convention- paragraphs 2 and 3 shall be deleted and
 replaced by the following:-
@@ -140,10 +140,10 @@ replaced by the following:-
   increased by 12 500 Special Drawing Rights."
 
 CHAPTER II - SCOPE OF APPLICATION OF THE CONVENTION AS AMENDED
-==============================================================
+                                                              
 
 ARTICLE IV
-----------
+     
 
 The Warsaw Convention as amended at The Hague in 1955, and at Guatemala City in
 1971 and by this Protocol shall apply to international carriage as defined in
@@ -153,10 +153,10 @@ of two Parties to this Protocol or within the territory of a single Party to
 this Protocol with an agreed stopping place in the territory of another State.
 
 CHAPTER III - FINAL CLAUSES
-===========================
+                           
 
 ARTICLE V
----------
+    -
 
 As between the Parties to this Protocol, the Warsaw Convention as amended at
 The Hague in 1955 and at Guatemala City in 1971, and this Protocol shall be
@@ -165,13 +165,13 @@ the Warsaw Convention as amended at The Hague, 1955, at Guatemala City, 1971,
 and by the Additional Protocol No. 3 of Montreal, 1975.
 
 ARTICLE VI
-----------
+     
 
 Until the date on which this Protocol comes into force in accordance with the
 provisions of Article VIII, it shall remain open for signature by any State.
 
 ARTICLE VII
------------
+     -
 
 1. This Protocol shall be subject to ratification by the signatory States.
 
@@ -187,7 +187,7 @@ Montreal, 1975.
 the Polish People's Republic.
 
 ARTICLE VIII
-------------
+      
 
 1. As soon as thirty signatory States have deposited their instruments of
 ratification of this Protocol, it shall come into force between them on the
@@ -199,7 +199,7 @@ after the deposit of its instrument of ratification.
 United Nations by the Government of the Polish People's Republic.
 
 ARTICLE IX
-----------
+     
 
 1. This Protocol, after it has come into force, shall be open for accession by
 any non-signatory State.
@@ -217,7 +217,7 @@ with the Government of the Polish People's Republic and shall take effect on
 the ninetieth day after the deposit.
 
 ARTICLE X
----------
+    -
 
 1. Any Party to this Protocol may denounce the Protocol by notification
 addressed to the Government of the Polish People's Republic.
@@ -234,7 +234,7 @@ at Guatemala City, 1971, and by the Additional Protocol No. 3 of Montreal,
 1975.
 
 ARTICLE XI
-----------
+     
 
 1. Only the following reservations may be made to this Protocol:-
 
@@ -264,7 +264,7 @@ paragraph may at any time withdraw such reservation by notification to the
 Government of the Polish People's Republic.
 
 ARTICLE XII
------------
+     -
 
 The Government of the Polish People's Republic shall promptly inform all States
 Parties to the Warsaw Convention or to that Convention as amended, all
@@ -274,7 +274,7 @@ date of deposit of each instrument of ratification or accession, the date of
 coming into force of this Protocol, and other relevant information.
 
 ARTICLE XIII
-------------
+      
 
 As between the Parties to this Protocol which are also Parties to the
 Convention, Supplementary to the Warsaw Convention, for the Unification of
@@ -288,7 +288,7 @@ where the carriage under the agreement referred to in Article 1, paragraph (b)
 of the Guadalajara Convention is governed by this Protocol.
 
 ARTICLE XIV
------------
+     -
 
 This Protocol shall remain open for signature until 1 January 1976 at the
 Headquarters of the International Civil Aviation Organization and thereafter
@@ -300,11 +300,11 @@ the Protocol shall be open for signature at the Headquarters of the
 International Civil Aviation Organization.
 
 /[POST PROVISIONS]/
-===================
+                   
 
 /[POST CLAUSES (IF ANY: SIGNED; WITNESSED; DONE; AUTHENTIC TEXTS; & DEPOSITED
 CLAUSES)]/
-------------------------------------------------------------------------------
+                                       
 
 IN WITNESS WHEREOF the undersigned Plenipotentiaries, having been duly
 authorized, have signed this Protocol.

@@ -1,8 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(14, 'CONVENTION ON THE CHOICE OF COURT
-(Concluded November 25, 1965)
- 
-The States signatory to the present Convention,
+VALUES(14, 'The States signatory to the present Convention,
 Desiring to establish common provisions on the validity and effects of agreements on the choice of court,
 Have resolved to conclude a Convention to this effect and have agreed upon the following provisions:
  

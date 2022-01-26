@@ -1,8 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(21, 'CONVENTION ON THE LAW APPLICABLE TO PRODUCTS LIABILITY
-(Concluded 2 October 1973)
- 
-The States signatory to the present Convention,
+VALUES(21, 'The States signatory to the present Convention,
 Desiring to establish common provisions on the law applicable, in international cases, to products liability,
 Have resolved to conclude a Convention to this effect and have agreed upon the following provisions:
  

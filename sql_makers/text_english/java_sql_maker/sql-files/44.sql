@@ -1,8 +1,7 @@
 INSERT INTO english_text (treaty_id, text)
 VALUES(44, 'CHAPTER I. SCOPE OF APPLICATION
-===============================
 ARTICLE 1. SCOPE OF APPLICATION
--------------------------------
+-
 (1) This Convention applies to an international undertaking referred to in
 article 2:
 (a) If the place of business of the guarantor/issuer at which the undertaking
@@ -16,7 +15,6 @@ Convention.
 (3) The provisions of articles 21 and 22 apply to international undertakings
 referred to in article 2 independently of paragraph (1) of this article.
 ARTICLE 2. UNDERTAKING
-----------------------
 (1) For the purposes of this Convention, an undertaking is an independent
 commitment, known in international practice as an independent guarantee or as a
 stand-by letter of credit, given by a bank or other institution or person
@@ -43,7 +41,6 @@ including:
 (4) The undertaking may stipulate that the guarantor/issuer itself is the
 beneficiary when acting in favour of another person.
 ARTICLE 3. INDEPENDENCE OF UNDERTAKING
---------------------------------------
 For the purposes of this Convention, an undertaking is independent where the
 guarantor/issuer''s obligation to the beneficiary is not:
 (a) Dependent upon the existence or validity of any underlying transaction, or
@@ -53,7 +50,6 @@ guarantees to which confirmations or counter-guarantees relate); or
 any future, uncertain act or event except presentation of documents or another
 such act or event within a guarantor/ issuer''s sphere of operations.
 ARTICLE 4. INTERNATIONALITY OF UNDERTAKING
-------------------------------------------
 (1) An undertaking is international if the places of business, as specified in
 the undertaking, of any two of the following persons are in different States:
 guarantor/issuer, beneficiary, principal/applicant, instructing party,
@@ -66,15 +62,13 @@ relationship to the undertaking;
 but specifies its habitual residence, that residence is relevant for
 determining the international character of the undertaking.
 CHAPTER II. INTERPRETATION
-==========================
 ARTICLE 5. PRINCIPLES OF INTERPRETATION
----------------------------------------
+-
 In the interpretation of this Convention, regard is to be had to its
 international character and to the need to promote uniformity in its
 application and the observance of good faith in the international practice of
 independent guarantees and stand-by letters of credit.
 ARTICLE 6. DEFINITIONS
-----------------------
 For the purposes of this Convention and unless otherwise indicated in a
 provision of this Convention or required by the context:
 (a) "Undertaking" includes "counter-guarantee" and "confirmation of an
@@ -98,9 +92,8 @@ demand payment from the guarantor/issuer;
 (g) "Document" means a communication made in a form that provides a complete
 record thereof.
 CHAPTER III. FORM AND CONTENT OF UNDERTAKING
-============================================
 ARTICLE 7. ISSUANCE, FORM AND IRREVOCABILITY OF UNDERTAKING
------------------------------------------------------------
+-
 (1) Issuance of an undertaking occurs when and where the undertaking leaves the
 sphere of control of the guarantor/issuer concerned.
 (2) An undertaking may be issued in any form which preserves a complete record
@@ -113,7 +106,6 @@ undertaking stipulates a different time.
 (4) An undertaking is irrevocable upon issuance, unless it stipulates that it
 is revocable.
 ARTICLE 8. AMENDMENT
---------------------
 (1) An undertaking may not be amended except in the form stipulated in the
 undertaking or, failing such stipulation, in a form referred to in paragraph
 (2) of article 7.
@@ -130,7 +122,6 @@ beneficiary in a form referred to in paragraph (2) of article 7.
 of the principal/ applicant (or an instructing party) or of a confirmer of the
 undertaking unless such person consents to the amendment.
 ARTICLE 9. TRANSFER OF BENEFICIARY''S RIGHT TO DEMAND PAYMENT
-------------------------------------------------------------
 (1) The beneficiary''s right to demand payment may be transferred only if
 authorized in the undertaking, and only to the extent and in the manner
 authorized in the undertaking.
@@ -140,7 +131,6 @@ required for the actual transfer, neither the guarantor/ issuer nor any other
 authorized person is obliged to effect the transfer except to the extent and in
 the manner expressly consented to by it.
 ARTICLE 10. ASSIGNMENT OF PROCEEDS
-----------------------------------
 (1) Unless otherwise stipulated in the undertaking or elsewhere agreed by the
 guarantor/issuer and the beneficiary, the beneficiary may assign to another
 person any proceeds to which it may be, or may become, entitled under the
@@ -151,7 +141,6 @@ paragraph (2) of article 7, of the beneficiary''s irrevocable assignment,
 payment to the assignee discharges the obligor, to the extent of its payment,
 from its liability under the undertaking.
 ARTICLE 11. CESSATION OF RIGHT TO DEMAND PAYMENT
-------------------------------------------------
 (1) The right of the beneficiary to demand payment under the undertaking ceases
 when:
 (a) The guarantor/issuer has received a statement by the beneficiary of release
@@ -175,7 +164,6 @@ such document by the beneficiary after the right to demand payment ceases in
 accordance with subparagraph (c) or (d) of paragraph (1) of this article
 preserve any rights of the beneficiary under the undertaking.
 ARTICLE 12. EXPIRY
-------------------
 The validity period of the undertaking expires:
 (a) At the expiry date, which may be a specified calendar date or the last day
 of a fixed period of time stipulated in the undertaking, provided that, if the
@@ -194,9 +182,8 @@ which expiry is stated to depend has not yet been established by presentation
 of the required document and an expiry date has not been stated in addition,
 when six years have elapsed from the date of issuance of the undertaking.
 CHAPTER IV. RIGHTS, OBLIGATIONS AND DEFENCES
-============================================
 ARTICLE 13. DETERMINATION OF RIGHTS AND OBLIGATIONS
----------------------------------------------------
+-
 (1) The rights and obligations of the guarantor/issuer and the beneficiary
 arising from the undertaking are determined by the terms and conditions set
 forth in the undertaking, including any rules, general conditions or usages
@@ -207,7 +194,7 @@ or by the provisions of this Convention, regard shall be had to generally
 accepted international rules and usages of independent guarantee or stand-by
 letter of credit practice.
 ARTICLE 14. STANDARD OF CONDUCT AND LIABILITY OF GUARANTOR/ISSUER
------------------------------------------------------------------
+-
 (1) In discharging its obligations under the undertaking and this Convention,
 the guarantor/issuer shall act in good faith and exercise reasonable care
 having due regard to generally accepted standards of international practice of
@@ -215,7 +202,6 @@ independent guarantees or stand-by letters of credit.
 (2) A guarantor/issuer may not be exempted from liability for its failure to
 act in good faith or for any grossly negligent conduct.
 ARTICLE 15. DEMAND
-------------------
 (1) Any demand for payment under the undertaking shall be made in a form
 referred to in paragraph (2) of article 7 and in conformity with the terms and
 conditions of the undertaking.
@@ -227,7 +213,6 @@ at the place where the undertaking was issued.
 demand is not in bad faith and that none of the elements referred to in
 subparagraphs (a), (b) and (c) of paragraph (1) of article 19 are present.
 ARTICLE 16. EXAMINATION OF DEMAND AND ACCOMPANYING DOCUMENTS
-------------------------------------------------------------
 (1) The guarantor/issuer shall examine the demand and any accompanying
 documents in accordance with the standard of conduct referred to in paragraph
 (1) of article 14. In determining whether documents are in facial conformity
@@ -247,7 +232,7 @@ stipulated in the undertaking or elsewhere agreed by the guarantor/issuer and
 the beneficiary, be made by teletransmission or, if that is not possible, by
 other expeditious means and indicate the reason for the decision not to pay.
 ARTICLE 17. PAYMENT
--------------------
+-
 (1) Subject to article 19, the guarantor/issuer shall pay against a demand made
 in accordance with the provisions of article 15. Following a determination that
 a demand for payment so conforms, payment shall be made promptly, unless the
@@ -256,14 +241,14 @@ be made at the stipulated time.
 (2) Any payment against a demand that is not in accordance with the provisions
 of article 15 does not prejudice the rights of the principal/applicant.
 ARTICLE 18. SET-OFF
--------------------
+-
 Unless otherwise stipulated in the undertaking or elsewhere agreed by the
 guarantor/issuer and the beneficiary, the guarantor/issuer may discharge the
 payment obligation under the undertaking by availing itself of a right of
 set-off, except with any claim assigned to it by the principal/applicant or the
 instructing party.
 ARTICLE 19. EXCEPTION TO PAYMENT OBLIGATION
--------------------------------------------
+-
 (1) If it is manifest and clear that:
 (a) Any document is not genuine or has been falsified;
 (b) No payment is due on the basis asserted in the demand and the supporting
@@ -289,9 +274,7 @@ undertaking to which the counter- guarantee relates.
 (1) of this article, the principal/applicant is entitled to provisional court
 measures in accordance with article 20.
 CHAPTER V. PROVISIONAL COURT MEASURES
-=====================================
 ARTICLE 20. PROVISIONAL COURT MEASURES
---------------------------------------
 (1) Where, on an application by the principal/applicant or the instructing
 party, it is shown that there is a high probability that, with regard to a
 demand made, or expected to be made, by the beneficiary, one of the
@@ -313,26 +296,21 @@ paragraph (1) of this article based on any objection to payment other than
 those referred to in subparagraphs (a), (b) and (c) of paragraph (1) of article
 19, or use of the undertaking for a criminal purpose.
 CHAPTER VI. CONFLICT OF LAWS
-============================
 ARTICLE 21. CHOICE OF APPLICABLE LAW
-------------------------------------
 The undertaking is governed by the law the choice of which is:
 (a) Stipulated in the undertaking or demonstrated by the terms and conditions
 of the undertaking; or
 (b) Agreed elsewhere by the guarantor/issuer and the beneficiary.
 ARTICLE 22. DETERMINATION OF APPLICABLE LAW
--------------------------------------------
+-
 Failing a choice of law in accordance with article 21, the undertaking is
 governed by the law of the State where the guarantor/issuer has that place of
 business at which the undertaking was issued.
 CHAPTER VII. FINAL CLAUSES
-==========================
 ARTICLE 23. DEPOSITARY
-----------------------
 The Secretary-General of the United Nations is the depositary of this
 Convention.
 ARTICLE 24. SIGNATURE, RATIFICATION, ACCEPTANCE, APPROVAL, ACCESSION
---------------------------------------------------------------------
 (1) This Convention is open for signature by all States at the Headquarters of
 the United Nations, New York, until 11 December 1997.
 (2) This Convention is subject to ratification, acceptance or approval by the
@@ -342,7 +320,6 @@ States as from the date it is open for signature.
 (4) Instruments of ratification, acceptance, approval and accession are to be
 deposited with the Secretary-General of the United Nations.
 ARTICLE 25. APPLICATION TO TERRITORIAL UNITS
---------------------------------------------
 (1) If a State has two or more territorial units in which different systems of
 law are applicable in relation to the matters dealt with in this Convention, it
 may, at the time of signature, ratification, acceptance, approval or accession,
@@ -359,7 +336,7 @@ to be in a Contracting State.
 (4) If a State makes no declaration under paragraph (1) of this article, the
 Convention is to extend to all territorial units of that State.
 ARTICLE 26. EFFECT OF DECLARATION
----------------------------------
+-
 (1) Declarations made under article 25 at the time of signature are subject to
 confirmation upon ratification, acceptance or approval.
 (2) Declarations and confirmations of declarations are to be in writing and to
@@ -375,10 +352,8 @@ withdrawal takes effect on the first day of the month following the expiration
 of six months after the date of the receipt of the notification of the
 depositary.
 ARTICLE 27. RESERVATIONS
-------------------------
 No reservations may be made to this Convention.
 ARTICLE 28. ENTRY INTO FORCE
-----------------------------
 (1) This Convention enters into force on the first day of the month following
 the expiration of one year from the date of the deposit of the fifth instrument
 of ratification, acceptance, approval or accession.
@@ -392,7 +367,6 @@ when the Convention enters into force in respect of the Contracting State
 referred to in subparagraph (a) or the Contracting State referred to in
 subparagraph (b) of paragraph (1) of article 1.
 ARTICLE 29. DENUNCIATION
-------------------------
 (1) A Contracting State may denounce this Convention at any time by means of a
 notification in writing addressed to the depositary.
 (2) The denunciation takes effect on the first day of the month following the
@@ -401,10 +375,8 @@ Where a longer period is specified in the notification, the denunciation takes
 effect upon the expiration of such longer period after the notification is
 received by the depositary.
 / [POST PROVISIONS] /
-=====================
 / [POST CLAUSES (IF ANY: SIGNED; WITNESSED; DONE; AUTHENTIC TEXTS; & DEPOSITED
 CLAUSES)] /
-------------------------------------------------------------------------------
 DONE at New York, this eleventh day of December one thousand nine hundred and
 ninety-five, in a single original, of which the Arabic, Chinese, English,
 French, Russian and Spanish texts are equally authentic.

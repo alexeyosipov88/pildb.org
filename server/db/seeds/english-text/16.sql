@@ -1,9 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(16, 'SUPPLEMENTARY PROTOCOL TO THE HAGUE CONVENTION ON THE RECOGNITION AND ENFORCEMENT OF FOREIGN JUDGMENTS IN CIVIL AND COMMERCIAL MATTERS
-(Concluded 1 February 1971)
- 
- 
-The States signatory to the present Protocol,
+VALUES(16, 'The States signatory to the present Protocol,
 In the knowledge that certain grounds of jurisdiction, which are not included in Articles 10 and 11 of the Hague Convention on the Recognition and Enforcement of Foreign Judgments in Civil and Commercial Matters, can only exceptionally justify the international recognition and enforcement of judgments,
 Convinced that the principles upon which this Protocol is founded shall prevail both in Supplementary Agreements which will be concluded under Article 21 of the said Convention and in other Conventions to be concluded in the future,
 Have resolved to conclude a Protocol to this end, and agreed on the following provisions:

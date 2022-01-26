@@ -59,7 +59,7 @@ Article 4
     (b) to damage caused by a nuclear substance 
 	(i)	if the operator of a nuclear installation is liable for such damage under either the 	Paris Convention of 29 July 1960 on Third Party Liability in the Field of Nuclear 	Energy and its additional Protocol of 28 January 1964 or the Vienna Convention of 	21 May 1963 on Civil Liability for Nuclear Damage or any amendments to those 	Conventions, or
 		(ii)	if the operator of a nuclear installation is liable for such damage by virtue of national 		law governing the liability for such damage, provided that such law is in all respects 		as favourable to persons who may suffer damage as either the Paris or Vienna 			Conventions as referred to under (i);
-    (c) to carriage of dangerous goods by road, rail or inland navigation vessel which complies with the conditions of marginal 10 010 or which does not exceed the quantities of marginal 10 O11 of ADR.
+    (c) to carriage of dangerous goods by road, rail or inland navigation vessel which complies with the conditions of marginal 10 010 or which does not exceed the quantities of marginal 10 O11 of ADR.
 
 LIABILITY PROVISIONS
 Article 5
@@ -237,9 +237,9 @@ Article 21
 FINAL PROVISIONS
 Article 22
 
-1.	This Convention is open for signature by all States at Geneva from 1 February 1990 until 31 December 1990 inclusive.
+1.	This Convention is open for signature by all States at Geneva from 1 February 1990 until 31 December 1990 inclusive.
 2.	This Convention is subject to ratification, acceptance or approval by States which have signed it.
-3.	This Convention is open for accession by all States which are not signatory States as from 1 January 1991.
+3.	This Convention is open for accession by all States which are not signatory States as from 1 January 1991.
 4.	Ratification, acceptance, approval or accession is effected by the 	deposit of a formal instrument to that effect with the depositary.
 
 Article 23

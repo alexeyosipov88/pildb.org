@@ -1,6 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(50, 'Convention on the Recovery Abroad of Maintenance
-Preamble
+VALUES(50, 'Preamble
 Considering the urgency of solving the humanitarian problem resulting from the situation of persons in need dependent for their maintenance on persons abroad,
 Considering that the prosecution or enforcement abroad of claims for maintenance gives rise to serious legal and practical difficulties, and
 Determined to provide a means to solve such problems and to overcome such difficulties,

@@ -1,7 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(59, 'European Agreement concerning the International Carriage of Dangerous Goods by Road (ADR) 
-Done at: Geneva
-The Contracting Parties,
+VALUES(59, 'The Contracting Parties,
 Desiring to increase the safety of international transport by road,
 Have agreed as follows:
 Article 1

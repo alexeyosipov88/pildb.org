@@ -1,9 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(12, 'CONVENTION ON JURISDICTION, APPLICABLE LAW AND RECOGNITION OF DECREES RELATING TO ADOPTIONS
-(Concluded November 15, 1965) 
-(In accordance with its Article 23, this Convention ceased to have effect on 23 October 2008)                    
- 
-The States signatory to the present Convention,
+VALUES(12, 'The States signatory to the present Convention,
 Desiring to establish common provisions on jurisdiction, applicable law and recognition of decrees relating to adoption,
 Have resolved to conclude a Convention to this effect and have agreed upon the following provisions:
  

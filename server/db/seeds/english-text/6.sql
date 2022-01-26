@@ -1,10 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(6, ' 
- 
-(This Convention was drawn up in French only.)
- 
-CONVENTION CONCERNING THE RECOGNITION OF THE LEGAL PERSONALITY OF FOREIGN COMPANIES, ASSOCIATIONS AND INSTITUTIONS
-(Concluded 1 June 1956)
+VALUES(6, '(This Convention was drawn up in French only.)
  
 Les Etats signataires de la pr?sente Convention ;
 D?sirant ?tablir des dispositions communes concernant la reconnaissance de la personnalit? juridique des soci?t?s, associations et fondations ?trang?res ;

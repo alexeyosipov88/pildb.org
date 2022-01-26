@@ -1,8 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(26, 'CONVENTION ON THE LAW APPLICABLE TO AGENCY
-(Concluded 14 March 1978
- 
-The States signatories to the present Convention,
+VALUES(26, 'The States signatories to the present Convention,
 Desiring to establish common provisions concerning the law applicable to agency,
 Have resolved to conclude a Convention to this effect, and have agreed upon the following provisions -
  

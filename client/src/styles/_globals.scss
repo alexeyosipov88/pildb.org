@@ -79,27 +79,29 @@ body {
 
 .status-btn {
   padding: 10px;
-  border-radius: 30px;
-  background-color: rgba(50, 177, 67, 0.986);
-  cursor: pointer;
-  border: 0;
-  color: $white;
-  // text-transform: uppercase;
-  font-weight: 500;
-}
-
-.status-btn:hover {
-  background-color: rgba(33, 95, 33, 0.842);
-}
-.more-info-btn {
-  padding: 10px;
-  border-radius: 30px;
+  font-size: 10px;
+  border-radius: 10px;
   background-color: rgba(41, 87, 212, 0.699);
   cursor: pointer;
   border: 0;
   color: $white;
-  // text-transform: uppercase;
-  font-weight: 500;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.status-btn:hover {
+  background-color: rgb(21, 48, 124);
+}
+.more-info-btn {
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 10px;
+  background-color: rgba(41, 87, 212, 0.699);
+  cursor: pointer;
+  border: 0;
+  color: $white;
+  text-transform: uppercase;
+  font-weight: 900;
 }
 .more-info-btn:hover {
   background-color: rgb(21, 48, 124);

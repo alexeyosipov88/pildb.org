@@ -1,6 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(48, 'United Nations Convention on Transparency in Treaty-based Investor-State Arbitration (Mauritius Convention on Transparency)
-Preamble
+VALUES(48, 'Preamble
 The Parties to this Convention,
 Recognizing the value of arbitration as a method of settling disputes that may arise in the context of international relations, and the extensive and wide-ranging use of arbitration for the settlement of investor-State disputes,
 Also recognizing the need for provisions on transparency in the settlement of treaty-based investor-State disputes to take account of the public interest involved in such arbitrations,

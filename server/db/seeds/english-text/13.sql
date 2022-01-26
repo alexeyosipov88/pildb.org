@@ -1,11 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(13, '(In the relations between the Contracting States, this Convention replaces the first chapter of the Convention on civil procedure of 1 March 1954)
- 
- 
-CONVENTION ON THE SERVICE ABROAD OF JUDICIAL AND EXTRAJUDICIAL DOCUMENTS IN CIVIL OR COMMERCIAL MATTERS
-(Concluded 15 November 1965)
- 
-The States signatory to the present Convention,
+VALUES(13, 'The States signatory to the present Convention,
 Desiring to create appropriate means to ensure that judicial and extrajudicial documents to be served abroad shall be brought to the notice of the addressee in sufficient time,
 Desiring to improve the organisation of mutual judicial assistance for that purpose by simplifying and expediting the procedure,
 Have resolved to conclude a Convention to this effect and have agreed upon the following provisions:

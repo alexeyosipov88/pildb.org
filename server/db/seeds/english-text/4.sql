@@ -1,8 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
 VALUES(4, '(This Convention was drawn up in French only.)
-CONVENTION ON THE JURISDICTION OF THE SELECTED FORUM IN THE CASE OF INTERNATIONAL SALES OF GOODS
-(Concluded 15 April 1958)
- 
 Les Etats signataires de la pr?sente Convention ;
 D?sirant ?tablir des dispositions communes concernant les effets de la d?signation d''un for contractuel en cas de vente ? caract?re international d''objets mobiliers corporels ;
 Ont r?solu de conclure une Convention ? cet effet et sont convenus des dispositions suivantes :

@@ -1,11 +1,6 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(43, 'UNCITRAL CONVENTION ON INTERNATIONAL BILLS OF EXCHANGE AND INTERNATIONAL
-PROMISSORY NOTES, 1988
-******************************************************************************
-CHAPTER I. - SPHERE OF APPLICATION AND FORM OF THE INSTRUMENT
-*************************************************************
+VALUES(43, 'CHAPTER I. - SPHERE OF APPLICATION AND FORM OF THE INSTRUMENT
 ARTICLE 1
----------
 1. This Convention applies to an international bill of exchange when it
 contains the heading "International bill of exchange (UNCITRAL Convention)" and
 also contains in its text the words "International bill of exchange (UNCITRAL
@@ -197,9 +192,7 @@ A bill may be drawn by the drawer:
 (a) On himself;
 (b) Payable to his order.
 SECTION 3. - COMPLETION OF AN INCOMPLETE INSTRUMENT
-===================================================
 ARTICLE 12
-----------
 1. An incomplete instrument which satisfies the requirements set out in
 paragraph 1 of article 1 and bears the signature of the drawer or the
 acceptance of the drawee, or which satisfies the requirements set out in

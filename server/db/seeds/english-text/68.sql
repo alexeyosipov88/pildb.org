@@ -1,7 +1,5 @@
 INSERT INTO english_text (treaty_id, text)
-VALUES(68, 'Convention relating to a Uniform Law on the International Sale of Goods
-(The Hague, July 1, 1964)
-The States signatory to the present Convention,
+VALUES(68, 'The States signatory to the present Convention,
 Desiring to establish a uniform law on the international sale of goods,
 Have resolved to conclude a convention to this effect and have agreed upon the following provisions:
 Article I
