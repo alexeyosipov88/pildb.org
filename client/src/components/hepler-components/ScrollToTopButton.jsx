@@ -13,7 +13,6 @@ const ScrollToTopButton = () => {
         setButtonStyle({display: "none"})
       }
     };
-    console.log('useEff')
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, [rootElement])
