@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
-import axios from "axios";
 import axiosApi from "../../api/axios-api";
 import OrganizationListItem from "./OrganizationListItem";
+import ScrollToTopButton from "../hepler-components/ScrollToTopButton";
+
 const OrganizationsList = () => {
   const [organizations, setOrganizations] = useState([]);
 
@@ -24,6 +25,7 @@ const OrganizationsList = () => {
 
   return (
     <div className="header-and-table">
+      <ScrollToTopButton/>
       <header>Our database contains information about the status of multilateral treaties related to private international law. You can browse them by the following administrating organizations.</header>
       <div>
         <table>

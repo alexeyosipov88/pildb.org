@@ -73,7 +73,6 @@ const SearchListItem = (props) => {
         let count = await axiosApi.get("/count-treaties");
         count = count.data.find((elem) => elem.id === props.id);
         setCountTreatiesForCountries(count);
-        console.log(count, "countries");
         let contextText = `This search result matches one of our website's section ― countries (${props.name}). It has ${countTreatiesForCountries.count} treaties which this country is party of.`;
         setContext(contextText);
       };
@@ -144,7 +143,6 @@ const SearchListItem = (props) => {
           arrFromString[index] = "`" + elem;
          
 
-          console.log(arrFromString[index]);
         }
       });
     }

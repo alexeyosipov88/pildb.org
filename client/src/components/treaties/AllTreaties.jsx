@@ -1,7 +1,7 @@
-import axios from "axios";
 import axiosApi from "../../api/axios-api";
 import { useEffect, useState } from "react";
 import TreatiesListItem from "./TreatiesListItem";
+import ScrollToTopButton from "../hepler-components/ScrollToTopButton";
 
 const AllTreaties = () => {
   const [allTreaties, setAllTreaties] = useState([]);
@@ -37,6 +37,7 @@ const AllTreaties = () => {
 
   return (
     <div className="header-and-table">
+      <ScrollToTopButton/>
       <header>
         <p>
           Our database contains information about the status of

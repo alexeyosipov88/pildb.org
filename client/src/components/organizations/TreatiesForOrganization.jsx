@@ -2,6 +2,7 @@ import axiosApi from "../../api/axios-api";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import TreatiesList from "../treaties/TreatiesList";
+import ScrollToTopButton from "../hepler-components/ScrollToTopButton";
 
 const TreatiesForOrganization = () => {
   const [treatiesForOrganization, setTreatiesForOrganization] = useState([]);
@@ -31,6 +32,7 @@ const TreatiesForOrganization = () => {
   };
   return (
     <div>
+      <ScrollToTopButton/>
       <header>
         <h1>{organizationName}</h1>
         <p>{organizationInfromation[organizationId]}</p>

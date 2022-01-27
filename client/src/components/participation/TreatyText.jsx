@@ -1,9 +1,9 @@
-import axios from "axios";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router";
 import makeHtmlText from "../../helpers/make-html-text";
 import convertDateToReadable from "../../helpers/readable-date";
 import { Link } from "react-router-dom";
+import ScrollToTopButton from "../hepler-components/ScrollToTopButton";
 import axiosApi
  from "../../api/axios-api";
 const TreatyText = () => {
@@ -28,6 +28,7 @@ const TreatyText = () => {
   const linkToStatus = `/treaties/${treatyId}`;
   return (
     <div className="container">
+      <ScrollToTopButton/>
       <header>
         <h2>{name}</h2>
         <div>
@@ -46,7 +47,7 @@ const TreatyText = () => {
           <p>
             {dateTreatyEnteredIntoForce ? (
               <span>
-                <span className="status-info">Entered in force: </span>
+                <span className="status-info">Entered into force: </span>
                 {convertDateToReadable(dateTreatyEnteredIntoForce)}
               </span>
             ) : (

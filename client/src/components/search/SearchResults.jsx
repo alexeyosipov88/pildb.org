@@ -6,12 +6,10 @@ import ScrollToTop from "../hepler-components/ScrollToTop";
 
 const SearchResults = () => {
   const [searchResult, setSearchResult] = useState();
-  const [displayResults, setdisplayResults] = useState(false);
-
+  
   let keyword = useParams().keyword;
   keyword = keyword.replace(/\s\s+/, " ");
   useEffect(() => {
-    setdisplayResults(true);
     const search = async () => {
       let axiosResponse = await axiosApi.get(`search/${keyword}`);
       setSearchResult(axiosResponse.data);

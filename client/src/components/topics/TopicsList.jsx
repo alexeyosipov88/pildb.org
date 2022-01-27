@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { useEffect } from "react";
-import axios from "axios";
 import axiosApi from "../../api/axios-api";
 import TopicsListItem from "./TopicsListItem";
+import ScrollToTopButton from "../hepler-components/ScrollToTopButton";
 
 const TopicsList = (props) => {
   const [topics, setTopics] = useState([]);
@@ -35,6 +35,7 @@ const TopicsList = (props) => {
 
   return (
     <div className="header-and-table">
+    <ScrollToTopButton/>
       <header>
         <p>
           The database contains information about the status of multilateral treaties related to {listOfTopics.length} private intrnational law topics.

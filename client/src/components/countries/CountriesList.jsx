@@ -1,10 +1,9 @@
 import { useState } from "react";
 import { useEffect } from "react";
-import axios from "axios";
 import axiosApi from "../../api/axios-api";
 import CountriesListItem from "./CountriesListItem";
-
-const CountriesList = (props) => {
+import ScrollToTopButton from "../hepler-components/ScrollToTopButton";
+const CountriesList = () => {
   const [countries, setCountries] = useState([]);
   const [countTreatiesForCountries, setCountTreatiesForCountries] = useState(
     []
@@ -47,6 +46,7 @@ const CountriesList = (props) => {
 
   return (
     <div>
+      <ScrollToTopButton/>
       <div className="header-and-table">
       <header>
         <p>

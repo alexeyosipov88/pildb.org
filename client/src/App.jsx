@@ -5,9 +5,7 @@ import { Fragment } from "react";
 import Footer from "./components/footer/Footer";
 import ScrollToTop from "./components/hepler-components/ScrollToTop";
 
-
 function App() {
-
   return (
     <Fragment>
       <ScrollToTop/>

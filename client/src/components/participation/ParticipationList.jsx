@@ -5,6 +5,8 @@ import { useParams } from "react-router";
 import ParticipationListItem from "./ParticipationListItem";
 import { Link } from "react-router-dom";
 import convertDateToReadable from "../../helpers/readable-date";
+import ScrollToTopButton from "../hepler-components/ScrollToTopButton";
+
 
 const ParticipationList = () => {
   const [participation, setParticipation] = useState([]);
@@ -56,6 +58,7 @@ const ParticipationList = () => {
   });
   return (
     <div>
+      <ScrollToTopButton/>
       <header>
         <h2>{treaty_name}</h2>
         <div>
@@ -74,7 +77,7 @@ const ParticipationList = () => {
           <p>
             {dateTreatyEnteredIntoForce ? (
               <span>
-                <span className="status-info">Entered in force: </span>
+                <span className="status-info">Entered into force: </span>
                 {convertDateToReadable(dateTreatyEnteredIntoForce)}
               </span>
             ) : (
