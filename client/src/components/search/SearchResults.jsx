@@ -2,11 +2,12 @@ import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import axiosApi from "../../api/axios-api";
 import SearchListItem from "./SearchListItem";
-import ScrollToTop from "../hepler-components/ScrollToTop";
+import ScrollToTopButton from "../hepler-components/ScrollToTopButton";
+
 
 const SearchResults = () => {
   const [searchResult, setSearchResult] = useState();
-  
+
   let keyword = useParams().keyword;
   keyword = keyword.replace(/\s\s+/, " ");
   useEffect(() => {
@@ -102,7 +103,7 @@ const SearchResults = () => {
   });
   return (
     <div className="search-results">
-      <ScrollToTop />
+    <ScrollToTopButton/>
       <header>
         <p>
           {finalArrayOfResults.length !== 1
