@@ -27,7 +27,7 @@ const ParticipationListItem = (props) => {
         </p>
       </td>
       <td>
-        <p className="th-mobile">Name of a treaty:</p>
+        <p className="th-mobile">Name of a country:</p>
         <Link className="link" to={`/countries/${props.country_id}`}>
           <p>{props.country_name}</p>
         </Link>
