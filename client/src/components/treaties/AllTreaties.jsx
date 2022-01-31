@@ -5,12 +5,46 @@ import ScrollToTopButton from "../hepler-components/ScrollToTopButton";
 
 const AllTreaties = () => {
   const [allTreaties, setAllTreaties] = useState([]);
+  const [header, setHeader] = useState();
+  const [tableHead, setTableHead] = useState();
+
   useEffect(() => {
     axiosApi.get("/treaties").then((treaties) => {
       setAllTreaties(treaties.data);
+      const headerJSX = (
+        <header>
+          <p>
+            Our database contains information about the status of {treaties.data.length} multilateral treaties related to private
+            international law. You can browse them by participating countries,
+            topics and administrating organization.
+          </p>
+        </header>
+      );
+      const theadJSX = (
+        <thead>
+          <tr>
+            <th>
+              <p>Id</p>
+            </th>
+            <th>
+              <p>Name of the treaty</p>
+            </th>
+            <th>
+              <p>City of signature</p>
+            </th>
+            <th>
+              <p>Date signed:</p>
+            </th>
+            <th>
+              <p>Check status</p>
+            </th>
+          </tr>
+        </thead>
+      );
+      setTableHead(theadJSX);
+      setHeader(headerJSX);
     });
   }, []);
-
   let id = 1;
   if (allTreaties && allTreaties.length > 0) {
     allTreaties.sort((a, b) => {
@@ -37,36 +71,11 @@ const AllTreaties = () => {
 
   return (
     <div className="header-and-table">
-      <ScrollToTopButton/>
-      <header>
-        <p>
-          Our database contains information about the status of
-          {allTreaties.length} multilateral treaties related to private
-          international law. You can browse them by participating countries,
-          topics and administrating organization.
-        </p>
-      </header>
+      <ScrollToTopButton />
+      {header}
       <div>
         <table>
-          <thead>
-            <tr>
-              <th>
-                <p>Id</p>
-              </th>
-              <th>
-                <p>Name of the treaty</p>
-              </th>
-              <th>
-                <p>City of signature</p>
-              </th>
-              <th>
-                <p>Date signed:</p>
-              </th>
-              <th>
-                <p>Check status</p>
-              </th>
-            </tr>
-          </thead>
+          {tableHead} 
           <tbody>{listOfAllTreaties}</tbody>
         </table>
       </div>

@@ -7,15 +7,44 @@ import ScrollToTopButton from "../hepler-components/ScrollToTopButton";
 const TopicsList = (props) => {
   const [topics, setTopics] = useState([]);
   const [countTreatiesByTopic, setCountTreatiesByTopic] = useState([]);
+  const [header, setHeader] = useState();
+  const [tableHead, setTableHead] = useState();
 
   useEffect(() => {
-    const countTreatiesForTopics = axiosApi.get(
-      "/count-topics"
-    );
+    const countTreatiesForTopics = axiosApi.get("/count-topics");
     const getTopics = axiosApi.get("/topics");
     Promise.all([countTreatiesForTopics, getTopics]).then((result) => {
       setCountTreatiesByTopic(result[0].data);
       setTopics(result[1].data);
+      const theadJSX = (
+        <thead>
+          <tr>
+            <th>
+              <p>Id</p>
+            </th>
+            <th>
+              <p>Name of the topic</p>
+            </th>
+            <th>
+              <p>Amount of treaties in database</p>
+            </th>
+            <th>
+              <p>more info</p>
+            </th>
+          </tr>
+        </thead>
+      );
+      const headerJSX = (
+        <header>
+          <p>
+            The database contains information about the status of multilateral
+            treaties related to {result[1].data.length} private intrnational law
+            topics.
+          </p>
+        </header>
+      );
+      setTableHead(theadJSX);
+      setHeader(headerJSX);
     });
   }, []);
   const listOfTopics = topics.map((elem) => {
@@ -35,15 +64,19 @@ const TopicsList = (props) => {
 
   return (
     <div className="header-and-table">
-    <ScrollToTopButton/>
-      <header>
+      <ScrollToTopButton />
+      {header}
+      {/* <header>
         <p>
-          The database contains information about the status of multilateral treaties related to {listOfTopics.length} private intrnational law topics.
+          The database contains information about the status of multilateral
+          treaties related to {listOfTopics.length} private intrnational law
+          topics.
         </p>
-      </header>
+      </header> */}
       <div>
         <table>
-          <thead>
+          {tableHead}
+          {/* <thead>
             <tr>
               <th>
                 <p>Id</p>
@@ -58,7 +91,7 @@ const TopicsList = (props) => {
                 <p>more info</p>
               </th>
             </tr>
-          </thead>
+          </thead> */}
           <tbody>{listOfTopics}</tbody>
         </table>
       </div>

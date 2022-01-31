@@ -4,16 +4,16 @@ import axiosApi from "../../api/axios-api";
 import SearchListItem from "./SearchListItem";
 import ScrollToTopButton from "../hepler-components/ScrollToTopButton";
 
-
 const SearchResults = () => {
   const [searchResult, setSearchResult] = useState();
-
   let keyword = useParams().keyword;
   keyword = keyword.replace(/\s\s+/, " ");
   useEffect(() => {
     const search = async () => {
       let axiosResponse = await axiosApi.get(`search/${keyword}`);
       setSearchResult(axiosResponse.data);
+
+
     };
     search();
   }, [keyword]);
@@ -101,9 +101,11 @@ const SearchResults = () => {
       />
     );
   });
+
+
   return (
     <div className="search-results">
-    <ScrollToTopButton/>
+      <ScrollToTopButton />
       <header>
         <p>
           {finalArrayOfResults.length !== 1

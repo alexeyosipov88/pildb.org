@@ -7,26 +7,41 @@ import ScrollToTopButton from "../hepler-components/ScrollToTopButton";
 
 const TreatiesForCountry = () => {
   const [treaties, setTreaties] = useState([]);
+  const [header, setHeader] = useState();
   const countryId = useParams().countryId;
+  
+
 
   useEffect(() => {
     axiosApi.get(`/countries/${countryId}`).then((treaties) => {
-        setTreaties(treaties.data);
-    })
-  }, [countryId])
-  const country_name = treaties[0] && treaties[0].country_name
+      setTreaties(treaties.data);
+      const country_name = treaties.data[0].country_name;
+      const headerJSX = (
+        <header>
+          <h1>{country_name}</h1>
+          <p>
+            This country participates in {treaties.data.length} multilateral treaties
+            related to private international law.
+          </p>
+        </header>
+      );
+      setHeader(headerJSX);
+    });
+  }, [countryId]);
+  // const country_name = treaties[0] && treaties[0].country_name;
   return (
     <div>
-      <ScrollToTopButton/>
-      <header>
+      <ScrollToTopButton />
+      {header}
+      {/* <header>
         <h1>
           {country_name}
         </h1>
         <p>This country participates in {treaties.length} multilateral treaties related to private international law.</p>
-      </header>
-      <TreatiesList treaties={treaties}/>
+      </header> */}
+      <TreatiesList treaties={treaties} />
     </div>
-  )
-}
+  );
+};
 
 export default TreatiesForCountry;

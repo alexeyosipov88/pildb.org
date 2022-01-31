@@ -15,7 +15,7 @@ const TreatiesList = (props) => {
     return (
       <TreatiesListItem
         key={elem.id}
-        tableId = {id++}
+        tableId={id++}
         id={elem.id}
         name={elem.name}
         city={elem.city}
@@ -23,21 +23,22 @@ const TreatiesList = (props) => {
       />
     );
   });
+  const tableHead = (
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Name of the treaty</th>
+        <th>City:</th>
+        <th>Date signed:</th>
+        <th>Check status:</th>
+      </tr>
+    </thead>
+  );
   return (
     <table>
-      <thead>
-        <tr>
-          <th>Id</th>
-          <th>Name of the treaty</th>
-          <th>City:</th>
-          <th>Date signed:</th>
-          <th>Check status:</th>
-        </tr>
-      </thead>
+      {listOfTreaties.length > 0  &&  tableHead}
       <tbody>{listOfTreaties}</tbody>
     </table>
-
-  
   );
 };
 export default TreatiesList;
