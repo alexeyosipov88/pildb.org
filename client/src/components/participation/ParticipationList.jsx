@@ -6,6 +6,8 @@ import ParticipationListItem from "./ParticipationListItem";
 import { Link } from "react-router-dom";
 import convertDateToReadable from "../../helpers/readable-date";
 import ScrollToTopButton from "../hepler-components/ScrollToTopButton";
+import PaddingBeforeRender from "../hepler-components/PaddingBeforeRender";
+
 
 const ParticipationList = () => {
   const [header, setHeader] = useState();
@@ -115,8 +117,8 @@ const ParticipationList = () => {
   return (
     <div>
       <ScrollToTopButton />
-      {header}
-      
+      {!header && <PaddingBeforeRender />}
+      {header} 
       <table>
         {tableHead}
        

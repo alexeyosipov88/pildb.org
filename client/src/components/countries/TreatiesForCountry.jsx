@@ -4,6 +4,9 @@ import axiosApi from "../../api/axios-api";
 import { useParams } from "react-router-dom";
 import TreatiesList from "../treaties/TreatiesList";
 import ScrollToTopButton from "../hepler-components/ScrollToTopButton";
+import PaddingBeforeRender from "../hepler-components/PaddingBeforeRender";
+
+
 
 const TreatiesForCountry = () => {
   const [treaties, setTreaties] = useState([]);
@@ -28,17 +31,11 @@ const TreatiesForCountry = () => {
       setHeader(headerJSX);
     });
   }, [countryId]);
-  // const country_name = treaties[0] && treaties[0].country_name;
   return (
     <div>
       <ScrollToTopButton />
+      {!header && <PaddingBeforeRender />}
       {header}
-      {/* <header>
-        <h1>
-          {country_name}
-        </h1>
-        <p>This country participates in {treaties.length} multilateral treaties related to private international law.</p>
-      </header> */}
       <TreatiesList treaties={treaties} />
     </div>
   );

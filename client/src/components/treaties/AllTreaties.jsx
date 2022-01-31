@@ -2,6 +2,8 @@ import axiosApi from "../../api/axios-api";
 import { useEffect, useState } from "react";
 import TreatiesListItem from "./TreatiesListItem";
 import ScrollToTopButton from "../hepler-components/ScrollToTopButton";
+import PaddingBeforeRender from "../hepler-components/PaddingBeforeRender";
+ 
 
 const AllTreaties = () => {
   const [allTreaties, setAllTreaties] = useState([]);
@@ -72,6 +74,7 @@ const AllTreaties = () => {
   return (
     <div className="header-and-table">
       <ScrollToTopButton />
+      {!header && <PaddingBeforeRender />}
       {header}
       <div>
         <table>

@@ -95,7 +95,6 @@ const getParticipationByTreaty = (id) => {
       `SELECT treaties.name AS treaty_name, treaties.city AS city, treaties.concluded AS concluded, treaties.entered_into_force AS treaty_entry_into_force, treaties.status AS treaty_status, countries.name AS country_name, participation.* FROM participation INNER JOIN treaties ON participation.treaty_id = treaties.id INNER JOIN countries ON participation.country_id = countries.id WHERE treaties.id = $1`,
       [id]
     );
-    console.log(participationByTreaty)
     resolve(participationByTreaty.rows);
   });
 };

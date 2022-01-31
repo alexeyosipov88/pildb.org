@@ -2,11 +2,13 @@ import { useEffect, useState } from "react";
 import axiosApi from "../../api/axios-api";
 import OrganizationListItem from "./OrganizationListItem";
 import ScrollToTopButton from "../hepler-components/ScrollToTopButton";
+import PaddingBeforeRender from "../hepler-components/PaddingBeforeRender";
 
 const OrganizationsList = () => {
   const [organizations, setOrganizations] = useState([]);
   const [header, setHeader] = useState();
   const [tableHead, setTableHead] = useState();
+
 
   useEffect(() => {
     axiosApi.get("/organizations").then((organizations) => {
@@ -55,26 +57,11 @@ const OrganizationsList = () => {
   return (
     <div className="header-and-table">
       <ScrollToTopButton />
+      {!header && <PaddingBeforeRender />}
       {header}
       <div>
         <table>
           {tableHead}
-          {/* <thead>
-            <tr>
-              <th>
-                <p>Id</p>
-              </th>
-              <th>
-                <p>Name of the organization</p>
-              </th>
-              <th>
-                <p>Number of treaties in database:</p>
-              </th>
-              <th>
-                <p>More info</p>
-              </th>
-            </tr>
-          </thead> */}
           <tbody>{listOfOrganizations}</tbody>
         </table>
       </div>

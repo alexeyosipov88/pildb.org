@@ -109,7 +109,6 @@ const search = (keyword) => {
       );
     });
 
-    console.log(cities, "THIS IS CITIES")
     result.text = text;
     result.organizations = organizations;
     result.countries = countries;

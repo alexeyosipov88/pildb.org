@@ -3,6 +3,8 @@ import { useEffect } from "react";
 import axiosApi from "../../api/axios-api";
 import TopicsListItem from "./TopicsListItem";
 import ScrollToTopButton from "../hepler-components/ScrollToTopButton";
+import PaddingBeforeRender from "../hepler-components/PaddingBeforeRender";
+
 
 const TopicsList = (props) => {
   const [topics, setTopics] = useState([]);
@@ -65,33 +67,11 @@ const TopicsList = (props) => {
   return (
     <div className="header-and-table">
       <ScrollToTopButton />
+      {!header && <PaddingBeforeRender />}
       {header}
-      {/* <header>
-        <p>
-          The database contains information about the status of multilateral
-          treaties related to {listOfTopics.length} private intrnational law
-          topics.
-        </p>
-      </header> */}
       <div>
         <table>
           {tableHead}
-          {/* <thead>
-            <tr>
-              <th>
-                <p>Id</p>
-              </th>
-              <th>
-                <p>Name of the topic</p>
-              </th>
-              <th>
-                <p>Amount of treaties in database</p>
-              </th>
-              <th>
-                <p>more info</p>
-              </th>
-            </tr>
-          </thead> */}
           <tbody>{listOfTopics}</tbody>
         </table>
       </div>

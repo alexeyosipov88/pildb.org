@@ -1,5 +1,4 @@
 const convertDateToReadable = (date) => {
-  console.log("CHE");
   if (!date) {
     return;
   }

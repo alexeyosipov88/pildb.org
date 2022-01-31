@@ -5,6 +5,9 @@ import convertDateToReadable from "../../helpers/readable-date";
 import { Link } from "react-router-dom";
 import ScrollToTopButton from "../hepler-components/ScrollToTopButton";
 import axiosApi from "../../api/axios-api";
+import PaddingBeforeRender from "../hepler-components/PaddingBeforeRender";
+
+
 const TreatyText = () => {
   const [text, setText] = useState("");
   const [header, setHeader] = useState();
@@ -66,8 +69,8 @@ const TreatyText = () => {
   return (
     <div className="container">
       <ScrollToTopButton />
+      {!header && <PaddingBeforeRender />}
       {header}
-      
       <div>{makeHtmlText(text)}</div>
     </div>
   );

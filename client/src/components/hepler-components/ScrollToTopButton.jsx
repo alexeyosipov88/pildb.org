@@ -26,12 +26,12 @@ const ScrollToTopButton = () => {
   };
 
   return (
-    <div>
-      <i id='firstScrollArrow' className="scrollToTopArrow" style={buttonStyle} onClick={handleOnClick}>
+    <div onClick={handleOnClick}>
+      <i id='firstScrollArrow' className="scrollToTopArrow" style={buttonStyle}>
       </i>
-      <i id='secondScrollArrow' className="scrollToTopArrow" style={buttonStyle} onClick={handleOnClick}>
+      <i id='secondScrollArrow' className="scrollToTopArrow" style={buttonStyle}>
       </i>
-      <i id='thirdScrollArrow' className="scrollToTopArrow" style={buttonStyle} onClick={handleOnClick}>
+      <i id='thirdScrollArrow' className="scrollToTopArrow" style={buttonStyle}>
       </i>
     </div>
   );

@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import axiosApi from "../../api/axios-api";
 import CountriesListItem from "./CountriesListItem";
 import ScrollToTopButton from "../hepler-components/ScrollToTopButton";
+import PaddingBeforeRender from "../hepler-components/PaddingBeforeRender";
 const CountriesList = () => {
   const [countries, setCountries] = useState([]);
   const [header, setHeader] = useState();
@@ -77,6 +78,7 @@ const CountriesList = () => {
   return (
     <div>
       <ScrollToTopButton />
+     {!header && <PaddingBeforeRender />} 
       <div className="header-and-table">
         {header}
         <table>

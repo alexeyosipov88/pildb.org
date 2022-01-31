@@ -13,7 +13,6 @@ module.exports = (router) => {
   router.get("/countries", async (req, res) => {
     try {
       const countriesAll = await getCountries();
-      console.log(countriesAll);
       res.json(countriesAll);
     } catch (err) {
       console.error(err.message);
