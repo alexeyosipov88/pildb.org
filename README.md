@@ -1,12 +1,14 @@
-# Private International Law Database - https://pildb.org/
+## Private International Law Database
 
-Private International Law Database is a full stack web application built with React and Express. It allows users to look up the information about the status of multilateral treaties related to this area of law (city of signature, dates of signature and entry into force, contracting parties etc.). You can browse the treaties by participating countries, topics and administrating organizatins.
+Private International Law Database - https://pildb.org/ - is a full stack web application built with React and Express. It allows users to look up the information about the status of multilateral treaties related to this area of law (city of signature, dates of signature and entry into force, contracting parties etc.). You can browse the treaties by participating countries, topics and administrating organizatins.
 
 ## Final Product
 
-!["screenshot description"](#)
+!["Home page screenshot"](https://github.com/alexeyosipov88/pildb.org/blob/main/docs/home-page.png)
 
-!["screenshot description"](#)
+!["Countries page screenshot"](https://github.com/alexeyosipov88/pildb.org/blob/main/docs/countries-page.png)
+
+!["Search page screenshot"](https://github.com/alexeyosipov88/pildb.org/blob/main/docs/search-page.png)
 
 ## Dependencies
 
