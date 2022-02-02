@@ -37,8 +37,7 @@ const ParticipationList = () => {
       const dateConcluded = concluded
         ? new Date(concluded).toLocaleDateString("en-GB")
         : null;
-      const treatyEnteredIntoForce =
-        participation[0] && participation[0].treaty_entry_into_force;
+      const treatyEnteredIntoForce = participation.data[0].treaty_entry_into_force;
       const dateTreatyEnteredIntoForce = treatyEnteredIntoForce
         ? new Date(treatyEnteredIntoForce).toLocaleDateString("en-GB")
         : null;
