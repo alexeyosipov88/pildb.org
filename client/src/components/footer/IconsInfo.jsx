@@ -40,9 +40,7 @@ const IconsInfo = () => {
           {" "}
           justicon,{" "}
         </a>{" "}
-        from
-        <a className="link" href="https://www.flaticon.com/" title="Flaticon">
-          www.flaticon.com
+        from <a className="link" href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com
         </a>
       </div>
     </div>
